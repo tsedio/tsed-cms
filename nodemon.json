@@ -1,0 +1,16 @@
+{
+  "verbose": true,
+  "colours": true,
+  "ignore": [
+    "*.test.ts",
+    "*.spec.ts",
+    "**/fixtures/**",
+    "**/__mock__/**",
+    "**/dist/**"
+  ],
+  "delay": 1000,
+  "ext": "ts,json,vue",
+  "watch": [
+    "extensions"
+  ]
+}

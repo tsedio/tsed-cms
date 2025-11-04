@@ -1,0 +1,16 @@
+# S3 Backend Configuration
+# Uncomment and customize this section to use S3 as a remote backend for Terraform state
+
+# terraform {
+#   backend "s3" {
+#     bucket         = "your-terraform-state-bucket"
+#     key            = "directus/s3-storage/terraform.tfstate"
+#     region         = "eu-west-1"
+#     dynamodb_table = "terraform-locks"
+#     encrypt        = true
+#   }
+# }
+
+# Local Backend Configuration (default)
+# This is the default configuration that stores state locally
+# No additional configuration is needed for local backend

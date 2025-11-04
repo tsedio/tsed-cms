@@ -1,0 +1,55 @@
+services:
+  tsed-cms:
+    image: ${DOCKER_IMAGE_NAME:-digital-cms-api}:${VERSION:-latest}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8055:8055"
+    volumes:
+      - ./uploads:/directus/uploads
+    #      - ./extensions:/directus/extensions
+    depends_on:
+      - tsed-database
+    environment:
+      # See config/.env.docker for more details
+      DB_CLIENT: "pg"
+      NODE_ENV: "docker"
+
+  tsed-database:
+    image: postgres:17
+    volumes:
+      - ./data/database:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: "directus"
+      POSTGRES_PASSWORD: "directus"
+      POSTGRES_DB: "directus"
+    ports:
+      - "5432:5432"
+  localstack:
+    container_name: "${LOCALSTACK_DOCKER_NAME:-localstack-main}"
+    image: localstack/localstack
+    ports:
+      - "127.0.0.1:4566:4566" # LocalStack Gateway
+      - "4571:4571"
+      - "127.0.0.1:4510-4559:4510-4559" # external services port range
+    environment:
+      #      - LOCALSTACK_AUTH_TOKEN=${LOCALSTACK_AUTH_TOKEN:?} # required for Pro version
+      # LocalStack configuration: https://docs.localstack.cloud/references/configuration/
+      - DEBUG=${DEBUG:-0}
+      - SERVICES=apigateway,lambda,iam,logs,cloudwatch,dynamodb,ec2
+      - GATEWAY_LISTEN=4566
+    #      - LOCALSTACK_PERSISTENCE=${LOCALSTACK_PERSISTENCE:-1}
+    volumes:
+      - "${LOCALSTACK_VOLUME_DIR:-./.volume}:/var/lib/localstack"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    networks:
+      - app_network
+volumes:
+  directus_uploads:
+  directus_extensions:
+  database_data:
+
+networks:
+  app_network:
+    driver: bridge

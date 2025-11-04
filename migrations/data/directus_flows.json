@@ -1,0 +1,96 @@
+[
+  {
+    "id": "88dfa6fd-27d5-46aa-bbda-a07ddc1b5203",
+    "name": "Manual update repositories",
+    "icon": "bolt",
+    "color": null,
+    "description": null,
+    "status": "active",
+    "trigger": "manual",
+    "accountability": "all",
+    "options": {
+      "collections": [
+        "repositories"
+      ],
+      "async": true,
+      "requireConfirmation": true
+    },
+    "operation": "f3e3024e-169d-4e3b-87d8-585bdf7af64e",
+    "date_created": "2025-11-02T17:00:11.030Z",
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+  },
+  {
+    "id": "5c655120-cdc7-40e6-b402-aa1b31da246b",
+    "name": "Manual plugins import",
+    "icon": "bolt",
+    "color": null,
+    "description": null,
+    "status": "active",
+    "trigger": "manual",
+    "accountability": "all",
+    "options": {
+      "collections": [
+        "repositories"
+      ],
+      "async": true,
+      "location": "collection",
+      "requireConfirmation": true
+    },
+    "operation": "e11ec614-ac37-40dc-80f0-4eeae7817bb8",
+    "date_created": "2025-11-02T18:45:02.966Z",
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+  },
+  {
+    "id": "b5fcef00-c59e-40f7-ad78-f880aba76a6b",
+    "name": "Manual legacy plugins import",
+    "icon": "bolt",
+    "color": null,
+    "description": null,
+    "status": "active",
+    "trigger": "manual",
+    "accountability": "all",
+    "options": {
+      "collections": [
+        "repositories"
+      ],
+      "async": true,
+      "requireConfirmation": true,
+      "location": "collection"
+    },
+    "operation": "c4c5b632-4fd6-42f4-be0c-709a6cd05d61",
+    "date_created": "2025-11-02T17:42:37.342Z",
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+  },
+  {
+    "id": "957ee0d3-bee3-49f0-80cd-1d1900e729a4",
+    "name": "Cron Update repositories meta",
+    "icon": "bolt",
+    "color": null,
+    "description": null,
+    "status": "active",
+    "trigger": "schedule",
+    "accountability": "all",
+    "options": {
+      "cron": "0 * * * *"
+    },
+    "operation": "5269d4ba-cbf3-4c96-a431-1b3de86fa8b4",
+    "date_created": "2025-11-02T15:16:25.397Z",
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+  },
+  {
+    "id": "d7a45da6-5f2a-47de-b977-1c2ec13326ae",
+    "name": "Cron Update packages meta",
+    "icon": "bolt",
+    "color": null,
+    "description": null,
+    "status": "active",
+    "trigger": "schedule",
+    "accountability": "all",
+    "options": {
+      "cron": "0 * * * *"
+    },
+    "operation": "ba9712f8-b9a1-498a-a700-646df728efc4",
+    "date_created": "2025-11-02T18:51:01.328Z",
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+  }
+]

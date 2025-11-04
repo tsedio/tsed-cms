@@ -1,0 +1,14 @@
+{
+  "name": "@tsed-cms/infra",
+  "version": "1.0.0",
+  "description": "Infrastructure package",
+  "type": "module",
+  "exports": {
+    "./*.js": {
+      "default": "./*.ts"
+    },
+    "./*": {
+      "default": "./*"
+    }
+  }
+}

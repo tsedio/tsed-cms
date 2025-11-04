@@ -1,0 +1,30 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": ".",
+    "noEmit": true,
+    "types": [
+      "vitest/globals",
+      "vitest/importMeta",
+      "vite/client",
+      "vitest",
+      "node"
+    ],
+    "paths": {
+      "@tsed-cms/domain/*": ["./packages/domain/*"],
+      "@tsed-cms/usecases/*": ["./packages/usecases/*"],
+      "@tsed-cms/infra/*": ["./packages/infra/*"]
+    }
+  },
+  "include": [
+    "extensions/**/*",
+    "packages/**/*",
+    "vitest.config.ts"
+  ],
+  "exclude": [
+    "dist",
+    "coverage",
+    "node_modules"
+  ]
+}

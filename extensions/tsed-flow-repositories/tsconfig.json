@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "../..",
+    "outDir": "./dist",
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM"],
+    "moduleResolution": "nodenext",
+    "rootDir": "./src",
+    "paths": {
+      "@clubmed/infra/*": [
+        "../../infra/*"
+      ]
+    }
+  },
+  "include": ["./src/**/*.ts"]
+}

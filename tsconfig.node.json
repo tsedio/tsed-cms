@@ -1,0 +1,42 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "noEmit": true,
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "declaration": false,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@tsed-cms/infra/*": ["./packages/infra/*"],
+      "@tsed-cms/usecases/*": ["./packages/usecases/*"],
+      "@tsed-cms/domain/*": ["./packages/domain/*"]
+    }
+  },
+  "include": [
+    "extensions/**/*.ts",
+    "extensions/**/*.d.ts",
+    "extensions/**/*.json",
+    "infra/**/*.ts",
+    "migrations/**/*.ts",
+    "imports/**/*.ts",
+    "packages/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.spec.ts",
+    "coverage"
+  ],
+  "linterOptions": {
+    "exclude": []
+  }
+}

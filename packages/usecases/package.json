@@ -1,0 +1,14 @@
+{
+  "name": "@tsed-cms/usecases",
+  "version": "1.0.0",
+  "description": "Usecase package",
+  "type": "module",
+  "exports": {
+    "./*.js": {
+      "default": "./*.ts"
+    },
+    "./*": {
+      "default": "./*"
+    }
+  }
+}

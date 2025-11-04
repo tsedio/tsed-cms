@@ -1,0 +1,16 @@
+{
+  "name": "terraform",
+  "version": "1.0.0",
+  "scripts": {
+    "plan": "dotenv -e .credentials/.env.production -- terraform plan -var-file=envs/production.tfvars",
+    "apply": "dotenv -e .credentials/.env.production -- terraform apply -var-file=envs/production.tfvars",
+    "destroy": "dotenv -e .credentials/.env.production -- terraform apply -var-file=envs/production.tfvars -destroy",
+    "output:access-key": "dotenv -e .credentials/.env.production -- terraform output access_key_id",
+    "output:secret-key": "dotenv -e .credentials/.env.production -- terraform output secret_access_key",
+    "output:config": "dotenv -e .credentials/.env.production -- terraform output directus_s3_config"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "dotenv-cli": "9.0.0"
+  }
+}

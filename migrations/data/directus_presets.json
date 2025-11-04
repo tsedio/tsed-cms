@@ -1,0 +1,121 @@
+[
+  {
+    "id": 6,
+    "bookmark": null,
+    "user": null,
+    "role": null,
+    "collection": "repositories",
+    "search": null,
+    "layout": null,
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "status",
+          "owner",
+          "repo",
+          "user_created",
+          "date_created",
+          "user_updated",
+          "date_updated"
+        ]
+      }
+    },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "maintainers": 160,
+          "owner": 160,
+          "repo": 160
+        }
+      }
+    },
+    "refresh_interval": null,
+    "filter": null,
+    "icon": "bookmark",
+    "color": null
+  },
+  {
+    "id": 7,
+    "bookmark": null,
+    "user": null,
+    "role": null,
+    "collection": "maintainers",
+    "search": null,
+    "layout": null,
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "status",
+          "username",
+          "email",
+          "user_created",
+          "date_created",
+          "user_updated",
+          "date_updated"
+        ],
+        "page": 1
+      }
+    },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "username": 160,
+          "email": 160,
+          "avatar": 160,
+          "user_created": 160,
+          "date_created": 160,
+          "user_updated": 160,
+          "date_updated": 160
+        }
+      }
+    },
+    "refresh_interval": null,
+    "filter": null,
+    "icon": "bookmark",
+    "color": null
+  },
+  {
+    "id": 8,
+    "bookmark": null,
+    "user": null,
+    "role": null,
+    "collection": "packages",
+    "search": null,
+    "layout": null,
+    "layout_query": {
+      "tabular": {
+        "page": 1,
+        "fields": [
+          "status",
+          "name",
+          "type",
+          "tags",
+          "user_created",
+          "date_created",
+          "user_updated",
+          "date_updated"
+        ]
+      }
+    },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "name": 160,
+          "type": 160,
+          "tags": 160,
+          "user_created": 160,
+          "date_created": 160,
+          "user_updated": 160,
+          "date_updated": 160
+        }
+      }
+    },
+    "refresh_interval": null,
+    "filter": null,
+    "icon": "bookmark",
+    "color": null
+  }
+]

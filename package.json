@@ -1,6 +1,6 @@
 {
   "name": "@tsed-cms/root",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Ts.ED CMS Directus",
   "main": "index.js",
   "type": "module",
@@ -173,7 +173,7 @@
     "extensions/*",
     "packages/*"
   ],
-  "packageManager": "yarn@4.10.3",
+  "packageManager": "yarn@4.9.2",
   "monorepo": {
     "productionBranch": "master",
     "developBranch": "master",

@@ -18,9 +18,13 @@ export async function installFlows(knex: Knex, flows: Flow[], operations: Operat
       const exists = await knex(FLOWS_TABLE).where({ id: flow.id }).first();
       if (!exists) {
         logger.info(`Adding flow: ${flow.id}${flow.name ? ` (${flow.name})` : ""}`);
-        await knex(FLOWS_TABLE).insert(flow as any);
+        const { date_created, user_created, ...rest } = flow as any;
+        await knex(FLOWS_TABLE).insert(rest);
       } else {
         logger.info(`Flow already exists: ${flow.id}${flow.name ? ` (${flow.name})` : ""}`);
+        // Do not update primary key or created-by fields; only update other mutable columns
+        const { id, date_created, user_created, ...updatable } = flow as any;
+        await knex(FLOWS_TABLE).where({ id: flow.id }).update(updatable);
       }
     } catch (er) {
       logger.error(`Error installing flow ${flow.id}`, er);
@@ -33,9 +37,13 @@ export async function installFlows(knex: Knex, flows: Flow[], operations: Operat
       const exists = await knex(OPERATIONS_TABLE).where({ id: op.id }).first();
       if (!exists) {
         logger.info(`Adding operation: ${op.id}${op.name ? ` (${op.name})` : op.type ? ` [${op.type}]` : ""}`);
-        await knex(OPERATIONS_TABLE).insert(op as any);
+        const { date_created, user_created, ...rest } = op as any;
+        await knex(OPERATIONS_TABLE).insert(rest);
       } else {
         logger.info(`Operation already exists: ${op.id}${op.name ? ` (${op.name})` : ""}`);
+        // Only update mutable fields; never attempt to change primary key
+        const { id, date_created, user_created, ...updatable } = op as any;
+        await knex(OPERATIONS_TABLE).where({ id: op.id }).update(updatable);
       }
     } catch (er) {
       logger.error(`Error installing operation ${op.id}`, er);

@@ -1,0 +1,22 @@
+# Ignore node_modules
+node_modules
+
+# Ignore dist directories
+dist
+
+# Ignore coverage directories
+coverage
+
+# Ignore reports
+reports
+
+# Ignore logs
+logs
+*.log
+
+# Ignore environment files
+.env*
+!.env.example
+
+# Ignore Docker volumes
+docker-volumes

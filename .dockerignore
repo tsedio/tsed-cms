@@ -2,7 +2,6 @@
 .git
 .gitignore
 .cache
-./.yarn/cache
 ./~
 
 # Node.js

@@ -5,7 +5,7 @@ ARG HTTPS_PROXY
 ARG NO_PROXY
 
 # Build stage for TypeScript compilation
-FROM node:${NODE_VERSION}-bullseye AS build
+FROM node:${NODE_VERSION} AS build
 
 # Set build-time proxy configuration
 ARG HTTP_PROXY
@@ -16,17 +16,18 @@ WORKDIR /app
 
 # Enable yarn via Corepack
 RUN corepack enable
-RUN corepack prepare yarn@4.10.3 --activate
+RUN yarn set version 4.9.2
 
-# Copy package manager configuration and manifests
-COPY package.json .yarnrc.yml yarn.lcok ./
+# Copy Yarn configuration and package.json
+COPY .yarn ./.yarn
+COPY package.json .yarnrc.yml yarn.lock nx.json .nxignore ./
 
 COPY extensions ./extensions
 COPY packages ./packages
 COPY migrations ./migrations
 
 # Install dependencies
-RUN yarn install --frozen-lockfile
+RUN yarn install
 
 # Copy TypeScript configuration and source files
 COPY tsconfig.json tsconfig.node.json tsconfig.base.json tsconfig.spec.json tsdown.config.ts ./

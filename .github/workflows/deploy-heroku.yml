@@ -1,0 +1,77 @@
+name: Deploy to Heroku (Docker)
+
+on:
+  workflow_call:
+    inputs:
+      version:
+        description: 'Release version to deploy (e.g., v1.2.3)'
+        required: false
+        type: string
+      environment:
+        description: 'Target environment'
+        required: true
+        type: string
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release version to deploy (e.g., v1.2.3)'
+        required: false
+        type: string
+      environment:
+        description: 'Target environment'
+        required: false
+        default: 'staging'
+        type: choice
+        options:
+          - staging
+          - production
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Build & Deploy Docker image to Heroku
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    env:
+      HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+      HEROKU_APP: ${{ inputs.environment == 'production' && secrets.HEROKU_APP_NAME_PRODUCTION || secrets.HEROKU_APP_NAME_STAGING }}
+      RELEASE_VERSION: ${{ inputs.version || 'latest' }}
+    steps:
+      - name: Checkout source (tag or current commit)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ inputs.version || github.sha }}
+
+      - name: Validate requested tag (if provided)
+        if: ${{ inputs.version != '' }}
+        run: |
+          set -euo pipefail
+          TAG="${{ inputs.version }}"
+          echo "Validating tag '$TAG'..."
+          CURRENT_TAG="$(git describe --tags --exact-match 2>/dev/null || true)"
+          if [ "$CURRENT_TAG" != "$TAG" ]; then
+            echo "Error: requested version '$TAG' is not an exact tag in this repository or not checked out."
+            echo "Hint: ensure the tag exists in the remote and is spelled exactly (case-sensitive)."
+            exit 1
+          fi
+          echo "Checked out tag: $CURRENT_TAG"
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Log in to Heroku Container Registry
+        run: echo "$HEROKU_API_KEY" | docker login --username=_ --password-stdin registry.heroku.com
+
+      - name: Build and push image to Heroku
+        run: |
+          IMAGE=registry.heroku.com/$HEROKU_APP/web
+          docker build -t $IMAGE --build-arg VERSION=$RELEASE_VERSION .
+          docker push $IMAGE
+
+      - name: Release image on Heroku
+        run: npx heroku@7.67.2 container:release web --app ${HEROKU_APP}

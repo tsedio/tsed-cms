@@ -1,6 +1,6 @@
 {
   "name": "@tsed-cms/root",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Ts.ED CMS Directus",
   "main": "index.js",
   "type": "module",

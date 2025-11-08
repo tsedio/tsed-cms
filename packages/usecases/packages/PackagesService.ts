@@ -54,7 +54,7 @@ export class PackagesService extends DirectusItemsRepository<Package> {
     });
   }
 
-  async updateMetadata(id: Package["id"], data: Partial<Pick<Package, "description" | "stars">>) {
+  async updateMetadata(id: Package["id"], data: Partial<Pick<Package, "description" | "stars" | "version">>) {
     const service = await this.getCollection();
     const updatedId = await service.updateOne(id as unknown as Item["id"], data as Partial<Package>);
 

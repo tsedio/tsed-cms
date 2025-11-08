@@ -278,6 +278,7 @@ export interface DirectusPreset {
   filter?: "json" | null;
   icon?: string | null;
   color?: string | null;
+  uuid?: string | null;
 }
 
 export interface DirectusRelation {
@@ -408,7 +409,7 @@ export interface DirectusUser {
   token?: string | null;
   last_access?: string | null;
   last_page?: string | null;
-  provider?: string;
+  provider?: "github";
   external_identifier?: string | null;
   auth_data?: "json" | null;
   email_notifications?: boolean | null;

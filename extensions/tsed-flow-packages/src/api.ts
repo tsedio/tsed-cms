@@ -13,9 +13,13 @@ export type Options = {
 };
 
 function mapNpmPackage(pkg: any): Partial<Package> & Pick<Package, "name" | "type"> {
+  const type =
+    pkg.type ||
+    ((pkg.name.startsWith("@tsed/") ? "official" : pkg.name.startsWith("@tsedio/") ? "premium" : "3rd-party") as Package["type"]);
+
   return {
     name: pkg.name,
-    type: "3rd-party",
+    type,
     description: pkg.description ?? null,
     homepage: pkg.homepage ?? null,
     downloads: pkg.downloads ?? null,

@@ -30,7 +30,8 @@ function mapMaintainer(input: string | WarehousePluginMaintainer): Pick<Maintain
 }
 
 function mapPackage(plugin: WarehousePluginItem): Partial<Package> & Pick<Package, "name" | "type"> {
-  const type = (plugin.type || "3rd-party") as Package["type"]; // default to 3rd-party if missing
+  const type = (plugin.type ||
+    (plugin.name.startsWith("@tsed/") ? "official" : plugin.name.startsWith("@tsedio/") ? "premium" : "3rd-party")) as Package["type"];
 
   return {
     name: plugin.name,

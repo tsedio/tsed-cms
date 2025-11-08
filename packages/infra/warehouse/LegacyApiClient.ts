@@ -21,6 +21,7 @@ export interface WarehousePluginItem {
   type?: "official" | "premium" | "3rd-party" | string | null;
   bugs?: string | null;
   icon?: string | null;
+  category?: string | null;
   maintainers?: Array<WarehousePluginMaintainer | string> | null;
 }
 

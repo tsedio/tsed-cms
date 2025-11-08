@@ -55,11 +55,6 @@ describe("VersionController", () => {
         branch: "main",
         env: {
           auth_providers: "",
-          auth_clubmed_driver: "",
-          auth_clubmed_issuer_url: "",
-          auth_clubmed_allow_public_registration: false,
-          auth_clubmed_token_endpoint_auth_method: "",
-          auth_clubmed_identifier_key: "",
           cache_enable: false,
           cache_store: "unknown",
           cache_auto_purge: false,
@@ -71,9 +66,7 @@ describe("VersionController", () => {
           storage_s3_region: "",
           storage_s3_endpoint: "",
           storage_s3_force_path_style: "",
-          storage_s3_public_url: "",
-          db_url: "",
-          jira_url: ""
+          storage_s3_public_url: ""
         }
       });
     });

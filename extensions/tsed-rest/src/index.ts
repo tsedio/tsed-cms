@@ -4,6 +4,18 @@ import { wrapEndpoint } from "@tsed-cms/infra/bootstrap/directus.js";
 import { LegacyRestService } from "@tsed-cms/usecases/legacy/LegacyRestService.js";
 import { SlackService } from "@tsed-cms/usecases/slack/SlackService.js";
 
+function getCategory(name: string) {
+  if (name.startsWith("tsed-cli-") || name.startsWith("@tsed/cli")) {
+    return "cli";
+  }
+
+  if (name.startsWith("tsed-logger-") || name.startsWith("@tsed/logger")) {
+    return "logger";
+  }
+
+  return "framework";
+}
+
 /**
  * Legacy REST endpoints re-exposed by Directus backed by Directus collections
  * - GET /rest/github/:owner/:repo → repositories
@@ -70,7 +82,7 @@ export default defineEndpoint({
             name: item.name,
             icon: item.icon,
             description: item.icon,
-            tags: item.tags,
+            tags: item.tags || [],
             homepage: item.homepage,
             downloads: item.downloads || 0,
             version: item.downloads || null,
@@ -79,6 +91,7 @@ export default defineEndpoint({
             stars: item.stars || 0,
             type: item.type,
             bugs: item.bugs || "",
+            category: getCategory(item.name),
             maintainers:
               item.maintainers?.map((maintainer: any) => {
                 return {

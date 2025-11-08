@@ -6,7 +6,7 @@ import globals from "globals";
 
 export default [
   {
-    ignores: ["coverage", "pm2.config.cjs", "dist", "snapshots", "node_modules", "terraform"]
+    ignores: ["coverage", "pm2.config.cjs", "dist", "snapshots", "node_modules", "terraform", "**/dist/**", "./.yarn"]
   },
   {
     files: ["**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}"],

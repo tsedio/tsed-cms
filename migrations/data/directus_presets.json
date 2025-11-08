@@ -1,41 +1,5 @@
 [
   {
-    "id": 6,
-    "bookmark": null,
-    "user": null,
-    "role": null,
-    "collection": "repositories",
-    "search": null,
-    "layout": "tabular",
-    "layout_query": {
-      "tabular": {
-        "fields": [
-          "status",
-          "owner",
-          "repo",
-          "user_created",
-          "date_created",
-          "user_updated",
-          "date_updated"
-        ]
-      }
-    },
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32,
-          "maintainers": 160,
-          "owner": 160,
-          "repo": 160
-        }
-      }
-    },
-    "refresh_interval": null,
-    "filter": null,
-    "icon": "bookmark",
-    "color": null
-  },
-  {
     "id": 7,
     "bookmark": null,
     "user": null,
@@ -74,49 +38,8 @@
     "refresh_interval": null,
     "filter": null,
     "icon": "bookmark",
-    "color": null
-  },
-  {
-    "id": 8,
-    "bookmark": null,
-    "user": null,
-    "role": null,
-    "collection": "packages",
-    "search": null,
-    "layout": "tabular",
-    "layout_query": {
-      "tabular": {
-        "page": 1,
-        "fields": [
-          "status",
-          "name",
-          "type",
-          "tags",
-          "user_created",
-          "date_created",
-          "user_updated",
-          "date_updated"
-        ]
-      }
-    },
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32,
-          "name": 160,
-          "type": 160,
-          "tags": 160,
-          "user_created": 160,
-          "date_created": 160,
-          "user_updated": 160,
-          "date_updated": 160
-        }
-      }
-    },
-    "refresh_interval": null,
-    "filter": null,
-    "icon": "bookmark",
-    "color": null
+    "color": null,
+    "uuid": "3acbf5a1-2071-4a64-9e34-6b1eb10489da"
   },
   {
     "id": 13,
@@ -158,6 +81,100 @@
     "refresh_interval": null,
     "filter": null,
     "icon": "bookmark",
-    "color": null
+    "color": null,
+    "uuid": "fcfab6cd-6523-42d0-a319-ae5cdb95abc9"
+  },
+  {
+    "id": 8,
+    "bookmark": null,
+    "user": null,
+    "role": null,
+    "collection": "packages",
+    "search": null,
+    "layout": "tabular",
+    "layout_query": {
+      "tabular": {
+        "page": 1,
+        "fields": [
+          "status",
+          "name",
+          "type",
+          "tags",
+          "version",
+          "stars",
+          "downloads",
+          "user_created",
+          "date_created",
+          "user_updated",
+          "date_updated"
+        ]
+      }
+    },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "name": 160,
+          "type": 160,
+          "tags": 258.5,
+          "version": 160,
+          "stars": 160,
+          "downloads": 160,
+          "user_created": 160,
+          "date_created": 160,
+          "user_updated": 160,
+          "date_updated": 160
+        }
+      }
+    },
+    "refresh_interval": null,
+    "filter": null,
+    "icon": "bookmark",
+    "color": null,
+    "uuid": "9687117a-53a0-4855-a823-b5b21e8835a6"
+  },
+  {
+    "id": 6,
+    "bookmark": null,
+    "user": null,
+    "role": null,
+    "collection": "repositories",
+    "search": null,
+    "layout": "tabular",
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "status",
+          "owner",
+          "repo",
+          "stars",
+          "maintainers",
+          "user_created",
+          "date_created",
+          "user_updated",
+          "date_updated"
+        ]
+      }
+    },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "owner": 160,
+          "repo": 160,
+          "stars": 160,
+          "maintainers": 191.5,
+          "user_created": 160,
+          "date_created": 160,
+          "user_updated": 160,
+          "date_updated": 160
+        }
+      }
+    },
+    "refresh_interval": null,
+    "filter": null,
+    "icon": "bookmark",
+    "color": null,
+    "uuid": "5990ceea-5ce1-451f-a119-248de002975b"
   }
 ]

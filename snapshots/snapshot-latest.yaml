@@ -1247,8 +1247,9 @@ fields:
     meta:
       collection: packages
       conditions: null
-      display: null
-      display_options: null
+      display: formatted-value
+      display_options:
+        format: true
       field: downloads
       group: meta
       hidden: false
@@ -1287,8 +1288,9 @@ fields:
     meta:
       collection: packages
       conditions: null
-      display: null
-      display_options: null
+      display: formatted-value
+      display_options:
+        prefix: v
       field: version
       group: meta
       hidden: false
@@ -1404,8 +1406,10 @@ fields:
     meta:
       collection: packages
       conditions: null
-      display: null
-      display_options: null
+      display: formatted-value
+      display_options:
+        color: null
+        format: true
       field: stars
       group: meta
       hidden: false
@@ -2011,8 +2015,9 @@ fields:
     meta:
       collection: repositories
       conditions: null
-      display: null
-      display_options: null
+      display: formatted-value
+      display_options:
+        format: true
       field: stars
       group: meta
       hidden: false
@@ -2050,8 +2055,9 @@ fields:
     meta:
       collection: repositories
       conditions: null
-      display: null
-      display_options: null
+      display: related-values
+      display_options:
+        template: '{{maintainers_id.username}}'
       field: maintainers
       group: null
       hidden: false

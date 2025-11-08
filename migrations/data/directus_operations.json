@@ -72,5 +72,39 @@
     "flow": "d7a45da6-5f2a-47de-b977-1c2ec13326ae",
     "date_created": "2025-11-02T18:52:15.279Z",
     "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+  },
+  {
+    "id": "5d15d618-9704-49cb-8e1b-872d444590c8",
+    "name": "Ts.ED Sponsors (GitHub & OpenCollective)",
+    "key": "tsed_flow_sponsors_q6l9r",
+    "type": "tsed-flow-sponsors",
+    "position_x": 19,
+    "position_y": 1,
+    "options": {
+      "githubUser": "romakita",
+      "openCollectiveSlug": "tsed"
+    },
+    "resolve": null,
+    "reject": null,
+    "flow": "18a74e0c-d808-496c-8285-044f520efeef",
+    "date_created": "2025-11-03T08:34:01.095Z",
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+  },
+  {
+    "id": "70f217d9-bcef-4637-aee3-083f5e60f82a",
+    "name": "Ts.ED Sponsors (GitHub & OpenCollective)",
+    "key": "tsed_flow_sponsors_flqhx",
+    "type": "tsed-flow-sponsors",
+    "position_x": 19,
+    "position_y": 1,
+    "options": {
+      "githubUser": "romakita",
+      "openCollectiveSlug": "tsed"
+    },
+    "resolve": null,
+    "reject": null,
+    "flow": "30be3802-3c63-41a3-9469-6aa5c48c58d6",
+    "date_created": "2025-11-03T08:35:08.005Z",
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
   }
 ]

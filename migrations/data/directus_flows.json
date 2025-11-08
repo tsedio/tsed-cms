@@ -1,67 +1,5 @@
 [
   {
-    "id": "88dfa6fd-27d5-46aa-bbda-a07ddc1b5203",
-    "name": "Manual update repositories",
-    "icon": "bolt",
-    "color": null,
-    "description": null,
-    "status": "active",
-    "trigger": "manual",
-    "accountability": "all",
-    "options": {
-      "collections": [
-        "repositories"
-      ],
-      "async": true,
-      "requireConfirmation": true
-    },
-    "operation": "f3e3024e-169d-4e3b-87d8-585bdf7af64e",
-    "date_created": "2025-11-02T17:00:11.030Z",
-    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
-  },
-  {
-    "id": "5c655120-cdc7-40e6-b402-aa1b31da246b",
-    "name": "Manual plugins import",
-    "icon": "bolt",
-    "color": null,
-    "description": null,
-    "status": "active",
-    "trigger": "manual",
-    "accountability": "all",
-    "options": {
-      "collections": [
-        "repositories"
-      ],
-      "async": true,
-      "location": "collection",
-      "requireConfirmation": true
-    },
-    "operation": "e11ec614-ac37-40dc-80f0-4eeae7817bb8",
-    "date_created": "2025-11-02T18:45:02.966Z",
-    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
-  },
-  {
-    "id": "b5fcef00-c59e-40f7-ad78-f880aba76a6b",
-    "name": "Manual legacy plugins import",
-    "icon": "bolt",
-    "color": null,
-    "description": null,
-    "status": "active",
-    "trigger": "manual",
-    "accountability": "all",
-    "options": {
-      "collections": [
-        "repositories"
-      ],
-      "async": true,
-      "requireConfirmation": true,
-      "location": "collection"
-    },
-    "operation": "c4c5b632-4fd6-42f4-be0c-709a6cd05d61",
-    "date_created": "2025-11-02T17:42:37.342Z",
-    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
-  },
-  {
     "id": "957ee0d3-bee3-49f0-80cd-1d1900e729a4",
     "name": "Cron Update repositories meta",
     "icon": "bolt",
@@ -91,6 +29,108 @@
     },
     "operation": "ba9712f8-b9a1-498a-a700-646df728efc4",
     "date_created": "2025-11-02T18:51:01.328Z",
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+  },
+  {
+    "id": "88dfa6fd-27d5-46aa-bbda-a07ddc1b5203",
+    "name": "Manual update repositories",
+    "icon": "bolt",
+    "color": null,
+    "description": null,
+    "status": "active",
+    "trigger": "manual",
+    "accountability": "all",
+    "options": {
+      "collections": [
+        "repositories"
+      ],
+      "async": true,
+      "requireConfirmation": true,
+      "requireSelection": false
+    },
+    "operation": "f3e3024e-169d-4e3b-87d8-585bdf7af64e",
+    "date_created": "2025-11-02T17:00:11.030Z",
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+  },
+  {
+    "id": "5c655120-cdc7-40e6-b402-aa1b31da246b",
+    "name": "Manual packages import",
+    "icon": "bolt",
+    "color": null,
+    "description": null,
+    "status": "active",
+    "trigger": "manual",
+    "accountability": "all",
+    "options": {
+      "collections": [
+        "packages"
+      ],
+      "async": true,
+      "location": "collection",
+      "requireConfirmation": true,
+      "requireSelection": false
+    },
+    "operation": "e11ec614-ac37-40dc-80f0-4eeae7817bb8",
+    "date_created": "2025-11-02T18:45:02.966Z",
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+  },
+  {
+    "id": "b5fcef00-c59e-40f7-ad78-f880aba76a6b",
+    "name": "Manual legacy packages import",
+    "icon": "bolt",
+    "color": null,
+    "description": null,
+    "status": "active",
+    "trigger": "manual",
+    "accountability": "all",
+    "options": {
+      "collections": [
+        "packages"
+      ],
+      "async": true,
+      "requireConfirmation": true,
+      "location": "collection",
+      "requireSelection": false
+    },
+    "operation": "c4c5b632-4fd6-42f4-be0c-709a6cd05d61",
+    "date_created": "2025-11-02T17:42:37.342Z",
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+  },
+  {
+    "id": "18a74e0c-d808-496c-8285-044f520efeef",
+    "name": "Manual sponsors import",
+    "icon": "bolt",
+    "color": null,
+    "description": null,
+    "status": "active",
+    "trigger": "manual",
+    "accountability": "all",
+    "options": {
+      "collections": [
+        "sponsors"
+      ],
+      "location": "collection",
+      "requireConfirmation": true,
+      "requireSelection": false
+    },
+    "operation": "5d15d618-9704-49cb-8e1b-872d444590c8",
+    "date_created": "2025-11-03T08:31:37.472Z",
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+  },
+  {
+    "id": "30be3802-3c63-41a3-9469-6aa5c48c58d6",
+    "name": "Cron Update sponsors meta",
+    "icon": "bolt",
+    "color": null,
+    "description": null,
+    "status": "active",
+    "trigger": "schedule",
+    "accountability": "all",
+    "options": {
+      "cron": "0 * * * *"
+    },
+    "operation": "70f217d9-bcef-4637-aee3-083f5e60f82a",
+    "date_created": "2025-11-03T08:34:33.531Z",
     "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
   }
 ]

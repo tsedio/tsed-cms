@@ -32,7 +32,7 @@ concurrency:
 
 jobs:
   deploy:
-    name: Build & Deploy Docker image to Heroku
+    name: Deploy on heroku
     runs-on: ubuntu-latest
     permissions:
       contents: read

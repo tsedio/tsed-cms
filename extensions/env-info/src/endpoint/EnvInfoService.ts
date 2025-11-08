@@ -4,7 +4,7 @@ export class EnvInfoService {
   get(isAdmin?: boolean) {
     return {
       version: constant<string>("pkg.version", "unknown"),
-      branch: constant<string>("branch", "master"),
+      branch: constant<string>("branch", "main"),
       env: isAdmin
         ? {
             auth_providers: constant<string>("envs.AUTH_PROVIDERS", ""),

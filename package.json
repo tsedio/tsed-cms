@@ -175,8 +175,8 @@
   ],
   "packageManager": "yarn@4.9.2",
   "monorepo": {
-    "productionBranch": "master",
-    "developBranch": "master",
+    "productionBranch": "main",
+    "developBranch": "main",
     "npmAccess": "public",
     "skipNpmPublish": true
   }

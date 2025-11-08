@@ -80,12 +80,12 @@ export default defineEndpoint({
           return {
             id: item.id,
             name: item.name,
-            icon: item.icon,
-            description: item.icon,
+            icon: item.icon || "",
+            description: item.description || "",
             tags: item.tags || [],
-            homepage: item.homepage,
+            homepage: item.homepage || "",
             downloads: item.downloads || 0,
-            version: item.downloads || null,
+            version: item.version || "",
             repository: item.repository || "",
             npm: item.repository || "",
             stars: item.stars || 0,
@@ -95,7 +95,7 @@ export default defineEndpoint({
             maintainers:
               item.maintainers?.map((maintainer: any) => {
                 return {
-                  username: maintainer.maintainers_id.username,
+                  username: maintainer.maintainers_id.username || "",
                   avatar: maintainer.maintainers_id.avatar || "",
                   url: maintainer.maintainers_id.url || ""
                 };

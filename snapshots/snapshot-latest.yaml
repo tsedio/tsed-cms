@@ -2694,8 +2694,19 @@ fields:
     meta:
       collection: sponsors
       conditions: null
-      display: null
-      display_options: null
+      display: labels
+      display_options:
+        choices:
+          - icon: ecg_heart
+            text: OpenCollective
+            value: open_collective
+          - icon: github_alt
+            text: Github
+            value: github
+          - icon: dashboard_customize
+            text: Custom
+            value: custom
+        format: false
       field: source
       group: null
       hidden: false
@@ -2703,7 +2714,7 @@ fields:
       note: null
       options:
         choices:
-          - icon: folder_open
+          - icon: ecg_heart
             text: OpenCollective
             value: open_collective
           - icon: github_alt
@@ -2782,8 +2793,9 @@ fields:
     meta:
       collection: sponsors
       conditions: null
-      display: null
-      display_options: null
+      display: formatted-value
+      display_options:
+        format: true
       field: type
       group: null
       hidden: false
@@ -3228,8 +3240,11 @@ fields:
     meta:
       collection: sponsors
       conditions: null
-      display: null
-      display_options: null
+      display: formatted-value
+      display_options:
+        format: true
+        prefix: $
+        suffix: null
       field: total_amount_donated
       group: contribution
       hidden: false
@@ -3311,8 +3326,11 @@ fields:
     meta:
       collection: sponsors
       conditions: null
-      display: null
-      display_options: null
+      display: formatted-value
+      display_options:
+        format: true
+        prefix: $
+        suffix: null
       field: last_transaction_amount
       group: contribution
       hidden: false
@@ -3350,8 +3368,16 @@ fields:
     meta:
       collection: sponsors
       conditions: null
-      display: null
-      display_options: null
+      display: labels
+      display_options:
+        choices:
+          - icon: visibility
+            text: Public
+            value: public
+          - color: '#E35169'
+            icon: visibility_off
+            text: Private
+            value: private
       field: visibility
       group: null
       hidden: false
@@ -3433,8 +3459,15 @@ fields:
     meta:
       collection: sponsors
       conditions: null
-      display: null
-      display_options: null
+      display: labels
+      display_options:
+        choices:
+          - text: Supporter
+            value: supporter
+          - text: Premium
+            value: premium
+          - text: Platinum
+            value: platinum
       field: grade
       group: null
       hidden: false

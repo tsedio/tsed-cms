@@ -1,5 +1,58 @@
 [
   {
+    "id": 13,
+    "bookmark": null,
+    "user": null,
+    "role": null,
+    "collection": "sponsors",
+    "search": null,
+    "layout": "tabular",
+    "layout_query": {
+      "tabular": {
+        "page": 1,
+        "fields": [
+          "status",
+          "login",
+          "name",
+          "visibility",
+          "grade",
+          "source",
+          "last_transaction_amount",
+          "total_amount_donated",
+          "user_created",
+          "date_created",
+          "user_updated",
+          "date_updated"
+        ]
+      }
+    },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "login": 160,
+          "name": 160,
+          "email": 160,
+          "visibility": 160,
+          "grade": 160,
+          "source": 160,
+          "tier": 160,
+          "last_transaction_amount": 160,
+          "total_amount_donated": 160,
+          "user_created": 160,
+          "date_created": 160,
+          "user_updated": 160,
+          "date_updated": 160
+        }
+      }
+    },
+    "refresh_interval": null,
+    "filter": null,
+    "icon": "bookmark",
+    "color": null,
+    "uuid": "fcfab6cd-6523-42d0-a319-ae5cdb95abc9"
+  },
+  {
     "id": 7,
     "bookmark": null,
     "user": null,
@@ -40,49 +93,6 @@
     "icon": "bookmark",
     "color": null,
     "uuid": "3acbf5a1-2071-4a64-9e34-6b1eb10489da"
-  },
-  {
-    "id": 13,
-    "bookmark": null,
-    "user": null,
-    "role": null,
-    "collection": "sponsors",
-    "search": null,
-    "layout": "tabular",
-    "layout_query": {
-      "tabular": {
-        "page": 1,
-        "fields": [
-          "status",
-          "login",
-          "name",
-          "visibility",
-          "grade",
-          "source",
-          "email",
-          "description",
-          "user_created",
-          "date_created",
-          "user_updated",
-          "date_updated"
-        ]
-      }
-    },
-    "layout_options": {
-      "tabular": {
-        "widths": {
-          "status": 32,
-          "login": 160,
-          "name": 160,
-          "visibility": 160
-        }
-      }
-    },
-    "refresh_interval": null,
-    "filter": null,
-    "icon": "bookmark",
-    "color": null,
-    "uuid": "fcfab6cd-6523-42d0-a319-ae5cdb95abc9"
   },
   {
     "id": 8,

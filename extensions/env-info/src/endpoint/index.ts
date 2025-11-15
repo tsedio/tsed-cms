@@ -7,7 +7,7 @@ import { wrapEndpoint } from "@tsed-cms/infra/bootstrap/directus.js";
 
 import { EnvInfoService } from "./EnvInfoService.js";
 
-configuration().set("pkg", JSON.parse(readFileSync(join(import.meta.dirname, "..", "package.json"), "utf8")));
+configuration().set("pkg", JSON.parse(readFileSync(join(import.meta.dirname, "..", "..", "..", "package.json"), "utf8")));
 configuration().set("branch", readFileSync(join(process.cwd(), "resources/release.info"), "utf8").trim());
 configuration().set("envs", process.env);
 

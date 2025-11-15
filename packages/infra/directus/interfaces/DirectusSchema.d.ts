@@ -46,6 +46,28 @@ export interface PackagesMaintainer {
   maintainers_id?: Maintainer | string | null;
 }
 
+export interface PackageSymbol {
+  /** @primaryKey */
+  id: string;
+  status?: "published" | "draft" | "archived";
+  user_created?: DirectusUser | string | null;
+  date_created?: string | null;
+  user_updated?: DirectusUser | string | null;
+  date_updated?: string | null;
+  /** @required */
+  name: string;
+  doc_url?: string | null;
+  /** @required */
+  package: Package | string;
+  versions?: string[] | null;
+  deprecated?: boolean | null;
+  tags?: string[] | null;
+  /** @required */
+  type: "decorator" | "class" | "enum" | "function" | "interface" | "const" | "service" | "type";
+  markdown_url?: string | null;
+  additional_doc_url?: string | null;
+}
+
 export interface Repository {
   /** @primaryKey */
   id: string;
@@ -189,6 +211,7 @@ export interface DirectusField {
   group?: DirectusField | string | null;
   validation?: "json" | null;
   validation_message?: string | null;
+  searchable?: boolean;
 }
 
 export interface DirectusFile {
@@ -381,13 +404,17 @@ export interface DirectusSettings {
   public_registration_role?: DirectusRole | string | null;
   public_registration_email_filter?: "json" | null;
   visual_editor_urls?: Array<{ url: string }> | null;
-  accepted_terms?: boolean | null;
   project_id?: string | null;
   mcp_enabled?: boolean;
   mcp_allow_deletes?: boolean;
   mcp_prompts_collection?: string | null;
   mcp_system_prompt_enabled?: boolean;
   mcp_system_prompt?: string | null;
+  project_owner?: string | null;
+  project_usage?: string | null;
+  org_name?: string | null;
+  product_updates?: boolean | null;
+  project_status?: string | null;
 }
 
 export interface DirectusUser {
@@ -569,6 +596,7 @@ export interface Schema {
   maintainers: Maintainer[];
   packages: Package[];
   packages_maintainers: PackagesMaintainer[];
+  package_symbols: PackageSymbol[];
   repositories: Repository[];
   repositories_maintainers: RepositoriesMaintainer[];
   settings: Settings;
@@ -606,6 +634,7 @@ export enum CollectionNames {
   maintainers = "maintainers",
   packages = "packages",
   packages_maintainers = "packages_maintainers",
+  package_symbols = "package_symbols",
   repositories = "repositories",
   repositories_maintainers = "repositories_maintainers",
   settings = "settings",

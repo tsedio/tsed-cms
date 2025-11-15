@@ -186,5 +186,54 @@
     "icon": "bookmark",
     "color": null,
     "uuid": "5990ceea-5ce1-451f-a119-248de002975b"
+  },
+  {
+    "id": 32,
+    "bookmark": null,
+    "user": null,
+    "role": null,
+    "collection": "package_symbols",
+    "search": null,
+    "layout": "tabular",
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "status",
+          "name",
+          "package",
+          "type",
+          "versions",
+          "tags",
+          "doc_url",
+          "user_created",
+          "date_created",
+          "user_updated",
+          "date_updated"
+        ],
+        "page": 9
+      }
+    },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "name": 160,
+          "type": 160,
+          "versions": 160,
+          "tags": 160,
+          "doc_url": 320.5,
+          "package": 160,
+          "user_created": 160,
+          "date_created": 160,
+          "user_updated": 160,
+          "date_updated": 160
+        }
+      }
+    },
+    "refresh_interval": null,
+    "filter": null,
+    "icon": "bookmark",
+    "color": null,
+    "uuid": "3408e10b-df03-4a2c-b5da-ce0b13547f5b"
   }
 ]

@@ -1,7 +1,8 @@
 import { DITest } from "@tsed/di";
-import { describe, it, expect, beforeEach, afterEach, vi } from "vitest";
-import { PackageSymbolsService } from "./PackageSymbolsService.js";
 import { DirectusContextService } from "@tsed-cms/infra/directus/DirectusContextService.js";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+
+import { PackageSymbolsService } from "./PackageSymbolsService.js";
 
 function createItemsServiceMock(initial: any[] = []) {
   const state = new Map<string, any>(initial.map((r) => [r.id, { ...r }]));
@@ -27,9 +28,7 @@ async function createFixture(itemsMock: any) {
     getItemsService: vi.fn(async (_collection: string) => itemsMock)
   } as unknown as Pick<DirectusContextService, "getItemsService">;
 
-  const service = await DITest.invoke(PackageSymbolsService, [
-    { token: DirectusContextService, use: directusContextService }
-  ]);
+  const service = await DITest.invoke(PackageSymbolsService, [{ token: DirectusContextService, use: directusContextService }]);
 
   return { service, itemsMock };
 }
@@ -59,10 +58,17 @@ describe("PackageSymbolsService.upsertOne", () => {
       tags: ["deprecated"]
     } as any);
 
-    expect(itemsMock.readOne).toHaveBeenCalledWith("sym-1");
     expect(itemsMock.updateOne).toHaveBeenCalledTimes(1);
-    expect(updated?.doc_url).toBe("https://tsed.dev/api/new");
-    expect(updated?.deprecated).toBe(true);
+    expect(itemsMock.updateOne).toHaveBeenCalledWith(
+      "sym-1",
+      expect.objectContaining({
+        doc_url: "https://tsed.dev/api/new",
+        deprecated: true
+      })
+    );
+    // Le service retourne l'input tel quel (pas de read final)
+    expect(updated.doc_url).toBe("https://tsed.dev/api/new");
+    expect(updated.deprecated).toBe(true);
   });
 
   it("crée quand l'élément n'existe pas", async () => {
@@ -80,9 +86,10 @@ describe("PackageSymbolsService.upsertOne", () => {
       tags: []
     } as any);
 
-    expect(itemsMock.readOne).toHaveBeenCalledWith("sym-2");
     expect(itemsMock.createOne).toHaveBeenCalledTimes(1);
-    expect(created?.id).toBe("sym-2");
-    expect(created?.name).toBe("UseJsonMapper");
+    expect(itemsMock.createOne).toHaveBeenCalledWith(expect.objectContaining({ id: "sym-2", name: "UseJsonMapper" }));
+    // Le service retourne l'input tel quel
+    expect(created.id).toBe("sym-2");
+    expect(created.name).toBe("UseJsonMapper");
   });
 });

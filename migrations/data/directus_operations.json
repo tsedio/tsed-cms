@@ -123,5 +123,22 @@
     "flow": "569895a0-7a65-4cb2-94aa-67f77a776a08",
     "date_created": "2025-11-15T10:35:32.381Z",
     "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+  },
+  {
+    "id": "a2391589-d955-4677-9ff5-1bb846cebf98",
+    "name": "Ts.ED Package Symbols importer",
+    "key": "tsed_flow_package_symbols_uvxzc",
+    "type": "tsed-flow-package-symbols",
+    "position_x": 19,
+    "position_y": 1,
+    "options": {
+      "url": "https://tsed.dev/api.json",
+      "markdown_url": "https://tsed.dev/ai/references/api"
+    },
+    "resolve": null,
+    "reject": null,
+    "flow": "9039bef8-fdc3-4f31-b5ab-7fee31273921",
+    "date_created": "2025-11-15T11:49:52.495Z",
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
   }
 ]

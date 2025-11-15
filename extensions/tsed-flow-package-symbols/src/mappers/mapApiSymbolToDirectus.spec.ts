@@ -1,21 +1,21 @@
-import { type ApiJsonModuleSymbol, mapApiSymbolToDirectus } from "./mapApiSymbolToDirectus.js";
+import type { ApiSymbol } from "../schema/ApiPayloadSchema.js";
+import { mapApiSymbolToDirectus } from "./mapApiSymbolToDirectus.js";
 
 describe("mapApiSymbolToDirectus", () => {
   const baseOrigin = "https://tsed.dev";
   const markdownOrigin = "https://tsed.dev/ai/references";
-  const pkgId = "pkg-1";
 
   it("mappe les champs de base correctement", () => {
-    const input: ApiJsonModuleSymbol = {
+    const input: ApiSymbol = {
       id: "sym-1",
       path: "/api/core/Controller",
       symbolName: "Controller",
       module: "@tsed/core",
       symbolType: "class",
       status: []
-    };
+    } as any;
 
-    const out = mapApiSymbolToDirectus(pkgId, input, baseOrigin, markdownOrigin);
+    const out = mapApiSymbolToDirectus(input, baseOrigin, markdownOrigin);
 
     expect(out).toMatchObject({
       id: "sym-1",
@@ -25,30 +25,29 @@ describe("mapApiSymbolToDirectus", () => {
       doc_url: "https://tsed.dev/api/core/Controller",
       markdown_url: "https://tsed.dev/ai/references/api/core/Controller.md",
       versions: [],
-      package: pkgId,
       deprecated: false,
       tags: []
     });
   });
 
-  it("gère le statut deprecated → deprecated=true et tags=['deprecated']", () => {
-    const input: ApiJsonModuleSymbol = {
+  it("manages the deprecated status → deprecated=true and tags=[]", () => {
+    const input: ApiSymbol = {
       id: "sym-2",
       path: "/api/schema/UseJsonMapper.html",
       symbolName: "UseJsonMapper",
       module: "@tsed/schema",
       symbolType: "decorator",
       status: ["deprecated"]
-    };
+    } as any;
 
-    const out = mapApiSymbolToDirectus(pkgId, input, baseOrigin);
+    const out = mapApiSymbolToDirectus(input, baseOrigin);
 
     expect(out.deprecated).toBe(true);
-    expect(out.tags).toEqual(["deprecated"]);
+    expect(out.tags).toEqual([]);
   });
 
-  it("status non défini → deprecated=false et tags=[]", () => {
-    const input: ApiJsonModuleSymbol = {
+  it("status undefined → deprecated=false and tags=[]", () => {
+    const input: ApiSymbol = {
       id: "sym-3",
       path: "/api/schema/JsonEntityStore.html",
       symbolName: "JsonEntityStore",
@@ -56,7 +55,7 @@ describe("mapApiSymbolToDirectus", () => {
       symbolType: "class"
     } as any;
 
-    const out = mapApiSymbolToDirectus(pkgId, input, baseOrigin);
+    const out = mapApiSymbolToDirectus(input, baseOrigin);
 
     expect(out.deprecated).toBe(false);
     expect(out.tags).toEqual([]);

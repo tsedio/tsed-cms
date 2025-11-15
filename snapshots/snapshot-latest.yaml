@@ -1038,7 +1038,7 @@ fields:
       readonly: false
       required: false
       searchable: true
-      sort: 10
+      sort: 11
       special: null
       translations: null
       validation: null
@@ -1067,8 +1067,9 @@ fields:
     meta:
       collection: package_symbols
       conditions: null
-      display: null
-      display_options: null
+      display: related-values
+      display_options:
+        template: '{{name}}'
       field: package
       group: null
       hidden: false
@@ -1122,7 +1123,7 @@ fields:
       readonly: false
       required: false
       searchable: true
-      sort: 11
+      sort: 10
       special:
         - cast-json
       translations: null
@@ -1164,7 +1165,7 @@ fields:
       readonly: false
       required: false
       searchable: true
-      sort: 12
+      sort: 14
       special:
         - cast-boolean
       translations: null
@@ -1207,7 +1208,7 @@ fields:
       readonly: false
       required: false
       searchable: true
-      sort: 13
+      sort: 15
       special:
         - cast-json
       translations: null
@@ -1237,8 +1238,34 @@ fields:
     meta:
       collection: package_symbols
       conditions: null
-      display: null
-      display_options: null
+      display: labels
+      display_options:
+        choices:
+          - icon: alternate_email
+            text: Decorator
+            value: decorator
+          - icon: hotel_class
+            text: Class
+            value: class
+          - icon: list
+            text: Enum
+            value: enum
+          - icon: function
+            text: Function
+            value: function
+          - icon: view_quilt
+            text: Interface
+            value: interface
+          - icon: construction
+            text: Constant
+            value: constant
+          - icon: home_repair_service
+            text: Service
+            value: service
+          - icon: type_specimen
+            text: Type / Alias
+            value: type
+        format: false
       field: type
       group: null
       hidden: false
@@ -1281,6 +1308,86 @@ fields:
       width: full
     schema:
       name: type
+      table: package_symbols
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: package_symbols
+    field: markdown_url
+    type: string
+    meta:
+      collection: package_symbols
+      conditions: null
+      display: null
+      display_options: null
+      field: markdown_url
+      group: null
+      hidden: false
+      interface: input
+      note: null
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 12
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: markdown_url
+      table: package_symbols
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: package_symbols
+    field: additional_doc_url
+    type: string
+    meta:
+      collection: package_symbols
+      conditions: null
+      display: null
+      display_options: null
+      field: additional_doc_url
+      group: null
+      hidden: false
+      interface: input
+      note: null
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 13
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: additional_doc_url
       table: package_symbols
       data_type: character varying
       default_value: null

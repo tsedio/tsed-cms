@@ -30,7 +30,6 @@ export async function installPresets(knex: Knex, presets: Preset[]): Promise<voi
     }
   } catch (error) {
     logger.error(`Error altering directus_presets or directus_fields table:`, error);
-    throw error;
   }
 
   // For each language, check if it exists and insert it if it doesn't
@@ -50,21 +49,27 @@ export async function installPresets(knex: Knex, presets: Preset[]): Promise<voi
 
         await knex(TABLE).insert(preset);
       } catch (er) {
-        delete (preset as any).uuid;
-        await knex(TABLE).insert(preset);
+        try {
+          delete (preset as any).uuid;
+          await knex(TABLE).insert(preset);
+        } catch (er) {}
       }
     } else {
       logger.info(`Update preset: ${preset.collection}`);
-      if (uuidExists) {
-        await knex(TABLE)
-          .update(preset as any)
-          .where({ uuid: uuidExists.uuid });
-      } else {
-        (preset as any).uuid = v4();
+      try {
+        if (uuidExists) {
+          await knex(TABLE)
+            .update(preset as any)
+            .where({ uuid: uuidExists.uuid });
+        } else {
+          (preset as any).uuid = v4();
 
-        await knex(TABLE)
-          .update(preset as any)
-          .where({ id: exists.id });
+          await knex(TABLE)
+            .update(preset as any)
+            .where({ id: exists.id });
+        }
+      } catch (error) {
+        logger.error(`Error updating preset: ${preset.id}`);
       }
     }
   }

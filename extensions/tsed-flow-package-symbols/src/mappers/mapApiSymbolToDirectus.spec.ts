@@ -1,29 +1,30 @@
-import { describe, it, expect } from "vitest";
-import { mapApiSymbolToDirectus, type ApiJsonModuleSymbol } from "./mapApiSymbolToDirectus.js";
+import { type ApiJsonModuleSymbol, mapApiSymbolToDirectus } from "./mapApiSymbolToDirectus.js";
 
 describe("mapApiSymbolToDirectus", () => {
   const baseOrigin = "https://tsed.dev";
+  const markdownOrigin = "https://tsed.dev/ai/references";
   const pkgId = "pkg-1";
 
   it("mappe les champs de base correctement", () => {
     const input: ApiJsonModuleSymbol = {
       id: "sym-1",
-      path: "/api/core/Controller.html",
+      path: "/api/core/Controller",
       symbolName: "Controller",
       module: "@tsed/core",
       symbolType: "class",
       status: []
     };
 
-    const out = mapApiSymbolToDirectus(pkgId, input, baseOrigin);
+    const out = mapApiSymbolToDirectus(pkgId, input, baseOrigin, markdownOrigin);
 
     expect(out).toMatchObject({
       id: "sym-1",
       status: "published",
       name: "Controller",
       type: "class",
-      doc_url: "https://tsed.dev/api/core/Controller.html",
-      versions: null,
+      doc_url: "https://tsed.dev/api/core/Controller",
+      markdown_url: "https://tsed.dev/ai/references/api/core/Controller.md",
+      versions: [],
       package: pkgId,
       deprecated: false,
       tags: []

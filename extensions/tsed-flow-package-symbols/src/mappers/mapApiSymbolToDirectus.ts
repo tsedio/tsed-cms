@@ -30,9 +30,9 @@ export type ApiJsonResponse = {
  * Responsibility: mapping fields and normalizing optional metadata only.
  * Caller is responsible for resolving/ensuring the `package` id.
  */
-export function mapApiSymbolToDirectus(pkg: string, symbol: ApiJsonModuleSymbol, baseOrigin: string) {
+export function mapApiSymbolToDirectus(symbol: ApiJsonModuleSymbol, baseOrigin: string, markdownUrl?: string) {
   const deprecated = symbol.status ? symbol.status.includes("deprecated") : false;
-  const tags = (symbol.status || []).filter((t) => t === "deprecated");
+  const tags = (symbol.status || []).filter((t) => t !== "deprecated");
 
   return {
     id: symbol.id,
@@ -40,9 +40,10 @@ export function mapApiSymbolToDirectus(pkg: string, symbol: ApiJsonModuleSymbol,
     name: symbol.symbolName,
     type: symbol.symbolType,
     doc_url: `${baseOrigin}${symbol.path}`,
-    versions: null,
-    package: pkg,
+    markdown_url: `${markdownUrl}${symbol.path}.md`,
+    additional_doc_url: "",
+    versions: [] as string[],
     deprecated,
     tags
-  } satisfies Omit<PackageSymbol, "user_created" | "date_created" | "user_updated" | "date_updated">;
+  } satisfies Omit<PackageSymbol, "package" | "user_created" | "date_created" | "user_updated" | "date_updated">;
 }

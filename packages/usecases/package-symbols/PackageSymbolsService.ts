@@ -6,14 +6,16 @@ import type { PackageSymbol } from "@tsed-cms/infra/directus/interfaces/Directus
  * Service d'accès à la collection `package_symbols` (Directus).
  * - Upsert par couple (name, package)
  */
-export class PackageSymbolsService extends DirectusItemsRepository<PackageSymbol, string> {
+export class PackageSymbolsService extends DirectusItemsRepository<PackageSymbol> {
   protected collection = "package_symbols" as const;
 
   async upsertOne(input: PackageSymbol) {
     const service = await this.getCollection();
-    const existing = await service.readOne(input.id);
+    const existing = await service.readOne(input.id).catch(() => null);
 
     if (existing) {
+      input.versions = [...new Set([...(input.versions || []), ...(existing.versions || [])])];
+
       const id = await service.updateOne(existing.id, input);
 
       return service.readOne(id);

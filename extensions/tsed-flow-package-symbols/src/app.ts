@@ -4,7 +4,7 @@ export default defineOperationApp({
   id: "tsed-flow-package-symbols",
   name: "Ts.ED Package Symbols importer",
   icon: "code",
-  description: "Récupère les symboles exportés des packages Ts.ED depuis api.json et les upsert dans package_symbols.",
+  description: "Retrieves exported symbols from Ts.ED packages from api.json and upserts them into package_symbols.",
   overview: ({ url }) => [
     {
       label: "API URL",
@@ -19,10 +19,23 @@ export default defineOperationApp({
       meta: {
         width: "full",
         interface: "input",
-        note: "URL du JSON des symboles (default: https://tsed.dev/api.json)"
+        note: "URL of JSON symbols (default: https://tsed.dev/api.json)"
       },
       schema: {
         default_value: "https://tsed.dev/api.json"
+      }
+    },
+    {
+      field: "markdown_url",
+      name: "Markdown base URL",
+      type: "string",
+      meta: {
+        width: "full",
+        interface: "input",
+        note: "URL where the markdown contents of the symbols are stored (default: https://tsed.dev/ai/references/api)"
+      },
+      schema: {
+        default_value: "https://tsed.dev/ai/references/api"
       }
     }
   ]

@@ -9,7 +9,7 @@
     "trigger": "schedule",
     "accountability": "all",
     "options": {
-      "cron": "0 * * * *"
+      "cron": "0 */12 * * *"
     },
     "operation": "5269d4ba-cbf3-4c96-a431-1b3de86fa8b4",
     "date_created": "2025-11-02T15:16:25.397Z",
@@ -25,7 +25,7 @@
     "trigger": "schedule",
     "accountability": "all",
     "options": {
-      "cron": "0 * * * *"
+      "cron": "0 */12 * * *"
     },
     "operation": "ba9712f8-b9a1-498a-a700-646df728efc4",
     "date_created": "2025-11-02T18:51:01.328Z",
@@ -127,7 +127,7 @@
     "trigger": "schedule",
     "accountability": "all",
     "options": {
-      "cron": "0 * * * *"
+      "cron": "0 0 * * *"
     },
     "operation": "70f217d9-bcef-4637-aee3-083f5e60f82a",
     "date_created": "2025-11-03T08:34:33.531Z",

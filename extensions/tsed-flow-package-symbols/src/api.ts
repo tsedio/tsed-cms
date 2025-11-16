@@ -44,7 +44,7 @@ export default defineOperationApi<Options>({
     if ((context?.data?.["$last"] as any)?.body) {
       try {
         data = await validate((context?.data?.["$last"] as any)?.body, ApiPayloadSchema);
-      } catch (er) {
+      } catch (er: any) {
         return {
           url,
           processed: 0,

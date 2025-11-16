@@ -39,6 +39,6 @@
     "add": "directus-extension add"
   },
   "devDependencies": {
-    "@directus/extensions-sdk": "13.1.1"
+    "@directus/extensions-sdk": "17.0.1"
   }
 }

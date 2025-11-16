@@ -14,6 +14,7 @@ export interface CliInstallStat {
   /** @required */
   channel: "cli" | "mcp";
   cli_version?: string | null;
+  is_success?: boolean | null;
 }
 
 export interface Maintainer {

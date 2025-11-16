@@ -8,5 +8,6 @@ export const CliStatPayload = s.object({
   runtime: s.string().required(),
   features: s.array(s.string()),
   channel: s.string().enum("cli", "mcp").required(),
-  cli_version: s.string().required()
+  cli_version: s.string().required(),
+  is_success: s.boolean().required()
 });

@@ -1,5 +1,44 @@
 [
   {
+    "id": "569895a0-7a65-4cb2-94aa-67f77a776a08",
+    "name": "Manual import package symbols",
+    "icon": "bolt",
+    "color": null,
+    "description": null,
+    "status": "active",
+    "trigger": "manual",
+    "accountability": "all",
+    "options": {
+      "collections": [
+        "package_symbols"
+      ],
+      "requireSelection": false,
+      "location": "collection",
+      "requireConfirmation": true,
+      "async": true
+    },
+    "operation": "c651e60f-159c-4b4d-b636-c9d50debe3de",
+    "date_created": "2025-11-15T10:33:07.296Z",
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+  },
+  {
+    "id": "9039bef8-fdc3-4f31-b5ab-7fee31273921",
+    "name": "Trigger update package symbols",
+    "icon": "bolt",
+    "color": null,
+    "description": null,
+    "status": "active",
+    "trigger": "webhook",
+    "accountability": "all",
+    "options": {
+      "async": true,
+      "method": "POST"
+    },
+    "operation": "a2391589-d955-4677-9ff5-1bb846cebf98",
+    "date_created": "2025-11-15T11:49:36.406Z",
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+  },
+  {
     "id": "957ee0d3-bee3-49f0-80cd-1d1900e729a4",
     "name": "Cron Update repositories meta",
     "icon": "bolt",
@@ -9,7 +48,7 @@
     "trigger": "schedule",
     "accountability": "all",
     "options": {
-      "cron": "0 */12 * * *"
+      "cron": "0 * * * *"
     },
     "operation": "5269d4ba-cbf3-4c96-a431-1b3de86fa8b4",
     "date_created": "2025-11-02T15:16:25.397Z",
@@ -25,7 +64,7 @@
     "trigger": "schedule",
     "accountability": "all",
     "options": {
-      "cron": "0 */12 * * *"
+      "cron": "0 * * * *"
     },
     "operation": "ba9712f8-b9a1-498a-a700-646df728efc4",
     "date_created": "2025-11-02T18:51:01.328Z",
@@ -127,49 +166,10 @@
     "trigger": "schedule",
     "accountability": "all",
     "options": {
-      "cron": "0 0 * * *"
+      "cron": "0 * * * *"
     },
     "operation": "70f217d9-bcef-4637-aee3-083f5e60f82a",
     "date_created": "2025-11-03T08:34:33.531Z",
-    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
-  },
-  {
-    "id": "569895a0-7a65-4cb2-94aa-67f77a776a08",
-    "name": "Manual import package symbols",
-    "icon": "bolt",
-    "color": null,
-    "description": null,
-    "status": "active",
-    "trigger": "manual",
-    "accountability": "all",
-    "options": {
-      "collections": [
-        "package_symbols"
-      ],
-      "requireSelection": false,
-      "location": "collection",
-      "requireConfirmation": true,
-      "async": true
-    },
-    "operation": "c651e60f-159c-4b4d-b636-c9d50debe3de",
-    "date_created": "2025-11-15T10:33:07.296Z",
-    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
-  },
-  {
-    "id": "9039bef8-fdc3-4f31-b5ab-7fee31273921",
-    "name": "Trigger update package symbols",
-    "icon": "bolt",
-    "color": null,
-    "description": null,
-    "status": "active",
-    "trigger": "webhook",
-    "accountability": "all",
-    "options": {
-      "async": true,
-      "method": "POST"
-    },
-    "operation": "a2391589-d955-4677-9ff5-1bb846cebf98",
-    "date_created": "2025-11-15T11:49:36.406Z",
     "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
   }
 ]

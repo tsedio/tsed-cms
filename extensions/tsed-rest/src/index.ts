@@ -1,8 +1,12 @@
 import { defineEndpoint } from "@directus/extensions-sdk";
-import { inject } from "@tsed/di";
+import { inject, logger } from "@tsed/di";
 import { wrapEndpoint } from "@tsed-cms/infra/bootstrap/directus.js";
+import { validate } from "@tsed-cms/infra/validators/validate.js";
 import { LegacyRestService } from "@tsed-cms/usecases/legacy/LegacyRestService.js";
 import { SlackService } from "@tsed-cms/usecases/slack/SlackService.js";
+import { StatsService } from "@tsed-cms/usecases/stats/StatsService.js";
+
+import { CliStatPayload } from "./schema/CliStatPayload.js";
 
 function getCategory(name: string) {
   if (name.startsWith("tsed-cli-") || name.startsWith("@tsed/cli")) {
@@ -120,6 +124,21 @@ export default defineEndpoint({
       const [url] = await Promise.all([slackService.get(), slackService.increment()]);
 
       return res.redirect(302, url);
+    });
+
+    router.post("/cli/stats", async (req, res) => {
+      const value = await validate(req.body, CliStatPayload);
+
+      inject(StatsService)
+        .create(value)
+        .catch((err) => {
+          logger().error({
+            event: "ERROR_STATS",
+            message: err.message
+          });
+        });
+
+      return res.status(201).send();
     });
   })
 });

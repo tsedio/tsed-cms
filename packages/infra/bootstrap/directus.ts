@@ -72,7 +72,10 @@ export function wrapEndpoint(callback: (router: Router, context: EndpointExtensi
               try {
                 return await handler(req, res);
               } catch (error: any) {
-                res.status(error.status || 500).send(error.message || "Internal Server Error");
+                res.status(error.status || 500).json({
+                  message: error.error_message || error.message || "Internal Server Error",
+                  errors: error.errors
+                });
 
                 $ctx.logger.error({
                   error_name: error.name,

@@ -1,3 +1,23 @@
+export interface CliInstallStat {
+  /** @primaryKey */
+  id: number;
+  user_created?: DirectusUser | string | null;
+  date_created?: string | null;
+  user_updated?: DirectusUser | string | null;
+  date_updated?: string | null;
+  tsed_version?: string | null;
+  platform?: string | null;
+  convention?: string | null;
+  package_manager?: string | null;
+  runtime?: string | null;
+  features?: string[] | null;
+  /** @required */
+  channel: "cli" | "mcp";
+  cli_version?: string | null;
+  is_success?: boolean | null;
+  os?: string | null;
+}
+
 export interface Maintainer {
   /** @primaryKey */
   id: string;
@@ -593,6 +613,7 @@ export interface DirectusExtension {
 }
 
 export interface Schema {
+  cli_install_stats: CliInstallStat[];
   maintainers: Maintainer[];
   packages: Package[];
   packages_maintainers: PackagesMaintainer[];
@@ -631,6 +652,7 @@ export interface Schema {
 }
 
 export enum CollectionNames {
+  cli_install_stats = "cli_install_stats",
   maintainers = "maintainers",
   packages = "packages",
   packages_maintainers = "packages_maintainers",

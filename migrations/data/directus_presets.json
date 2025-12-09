@@ -188,6 +188,53 @@
     "uuid": "5990ceea-5ce1-451f-a119-248de002975b"
   },
   {
+    "id": 34,
+    "bookmark": null,
+    "user": null,
+    "role": null,
+    "collection": "cli_install_stats",
+    "search": null,
+    "layout": "tabular",
+    "layout_query": {
+      "tabular": {
+        "page": 1,
+        "fields": [
+          "is_success",
+          "channel",
+          "cli_version",
+          "tsed_version",
+          "platform",
+          "convention",
+          "runtime",
+          "package_manager",
+          "features",
+          "date_created"
+        ]
+      }
+    },
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "is_success": 40.5,
+          "channel": 160,
+          "cli_version": 160,
+          "tsed_version": 160,
+          "platform": 160,
+          "convention": 160,
+          "runtime": 160,
+          "package_manager": 160,
+          "features": 160,
+          "date_created": 160
+        }
+      }
+    },
+    "refresh_interval": null,
+    "filter": null,
+    "icon": "bookmark",
+    "color": null,
+    "uuid": "c89393c2-a81d-4579-a0ab-3bd0ef908583"
+  },
+  {
     "id": 32,
     "bookmark": null,
     "user": null,

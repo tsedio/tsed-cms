@@ -1,6 +1,5 @@
-import { defineEndpoint } from "@directus/extensions-sdk";
 import { inject, logger } from "@tsed/di";
-import { wrapEndpoint } from "@tsed-cms/infra/bootstrap/directus.js";
+import { defineEndpoint } from "@tsed/directus-sdk";
 import { validate } from "@tsed-cms/infra/validators/validate.js";
 import { LegacyRestService } from "@tsed-cms/usecases/legacy/LegacyRestService.js";
 import { SlackService } from "@tsed-cms/usecases/slack/SlackService.js";
@@ -28,7 +27,7 @@ function getCategory(name: string) {
  */
 export default defineEndpoint({
   id: "rest",
-  handler: wrapEndpoint((router) => {
+  handler: (router) => {
     router.get("/github/:owner/:repo", async (req, res) => {
       const legacy = inject(LegacyRestService);
       const { owner, repo } = req.params as { owner: string; repo: string };
@@ -140,5 +139,5 @@ export default defineEndpoint({
 
       return res.status(201).send();
     });
-  })
+  }
 });

@@ -1,6 +1,5 @@
-import { defineOperationApi } from "@directus/extensions-sdk";
 import { inject } from "@tsed/di";
-import { wrapOperation } from "@tsed-cms/infra/bootstrap/directus.js";
+import { defineOperationApi } from "@tsed/directus-sdk";
 import type { Maintainer } from "@tsed-cms/infra/directus/interfaces/DirectusSchema.js";
 import { GitHubClient } from "@tsed-cms/infra/github/GitHubClient.js";
 import { getAllPages } from "@tsed-cms/infra/github/utils/getAllPages.js";
@@ -35,7 +34,7 @@ async function getUserEmail(username: string) {
 
 export default defineOperationApi<Options>({
   id: "tsed-flow-repositories",
-  handler: wrapOperation(async (_opts, _context) => {
+  handler: async (_opts, _context) => {
     const startedAt = Date.now();
 
     const github = inject(GitHubClient);
@@ -105,5 +104,5 @@ export default defineOperationApi<Options>({
       durationMs: Date.now() - startedAt,
       errors
     };
-  })
+  }
 });

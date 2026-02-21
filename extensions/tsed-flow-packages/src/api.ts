@@ -1,6 +1,5 @@
-import { defineOperationApi } from "@directus/extensions-sdk";
 import { inject } from "@tsed/di";
-import { wrapOperation } from "@tsed-cms/infra/bootstrap/directus.js";
+import { defineOperationApi } from "@tsed/directus-sdk";
 import type { Package } from "@tsed-cms/infra/directus/interfaces/DirectusSchema.js";
 import { GitHubClient } from "@tsed-cms/infra/github/GitHubClient.js";
 import { NpmClient } from "@tsed-cms/infra/npm/NpmClient.js";
@@ -55,7 +54,7 @@ function ownerAndPackageFromName(name: string | null | undefined): { owner: stri
 
 export default defineOperationApi<Options>({
   id: "tsed-flow-packages",
-  handler: wrapOperation(async (opts, _context) => {
+  handler: async (opts, _context) => {
     const startedAt = Date.now();
 
     const npm = inject(NpmClient);
@@ -152,5 +151,5 @@ export default defineOperationApi<Options>({
       durationMs: Date.now() - startedAt,
       errors
     };
-  })
+  }
 });

@@ -1,7 +1,6 @@
-import { defineOperationApi } from "@directus/extensions-sdk";
 import { cleanObject } from "@tsed/core";
 import { inject } from "@tsed/di";
-import { wrapOperation } from "@tsed-cms/infra/bootstrap/directus.js";
+import { defineOperationApi } from "@tsed/directus-sdk";
 import type { Sponsor } from "@tsed-cms/infra/directus/interfaces/DirectusSchema.js";
 import { GitHubClient } from "@tsed-cms/infra/github/GitHubClient.js";
 import { OpenCollectiveClient } from "@tsed-cms/infra/opencollective/OpenCollectiveClient.js";
@@ -114,7 +113,7 @@ function mapOpenCollective(member: any): Partial<Sponsor> & Pick<Sponsor, "login
 
 export default defineOperationApi<Options>({
   id: "tsed-flow-sponsors",
-  handler: wrapOperation(async (opts) => {
+  handler: async (opts) => {
     const startedAt = Date.now();
 
     const github = inject(GitHubClient);
@@ -186,5 +185,5 @@ export default defineOperationApi<Options>({
       durationMs: Date.now() - startedAt,
       errors
     };
-  })
+  }
 });

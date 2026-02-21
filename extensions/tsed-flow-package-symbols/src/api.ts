@@ -1,6 +1,5 @@
-import { defineOperationApi } from "@directus/extensions-sdk";
 import { inject } from "@tsed/di";
-import { wrapOperation } from "@tsed-cms/infra/bootstrap/directus.js";
+import { defineOperationApi } from "@tsed/directus-sdk";
 import type { Package } from "@tsed-cms/infra/directus/interfaces/DirectusSchema.js";
 import { HttpClient } from "@tsed-cms/infra/http/HttpClient.js";
 import { validate } from "@tsed-cms/infra/validators/validate.js";
@@ -30,7 +29,7 @@ async function ensurePackage(pkgName: string): Promise<Package> {
 
 export default defineOperationApi<Options>({
   id: "tsed-flow-package-symbols",
-  handler: wrapOperation(async (opts, context) => {
+  handler: async (opts, context) => {
     const startedAt = Date.now();
     const url = (opts?.url?.trim() || "https://tsed.dev/api.json").toString();
     const markdownUrl = (opts?.markdown_url?.trim() || "https://tsed.dev/ai/references").toString();
@@ -94,5 +93,5 @@ export default defineOperationApi<Options>({
       durationMs: Date.now() - startedAt,
       errors
     };
-  })
+  }
 });

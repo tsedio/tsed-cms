@@ -1,6 +1,5 @@
-import { defineOperationApi } from "@directus/extensions-sdk";
 import { inject } from "@tsed/di";
-import { wrapOperation } from "@tsed-cms/infra/bootstrap/directus.js";
+import { defineOperationApi } from "@tsed/directus-sdk";
 import type { Maintainer, Package } from "@tsed-cms/infra/directus/interfaces/DirectusSchema.js";
 import { LegacyApiClient, type WarehousePluginItem, type WarehousePluginMaintainer } from "@tsed-cms/infra/warehouse/LegacyApiClient.js";
 import { MaintainersService } from "@tsed-cms/usecases/maintainers/MaintainersService.js";
@@ -51,7 +50,7 @@ function mapPackage(plugin: WarehousePluginItem): Partial<Package> & Pick<Packag
 
 export default defineOperationApi<Options>({
   id: "tsed-flow-packages-importer",
-  handler: wrapOperation(async (_opts, _context) => {
+  handler: async (_opts, _context) => {
     const startedAt = Date.now();
 
     const legacyApiClient = inject(LegacyApiClient);
@@ -111,5 +110,5 @@ export default defineOperationApi<Options>({
       durationMs: Date.now() - startedAt,
       errors
     };
-  })
+  }
 });

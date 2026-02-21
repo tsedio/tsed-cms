@@ -1,5 +1,5 @@
 version: 1
-directus: 11.13.1
+directus: 11.15.4
 vendor: postgres
 collections:
   - collection: cli_install_stats
@@ -586,7 +586,7 @@ fields:
       readonly: false
       required: false
       searchable: true
-      sort: 11
+      sort: 12
       special: null
       translations: null
       validation: null
@@ -626,7 +626,7 @@ fields:
       readonly: false
       required: false
       searchable: true
-      sort: 12
+      sort: 13
       special: null
       translations: null
       validation: null
@@ -667,7 +667,7 @@ fields:
       readonly: false
       required: false
       searchable: true
-      sort: 13
+      sort: 14
       special:
         - cast-json
       translations: null
@@ -796,7 +796,7 @@ fields:
       readonly: false
       required: false
       searchable: true
-      sort: 14
+      sort: 15
       special:
         - cast-boolean
       translations: null
@@ -837,7 +837,7 @@ fields:
       readonly: false
       required: false
       searchable: true
-      sort: 15
+      sort: 16
       special: null
       translations: null
       validation: null
@@ -849,6 +849,86 @@ fields:
       data_type: character varying
       default_value: null
       max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cli_install_stats
+    field: style
+    type: string
+    meta:
+      collection: cli_install_stats
+      conditions: null
+      display: null
+      display_options: null
+      field: style
+      group: null
+      hidden: false
+      interface: input
+      note: null
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 11
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: style
+      table: cli_install_stats
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: cli_install_stats
+    field: error_message
+    type: text
+    meta:
+      collection: cli_install_stats
+      conditions: null
+      display: null
+      display_options: null
+      field: error_message
+      group: null
+      hidden: false
+      interface: input-multiline
+      note: null
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 17
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: error_message
+      table: cli_install_stats
+      data_type: text
+      default_value: null
+      max_length: null
       numeric_precision: null
       numeric_scale: null
       is_nullable: true
@@ -5033,6 +5113,10 @@ fields:
 systemFields:
   - collection: directus_activity
     field: timestamp
+    schema:
+      is_indexed: true
+  - collection: directus_revisions
+    field: activity
     schema:
       is_indexed: true
   - collection: directus_revisions

@@ -12,5 +12,6 @@ export const CliStatPayload = s.object({
   cli_version: s.string().required(),
   os: s.string().required(),
   is_success: s.boolean().required(),
+  error_name: s.string().optional(),
   error_message: s.string().optional()
 });

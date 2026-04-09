@@ -4,7 +4,7 @@ export const CliStatPayload = s.object({
   tsed_version: s.string().required(),
   platform: s.string().required(),
   convention: s.string().required(),
-  style: s.string().optional(),
+  style: s.string(),
   package_manager: s.string().required(),
   runtime: s.string().required(),
   features: s.array(s.string()),

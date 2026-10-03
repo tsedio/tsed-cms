@@ -72,7 +72,7 @@
     "node": ">=22.0.0"
   },
   "dependencies": {
-    "@directus/sdk": "20.0.0",
+    "@directus/sdk": "26.0.0",
     "@nx/devkit": "18.1.3",
     "@nx/eslint": "18.1.3",
     "@nx/jest": "18.1.3",
@@ -81,22 +81,22 @@
     "@nx/workspace": "18.1.3",
     "@octokit/rest": "^22.0.1",
     "@octokit/types": "^16.0.0",
-    "@tsed/ajv": "8.25.1",
-    "@tsed/config": "8.25.1",
-    "@tsed/core": "8.25.1",
-    "@tsed/di": "8.25.1",
-    "@tsed/directus-sdk": "8.25.1",
-    "@tsed/exceptions": "8.25.1",
-    "@tsed/hooks": "8.25.1",
-    "@tsed/json-mapper": "8.25.1",
-    "@tsed/logger": "8.0.4",
-    "@tsed/logger-connect": "8.0.4",
-    "@tsed/openspec": "8.25.1",
-    "@tsed/schema": "8.25.1",
+    "@tsed/ajv": "8.41.0",
+    "@tsed/config": "8.41.0",
+    "@tsed/core": "8.41.0",
+    "@tsed/di": "8.41.0",
+    "@tsed/directus-sdk": "8.41.0",
+    "@tsed/exceptions": "8.41.0",
+    "@tsed/hooks": "8.41.0",
+    "@tsed/json-mapper": "8.41.0",
+    "@tsed/logger": "8.0.7",
+    "@tsed/logger-connect": "8.0.7",
+    "@tsed/openspec": "8.41.0",
+    "@tsed/schema": "8.41.0",
     "ajv": "8.17.1",
     "axios": "1.13.1",
     "axios-retry": "4.5.0",
-    "directus": "11.15.4",
+    "directus": "12.4.1",
     "dotenv": "16.5.0",
     "dotenv-expand": "12.0.2",
     "dotenv-flow": "4.1.0",
@@ -111,7 +111,7 @@
   "devDependencies": {
     "@commitlint/cli": "19.8.1",
     "@commitlint/config-conventional": "19.8.1",
-    "@directus/extensions-sdk": "17.0.1",
+    "@directus/extensions-sdk": "18.0.5",
     "@semantic-release/commit-analyzer": "13.0.1",
     "@semantic-release/gitlab": "13.2.4",
     "@swc-node/core": "^1.13.3",
@@ -182,5 +182,8 @@
     "developBranch": "main",
     "npmAccess": "public",
     "skipNpmPublish": true
+  },
+  "resolutions": {
+    "isolated-vm": "7.0.1"
   }
 }

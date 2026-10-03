@@ -1,5 +1,5 @@
+import { validate } from "@tsed/ajv";
 import { catchAsyncError } from "@tsed/core";
-import { validate } from "@tsed-cms/infra/validators/validate.js";
 
 import { CliStatPayload } from "./CliStatPayload.js";
 

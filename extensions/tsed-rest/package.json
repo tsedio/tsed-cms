@@ -16,7 +16,7 @@
     "type": "endpoint",
     "path": "dist/index.js",
     "source": "src/index.ts",
-    "host": "^11.0.0"
+    "host": "^12.0.0"
   },
   "scripts": {
     "build": "directus-extension build",
@@ -25,6 +25,6 @@
     "add": "directus-extension add"
   },
   "devDependencies": {
-    "@directus/extensions-sdk": "17.0.1"
+    "@directus/extensions-sdk": "18.0.5"
   }
 }

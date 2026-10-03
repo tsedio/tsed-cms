@@ -1,8 +1,8 @@
+import { validate } from "@tsed/ajv";
 import { inject } from "@tsed/di";
 import { defineOperationApi } from "@tsed/directus-sdk";
 import type { Package } from "@tsed-cms/infra/directus/interfaces/DirectusSchema.js";
 import { HttpClient } from "@tsed-cms/infra/http/HttpClient.js";
-import { validate } from "@tsed-cms/infra/validators/validate.js";
 import { PackageSymbolsService } from "@tsed-cms/usecases/package-symbols/PackageSymbolsService.js";
 import { PackagesService } from "@tsed-cms/usecases/packages/PackagesService.js";
 

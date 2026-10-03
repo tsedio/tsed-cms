@@ -22,7 +22,7 @@
       "app": "src/app.ts",
       "api": "src/api.ts"
     },
-    "host": "^10.10.0"
+    "host": "^12.0.0"
   },
   "scripts": {
     "build": "directus-extension build",
@@ -31,6 +31,6 @@
     "add": "directus-extension add"
   },
   "devDependencies": {
-    "@directus/extensions-sdk": "17.0.1"
+    "@directus/extensions-sdk": "18.0.5"
   }
 }

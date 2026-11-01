@@ -48,5 +48,25 @@
     "presets": null,
     "fields": "*",
     "policy": "74510869-8ddd-4b7b-958c-c9719024f594"
+  },
+  {
+    "id": 417,
+    "collection": "benchmark_runs",
+    "action": "create",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": "*",
+    "policy": "7564900b-e161-47ae-ab23-072ce593e49d"
+  },
+  {
+    "id": 418,
+    "collection": "benchmark_results",
+    "action": "create",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": "*",
+    "policy": "7564900b-e161-47ae-ab23-072ce593e49d"
   }
 ]

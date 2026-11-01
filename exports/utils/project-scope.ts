@@ -8,7 +8,7 @@ import path from "node:path";
 /** Roles exported in addition to the schema based filters. The Administrator role is never exported. */
 export const PROJECT_ROLES = ["API - readOnly"];
 /** Policies exported in addition to the schema based filters. Administrator and Public are never exported. */
-export const PROJECT_POLICIES = ["ReadOnly"];
+export const PROJECT_POLICIES = ["ReadOnly", "Benchmark publisher"];
 
 const ROOT_DIRECTORY = path.join(import.meta.dirname, "../..");
 

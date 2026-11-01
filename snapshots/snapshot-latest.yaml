@@ -2,6 +2,60 @@ version: 1
 directus: 12.4.1
 vendor: postgres
 collections:
+  - collection: benchmark_results
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      autosave_revision_interval: null
+      collapse: open
+      collection: benchmark_results
+      color: '#6644FF'
+      display_template: '{{target}} · {{platform}} · {{route}}'
+      group: null
+      hidden: false
+      icon: leaderboard
+      item_duplication_fields: null
+      note: 'Benchmark results: one row per run, target, platform and route'
+      preview_url: null
+      singleton: false
+      sort: null
+      sort_field: null
+      status: active
+      translations: null
+      unarchive_value: null
+      versioning: false
+    schema:
+      name: benchmark_results
+  - collection: benchmark_runs
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      autosave_revision_interval: null
+      collapse: open
+      collection: benchmark_runs
+      color: '#6644FF'
+      display_template: '{{title}}'
+      group: null
+      hidden: false
+      icon: speed
+      item_duplication_fields: null
+      note: >-
+        HTTP benchmark runs of Ts.ED (tools/benchmarks), pushed by the Benchmark
+        workflow
+      preview_url: null
+      singleton: false
+      sort: null
+      sort_field: null
+      status: active
+      translations: null
+      unarchive_value: null
+      versioning: false
+    schema:
+      name: benchmark_runs
   - collection: cli_install_stats
     meta:
       accountability: all
@@ -261,6 +315,2423 @@ collections:
       unarchive_value: null
       versioning: false
 fields:
+  - collection: benchmark_results
+    field: id
+    type: integer
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: input
+      note: null
+      options: null
+      readonly: true
+      required: false
+      searchable: true
+      sort: 1
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: id
+      table: benchmark_results
+      data_type: integer
+      default_value: nextval('benchmark_results_id_seq'::regclass)
+      max_length: null
+      numeric_precision: 32
+      numeric_scale: 0
+      is_nullable: false
+      is_unique: true
+      is_indexed: false
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: true
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: run
+    type: uuid
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: related-values
+      display_options:
+        template: '{{title}}'
+      field: run
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options:
+        template: '{{title}}'
+      readonly: false
+      required: true
+      searchable: true
+      sort: 2
+      special:
+        - m2o
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: run
+      table: benchmark_results
+      data_type: uuid
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: benchmark_runs
+      foreign_key_column: id
+  - collection: benchmark_results
+    field: date
+    type: timestamp
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: datetime
+      display_options: null
+      field: date
+      group: null
+      hidden: false
+      interface: datetime
+      note: Date of the run (copied for the charts)
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 3
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: date
+      table: benchmark_results
+      data_type: timestamp with time zone
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: target
+    type: string
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: null
+      display_options: null
+      field: target
+      group: null
+      hidden: false
+      interface: input
+      note: Target name (8.44.12, local, local-head, raw)
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 4
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: target
+      table: benchmark_results
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: target_kind
+    type: string
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: labels
+      display_options: null
+      field: target_kind
+      group: null
+      hidden: false
+      interface: select-dropdown
+      note: version, local or raw
+      options:
+        choices:
+          - text: version
+            value: version
+          - text: local
+            value: local
+          - text: raw
+            value: raw
+      readonly: false
+      required: false
+      searchable: true
+      sort: 5
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: target_kind
+      table: benchmark_results
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: target_version
+    type: string
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: null
+      display_options: null
+      field: target_version
+      group: null
+      hidden: false
+      interface: input
+      note: Version of a published target
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 6
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: target_version
+      table: benchmark_results
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: is_baseline
+    type: boolean
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: null
+      display_options: null
+      field: is_baseline
+      group: null
+      hidden: false
+      interface: boolean
+      note: Target the others are compared to
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 7
+      special:
+        - cast-boolean
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: is_baseline
+      table: benchmark_results
+      data_type: boolean
+      default_value: false
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: platform
+    type: string
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: labels
+      display_options: null
+      field: platform
+      group: null
+      hidden: false
+      interface: select-dropdown
+      note: HTTP platform
+      options:
+        choices:
+          - text: express
+            value: express
+          - text: koa
+            value: koa
+          - text: fastify
+            value: fastify
+      readonly: false
+      required: false
+      searchable: true
+      sort: 8
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: platform
+      table: benchmark_results
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: route
+    type: string
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: labels
+      display_options: null
+      field: route
+      group: null
+      hidden: false
+      interface: select-dropdown
+      note: Measured route, or startup
+      options:
+        choices:
+          - text: hello
+            value: hello
+          - text: users
+            value: users
+          - text: orders-create
+            value: orders-create
+          - text: orders-list
+            value: orders-list
+          - text: startup
+            value: startup
+      readonly: false
+      required: false
+      searchable: true
+      sort: 9
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: route
+      table: benchmark_results
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: rps
+    type: float
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: formatted-value
+      display_options:
+        decimals: 0
+      field: rps
+      group: null
+      hidden: false
+      interface: input
+      note: Median requests per second
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 10
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: rps
+      table: benchmark_results
+      data_type: real
+      default_value: null
+      max_length: null
+      numeric_precision: 24
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: p50
+    type: float
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: formatted-value
+      display_options:
+        decimals: 1
+      field: p50
+      group: null
+      hidden: false
+      interface: input
+      note: Median latency p50 (ms)
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 11
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: p50
+      table: benchmark_results
+      data_type: real
+      default_value: null
+      max_length: null
+      numeric_precision: 24
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: p99
+    type: float
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: formatted-value
+      display_options:
+        decimals: 1
+      field: p99
+      group: null
+      hidden: false
+      interface: input
+      note: Median latency p99 (ms)
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 12
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: p99
+      table: benchmark_results
+      data_type: real
+      default_value: null
+      max_length: null
+      numeric_precision: 24
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: cpu_per_request
+    type: float
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: formatted-value
+      display_options:
+        decimals: 1
+      field: cpu_per_request
+      group: null
+      hidden: false
+      interface: input
+      note: Median server CPU time per request (µs)
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 13
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: cpu_per_request
+      table: benchmark_results
+      data_type: real
+      default_value: null
+      max_length: null
+      numeric_precision: 24
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: errors
+    type: integer
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: null
+      display_options: null
+      field: errors
+      group: null
+      hidden: false
+      interface: input
+      note: Failed requests over the rounds
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 14
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: errors
+      table: benchmark_results
+      data_type: integer
+      default_value: null
+      max_length: null
+      numeric_precision: 32
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: startup_ms
+    type: float
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: formatted-value
+      display_options:
+        decimals: 1
+      field: startup_ms
+      group: null
+      hidden: false
+      interface: input
+      note: Median cold start to the first 200 (ms), startup rows only
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 15
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: startup_ms
+      table: benchmark_results
+      data_type: real
+      default_value: null
+      max_length: null
+      numeric_precision: 24
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: share_of_raw
+    type: float
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: formatted-value
+      display_options:
+        decimals: 1
+      field: share_of_raw
+      group: null
+      hidden: false
+      interface: input
+      note: req/s of Ts.ED as a % of the same platform without Ts.ED (hello only)
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 16
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: share_of_raw
+      table: benchmark_results
+      data_type: real
+      default_value: null
+      max_length: null
+      numeric_precision: 24
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: gap_rps
+    type: float
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: formatted-value
+      display_options:
+        decimals: 1
+      field: gap_rps
+      group: null
+      hidden: false
+      interface: input
+      note: Gap of req/s against the baseline, in % (positive is better)
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 17
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: gap_rps
+      table: benchmark_results
+      data_type: real
+      default_value: null
+      max_length: null
+      numeric_precision: 24
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: gap_rps_low
+    type: float
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: formatted-value
+      display_options:
+        decimals: 1
+      field: gap_rps_low
+      group: null
+      hidden: false
+      interface: input
+      note: Low bound of the 95% interval, in %
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 18
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: gap_rps_low
+      table: benchmark_results
+      data_type: real
+      default_value: null
+      max_length: null
+      numeric_precision: 24
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: gap_rps_high
+    type: float
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: formatted-value
+      display_options:
+        decimals: 1
+      field: gap_rps_high
+      group: null
+      hidden: false
+      interface: input
+      note: High bound of the 95% interval, in %
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 19
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: gap_rps_high
+      table: benchmark_results
+      data_type: real
+      default_value: null
+      max_length: null
+      numeric_precision: 24
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: gap_rps_significant
+    type: boolean
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: null
+      display_options: null
+      field: gap_rps_significant
+      group: null
+      hidden: false
+      interface: boolean
+      note: The 95% interval does not contain 0
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 20
+      special:
+        - cast-boolean
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: gap_rps_significant
+      table: benchmark_results
+      data_type: boolean
+      default_value: false
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: gap_p99
+    type: float
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: formatted-value
+      display_options:
+        decimals: 1
+      field: gap_p99
+      group: null
+      hidden: false
+      interface: input
+      note: Gap of p99 latency against the baseline, in % (positive is better)
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 21
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: gap_p99
+      table: benchmark_results
+      data_type: real
+      default_value: null
+      max_length: null
+      numeric_precision: 24
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: gap_p99_low
+    type: float
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: formatted-value
+      display_options:
+        decimals: 1
+      field: gap_p99_low
+      group: null
+      hidden: false
+      interface: input
+      note: Low bound of the 95% interval, in %
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 22
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: gap_p99_low
+      table: benchmark_results
+      data_type: real
+      default_value: null
+      max_length: null
+      numeric_precision: 24
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: gap_p99_high
+    type: float
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: formatted-value
+      display_options:
+        decimals: 1
+      field: gap_p99_high
+      group: null
+      hidden: false
+      interface: input
+      note: High bound of the 95% interval, in %
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 23
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: gap_p99_high
+      table: benchmark_results
+      data_type: real
+      default_value: null
+      max_length: null
+      numeric_precision: 24
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: gap_p99_significant
+    type: boolean
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: null
+      display_options: null
+      field: gap_p99_significant
+      group: null
+      hidden: false
+      interface: boolean
+      note: The 95% interval does not contain 0
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 24
+      special:
+        - cast-boolean
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: gap_p99_significant
+      table: benchmark_results
+      data_type: boolean
+      default_value: false
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: gap_cpu
+    type: float
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: formatted-value
+      display_options:
+        decimals: 1
+      field: gap_cpu
+      group: null
+      hidden: false
+      interface: input
+      note: Gap of CPU per request against the baseline, in % (positive is better)
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 25
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: gap_cpu
+      table: benchmark_results
+      data_type: real
+      default_value: null
+      max_length: null
+      numeric_precision: 24
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: gap_cpu_low
+    type: float
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: formatted-value
+      display_options:
+        decimals: 1
+      field: gap_cpu_low
+      group: null
+      hidden: false
+      interface: input
+      note: Low bound of the 95% interval, in %
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 26
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: gap_cpu_low
+      table: benchmark_results
+      data_type: real
+      default_value: null
+      max_length: null
+      numeric_precision: 24
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: gap_cpu_high
+    type: float
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: formatted-value
+      display_options:
+        decimals: 1
+      field: gap_cpu_high
+      group: null
+      hidden: false
+      interface: input
+      note: High bound of the 95% interval, in %
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 27
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: gap_cpu_high
+      table: benchmark_results
+      data_type: real
+      default_value: null
+      max_length: null
+      numeric_precision: 24
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: gap_cpu_significant
+    type: boolean
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: null
+      display_options: null
+      field: gap_cpu_significant
+      group: null
+      hidden: false
+      interface: boolean
+      note: The 95% interval does not contain 0
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 28
+      special:
+        - cast-boolean
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: gap_cpu_significant
+      table: benchmark_results
+      data_type: boolean
+      default_value: false
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: gap_startup
+    type: float
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: formatted-value
+      display_options:
+        decimals: 1
+      field: gap_startup
+      group: null
+      hidden: false
+      interface: input
+      note: Gap of cold start against the baseline, in % (positive is better)
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 29
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: gap_startup
+      table: benchmark_results
+      data_type: real
+      default_value: null
+      max_length: null
+      numeric_precision: 24
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: gap_startup_low
+    type: float
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: formatted-value
+      display_options:
+        decimals: 1
+      field: gap_startup_low
+      group: null
+      hidden: false
+      interface: input
+      note: Low bound of the 95% interval, in %
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 30
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: gap_startup_low
+      table: benchmark_results
+      data_type: real
+      default_value: null
+      max_length: null
+      numeric_precision: 24
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: gap_startup_high
+    type: float
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: formatted-value
+      display_options:
+        decimals: 1
+      field: gap_startup_high
+      group: null
+      hidden: false
+      interface: input
+      note: High bound of the 95% interval, in %
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 31
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: gap_startup_high
+      table: benchmark_results
+      data_type: real
+      default_value: null
+      max_length: null
+      numeric_precision: 24
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_results
+    field: gap_startup_significant
+    type: boolean
+    meta:
+      collection: benchmark_results
+      conditions: null
+      display: null
+      display_options: null
+      field: gap_startup_significant
+      group: null
+      hidden: false
+      interface: boolean
+      note: The 95% interval does not contain 0
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 32
+      special:
+        - cast-boolean
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: gap_startup_significant
+      table: benchmark_results
+      data_type: boolean
+      default_value: false
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: id
+    type: uuid
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: input
+      note: null
+      options: null
+      readonly: true
+      required: false
+      searchable: true
+      sort: 1
+      special:
+        - uuid
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: id
+      table: benchmark_runs
+      data_type: uuid
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: false
+      is_unique: true
+      is_indexed: false
+      is_primary_key: true
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: date_created
+    type: timestamp
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: datetime
+      display_options:
+        relative: true
+      field: date_created
+      group: null
+      hidden: true
+      interface: datetime
+      note: null
+      options: null
+      readonly: true
+      required: false
+      searchable: true
+      sort: 2
+      special:
+        - date-created
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: date_created
+      table: benchmark_runs
+      data_type: timestamp with time zone
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: date
+    type: timestamp
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: datetime
+      display_options: null
+      field: date
+      group: null
+      hidden: false
+      interface: datetime
+      note: Date of the run (results.json)
+      options: null
+      readonly: false
+      required: true
+      searchable: true
+      sort: 3
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: date
+      table: benchmark_runs
+      data_type: timestamp with time zone
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: title
+    type: string
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: null
+      display_options: null
+      field: title
+      group: null
+      hidden: false
+      interface: input
+      note: Pull request title, or the compared targets
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 4
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: title
+      table: benchmark_runs
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: status
+    type: string
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: labels
+      display_options: null
+      field: status
+      group: null
+      hidden: false
+      interface: select-dropdown
+      note: failed when a target failed the response check
+      options:
+        choices:
+          - text: success
+            value: success
+          - text: failed
+            value: failed
+      readonly: false
+      required: false
+      searchable: true
+      sort: 5
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: status
+      table: benchmark_runs
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: trigger
+    type: string
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: labels
+      display_options: null
+      field: trigger
+      group: null
+      hidden: false
+      interface: select-dropdown
+      note: GitHub event (pull_request, workflow_dispatch) or local
+      options:
+        choices:
+          - text: pull_request
+            value: pull_request
+          - text: workflow_dispatch
+            value: workflow_dispatch
+          - text: local
+            value: local
+      readonly: false
+      required: false
+      searchable: true
+      sort: 6
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: trigger
+      table: benchmark_runs
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: git_ref
+    type: string
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: null
+      display_options: null
+      field: git_ref
+      group: null
+      hidden: false
+      interface: input
+      note: Branch of the measured head
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 7
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: git_ref
+      table: benchmark_runs
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: git_sha
+    type: string
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: null
+      display_options: null
+      field: git_sha
+      group: null
+      hidden: false
+      interface: input
+      note: Commit of the measured head
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 8
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: git_sha
+      table: benchmark_runs
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: pr_number
+    type: integer
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: null
+      display_options: null
+      field: pr_number
+      group: null
+      hidden: false
+      interface: input
+      note: Pull request number
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 9
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: pr_number
+      table: benchmark_runs
+      data_type: integer
+      default_value: null
+      max_length: null
+      numeric_precision: 32
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: run_url
+    type: string
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: formatted-value
+      display_options: null
+      field: run_url
+      group: null
+      hidden: false
+      interface: input
+      note: GitHub Actions run
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 10
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: run_url
+      table: benchmark_runs
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: baseline
+    type: string
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: null
+      display_options: null
+      field: baseline
+      group: null
+      hidden: false
+      interface: input
+      note: Target the others are compared to
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 11
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: baseline
+      table: benchmark_runs
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: targets
+    type: string
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: null
+      display_options: null
+      field: targets
+      group: null
+      hidden: false
+      interface: input
+      note: Comma-separated targets, baseline first
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 12
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: targets
+      table: benchmark_runs
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: platforms
+    type: string
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: null
+      display_options: null
+      field: platforms
+      group: null
+      hidden: false
+      interface: input
+      note: Comma-separated platforms
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 13
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: platforms
+      table: benchmark_runs
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: routes
+    type: string
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: null
+      display_options: null
+      field: routes
+      group: null
+      hidden: false
+      interface: input
+      note: Comma-separated routes
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 14
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: routes
+      table: benchmark_runs
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: rounds
+    type: integer
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: null
+      display_options: null
+      field: rounds
+      group: null
+      hidden: false
+      interface: input
+      note: Interleaved rounds
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 15
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: rounds
+      table: benchmark_runs
+      data_type: integer
+      default_value: null
+      max_length: null
+      numeric_precision: 32
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: duration
+    type: integer
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: null
+      display_options: null
+      field: duration
+      group: null
+      hidden: false
+      interface: input
+      note: Measured seconds per route and round
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 16
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: duration
+      table: benchmark_runs
+      data_type: integer
+      default_value: null
+      max_length: null
+      numeric_precision: 32
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: warmup
+    type: integer
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: null
+      display_options: null
+      field: warmup
+      group: null
+      hidden: false
+      interface: input
+      note: Warmup seconds per route
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 17
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: warmup
+      table: benchmark_runs
+      data_type: integer
+      default_value: null
+      max_length: null
+      numeric_precision: 32
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: connections
+    type: integer
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: null
+      display_options: null
+      field: connections
+      group: null
+      hidden: false
+      interface: input
+      note: autocannon connections
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 18
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: connections
+      table: benchmark_runs
+      data_type: integer
+      default_value: null
+      max_length: null
+      numeric_precision: 32
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: seed
+    type: bigInteger
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: null
+      display_options: null
+      field: seed
+      group: null
+      hidden: false
+      interface: input
+      note: Seed of the measurement order
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 19
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: seed
+      table: benchmark_runs
+      data_type: bigint
+      default_value: null
+      max_length: null
+      numeric_precision: 64
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: node
+    type: string
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: null
+      display_options: null
+      field: node
+      group: null
+      hidden: false
+      interface: input
+      note: Node.js version
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 20
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: node
+      table: benchmark_runs
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: os
+    type: string
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: null
+      display_options: null
+      field: os
+      group: null
+      hidden: false
+      interface: input
+      note: Operating system
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 21
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: os
+      table: benchmark_runs
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: cpu
+    type: string
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: null
+      display_options: null
+      field: cpu
+      group: null
+      hidden: false
+      interface: input
+      note: CPU model
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 22
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: cpu
+      table: benchmark_runs
+      data_type: character varying
+      default_value: null
+      max_length: 255
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: cores
+    type: integer
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: null
+      display_options: null
+      field: cores
+      group: null
+      hidden: false
+      interface: input
+      note: CPU cores
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 23
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: cores
+      table: benchmark_runs
+      data_type: integer
+      default_value: null
+      max_length: null
+      numeric_precision: 32
+      numeric_scale: 0
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: pinned
+    type: boolean
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: null
+      display_options: null
+      field: pinned
+      group: null
+      hidden: false
+      interface: boolean
+      note: >-
+        Server pinned on its own core (taskset): gaps under ~3% are only
+        reliable when true
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 24
+      special:
+        - cast-boolean
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      name: pinned
+      table: benchmark_runs
+      data_type: boolean
+      default_value: false
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: report
+    type: text
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: formatted-value
+      display_options: null
+      field: report
+      group: null
+      hidden: false
+      interface: input-rich-text-md
+      note: Markdown report of the run
+      options: null
+      readonly: false
+      required: false
+      searchable: true
+      sort: 25
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: report
+      table: benchmark_runs
+      data_type: text
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: raw_results
+    type: json
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: null
+      display_options: null
+      field: raw_results
+      group: null
+      hidden: false
+      interface: input-code
+      note: Raw results.json
+      options:
+        language: JSON
+      readonly: false
+      required: false
+      searchable: true
+      sort: 26
+      special:
+        - cast-json
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      name: raw_results
+      table: benchmark_runs
+      data_type: json
+      default_value: null
+      max_length: null
+      numeric_precision: null
+      numeric_scale: null
+      is_nullable: true
+      is_unique: false
+      is_indexed: false
+      is_primary_key: false
+      is_generated: false
+      generation_expression: null
+      has_auto_increment: false
+      foreign_key_table: null
+      foreign_key_column: null
+  - collection: benchmark_runs
+    field: results
+    type: alias
+    meta:
+      collection: benchmark_runs
+      conditions: null
+      display: related-values
+      display_options:
+        template: '{{target}} · {{platform}} · {{route}}'
+      field: results
+      group: null
+      hidden: false
+      interface: list-o2m
+      note: Results of the run
+      options:
+        template: '{{target}} · {{platform}} · {{route}} · {{rps}} req/s'
+      readonly: false
+      required: false
+      searchable: true
+      sort: 27
+      special:
+        - o2m
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
   - collection: cli_install_stats
     field: id
     type: integer
@@ -5220,6 +7691,27 @@ systemFields:
     schema:
       is_indexed: true
 relations:
+  - collection: benchmark_results
+    field: run
+    related_collection: benchmark_runs
+    meta:
+      junction_field: null
+      many_collection: benchmark_results
+      many_field: run
+      one_allowed_collections: null
+      one_collection: benchmark_runs
+      one_collection_field: null
+      one_deselect_action: delete
+      one_field: results
+      sort_field: null
+    schema:
+      table: benchmark_results
+      column: run
+      foreign_key_table: benchmark_runs
+      foreign_key_column: id
+      constraint_name: benchmark_results_run_foreign
+      on_update: NO ACTION
+      on_delete: CASCADE
   - collection: cli_install_stats
     field: user_created
     related_collection: directus_users

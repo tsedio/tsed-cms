@@ -40,6 +40,7 @@ A Directus CMS project deployed on [Render](https://render.com/) from its Docker
 - [Project Structure](#project-structure)
 - [TypeScript Migrations](#typescript-migrations)
 - [Adding Collections with Proper Permissions](#adding-collections-with-proper-permissions)
+- [HTTP Benchmarks](#http-benchmarks)
 - [Yarn Berry](#yarn-berry)
 - [Contributing](#contributing)
   - [Git Hooks](#git-hooks)
@@ -424,6 +425,29 @@ export async function down(knex: Knex): Promise<void> {
 ```
 
 After creating the migration script, run `yarn migrate:dev` to apply the changes to your development environment.
+
+## HTTP Benchmarks
+
+The **Benchmark** workflow of [tsedio/tsed](https://github.com/tsedio/tsed) (`tools/benchmarks`) pushes each run here
+with `yarn bench:publish`:
+
+- `benchmark_runs`: one item per run (trigger, pull request, commit, workflow run URL, config, machine, CPU pinning,
+  Markdown report, raw `results.json` in `raw_results`). Deleting a run deletes its results.
+- `benchmark_results`: one row per run, target, platform and route (`hello`, `users`, `orders-create`, `orders-list`,
+  `startup`): medians of req/s, p50, p99, CPU µs per request and cold start, the gap against the baseline of the run in %
+  (positive is better) with its 95% interval and significance, and for `hello` the share of the raw platform without
+  Ts.ED.
+- **Benchmarks** Insights dashboard (`imports/data/directus-dashboards/benchmarks--*.json`): key figures, latest runs and
+  regressions, a run and route selector, and trends over runs. Trends only plot relative values (gaps, share of the raw
+  ceiling): absolute req/s depend on the CI machine.
+
+The workflow uses the `DIRECTUS_TOKEN` organization secret. Its user needs the **Benchmark publisher** policy (create
+only on both collections, installed by the `*-update-all.ts` migration): Settings → Users → that user → Policies → add
+**Benchmark publisher**. To publish a local run:
+
+```bash
+DIRECTUS_URL=http://localhost:8055 DIRECTUS_TOKEN=<token> yarn bench:publish tools/benchmarks/results/<date>/results.json
+```
 
 ## Custom Extensions
 

@@ -270,7 +270,7 @@ yarn import:data:dev                          # prompt: all, data bundles, then 
 yarn import:data:dev 10-import-packages-data  # run one script without prompt
 ```
 
-### Roles, permissions, flows and presets
+### Roles, permissions, flows, presets and dashboards
 
 These system collections can also be synced between environments through the REST API:
 
@@ -279,19 +279,20 @@ These system collections can also be synced between environments through the RES
 | `export-roles-permissions.ts` | `directus-roles`, `directus-policies`, `directus-permissions`, `directus-access` | `12-import-roles-permissions.ts` |
 | `export-flows.ts`             | `directus-flows` (one file per flow, operations embedded)                        | `13-import-flows.ts`             |
 | `export-presets.ts`           | `directus-presets` (global presets only)                                         | `14-import-presets.ts`           |
+| `export-dashboards.ts`        | `directus-dashboards` (one file per Insights dashboard, panels embedded)         | `16-import-dashboards.ts`        |
 
-`15-import-system-data.ts` runs the three imports. Notes:
+`15-import-system-data.ts` runs these imports. Notes:
 
 - Only this project's data is exported (`exports/utils/project-scope.ts`), since a Directus database may hold data of
   other projects: permissions and presets of collections declared in `snapshots/snapshot-latest.yaml` (or `directus_*`),
-  flows whose collections and operations belong to this repo, and the roles/policies listed in `PROJECT_ROLES` /
+  flows whose collections and operations belong to this repo, dashboards whose panels use project collections, and the roles/policies listed in `PROJECT_ROLES` /
   `PROJECT_POLICIES`. The same scope applies to `yarn export:system:collections`.
 - The Administrator role and policy are not exported. The Administrator role and Public policy ids are written as
   `{{ID_ROLE_ADMINISTRATOR}}` / `{{ID_POLICY_PUBLIC}}` and resolved to the target ids on import.
 - Permissions and presets have auto-increment ids, so they are matched on `policy + collection + action` and on
   `uuid` / `collection + bookmark`. Roles and policies are matched on id, then on name.
 - Only role accesses are exported (user accesses depend on the environment users).
-- Operations of an imported flow that are not in the export are deleted. From the prompt, `13-import-flows` asks which
+- Operations of an imported flow and panels of an imported dashboard that are not in the export are deleted. From the prompt, `13-import-flows` asks which
   flows to import.
 
 ### System collections (migration)

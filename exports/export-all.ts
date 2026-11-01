@@ -1,6 +1,7 @@
 import type { DIRECTUS_SERVICE } from "@tsed-cms/infra/directus/DirectusService.js";
 import { logger } from "@tsed/di";
 
+import exportDashboards from "./export-dashboards.js";
 import exportFlows from "./export-flows.js";
 import exportMaintainers from "./export-maintainers.js";
 import exportPackageSymbols from "./export-package-symbols.js";
@@ -23,6 +24,7 @@ const EXPORT_SCRIPTS: ReadonlyArray<readonly [string, ExportScript]> = [
   ["export-roles-permissions.ts", exportRolesPermissions],
   ["export-flows.ts", exportFlows],
   ["export-presets.ts", exportPresets],
+  ["export-dashboards.ts", exportDashboards],
   ["export-system-collections.ts", exportSystemCollections]
 ];
 

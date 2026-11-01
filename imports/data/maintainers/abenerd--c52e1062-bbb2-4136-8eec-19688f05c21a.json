@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "c52e1062-bbb2-4136-8eec-19688f05c21a",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.431Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:02.382Z",
+      "username": "abenerd",
+      "email": "me@abenet.email",
+      "avatar": "https://avatars.githubusercontent.com/u/7523903?v=4",
+      "url": "https://github.com/abenerd"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.734Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

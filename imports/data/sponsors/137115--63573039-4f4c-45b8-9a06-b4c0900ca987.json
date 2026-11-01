@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "63573039-4f4c-45b8-9a06-b4c0900ca987",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2025-11-03T09:36:23.851Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:01.324Z",
+      "source": "open_collective",
+      "name": "Frederick Gnodtke",
+      "type": "user",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": "https://cronosx.de",
+      "profile": "https://opencollective.com/frederick-gnodtke",
+      "avatar": null,
+      "last_transaction_at": "2022-06-01T15:00:00",
+      "total_amount_donated": 100,
+      "currency": "USD",
+      "last_transaction_amount": 5,
+      "visibility": "public",
+      "tier": "The supporter",
+      "grade": "supporter",
+      "first_transaction_at": "2020-10-31T12:10:00",
+      "login": "137115"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.268Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

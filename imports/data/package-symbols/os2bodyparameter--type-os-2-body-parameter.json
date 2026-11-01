@@ -1,0 +1,32 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "type-os-2-body-parameter",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:41.575Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:07:05.084Z",
+      "name": "OS2BodyParameter",
+      "doc_url": "https://tsed.dev/api/specs/openspec/types/openspec2/type-os-2-body-parameter",
+      "package": "62febcfd-4d8a-47de-a24f-2036464c749f",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "private",
+        "stable"
+      ],
+      "type": "type",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/specs/openspec/types/openspec2/type-os-2-body-parameter.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.089Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

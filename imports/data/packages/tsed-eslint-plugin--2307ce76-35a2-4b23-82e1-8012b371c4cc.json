@@ -1,0 +1,34 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "2307ce76-35a2-4b23-82e1-8012b371c4cc",
+      "status": "published",
+      "sort": 98,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:22.969Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:49.143Z",
+      "name": "@tsed/eslint-plugin",
+      "icon": "",
+      "description": "Eslint rules for Ts.ED projects",
+      "tags": [],
+      "homepage": "https://github.com/tsedio/eslint-plugin-tsed",
+      "downloads": 76,
+      "version": "1.1.11",
+      "repository": "git+https://github.com/tsedio/eslint-plugin-tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/eslint-plugin",
+      "stars": 0,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/eslint-plugin-tsed/issues",
+      "maintainers": [
+        101
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.845Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

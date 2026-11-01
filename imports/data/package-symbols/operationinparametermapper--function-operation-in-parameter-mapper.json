@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "function-operation-in-parameter-mapper",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:37.585Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:58.798Z",
+      "name": "operationInParameterMapper",
+      "doc_url": "https://tsed.dev/api/specs/schema/types/components/open-spec/function-operation-in-parameter-mapper",
+      "package": "ed3e225f-c8cb-4a55-aea6-54e6550aeb3d",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "function",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/specs/schema/types/components/open-spec/function-operation-in-parameter-mapper.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.191Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

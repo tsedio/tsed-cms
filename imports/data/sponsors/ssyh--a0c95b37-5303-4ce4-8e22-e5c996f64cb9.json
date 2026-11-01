@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "a0c95b37-5303-4ce4-8e22-e5c996f64cb9",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2025-11-03T08:46:07.308Z",
+      "user_updated": null,
+      "date_updated": "2026-10-03T18:01:42.760Z",
+      "source": "github",
+      "name": "Sam Hahn",
+      "type": "user",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": null,
+      "profile": "https://github.com/SSYH",
+      "avatar": "https://avatars.githubusercontent.com/u/312236?u=01aaa1431ac18f5249d49f60111fb8e2d3032a2c&v=4",
+      "last_transaction_at": "2026-02-22T01:00:00",
+      "total_amount_donated": 115,
+      "currency": "USD",
+      "last_transaction_amount": 5,
+      "visibility": "public",
+      "tier": "$5 a month",
+      "grade": "supporter",
+      "first_transaction_at": "2024-03-27T17:34:07",
+      "login": "SSYH"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.271Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

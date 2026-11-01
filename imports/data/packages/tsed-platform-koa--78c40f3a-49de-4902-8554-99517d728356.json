@@ -1,0 +1,36 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "78c40f3a-49de-4902-8554-99517d728356",
+      "status": "published",
+      "sort": 47,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.845Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:36.623Z",
+      "name": "@tsed/platform-koa",
+      "icon": "https://tsed.io/koa.svg",
+      "description": "Koa package for Ts.ED framework",
+      "tags": [
+        "platform"
+      ],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/platform/platform-koa",
+      "downloads": 7009,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/platform-koa",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        47
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.851Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

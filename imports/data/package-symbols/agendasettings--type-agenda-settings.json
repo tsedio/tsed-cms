@@ -1,0 +1,32 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "type-agenda-settings",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:41.997Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:07:06.040Z",
+      "name": "AgendaSettings",
+      "doc_url": "https://tsed.dev/api/third-parties/agenda/types/interfaces/type-agenda-settings",
+      "package": "b359efa2-1691-48aa-be7d-06568b73e3d2",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "private",
+        "stable"
+      ],
+      "type": "type",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/third-parties/agenda/types/interfaces/type-agenda-settings.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.148Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

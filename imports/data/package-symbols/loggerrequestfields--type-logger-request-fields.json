@@ -1,0 +1,32 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "type-logger-request-fields",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:39.599Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:07:01.896Z",
+      "name": "LoggerRequestFields",
+      "doc_url": "https://tsed.dev/api/platform/platform-log-middleware/types/domain/type-logger-request-fields",
+      "package": "5205225a-abf6-4c74-a6ed-9fdd8c959df1",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "private",
+        "stable"
+      ],
+      "type": "type",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/platform/platform-log-middleware/types/domain/type-logger-request-fields.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.067Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

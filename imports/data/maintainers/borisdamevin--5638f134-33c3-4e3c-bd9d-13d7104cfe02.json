@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "5638f134-33c3-4e3c-bd9d-13d7104cfe02",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.395Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:31.410Z",
+      "username": "borisdamevin",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/1703605?v=4",
+      "url": "https://github.com/borisdamevin"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.737Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "e1ecdddd-1c9f-4d69-979c-c6c09a481032",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2026-10-03T18:02:24.538Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:34.969Z",
+      "username": "kaanisthatyou",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/121812333?v=4",
+      "url": "https://github.com/kaanisthatyou"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.743Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

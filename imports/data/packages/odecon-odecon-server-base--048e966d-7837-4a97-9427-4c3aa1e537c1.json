@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "048e966d-7837-4a97-9427-4c3aa1e537c1",
+      "status": "published",
+      "sort": 138,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.664Z",
+      "user_updated": null,
+      "date_updated": null,
+      "name": "@odecon/odecon-server-base",
+      "icon": null,
+      "description": "NPM library for common server functionality, using @tsed, @typegoose and class-validator",
+      "tags": [],
+      "homepage": null,
+      "downloads": 0,
+      "version": null,
+      "repository": null,
+      "npm": null,
+      "stars": 0,
+      "type": "3rd-party",
+      "bugs": null,
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.839Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

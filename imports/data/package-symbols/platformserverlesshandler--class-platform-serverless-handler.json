@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "class-platform-serverless-handler",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:40.068Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:07:02.706Z",
+      "name": "PlatformServerlessHandler",
+      "doc_url": "https://tsed.dev/api/platform/platform-serverless/types/builder/class-platform-serverless-handler",
+      "package": "46b26206-1e3d-4c8c-8584-e653d9a1a7ac",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "class",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/platform/platform-serverless/types/builder/class-platform-serverless-handler.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.065Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

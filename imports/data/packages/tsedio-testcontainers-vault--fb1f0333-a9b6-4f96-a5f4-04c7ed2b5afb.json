@@ -1,0 +1,38 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "fb1f0333-a9b6-4f96-a5f4-04c7ed2b5afb",
+      "status": "published",
+      "sort": 6,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.074Z",
+      "user_updated": null,
+      "date_updated": null,
+      "name": "@tsedio/testcontainers-vault",
+      "icon": "https://2583450.fs1.hubspotusercontent-na1.net/hub/2583450/hubfs/Imported_Blog_Media/Vault-test.png?width=928&name=Vault-test.png",
+      "description": "A module to test Ts.ED code that use Vault as a secrets manager using Test Containers",
+      "tags": [
+        "test",
+        "testcontainers",
+        "security"
+      ],
+      "homepage": "https://tsed.dev/plugins/premium/testcontainers/vault.html",
+      "downloads": 0,
+      "version": null,
+      "repository": null,
+      "npm": null,
+      "stars": 0,
+      "type": "premium",
+      "bugs": null,
+      "maintainers": [
+        6
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.860Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

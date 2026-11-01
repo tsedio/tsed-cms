@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "6adebcc9-c0d5-44b2-9d5e-c8d70f025583",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2026-10-03T18:02:13.151Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:23.895Z",
+      "username": "wrallin",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/329449143?v=4",
+      "url": "https://github.com/wrallin"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.753Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

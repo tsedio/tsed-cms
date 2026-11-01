@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "interface-config-source",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:30.914Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:49.240Z",
+      "name": "ConfigSource",
+      "doc_url": "https://tsed.dev/api/config/types/interfaces/interface-config-source",
+      "package": "6299bc25-5df2-49d5-aa0b-4172b09d60e3",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "interface",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/config/types/interfaces/interface-config-source.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.084Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

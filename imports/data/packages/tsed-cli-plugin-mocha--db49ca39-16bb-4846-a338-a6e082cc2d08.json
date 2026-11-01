@@ -1,0 +1,36 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "db49ca39-16bb-4846-a338-a6e082cc2d08",
+      "status": "published",
+      "sort": 41,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.742Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:45.750Z",
+      "name": "@tsed/cli-plugin-mocha",
+      "icon": "https://tsed.io/mochajs.svg",
+      "description": "Ts.ED CLI plugin. Add Mocha support",
+      "tags": [
+        "test"
+      ],
+      "homepage": "https://github.com/tsedio/tsed-cli/tree/master/packages/cli-plugin-mocha",
+      "downloads": 426,
+      "version": "5.4.3",
+      "repository": "git+https://github.com/tsedio/tsed-cli.git",
+      "npm": "https://www.npmjs.com/package/@tsed/cli-plugin-mocha",
+      "stars": 43,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed-cli/issues",
+      "maintainers": [
+        41
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.842Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

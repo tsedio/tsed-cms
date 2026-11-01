@@ -1,0 +1,37 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "f3fa9d89-3f41-411d-95be-4a70898e0c1a",
+      "status": "published",
+      "sort": 55,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:22.025Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:35.576Z",
+      "name": "@tsed/cli-plugin-typeorm",
+      "icon": "https://tsed.io/typeorm.png",
+      "description": "Ts.ED CLI plugin. Add TypeORM support",
+      "tags": [
+        "devtools",
+        "database"
+      ],
+      "homepage": "https://github.com/tsedio/tsed-cli/tree/master/packages/cli-plugin-typeorm",
+      "downloads": 5631,
+      "version": "7.8.1",
+      "repository": "git+https://github.com/tsedio/tsed-cli.git",
+      "npm": "https://www.npmjs.com/package/@tsed/cli-plugin-typeorm",
+      "stars": 43,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed-cli/issues",
+      "maintainers": [
+        55
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.843Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

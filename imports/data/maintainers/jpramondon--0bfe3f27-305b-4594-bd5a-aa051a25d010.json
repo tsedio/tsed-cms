@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "0bfe3f27-305b-4594-bd5a-aa051a25d010",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.469Z",
+      "user_updated": null,
+      "date_updated": null,
+      "username": "jpramondon",
+      "email": "jerome.pramondon@geared-minds.com",
+      "avatar": "https://www.gravatar.com/avatar/1f4d360fd219494a5b1cd346b49dfd14",
+      "url": null
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.743Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

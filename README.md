@@ -224,23 +224,86 @@ digital-cms-api/
 └── uploads/              # Uploaded files (local development)
 ```
 
-## Exporting System Collections
+## Exporting and Importing Data
 
-You can export the base Directus system collections to version them with your codebase.
+Content can be moved between environments (e.g. Heroku → local) with the export/import scripts.
+
+### Layout
+
+```text
+exports/
+  export-<domain>.ts            # one script per business domain (packages, repositories, sponsors...)
+  export-all.ts                 # runs every export in order
+  utils/export-collection.ts    # fetch + one-file-per-document writer
+imports/
+  <n>-import-<collection>.ts    # upsert one collection (by id)
+  <n>-import-<domain>-data.ts   # bundle: runs collection imports in dependency order
+  import-all.ts                 # runs every collection import in order
+  data/<collection-kebab>/<slug>--<id>.json
+```
+
+Each data file holds a single document:
+
+```json
+{
+  "collection": "packages",
+  "items": [{ "id": "…", "name": "@tsed/core" }],
+  "exportedAt": "2026-11-01T00:00:00.000Z",
+  "options": { "includeRelatedCollections": false, "relatedCollectionDepth": 1 }
+}
+```
+
+Relation tables (`packages_maintainers`, `repositories_maintainers`) are exported in their own directory and imported
+after their parents. O2M aliases (e.g. `packages.maintainers`) are stripped before importing the parent.
 
 ### Exporting
 
-Run the following command to export the current system collections from your Directus instance:
+```bash
+yarn export:data:heroku          # prompt: pick a script in exports/
+yarn export:data:heroku all      # run exports/export-all.ts without prompt
+```
+
+### Importing
+
+```bash
+yarn import:data:dev                          # prompt: all, data bundles, then collection imports
+yarn import:data:dev 10-import-packages-data  # run one script without prompt
+```
+
+### Roles, permissions, flows and presets
+
+These system collections can also be synced between environments through the REST API:
+
+| Export                        | Data (`imports/data/`)                                                           | Import                           |
+| ----------------------------- | -------------------------------------------------------------------------------- | -------------------------------- |
+| `export-roles-permissions.ts` | `directus-roles`, `directus-policies`, `directus-permissions`, `directus-access` | `12-import-roles-permissions.ts` |
+| `export-flows.ts`             | `directus-flows` (one file per flow, operations embedded)                        | `13-import-flows.ts`             |
+| `export-presets.ts`           | `directus-presets` (global presets only)                                         | `14-import-presets.ts`           |
+
+`15-import-system-data.ts` runs the three imports. Notes:
+
+- Only this project's data is exported (`exports/utils/project-scope.ts`), since a Directus database may hold data of
+  other projects: permissions and presets of collections declared in `snapshots/snapshot-latest.yaml` (or `directus_*`),
+  flows whose collections and operations belong to this repo, and the roles/policies listed in `PROJECT_ROLES` /
+  `PROJECT_POLICIES`. The same scope applies to `yarn export:system:collections`.
+- The Administrator role and policy are not exported. The Administrator role and Public policy ids are written as
+  `{{ID_ROLE_ADMINISTRATOR}}` / `{{ID_POLICY_PUBLIC}}` and resolved to the target ids on import.
+- Permissions and presets have auto-increment ids, so they are matched on `policy + collection + action` and on
+  `uuid` / `collection + bookmark`. Roles and policies are matched on id, then on name.
+- Only role accesses are exported (user accesses depend on the environment users).
+- Operations of an imported flow that are not in the export are deleted. From the prompt, `13-import-flows` asks which
+  flows to import.
+
+### System collections (migration)
+
+Roles, policies, permissions, accesses, presets, flows and operations are exported to `migrations/data` and installed by
+the `*-update-all.ts` migration (renamed to today's date after each export):
 
 ```bash
 yarn export:system:collections
 ```
 
-This command will connect to your dev environment (via `dotenv-flow` and `config/.env.*`) and write export files under
-`packages/scripts/output/` or a path configured in the script. You can commit these files to keep your system
-collections in sync across environments.
-
-Note: Roles and permissions export via `yarn export:roles-permissions` is not available in this repository.
+It is also available as `system-collections` in `yarn export:data:dev`.
 
 ## TypeScript Migrations
 

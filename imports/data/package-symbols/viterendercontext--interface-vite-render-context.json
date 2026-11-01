@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "interface-vite-render-context",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:34.737Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:54.292Z",
+      "name": "ViteRenderContext",
+      "doc_url": "https://tsed.dev/api/third-parties/vike/types/interfaces/interface-vite-render-context",
+      "package": "c4561c71-c33c-437a-b424-4ba69e20b2df",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "interface",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/third-parties/vike/types/interfaces/interface-vite-render-context.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.158Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "collection": "directus_presets",
+  "items": [
+    {
+      "id": 6,
+      "bookmark": null,
+      "user": null,
+      "role": null,
+      "collection": "repositories",
+      "search": null,
+      "layout": "tabular",
+      "layout_query": {
+        "tabular": {
+          "fields": [
+            "status",
+            "owner",
+            "repo",
+            "stars",
+            "maintainers",
+            "user_created",
+            "date_created",
+            "user_updated",
+            "date_updated"
+          ]
+        }
+      },
+      "layout_options": {
+        "tabular": {
+          "widths": {
+            "status": 32,
+            "owner": 160,
+            "repo": 160,
+            "stars": 160,
+            "maintainers": 191.5,
+            "user_created": 160,
+            "date_created": 160,
+            "user_updated": 160,
+            "date_updated": 160
+          }
+        }
+      },
+      "refresh_interval": null,
+      "filter": null,
+      "icon": "bookmark",
+      "color": null,
+      "uuid": "5990ceea-5ce1-451f-a119-248de002975b"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:42:58.411Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

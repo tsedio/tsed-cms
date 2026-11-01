@@ -1,0 +1,36 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "255d4270-f9a4-46f8-9e5a-213787f4d15f",
+      "status": "published",
+      "sort": 17,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.314Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:12.248Z",
+      "name": "@tsed/swagger",
+      "icon": "https://tsed.io/swagger.svg",
+      "description": "Swagger package for Ts.ED framework",
+      "tags": [
+        "openspec"
+      ],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/specs/swagger",
+      "downloads": 80628,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/swagger",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        17
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.856Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "d59f8bf2-81e0-47cf-8968-f05397e55fe2",
+      "status": "published",
+      "sort": 27,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.501Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:25.622Z",
+      "name": "@tsed/typeorm",
+      "icon": "https://tsed.io/typeorm.png",
+      "description": "TypeORM package for Ts.ED framework",
+      "tags": [
+        "database"
+      ],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/orm/typeorm",
+      "downloads": 7730,
+      "version": "7.85.1",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/typeorm",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        27
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.859Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

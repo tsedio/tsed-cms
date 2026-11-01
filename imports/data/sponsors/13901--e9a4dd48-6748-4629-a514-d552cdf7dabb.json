@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "e9a4dd48-6748-4629-a514-d552cdf7dabb",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2025-11-03T09:36:23.536Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:01.159Z",
+      "source": "open_collective",
+      "name": "Medayo LTD",
+      "type": "organization",
+      "email": null,
+      "description": "",
+      "company": null,
+      "twitter": "https://twitter.com/MedayoHealth",
+      "github": null,
+      "website": "https://twitter.com/medayohealth",
+      "profile": "https://opencollective.com/medayo",
+      "avatar": null,
+      "last_transaction_at": "2021-06-01T14:14:00",
+      "total_amount_donated": 365,
+      "currency": "USD",
+      "last_transaction_amount": 10,
+      "visibility": "public",
+      "tier": "The supporter",
+      "grade": "supporter",
+      "first_transaction_at": "2018-03-14T13:56:00",
+      "login": "13901"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.268Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

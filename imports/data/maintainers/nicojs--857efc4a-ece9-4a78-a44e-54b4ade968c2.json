@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "857efc4a-ece9-4a78-a44e-54b4ade968c2",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.663Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:09.823Z",
+      "username": "nicojs",
+      "email": "jansennico@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/1828233?v=4",
+      "url": "https://github.com/nicojs"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.746Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

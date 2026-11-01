@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "class-swagger-module",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:33.895Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:52.913Z",
+      "name": "SwaggerModule",
+      "doc_url": "https://tsed.dev/api/specs/swagger/types/class-swagger-module",
+      "package": "255d4270-f9a4-46f8-9e5a-213787f4d15f",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "class",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/specs/swagger/types/class-swagger-module.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.056Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

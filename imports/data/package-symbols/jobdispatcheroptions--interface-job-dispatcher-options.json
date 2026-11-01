@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "interface-job-dispatcher-options",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:34.034Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:53.157Z",
+      "name": "JobDispatcherOptions",
+      "doc_url": "https://tsed.dev/api/third-parties/bullmq/types/dispatchers/interface-job-dispatcher-options",
+      "package": "5623d206-20f9-49d6-a9d3-a15bf4ce2283",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "interface",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/third-parties/bullmq/types/dispatchers/interface-job-dispatcher-options.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.072Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "1d6d682b-8f0d-4c23-bc14-d492ca5a79d9",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.009Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:50.825Z",
+      "username": "panbhatt",
+      "email": "panbhatt@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/1473470?v=4",
+      "url": "https://github.com/panbhatt"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.748Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

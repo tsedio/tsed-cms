@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "b96aafd1-06b2-47a4-8943-11ab388437ce",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.447Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:33.591Z",
+      "username": "andrewthigpenbylight",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/107200066?v=4",
+      "url": "https://github.com/andrewthigpenbylight"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.736Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

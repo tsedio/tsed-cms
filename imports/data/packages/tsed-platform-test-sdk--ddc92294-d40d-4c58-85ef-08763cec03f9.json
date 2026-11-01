@@ -1,0 +1,34 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "ddc92294-d40d-4c58-85ef-08763cec03f9",
+      "status": "published",
+      "sort": 78,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:22.576Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:49.483Z",
+      "name": "@tsed/platform-test-sdk",
+      "icon": "",
+      "description": "Package to test platform adapter integration with Ts.ED",
+      "tags": [],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/platform/platform-test-sdk",
+      "downloads": 6730,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/platform-test-sdk",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        81
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.853Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

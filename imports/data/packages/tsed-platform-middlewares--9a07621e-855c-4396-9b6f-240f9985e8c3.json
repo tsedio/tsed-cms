@@ -1,0 +1,34 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "9a07621e-855c-4396-9b6f-240f9985e8c3",
+      "status": "published",
+      "sort": 13,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.242Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:14.040Z",
+      "name": "@tsed/platform-middlewares",
+      "icon": "",
+      "description": "Middlewares module for Ts.ED Framework",
+      "tags": [],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/platform/platform-middlewares",
+      "downloads": 92798,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/platform-middlewares",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        13
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.851Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "56301450-c2fc-4753-9467-b8be9aaf30b3",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.862Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:07.549Z",
+      "username": "IARKI",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/3634312?v=4",
+      "url": "https://github.com/IARKI"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.742Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

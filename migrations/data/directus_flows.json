@@ -17,7 +17,8 @@
     },
     "operation": "c651e60f-159c-4b4d-b636-c9d50debe3de",
     "date_created": "2025-11-15T10:33:07.296Z",
-    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
+    "folder": null
   },
   {
     "id": "9039bef8-fdc3-4f31-b5ab-7fee31273921",
@@ -34,7 +35,8 @@
     },
     "operation": "a2391589-d955-4677-9ff5-1bb846cebf98",
     "date_created": "2025-11-15T11:49:36.406Z",
-    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
+    "folder": null
   },
   {
     "id": "957ee0d3-bee3-49f0-80cd-1d1900e729a4",
@@ -50,7 +52,8 @@
     },
     "operation": "5269d4ba-cbf3-4c96-a431-1b3de86fa8b4",
     "date_created": "2025-11-02T15:16:25.397Z",
-    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
+    "folder": null
   },
   {
     "id": "d7a45da6-5f2a-47de-b977-1c2ec13326ae",
@@ -66,7 +69,8 @@
     },
     "operation": "ba9712f8-b9a1-498a-a700-646df728efc4",
     "date_created": "2025-11-02T18:51:01.328Z",
-    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
+    "folder": null
   },
   {
     "id": "88dfa6fd-27d5-46aa-bbda-a07ddc1b5203",
@@ -85,7 +89,8 @@
     },
     "operation": "f3e3024e-169d-4e3b-87d8-585bdf7af64e",
     "date_created": "2025-11-02T17:00:11.030Z",
-    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
+    "folder": null
   },
   {
     "id": "5c655120-cdc7-40e6-b402-aa1b31da246b",
@@ -105,7 +110,8 @@
     },
     "operation": "e11ec614-ac37-40dc-80f0-4eeae7817bb8",
     "date_created": "2025-11-02T18:45:02.966Z",
-    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
+    "folder": null
   },
   {
     "id": "b5fcef00-c59e-40f7-ad78-f880aba76a6b",
@@ -125,7 +131,8 @@
     },
     "operation": "c4c5b632-4fd6-42f4-be0c-709a6cd05d61",
     "date_created": "2025-11-02T17:42:37.342Z",
-    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
+    "folder": null
   },
   {
     "id": "18a74e0c-d808-496c-8285-044f520efeef",
@@ -144,7 +151,8 @@
     },
     "operation": "5d15d618-9704-49cb-8e1b-872d444590c8",
     "date_created": "2025-11-03T08:31:37.472Z",
-    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
+    "folder": null
   },
   {
     "id": "30be3802-3c63-41a3-9469-6aa5c48c58d6",
@@ -160,6 +168,7 @@
     },
     "operation": "70f217d9-bcef-4637-aee3-083f5e60f82a",
     "date_created": "2025-11-03T08:34:33.531Z",
-    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
+    "folder": null
   }
 ]

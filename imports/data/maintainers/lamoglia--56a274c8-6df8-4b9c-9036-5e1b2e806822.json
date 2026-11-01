@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "56a274c8-6df8-4b9c-9036-5e1b2e806822",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.625Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:06.249Z",
+      "username": "lamoglia",
+      "email": "fellipe@lamoglia.com",
+      "avatar": "https://avatars.githubusercontent.com/u/5335298?v=4",
+      "url": "https://github.com/lamoglia"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.744Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

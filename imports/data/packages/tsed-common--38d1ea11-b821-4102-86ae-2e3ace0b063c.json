@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "38d1ea11-b821-4102-86ae-2e3ace0b063c",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2025-11-02T22:00:08.237Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:12.599Z",
+      "name": "@tsed/common",
+      "icon": null,
+      "description": "A TypeScript Framework on top of Express",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/platform/common",
+      "downloads": 84769,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/common",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.844Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "type-property-metadata",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:37.122Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:57.502Z",
+      "name": "PropertyMetadata",
+      "doc_url": "https://tsed.dev/api/specs/schema/types/domain/type-property-metadata",
+      "package": "ed3e225f-c8cb-4a55-aea6-54e6550aeb3d",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "alias",
+        "stable"
+      ],
+      "type": "type",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/specs/schema/types/domain/type-property-metadata.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.194Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "07c31067-f52e-4ef0-b69e-f43bdbf7ac59",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.369Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:30.703Z",
+      "username": "callycodes",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/61029674?v=4",
+      "url": "https://github.com/callycodes"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.738Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

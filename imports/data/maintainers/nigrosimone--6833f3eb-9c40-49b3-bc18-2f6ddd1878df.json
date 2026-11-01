@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "6833f3eb-9c40-49b3-bc18-2f6ddd1878df",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2026-11-01T09:00:17.475Z",
+      "user_updated": null,
+      "date_updated": null,
+      "username": "nigrosimone",
+      "email": "nigro.simone@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/310077?v=4",
+      "url": "https://github.com/nigrosimone"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.747Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

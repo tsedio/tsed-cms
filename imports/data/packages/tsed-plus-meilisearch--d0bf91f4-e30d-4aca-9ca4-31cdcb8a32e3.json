@@ -1,0 +1,34 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "d0bf91f4-e30d-4aca-9ca4-31cdcb8a32e3",
+      "status": "published",
+      "sort": 130,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.551Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:55.499Z",
+      "name": "@tsed-plus/meilisearch",
+      "icon": "",
+      "description": "Providers a Meilisearch wrapper for the Ts.ED framework to easily inject the client into your application.",
+      "tags": [],
+      "homepage": "https://github.com/applogik/tsed-plus#readme",
+      "downloads": 6,
+      "version": "1.0.0",
+      "repository": "git+https://github.com/applogik/tsed-plus.git",
+      "npm": "https://www.npmjs.com/package/@tsed-plus/meilisearch",
+      "stars": 0,
+      "type": "3rd-party",
+      "bugs": "https://github.com/applogik/tsed-plus/issues",
+      "maintainers": [
+        134
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.840Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

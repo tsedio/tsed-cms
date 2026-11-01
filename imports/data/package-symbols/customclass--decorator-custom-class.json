@@ -1,0 +1,35 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "decorator-custom-class",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:38.778Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:07:00.528Z",
+      "name": "CustomClass",
+      "doc_url": "https://tsed.dev/api/third-parties/schema-formio/types/decorators/decorator-custom-class",
+      "package": "b247e3ce-cf59-4b1b-98d4-f07ccef1e336",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "decorator",
+        "formio",
+        "property",
+        "schema",
+        "stable"
+      ],
+      "type": "decorator",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/third-parties/schema-formio/types/decorators/decorator-custom-class.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.140Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

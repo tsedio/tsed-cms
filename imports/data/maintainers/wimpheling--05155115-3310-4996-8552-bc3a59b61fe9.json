@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "05155115-3310-4996-8552-bc3a59b61fe9",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.172Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:24.136Z",
+      "username": "wimpheling",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/471188?v=4",
+      "url": "https://github.com/wimpheling"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.752Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

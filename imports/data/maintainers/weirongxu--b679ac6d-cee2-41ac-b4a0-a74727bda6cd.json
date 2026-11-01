@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "b679ac6d-cee2-41ac-b4a0-a74727bda6cd",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.033Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:20.258Z",
+      "username": "weirongxu",
+      "email": "weirongxu.raidou@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/1709861?v=4",
+      "url": "https://github.com/weirongxu"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.752Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "1215c50f-3601-4eb1-a264-806d2f32e724",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.355Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:30.198Z",
+      "username": "Charly-T",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/12251313?v=4",
+      "url": "https://github.com/Charly-T"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.738Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

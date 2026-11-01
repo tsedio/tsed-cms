@@ -1,0 +1,17 @@
+{
+  "collection": "directus_access",
+  "items": [
+    {
+      "id": "d9e53763-87ed-4166-aa67-81ceb9cddf49",
+      "role": "456e5ab2-e5a6-4392-bb67-9cc3b0f19a86",
+      "user": null,
+      "policy": "74510869-8ddd-4b7b-958c-c9719024f594",
+      "sort": 1
+    }
+  ],
+  "exportedAt": "2026-11-01T09:42:51.951Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

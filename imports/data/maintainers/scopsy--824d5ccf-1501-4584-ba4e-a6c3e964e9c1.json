@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "824d5ccf-1501-4584-ba4e-a6c3e964e9c1",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.704Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:39.991Z",
+      "username": "scopsy",
+      "email": "dima@grossman.io",
+      "avatar": "https://avatars.githubusercontent.com/u/8872447?v=4",
+      "url": "https://github.com/scopsy"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.749Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

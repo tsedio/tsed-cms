@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "db26beee-f270-46c9-aecc-fb25e0a7a765",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.441Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:33.339Z",
+      "username": "agubler",
+      "email": "agubler@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/1982678?v=4",
+      "url": "https://github.com/agubler"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.734Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

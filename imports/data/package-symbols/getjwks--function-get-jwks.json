@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "function-get-jwks",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:33.488Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:52.183Z",
+      "name": "getJwks",
+      "doc_url": "https://tsed.dev/api/security/jwks/types/function-get-jwks",
+      "package": "d0461a6e-3d25-4d5e-be3d-f26184d6f90f",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "function",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/security/jwks/types/function-get-jwks.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.164Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

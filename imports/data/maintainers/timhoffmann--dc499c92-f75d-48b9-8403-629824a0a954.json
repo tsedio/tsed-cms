@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "dc499c92-f75d-48b9-8403-629824a0a954",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.246Z",
+      "user_updated": null,
+      "date_updated": null,
+      "username": "timhoffmann",
+      "email": "info@tim-hoffmann.net",
+      "avatar": "https://www.gravatar.com/avatar/f3946f2b0a9d428ed80c0daff7d12557",
+      "url": null
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.750Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

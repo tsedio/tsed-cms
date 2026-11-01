@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "3c37f185-a772-4333-941a-afbdc4b3f3d2",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.884Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:17.955Z",
+      "username": "rluvaton",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/16746759?v=4",
+      "url": "https://github.com/rluvaton"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.748Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

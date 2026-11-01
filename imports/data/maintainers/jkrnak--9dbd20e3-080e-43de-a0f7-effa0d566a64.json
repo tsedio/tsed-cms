@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "9dbd20e3-080e-43de-a0f7-effa0d566a64",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.562Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:36.583Z",
+      "username": "jkrnak",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/6216307?v=4",
+      "url": "https://github.com/jkrnak"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.743Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

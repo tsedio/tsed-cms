@@ -1,0 +1,37 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "27ebc71b-040a-4ff1-8840-d6f704197f54",
+      "status": "published",
+      "sort": 99,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:22.985Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:48.480Z",
+      "name": "@tsed/react-formio-container",
+      "icon": "https://avatars.githubusercontent.com/u/11790256?s=400&v=4",
+      "description": "Provide advanced components and tools to create your own formio backoffice.",
+      "tags": [
+        "formio",
+        "cms"
+      ],
+      "homepage": "https://github.com/TypedProject/tsed-formio/tree/master/packages/react-formio-container",
+      "downloads": 111,
+      "version": "2.3.6",
+      "repository": "git+https://github.com/TypedProject/tsed-formio.git",
+      "npm": "https://www.npmjs.com/package/@tsed/react-formio-container",
+      "stars": 16,
+      "type": "official",
+      "bugs": "https://github.com/TypedProject/tsed-formio/issues",
+      "maintainers": [
+        102
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.854Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

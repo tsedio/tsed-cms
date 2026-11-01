@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "203663af-c623-4a0c-8b1e-022cfd8fb90c",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:39:08.857Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:51.760Z",
+      "username": "timm-gs",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/33091277?v=4",
+      "url": "https://github.com/timm-gs"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.751Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

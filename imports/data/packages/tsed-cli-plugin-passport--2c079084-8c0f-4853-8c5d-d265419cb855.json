@@ -1,0 +1,37 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "2c079084-8c0f-4853-8c5d-d265419cb855",
+      "status": "published",
+      "sort": 42,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.763Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:36.998Z",
+      "name": "@tsed/cli-plugin-passport",
+      "icon": "https://tsed.io/passportjs.png",
+      "description": "Ts.ED CLI plugin. Add Passport.js support",
+      "tags": [
+        "devtools",
+        "security"
+      ],
+      "homepage": "https://github.com/tsedio/tsed-cli/tree/master/packages/cli-plugin-passport",
+      "downloads": 4042,
+      "version": "7.8.1",
+      "repository": "git+https://github.com/tsedio/tsed-cli.git",
+      "npm": "https://www.npmjs.com/package/@tsed/cli-plugin-passport",
+      "stars": 43,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed-cli/issues",
+      "maintainers": [
+        42
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.843Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

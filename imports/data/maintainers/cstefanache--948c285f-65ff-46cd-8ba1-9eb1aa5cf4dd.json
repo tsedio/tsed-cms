@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "948c285f-65ff-46cd-8ba1-9eb1aa5cf4dd",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.348Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:29.948Z",
+      "username": "cstefanache",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/3071201?v=4",
+      "url": "https://github.com/cstefanache"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.739Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

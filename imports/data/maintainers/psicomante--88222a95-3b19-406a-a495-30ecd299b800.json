@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "88222a95-3b19-406a-a495-30ecd299b800",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.196Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:24.835Z",
+      "username": "psicomante",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/176385?v=4",
+      "url": "https://github.com/psicomante"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.748Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

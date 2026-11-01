@@ -1,0 +1,32 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "decorator-emit",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:40.453Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:07:03.259Z",
+      "name": "Emit",
+      "doc_url": "https://tsed.dev/api/third-parties/socketio/types/decorators/decorator-emit",
+      "package": "df2c65f5-bd5f-4210-b8d7-898b44c9ffc4",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "decorator",
+        "stable"
+      ],
+      "type": "decorator",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/third-parties/socketio/types/decorators/decorator-emit.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.168Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

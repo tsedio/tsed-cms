@@ -1,0 +1,36 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "1a42ac73-94ee-4b4a-8af5-a7ca671f9f99",
+      "status": "published",
+      "sort": 49,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.877Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:21.591Z",
+      "name": "@tsed/adapters",
+      "icon": "https://api.tsed.io/statics/warehouse/tsed.svg",
+      "description": "Database adapters for Ts.ED",
+      "tags": [
+        "database"
+      ],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/orm/adapters",
+      "downloads": 9979,
+      "version": "8.44.12",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/adapters",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        49
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.840Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

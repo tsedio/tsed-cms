@@ -1,0 +1,37 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "5d488d79-ef60-4f4d-9d92-3347a9baee6f",
+      "status": "published",
+      "sort": 3,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:20.983Z",
+      "user_updated": null,
+      "date_updated": null,
+      "name": "@tsedio/config-mongo",
+      "icon": null,
+      "description": "A powerful plugin for Ts.ED to manage your application configuration in MongoDB and sync changes in real time.\n",
+      "tags": [
+        "config-source",
+        "database"
+      ],
+      "homepage": "https://tsed.dev/plugins/premium/config-source/mongo.html",
+      "downloads": 0,
+      "version": null,
+      "repository": null,
+      "npm": null,
+      "stars": 0,
+      "type": "premium",
+      "bugs": null,
+      "maintainers": [
+        3
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.859Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

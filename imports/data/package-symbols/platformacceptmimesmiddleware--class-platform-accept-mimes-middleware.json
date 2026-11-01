@@ -1,0 +1,33 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "class-platform-accept-mimes-middleware",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:39.410Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:07:01.513Z",
+      "name": "PlatformAcceptMimesMiddleware",
+      "doc_url": "https://tsed.dev/api/platform/platform-accept-mimes/types/middlewares/class-platform-accept-mimes-middleware",
+      "package": "883e93ad-f517-4788-b3bd-93eece35fd9f",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "middleware",
+        "platform",
+        "stable"
+      ],
+      "type": "class",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/platform/platform-accept-mimes/types/middlewares/class-platform-accept-mimes-middleware.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.129Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

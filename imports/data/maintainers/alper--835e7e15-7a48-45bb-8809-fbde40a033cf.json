@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "835e7e15-7a48-45bb-8809-fbde40a033cf",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.477Z",
+      "user_updated": null,
+      "date_updated": "2025-11-04T10:00:49.167Z",
+      "username": "alper",
+      "email": "github@alper.nl",
+      "avatar": "https://avatars.githubusercontent.com/u/72429?v=4",
+      "url": "https://github.com/alper"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.735Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "51d27bca-73ee-45bc-875f-088accc07002",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.019Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:20.005Z",
+      "username": "peter-lewis",
+      "email": "peter.noah.lewis@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/9119962?v=4",
+      "url": "https://github.com/peter-lewis"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.748Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

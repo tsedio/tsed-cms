@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "90b363c9-9815-412e-a330-5238f849635a",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:39:08.233Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:51.052Z",
+      "username": "Zacaria",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/5860751?v=4",
+      "url": "https://github.com/Zacaria"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.754Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

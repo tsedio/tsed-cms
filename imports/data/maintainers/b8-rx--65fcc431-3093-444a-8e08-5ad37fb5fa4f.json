@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "65fcc431-3093-444a-8e08-5ad37fb5fa4f",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.474Z",
+      "user_updated": null,
+      "date_updated": "2026-10-03T20:00:06.297Z",
+      "username": "B8-RX",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/86773141?v=4",
+      "url": "https://github.com/B8-RX"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.736Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

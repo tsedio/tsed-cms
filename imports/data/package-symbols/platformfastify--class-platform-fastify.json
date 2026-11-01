@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "class-platform-fastify",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:39.509Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:07:01.691Z",
+      "name": "PlatformFastify",
+      "doc_url": "https://tsed.dev/api/platform/platform-fastify/types/components/class-platform-fastify",
+      "package": "d68a9091-ffd7-4d7d-ae17-d6bac16f5bc3",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "class",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/platform/platform-fastify/types/components/class-platform-fastify.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.165Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

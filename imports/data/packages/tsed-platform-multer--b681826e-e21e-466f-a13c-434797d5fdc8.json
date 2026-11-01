@@ -1,0 +1,34 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "b681826e-e21e-466f-a13c-434797d5fdc8",
+      "status": "published",
+      "sort": 34,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.631Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:45.360Z",
+      "name": "@tsed/platform-multer",
+      "icon": "",
+      "description": "Multer adapter package for Ts.ED framework",
+      "tags": [],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/platform/platform-multer",
+      "downloads": 50751,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/platform-multer",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        34
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.851Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

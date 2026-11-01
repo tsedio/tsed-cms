@@ -26,7 +26,7 @@
 
 <hr />
 
-A Directus CMS project that can be deployed to Heroku using a Docker image built and pushed by GitHub Actions.
+A Directus CMS project deployed on [Render](https://render.com/) from its Dockerfile.
 
 ## Table of Contents
 
@@ -36,7 +36,7 @@ A Directus CMS project that can be deployed to Heroku using a Docker image built
 - [Environment Variables](#environment-variables)
 - [Deployment](#deployment)
   - [CI/CD (GitHub Actions)](#cicd-github-actions)
-  - [Heroku Deployment](#heroku-deployment)
+  - [Render Deployment](#render-deployment)
 - [Project Structure](#project-structure)
 - [TypeScript Migrations](#typescript-migrations)
 - [Adding Collections with Proper Permissions](#adding-collections-with-proper-permissions)
@@ -54,7 +54,6 @@ It provides a flexible and customizable backend for managing content and data.
 - [Node.js](https://nodejs.org/) (v22 or higher)
 - [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/)
 - [Git](https://git-scm.com/)
-- [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) (for deployment)
 
 ## Local Development
 
@@ -142,51 +141,24 @@ The following environment variables are required for the application to run:
 
 ## Deployment
 
-This repo ships with two GitHub Actions workflows that manage releases and manual Docker deployments to Heroku.
+### CI/CD (GitHub Actions)
 
-### 1) Releases (semantic-release)
+The `CI` workflow runs `lint`, `test` and `build` on every push and pull request. On `main`, `alpha`, `beta` and
+`rc`, the `release` job then creates a Git tag and a GitHub Release with `semantic-release` (`yarn release`).
 
-- Runs only on branches: `main`, `alpha`, `beta`, `rc` after `lint` → `test` → `build` jobs pass.
-- Creates a Git tag and GitHub Release using `semantic-release` (`yarn release`).
-- No automatic deployment is performed on release; deployment is a separate manual step.
+CI does not deploy: Render does.
 
-### 2) Manual deploy to Heroku (Docker image)
+### Render Deployment
 
-There are two ways to trigger a deploy. In both cases the Docker image is built from this repo and pushed to the Heroku
-Container Registry, then released.
+The production service is a Render web service built from the repository `Dockerfile`, with **Auto-Deploy** on the
+`main` branch. The container runs `node cli.js bootstrap && node cli.js start` (see `docker/cli.js`).
 
-A. From the CI workflow
-
-- Actions → "CI" → Run workflow.
-- Inputs:
-  - `version` (optional): a Git tag like `v1.2.3`. If provided, the workflow checks out exactly this tag and VALIDATES
-    it. If the tag does not exist, the job fails with a clear error.
-  - `environment` (optional): `staging` or `production`. If omitted, the CI auto-selects: `main` → `production`, other
-    branches → `staging`.
-
-B. From the standalone deploy workflow
-
-- Actions → "Deploy to Heroku (Docker)" → Run workflow.
-- Choose `environment` (`staging` or `production`) and optionally set `version` (exact tag).
-
-> Notes
->
-> - The `version` input is also passed to `docker build` as `--build-arg VERSION=<tag>` for traceability.
-> - Re-deploying a previous release is as simple as running the deploy workflow again with the desired `version` tag.
-
-### Required repository secrets
-
-- `HEROKU_API_KEY` — Heroku API key with access to the target apps.
-- `HEROKU_APP_NAME_STAGING` — Heroku app name for staging.
-- `HEROKU_APP_NAME_PRODUCTION` — Heroku app name for production.
-
-### Heroku prerequisites
-
-- Set stack to container: `heroku stack:set container -a <app>` (once per app).
-- Add Postgres: `heroku addons:create heroku-postgresql:hobby-dev -a <app>`.
-- Configure environment variables (examples): `ADMIN_EMAIL`, `ADMIN_PASSWORD`, `KEY`, `SECRET`, `PUBLIC_URL`, `DB_HOST`,
-  `DB_PORT`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`, `DB_SSL`. Optional: `SKIP_BOOTSTRAP=true` after the first successful
-  bootstrap.
+- **Auto-Deploy** set to _After CI Checks Pass_ waits for every GitHub check of the commit to succeed: a red or still
+  running CI delays the deploy.
+- Environment variables are set on the Render service (examples): `ADMIN_EMAIL`, `ADMIN_PASSWORD`, `KEY`, `SECRET`,
+  `PUBLIC_URL`, `DB_*`, `STORAGE_*`. Optional: `SKIP_BOOTSTRAP=true` after the first successful bootstrap.
+- To run scripts against production from your machine, put the production values in `config/.env.render-production`
+  (git ignored) and use the `*:render:prod` scripts, e.g. `yarn export:data:render:prod`.
 
 For CI runner details and local CI pipeline checks, see [TESTING.md](./TESTING.md).
 
@@ -216,7 +188,6 @@ digital-cms-api/
 │   ├── interfaces/       # Custom input interfaces
 │   ├── displays/         # Custom display interfaces
 │   └── layouts/          # Custom layout interfaces
-├── heroku.yml            # Heroku container deployment configuration
 ├── migrations/           # Database migration scripts
 │   └── (migrations in TypeScript compiled to JS at build time)
 ├── vitest.config.ts      # Vitest test configuration
@@ -226,7 +197,7 @@ digital-cms-api/
 
 ## Exporting and Importing Data
 
-Content can be moved between environments (e.g. Heroku → local) with the export/import scripts.
+Content can be moved between environments (e.g. Render production → local) with the export/import scripts.
 
 ### Layout
 
@@ -261,8 +232,8 @@ the source id.
 ### Exporting
 
 ```bash
-yarn export:data:heroku          # prompt: pick a script in exports/
-yarn export:data:heroku all      # run exports/export-all.ts without prompt
+yarn export:data:render:prod      # prompt: pick a script in exports/
+yarn export:data:render:prod all  # run exports/export-all.ts without prompt
 ```
 
 ### Importing

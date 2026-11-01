@@ -21,9 +21,9 @@ Build, configuration, and local runs
 
 2. Environment management
 
-- The project uses `dotenv-flow` with the `config/` directory. Typical script patterns wrap Directus or custom scripts with `yarn env`, `yarn env:dev`, or `yarn env:heroku` to load the right `.env.*` files from `config/`.
+- The project uses `dotenv-flow` with the `config/` directory. Typical script patterns wrap Directus or custom scripts with `yarn env`, `yarn env:dev`, or `yarn env:render:prod` to load the right `.env.*` files from `config/`.
 - Common scripts (package.json):
-  - `env`, `env:dev`, `env:heroku`: Prepare env variables for subsequent commands.
+  - `env`, `env:dev`, `env:render:prod`: Prepare env variables for subsequent commands.
   - `bootstrap`, `bootstrap:dev`: Initialize Directus with required configuration and built artifacts (dev builds migrations first).
   - `migrate`, `migrate:dev`: Compile migrations (`tsdown`) then apply with Directus.
   - `start:dev`: `migrate:dev` then concurrently run `watch:dev` (Nx dev builds) and start Directus with dev env.
@@ -233,9 +233,9 @@ Build, configuration, and local runs
 
 2. Environment management
 
-- The project uses `dotenv-flow` with the `config/` directory. Typical script patterns wrap Directus or custom scripts with `yarn env`, `yarn env:dev`, or `yarn env:heroku` to load the right `.env.*` files from `config/`.
+- The project uses `dotenv-flow` with the `config/` directory. Typical script patterns wrap Directus or custom scripts with `yarn env`, `yarn env:dev`, or `yarn env:render:prod` to load the right `.env.*` files from `config/`.
 - Common scripts (package.json):
-  - `env`, `env:dev`, `env:heroku`: Prepare env variables for subsequent commands.
+  - `env`, `env:dev`, `env:render:prod`: Prepare env variables for subsequent commands.
   - `bootstrap`, `bootstrap:dev`: Initialize Directus with required configuration and built artifacts (dev builds migrations first).
   - `migrate`, `migrate:dev`: Compile migrations (`tsdown`) then apply with Directus.
   - `start:dev`: `migrate:dev` then concurrently run `watch:dev` (Nx dev builds) and start Directus with dev env.

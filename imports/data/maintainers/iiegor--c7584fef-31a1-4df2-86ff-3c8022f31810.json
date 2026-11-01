@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "c7584fef-31a1-4df2-86ff-3c8022f31810",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.572Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:36.815Z",
+      "username": "iiegor",
+      "email": "iegorazuaga@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/3694005?v=4",
+      "url": "https://github.com/iiegor"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.742Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

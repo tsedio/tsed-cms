@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "7be357ab-3072-4c95-9897-e53d0ec9fdae",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.705Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:10.583Z",
+      "username": "EmilienLeroy",
+      "email": "admin@emilienleroy.fr",
+      "avatar": "https://avatars.githubusercontent.com/u/31723722?v=4",
+      "url": "https://github.com/EmilienLeroy"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.741Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

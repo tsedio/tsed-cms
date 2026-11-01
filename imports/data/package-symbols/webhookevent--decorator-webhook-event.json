@@ -1,0 +1,34 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "decorator-webhook-event",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:42.307Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:07:06.482Z",
+      "name": "WebhookEvent",
+      "doc_url": "https://tsed.dev/api/third-parties/stripe/types/decorators/decorator-webhook-event",
+      "package": "4d6a3db2-87de-4558-b6a2-ed56d50fb68b",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "decorator",
+        "operation",
+        "input",
+        "stable"
+      ],
+      "type": "decorator",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/third-parties/stripe/types/decorators/decorator-webhook-event.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.067Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

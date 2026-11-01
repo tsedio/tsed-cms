@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "9052ffbc-f4c9-437f-aef7-67a54f0ffb34",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.315Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:28.538Z",
+      "username": "mitevs",
+      "email": "stefomitev@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/1431331?v=4",
+      "url": "https://github.com/mitevs"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.746Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

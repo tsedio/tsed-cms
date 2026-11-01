@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "96e0e1d7-36a5-4a72-b95d-7a721df78f98",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2025-11-03T08:55:29.592Z",
+      "user_updated": null,
+      "date_updated": "2026-10-03T18:01:42.764Z",
+      "source": "github",
+      "name": "Thomas Drouvin",
+      "type": "user",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": null,
+      "profile": "https://github.com/Tomdrouv1",
+      "avatar": "https://avatars.githubusercontent.com/u/9864634?u=9b51fc3cb3db15d170956fd5a1f0e4bda6489dc5&v=4",
+      "last_transaction_at": "2026-02-22T01:00:00",
+      "total_amount_donated": 154,
+      "currency": "USD",
+      "last_transaction_amount": 7,
+      "visibility": "private",
+      "tier": "$7 a month",
+      "grade": "supporter",
+      "first_transaction_at": "2024-05-21T13:46:36",
+      "login": "Tomdrouv1"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.271Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

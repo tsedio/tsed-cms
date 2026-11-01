@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "class-event-stream-context",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:42.272Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:07:06.430Z",
+      "name": "EventStreamContext",
+      "doc_url": "https://tsed.dev/api/third-parties/sse/types/domain/class-event-stream-context",
+      "package": "ac97bb3a-cad8-440d-b037-406ac6d8efec",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "class",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/third-parties/sse/types/domain/class-event-stream-context.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.138Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

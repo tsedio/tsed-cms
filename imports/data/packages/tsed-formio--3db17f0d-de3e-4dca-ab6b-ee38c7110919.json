@@ -1,0 +1,37 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "3db17f0d-de3e-4dca-ab6b-ee38c7110919",
+      "status": "published",
+      "sort": 66,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:22.287Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:27.583Z",
+      "name": "@tsed/formio",
+      "icon": "https://avatars.githubusercontent.com/u/11790256?s=400&v=4",
+      "description": "Formio package for Ts.ED framework",
+      "tags": [
+        "formio",
+        "cms"
+      ],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/third-parties/formio",
+      "downloads": 5727,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/formio",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        67
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.845Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

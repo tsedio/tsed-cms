@@ -1,0 +1,36 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "ca4e1890-5662-4436-b29e-58dafe1a0056",
+      "status": "published",
+      "sort": 56,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:22.065Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:29.366Z",
+      "name": "@tsed/socketio-testing",
+      "icon": "https://tsed.io/socketio.svg",
+      "description": "Socket.io testing package for Ts.ED framework",
+      "tags": [
+        "test"
+      ],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/third-parties/socketio-testing",
+      "downloads": 10838,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/socketio-testing",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        56
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.855Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

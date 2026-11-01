@@ -3,10 +3,44 @@ import { DIRECTUS_SERVICE } from "@tsed-cms/infra/directus/DirectusService.js";
 import type { Schema } from "@tsed-cms/infra/directus/interfaces/DirectusSchema.js";
 import { inject, logger } from "@tsed/di";
 
-export async function importCollection<Collection extends keyof Schema>(table: Collection, items: Schema[Collection]) {
-  const directus = inject(DIRECTUS_SERVICE);
+type ImportCollectionOptions = {
+  /** Fields removed from each item before the upsert (e.g. O2M aliases imported by another script). */
+  omit?: string[];
+};
 
-  for (const item of items as any[]) {
+export const AUDIT_FIELDS = ["user_created", "user_updated", "date_created", "date_updated"];
+
+function isSameValue(a: unknown, b: unknown) {
+  return JSON.stringify(a ?? null) === JSON.stringify(b ?? null);
+}
+
+// Only changed fields are sent, so untouched invalid legacy values (e.g. a null required field) don't block the update.
+export function changedFields(existingItem: Record<string, unknown>, item: Record<string, unknown>): Record<string, unknown> {
+  return Object.fromEntries(Object.entries(item).filter(([field, value]) => field !== "id" && !isSameValue(existingItem[field], value)));
+}
+
+/**
+ * Upserts items by `id`: creates missing items and patches the changed fields of existing ones.
+ */
+export async function importCollection<Collection extends keyof Schema>(
+  table: Collection,
+  items: any[],
+  options: ImportCollectionOptions = {}
+) {
+  const directus = inject(DIRECTUS_SERVICE);
+  const omittedFields = [...AUDIT_FIELDS, ...(options.omit ?? [])];
+  let created = 0;
+  let updated = 0;
+  let unchanged = 0;
+
+  logger().info(`[import:${table}] start ${items.length} items`);
+
+  for (const rawItem of items) {
+    const item = { ...rawItem };
+    omittedFields.forEach((field) => delete item[field]);
+
+    let operation = "checking whether the item already exists";
+
     try {
       const [existingItem] = await directus.request(
         readItems(table as any, {
@@ -17,27 +51,36 @@ export async function importCollection<Collection extends keyof Schema>(table: C
         })
       );
 
-      delete item.user_created;
-      delete item.user_updated;
-      delete item.date_created;
-      delete item.date_updated;
-
       if (!existingItem) {
-        await directus.request(createItem(table, item as any));
+        operation = "creating the item";
+        await directus.request(createItem(table as any, item));
+        created += 1;
         logger().info(`Item ${table} ${item.id} created`);
       } else {
-        await directus.request(
-          updateItem(table, item.id, {
-            ...existingItem[0],
-            ...item
-          } as any)
-        );
-        logger().info(`Item ${table} ${item.id} updated`);
+        const changes = changedFields(existingItem, item);
+
+        if (Object.keys(changes).length === 0) {
+          unchanged += 1;
+          continue;
+        }
+
+        operation = `updating the item (${Object.keys(changes).join(", ")})`;
+        await directus.request(updateItem(table as any, item.id, changes));
+        updated += 1;
+        logger().info(`Item ${table} ${item.id} updated (${Object.keys(changes).join(", ")})`);
       }
     } catch (er) {
-      console.log(er);
-      logger().error(`Error importing item ${table} ${item.id}: ${(er as Error).message}`);
-      process.exit(1);
+      logger().error(`Error ${operation} for ${table} ${item.id}: ${(er as Error).message}`);
+
+      if (/does not exist/.test((er as Error).message)) {
+        logger().error(
+          `Collection "${table}" is unknown to Directus: apply the schema first (yarn snapshot:apply), then restart Directus if the error persists.`
+        );
+      }
+
+      throw er;
     }
   }
+
+  logger().info(`[import:${table}] complete created=${created} updated=${updated} unchanged=${unchanged}`);
 }

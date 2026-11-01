@@ -1,0 +1,46 @@
+{
+  "collection": "directus_flows",
+  "items": [
+    {
+      "id": "30be3802-3c63-41a3-9469-6aa5c48c58d6",
+      "name": "Cron Update sponsors meta",
+      "icon": "bolt",
+      "color": null,
+      "description": null,
+      "status": "active",
+      "trigger": "schedule",
+      "accountability": "all",
+      "options": {
+        "cron": "0 * * * *"
+      },
+      "operation": "70f217d9-bcef-4637-aee3-083f5e60f82a",
+      "date_created": "2025-11-03T08:34:33.531Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
+      "folder": null
+    }
+  ],
+  "exportedAt": "2026-11-01T09:42:54.931Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  },
+  "operations": [
+    {
+      "id": "70f217d9-bcef-4637-aee3-083f5e60f82a",
+      "name": "Ts.ED Sponsors (GitHub & OpenCollective)",
+      "key": "tsed_flow_sponsors_flqhx",
+      "type": "tsed-flow-sponsors",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "githubUser": "romakita",
+        "openCollectiveSlug": "tsed"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "30be3802-3c63-41a3-9469-6aa5c48c58d6",
+      "date_created": "2025-11-03T08:35:08.005Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    }
+  ]
+}

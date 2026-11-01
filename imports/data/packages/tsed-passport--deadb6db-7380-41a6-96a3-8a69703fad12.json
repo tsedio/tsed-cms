@@ -1,0 +1,36 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "deadb6db-7380-41a6-96a3-8a69703fad12",
+      "status": "published",
+      "sort": 29,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.541Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:20.055Z",
+      "name": "@tsed/passport",
+      "icon": "https://tsed.io/passportjs.png",
+      "description": "Passport package for Ts.ED framework",
+      "tags": [
+        "security"
+      ],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/security/passport",
+      "downloads": 23306,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/passport",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        29
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.850Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

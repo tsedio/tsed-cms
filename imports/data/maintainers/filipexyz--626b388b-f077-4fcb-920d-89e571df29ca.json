@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "626b388b-f077-4fcb-920d-89e571df29ca",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.127Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:22.490Z",
+      "username": "filipexyz",
+      "email": "luis@filipe.xyz",
+      "avatar": "https://avatars.githubusercontent.com/u/13588541?v=4",
+      "url": "https://github.com/filipexyz"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.741Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

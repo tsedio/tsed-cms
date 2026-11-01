@@ -1,0 +1,32 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "type-transform-injected-provider-cb",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:34.903Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:54.642Z",
+      "name": "TransformInjectedProviderCB",
+      "doc_url": "https://tsed.dev/api/di/types/common/decorators/type-transform-injected-provider-cb",
+      "package": "5b5cfb66-1568-44f8-a560-6976a9a6c8e1",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "private",
+        "stable"
+      ],
+      "type": "type",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/di/types/common/decorators/type-transform-injected-provider-cb.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.083Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

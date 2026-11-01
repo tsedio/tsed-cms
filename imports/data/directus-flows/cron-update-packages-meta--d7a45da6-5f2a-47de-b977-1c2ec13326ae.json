@@ -1,0 +1,45 @@
+{
+  "collection": "directus_flows",
+  "items": [
+    {
+      "id": "d7a45da6-5f2a-47de-b977-1c2ec13326ae",
+      "name": "Cron Update packages meta",
+      "icon": "bolt",
+      "color": null,
+      "description": null,
+      "status": "active",
+      "trigger": "schedule",
+      "accountability": "all",
+      "options": {
+        "cron": "0 * * * *"
+      },
+      "operation": "ba9712f8-b9a1-498a-a700-646df728efc4",
+      "date_created": "2025-11-02T18:51:01.328Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
+      "folder": null
+    }
+  ],
+  "exportedAt": "2026-11-01T09:42:54.930Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  },
+  "operations": [
+    {
+      "id": "ba9712f8-b9a1-498a-a700-646df728efc4",
+      "name": "Ts.ED Packages from NPM",
+      "key": "tsed_flow_packages_13epb",
+      "type": "tsed-flow-packages",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "text": "tsed"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "d7a45da6-5f2a-47de-b977-1c2ec13326ae",
+      "date_created": "2025-11-02T18:52:15.279Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    }
+  ]
+}

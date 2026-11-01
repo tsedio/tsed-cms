@@ -1,0 +1,51 @@
+{
+  "collection": "directus_flows",
+  "items": [
+    {
+      "id": "18a74e0c-d808-496c-8285-044f520efeef",
+      "name": "Manual sponsors import",
+      "icon": "bolt",
+      "color": null,
+      "description": null,
+      "status": "active",
+      "trigger": "manual",
+      "accountability": "all",
+      "options": {
+        "collections": [
+          "sponsors"
+        ],
+        "location": "collection",
+        "requireConfirmation": true,
+        "requireSelection": false
+      },
+      "operation": "5d15d618-9704-49cb-8e1b-872d444590c8",
+      "date_created": "2025-11-03T08:31:37.472Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
+      "folder": null
+    }
+  ],
+  "exportedAt": "2026-11-01T09:42:54.932Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  },
+  "operations": [
+    {
+      "id": "5d15d618-9704-49cb-8e1b-872d444590c8",
+      "name": "Ts.ED Sponsors (GitHub & OpenCollective)",
+      "key": "tsed_flow_sponsors_q6l9r",
+      "type": "tsed-flow-sponsors",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "githubUser": "romakita",
+        "openCollectiveSlug": "tsed"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "18a74e0c-d808-496c-8285-044f520efeef",
+      "date_created": "2025-11-03T08:34:01.095Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    }
+  ]
+}

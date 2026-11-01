@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "interface-base-io-redis-configuration",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:36.770Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:57.053Z",
+      "name": "BaseIORedisConfiguration",
+      "doc_url": "https://tsed.dev/api/orm/ioredis/types/domain/interface-base-io-redis-configuration",
+      "package": "eae13eeb-9290-4281-963f-5bb29ce360b9",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "interface",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/orm/ioredis/types/domain/interface-base-io-redis-configuration.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.175Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

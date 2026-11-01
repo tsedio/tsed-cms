@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "5af1cef1-7fc8-4c3c-93e0-ef2f90e54d47",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.151Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:23.409Z",
+      "username": "Kit-p",
+      "email": "pangkit888@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/65013409?v=4",
+      "url": "https://github.com/Kit-p"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.744Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

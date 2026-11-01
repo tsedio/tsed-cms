@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "d4499ae8-0116-4cab-b244-82234a074463",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.609Z",
+      "user_updated": null,
+      "date_updated": null,
+      "username": "vortechdp",
+      "email": "company@vortech.io",
+      "avatar": "https://www.gravatar.com/avatar/7bc905678bc4bd9486ac3da6e9e9a705",
+      "url": null
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.752Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "75f82c37-9a55-4835-90d2-a1f506c8d731",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.219Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:42.118Z",
+      "username": "ilyutov",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/1800602?v=4",
+      "url": "https://github.com/ilyutov"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.742Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

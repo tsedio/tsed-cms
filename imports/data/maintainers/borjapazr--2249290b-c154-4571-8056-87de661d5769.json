@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "2249290b-c154-4571-8056-87de661d5769",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.388Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:31.164Z",
+      "username": "borjapazr",
+      "email": "borjapazr@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/9295713?v=4",
+      "url": "https://github.com/borjapazr"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.737Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

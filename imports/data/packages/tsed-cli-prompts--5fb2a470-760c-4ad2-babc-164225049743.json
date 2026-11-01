@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "5fb2a470-760c-4ad2-babc-164225049743",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-02-21T08:00:31.661Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:26.923Z",
+      "name": "@tsed/cli-prompts",
+      "icon": null,
+      "description": "Prompt runner and schema shared across Ts.ED CLIs",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed-cli/tree/master/packages/cli-prompts",
+      "downloads": 7876,
+      "version": "7.8.1",
+      "repository": "git+https://github.com/tsedio/tsed-cli.git",
+      "npm": "https://www.npmjs.com/package/@tsed/cli-prompts",
+      "stars": 43,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed-cli/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.843Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

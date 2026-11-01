@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "801d2600-2812-45d5-afb0-957efa2598ae",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.531Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:05.763Z",
+      "username": "ae-ostapenko",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/170315333?v=4",
+      "url": "https://github.com/ae-ostapenko"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.734Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

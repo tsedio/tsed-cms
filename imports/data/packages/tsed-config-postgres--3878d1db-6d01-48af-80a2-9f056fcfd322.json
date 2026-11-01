@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "3878d1db-6d01-48af-80a2-9f056fcfd322",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-10-03T18:02:24.145Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:32.153Z",
+      "name": "@tsed/config-postgres",
+      "icon": null,
+      "description": "Use PostgreSQL to inject configuration to your Ts.ED project.",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/config/postgres",
+      "downloads": 3859,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/config-postgres",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.844Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

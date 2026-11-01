@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "15cc8d9a-4745-4ab4-85f9-54060f54f40a",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:40:38.257Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:45.015Z",
+      "username": "flexwie",
+      "email": "mail@felixwie.com",
+      "avatar": "https://avatars.githubusercontent.com/u/1215778?v=4",
+      "url": "https://github.com/flexwie"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.741Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

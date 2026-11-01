@@ -1,0 +1,34 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "726cbc22-2750-479a-8303-0c2b48753d3d",
+      "status": "published",
+      "sort": 87,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:22.782Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:43.724Z",
+      "name": "@tsed/cli-generate-http-client",
+      "icon": "",
+      "description": "Ts.ED CLI plugin. Export a command that generate an HTTP Client (axios or fetch) from your Ts.ED controllers and OS3 spec.",
+      "tags": [],
+      "homepage": "https://github.com/tsedio/tsed-cli/tree/master/packages/cli-generate-http-client",
+      "downloads": 2329,
+      "version": "7.8.1",
+      "repository": "git+https://github.com/tsedio/tsed-cli.git",
+      "npm": "https://www.npmjs.com/package/@tsed/cli-generate-http-client",
+      "stars": 43,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed-cli/issues",
+      "maintainers": [
+        90
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.841Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

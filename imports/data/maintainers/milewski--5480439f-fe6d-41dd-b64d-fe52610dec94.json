@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "5480439f-fe6d-41dd-b64d-fe52610dec94",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.590Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:07.269Z",
+      "username": "milewski",
+      "email": "rafael.milewski@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/2874967?v=4",
+      "url": "https://github.com/milewski"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.746Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "6a06a555-3ec5-4f72-b552-b472bc1564b9",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.973Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:18.811Z",
+      "username": "nunoar",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/1702802?v=4",
+      "url": "https://github.com/nunoar"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.747Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "function-index-middleware",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:33.880Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:52.878Z",
+      "name": "indexMiddleware",
+      "doc_url": "https://tsed.dev/api/specs/scalar/types/middlewares/function-index-middleware",
+      "package": "566a0ca1-84a6-4055-8816-c126b4c1c98b",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "function",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/specs/scalar/types/middlewares/function-index-middleware.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.073Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "972aa785-1e03-47d4-a6c3-fea72b9f6aa0",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.891Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:17.727Z",
+      "username": "NitzanHardonVonage",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/45146234?v=4",
+      "url": "https://github.com/NitzanHardonVonage"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.747Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "9eedebc5-2aaa-4d8e-8999-4248aa4d2d34",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:40:38.082Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:44.542Z",
+      "username": "classical-bit",
+      "email": "deepanshu.mishra0@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/41991279?v=4",
+      "url": "https://github.com/classical-bit"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.739Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

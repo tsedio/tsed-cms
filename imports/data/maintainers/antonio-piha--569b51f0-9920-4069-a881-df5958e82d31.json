@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "569b51f0-9920-4069-a881-df5958e82d31",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:40:37.470Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:43.621Z",
+      "username": "antonio-piha",
+      "email": "antonio.piha.fer@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/3170126?v=4",
+      "url": "https://github.com/antonio-piha"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.736Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

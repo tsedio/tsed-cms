@@ -1,0 +1,17 @@
+{
+  "collection": "directus_roles",
+  "items": [
+    {
+      "id": "456e5ab2-e5a6-4392-bb67-9cc3b0f19a86",
+      "name": "API - readOnly",
+      "icon": "api",
+      "description": "Api access role (read-only)",
+      "parent": null
+    }
+  ],
+  "exportedAt": "2026-11-01T09:42:51.920Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

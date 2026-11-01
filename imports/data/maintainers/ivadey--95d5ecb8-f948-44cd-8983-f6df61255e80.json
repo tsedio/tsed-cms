@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "95d5ecb8-f948-44cd-8983-f6df61255e80",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.545Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:06.001Z",
+      "username": "IvaDey",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/53537879?v=4",
+      "url": "https://github.com/IvaDey"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.742Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

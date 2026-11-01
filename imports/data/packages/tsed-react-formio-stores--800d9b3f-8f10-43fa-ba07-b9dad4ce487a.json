@@ -1,0 +1,34 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "800d9b3f-8f10-43fa-ba07-b9dad4ce487a",
+      "status": "published",
+      "sort": 105,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.075Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:53.667Z",
+      "name": "@tsed/react-formio-stores",
+      "icon": "",
+      "description": "Provide redux stores and action around formio.js API. Written in TypeScript.",
+      "tags": [],
+      "homepage": "https://github.com/TypedProject/tsed-formio/tree/master/packages/react-formio-stores",
+      "downloads": 28,
+      "version": "2.3.6",
+      "repository": "git+https://github.com/TypedProject/tsed-formio.git",
+      "npm": "https://www.npmjs.com/package/@tsed/react-formio-stores",
+      "stars": 16,
+      "type": "official",
+      "bugs": "https://github.com/TypedProject/tsed-formio/issues",
+      "maintainers": [
+        108
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.854Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

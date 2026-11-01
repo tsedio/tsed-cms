@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "d0bd2cb0-3716-4d61-8a3a-3ee8693294b1",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2025-11-03T09:36:24.165Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:01.407Z",
+      "source": "open_collective",
+      "name": "PXR tech",
+      "type": "organization",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": "https://underscoretech.nl/",
+      "profile": "https://opencollective.com/pxr",
+      "avatar": null,
+      "last_transaction_at": "2024-03-01T12:04:00",
+      "total_amount_donated": 700,
+      "currency": "USD",
+      "last_transaction_amount": 25,
+      "visibility": "public",
+      "tier": "Indivial sponsors - (for individuals and non-profit organizations)",
+      "grade": "supporter",
+      "first_transaction_at": "2022-01-27T08:13:00",
+      "login": "269792"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.269Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

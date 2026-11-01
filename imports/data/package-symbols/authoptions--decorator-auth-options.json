@@ -1,0 +1,34 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "decorator-auth-options",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:39.619Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:07:01.939Z",
+      "name": "AuthOptions",
+      "doc_url": "https://tsed.dev/api/platform/platform-middlewares/types/decorators/decorator-auth-options",
+      "package": "9a07621e-855c-4396-9b6f-240f9985e8c3",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "decorator",
+        "decorator",
+        "operation",
+        "stable"
+      ],
+      "type": "decorator",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/platform/platform-middlewares/types/decorators/decorator-auth-options.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.134Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

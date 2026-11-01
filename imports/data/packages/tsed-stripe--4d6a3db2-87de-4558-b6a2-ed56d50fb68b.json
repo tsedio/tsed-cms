@@ -1,0 +1,37 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "4d6a3db2-87de-4558-b6a2-ed56d50fb68b",
+      "status": "published",
+      "sort": 60,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:22.156Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:17.612Z",
+      "name": "@tsed/stripe",
+      "icon": "https://tsed.io/stripe.svg",
+      "description": "Stripe package for Ts.ED framework",
+      "tags": [
+        "api",
+        "payment"
+      ],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/third-parties/stripe",
+      "downloads": 12203,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/stripe",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        60
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.855Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

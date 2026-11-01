@@ -1,0 +1,38 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "5af5bb25-e246-45fa-91a4-18d085d930f0",
+      "status": "published",
+      "sort": 5,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.053Z",
+      "user_updated": null,
+      "date_updated": null,
+      "name": "@tsedio/testscontainer-mongo",
+      "icon": "https://tsed.io/mongoose.png",
+      "description": "A module to test Ts.ED code that use MongoDB as database using Test Containers",
+      "tags": [
+        "test",
+        "testcontainers",
+        "database"
+      ],
+      "homepage": "https://tsed.dev/plugins/premium/testcontainers/mongo.html",
+      "downloads": 0,
+      "version": null,
+      "repository": null,
+      "npm": null,
+      "stars": 0,
+      "type": "premium",
+      "bugs": null,
+      "maintainers": [
+        5
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.860Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

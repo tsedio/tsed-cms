@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "fa17e472-72dd-49bd-8dbf-1b17db2fb791",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.485Z",
+      "user_updated": null,
+      "date_updated": null,
+      "username": "mekroth",
+      "email": "mekroth.de@gmail.com",
+      "avatar": "https://www.gravatar.com/avatar/87dd73dd15949abffe3fcfd6b0ea1181",
+      "url": null
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.745Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "fe05f86d-c899-47d6-ba8e-4c9a947f2969",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.454Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:33.819Z",
+      "username": "mrakofff",
+      "email": "metilpropenilen@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/21972136?v=4",
+      "url": "https://github.com/mrakofff"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.746Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

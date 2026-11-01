@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "8f302262-9932-4809-a2d6-5a7b0ece90e6",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:40:37.067Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:43.079Z",
+      "username": "tripodsgames",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/11417768?v=4",
+      "url": "https://github.com/tripodsgames"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.751Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

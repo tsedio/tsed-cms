@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "a5febcb8-a4cd-4c36-bf29-b10aa42ff93b",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:40:40.410Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:47.501Z",
+      "username": "Bugslive",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/108520268?v=4",
+      "url": "https://github.com/Bugslive"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.738Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

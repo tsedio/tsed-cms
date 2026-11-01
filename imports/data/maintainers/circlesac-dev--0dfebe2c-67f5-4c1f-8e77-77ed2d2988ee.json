@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "0dfebe2c-67f5-4c1f-8e77-77ed2d2988ee",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.404Z",
+      "user_updated": null,
+      "date_updated": null,
+      "username": "circlesac-dev",
+      "email": "dev@circles.ac",
+      "avatar": "https://www.gravatar.com/avatar/3a6e09ed19e304e9b02a3e45542068d1",
+      "url": null
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.739Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

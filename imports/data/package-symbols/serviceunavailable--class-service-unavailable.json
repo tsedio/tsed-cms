@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "class-service-unavailable",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:41.327Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:07:04.455Z",
+      "name": "ServiceUnavailable",
+      "doc_url": "https://tsed.dev/api/specs/exceptions/types/serverErrors/class-service-unavailable",
+      "package": "20b50c57-cee4-4860-87e7-0645e54f333e",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "class",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/specs/exceptions/types/serverErrors/class-service-unavailable.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.052Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

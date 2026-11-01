@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "class-lambda-client-request",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:33.387Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:52.037Z",
+      "name": "LambdaClientRequest",
+      "doc_url": "https://tsed.dev/api/platform/platform-serverless-testing/types/class-lambda-client-request",
+      "package": "d4f26313-67dd-47fb-83a2-b7ad6706a7d3",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "class",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/platform/platform-serverless-testing/types/class-lambda-client-request.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.165Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

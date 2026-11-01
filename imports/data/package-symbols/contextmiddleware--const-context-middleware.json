@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "const-context-middleware",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:35.587Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:55.627Z",
+      "name": "ContextMiddleware",
+      "doc_url": "https://tsed.dev/api/graphql/typegraphql/types/middlewares/const-context-middleware",
+      "package": "bbf1d1cc-efc9-4f14-bf99-25c5d820f324",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "const",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/graphql/typegraphql/types/middlewares/const-context-middleware.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.150Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

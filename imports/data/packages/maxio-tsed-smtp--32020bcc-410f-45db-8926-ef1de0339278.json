@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "32020bcc-410f-45db-8926-ef1de0339278",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2025-11-02T22:06:45.535Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:55.511Z",
+      "name": "@maxio/tsed-smtp",
+      "icon": null,
+      "description": "Npm TypeScript Package Boilerplate",
+      "tags": null,
+      "homepage": null,
+      "downloads": 22,
+      "version": "0.0.5",
+      "repository": null,
+      "npm": "https://www.npmjs.com/package/@maxio/tsed-smtp",
+      "stars": null,
+      "type": "3rd-party",
+      "bugs": null,
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.839Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

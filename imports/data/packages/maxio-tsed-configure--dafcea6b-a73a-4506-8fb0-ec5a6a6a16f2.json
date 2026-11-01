@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "dafcea6b-a73a-4506-8fb0-ec5a6a6a16f2",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2025-11-02T22:06:45.546Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:55.000Z",
+      "name": "@maxio/tsed-configure",
+      "icon": null,
+      "description": "Npm TypeScript Package Boilerplate",
+      "tags": null,
+      "homepage": null,
+      "downloads": 13,
+      "version": "1.0.8",
+      "repository": null,
+      "npm": "https://www.npmjs.com/package/@maxio/tsed-configure",
+      "stars": null,
+      "type": "3rd-party",
+      "bugs": null,
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.839Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

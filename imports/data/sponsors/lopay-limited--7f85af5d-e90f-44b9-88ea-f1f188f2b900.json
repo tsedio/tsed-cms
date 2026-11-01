@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "7f85af5d-e90f-44b9-88ea-f1f188f2b900",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2025-11-03T08:55:29.615Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:00.501Z",
+      "source": "github",
+      "name": "lopay-limited",
+      "type": "organization",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": null,
+      "profile": "https://github.com/lopay-limited",
+      "avatar": "https://avatars.githubusercontent.com/u/109216428?v=4",
+      "last_transaction_at": "2026-09-22T02:00:00",
+      "total_amount_donated": 8000,
+      "currency": "USD",
+      "last_transaction_amount": 200,
+      "visibility": "private",
+      "tier": "$200 a month",
+      "grade": "platinum",
+      "first_transaction_at": "2023-06-14T11:23:05",
+      "login": "lopay-limited"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.271Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

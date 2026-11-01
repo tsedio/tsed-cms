@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "d81e29a5-39ed-4a13-b1ec-07902bf0b077",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-02-21T08:00:34.667Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:38.341Z",
+      "name": "@tsed/directus-sdk",
+      "icon": null,
+      "description": "A library to integrate Directus SDK with Ts.ED, facilitating the creation of extensions (endpoints, hooks, operations) and the use of Directus services.",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/third-parties/directus-sdk",
+      "downloads": 4133,
+      "version": "8.44.12",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/directus-sdk",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.845Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

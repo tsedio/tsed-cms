@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "5e931cdf-3ca8-46f6-ac4f-4e3e60c5d63f",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.900Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:17.215Z",
+      "username": "luismojena",
+      "email": "luismojenaroman@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/19499031?v=4",
+      "url": "https://github.com/luismojena"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.745Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

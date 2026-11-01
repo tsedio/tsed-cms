@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "function-get-config-sources",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:30.937Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:49.264Z",
+      "name": "getConfigSources",
+      "doc_url": "https://tsed.dev/api/config/types/utils/function-get-config-sources",
+      "package": "6299bc25-5df2-49d5-aa0b-4172b09d60e3",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "function",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/config/types/utils/function-get-config-sources.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.085Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

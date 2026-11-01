@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "6d442f93-43de-49a5-985a-5c1ab8291962",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.592Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:37.524Z",
+      "username": "ghmendonca",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/29390554?v=4",
+      "url": "https://github.com/ghmendonca"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.741Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

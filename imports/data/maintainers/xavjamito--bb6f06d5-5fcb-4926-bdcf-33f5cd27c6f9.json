@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "bb6f06d5-5fcb-4926-bdcf-33f5cd27c6f9",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.273Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:27.243Z",
+      "username": "xavjamito",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/17645632?v=4",
+      "url": "https://github.com/xavjamito"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.753Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

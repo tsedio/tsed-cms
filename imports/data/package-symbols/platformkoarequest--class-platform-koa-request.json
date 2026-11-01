@@ -1,0 +1,33 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "class-platform-koa-request",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:39.592Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:07:01.879Z",
+      "name": "PlatformKoaRequest",
+      "doc_url": "https://tsed.dev/api/platform/platform-koa/types/services/class-platform-koa-request",
+      "package": "78c40f3a-49de-4902-8554-99517d728356",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "platform",
+        "koa",
+        "stable"
+      ],
+      "type": "class",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/platform/platform-koa/types/services/class-platform-koa-request.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.111Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

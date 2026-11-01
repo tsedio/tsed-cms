@@ -1,0 +1,15 @@
+{
+  "collection": "packages_maintainers",
+  "items": [
+    {
+      "id": 69,
+      "packages_id": "b359efa2-1691-48aa-be7d-06568b73e3d2",
+      "maintainers_id": "58cea6f6-95d1-4022-8669-f44065cc7b84"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.884Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

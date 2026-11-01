@@ -1,0 +1,34 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "566a0ca1-84a6-4055-8816-c126b4c1c98b",
+      "status": "published",
+      "sort": 83,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:22.677Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:25.283Z",
+      "name": "@tsed/scalar",
+      "icon": "",
+      "description": "Scalar package for Ts.ED framework",
+      "tags": [],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/specs/scalar",
+      "downloads": 7187,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/scalar",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        86
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.854Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

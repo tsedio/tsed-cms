@@ -1,0 +1,34 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "decorator-model",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:35.879Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:55.881Z",
+      "name": "Model",
+      "doc_url": "https://tsed.dev/api/orm/mongoose/types/decorators/decorator-model",
+      "package": "75ed39e3-139d-4697-82fb-b3a3557e2eb4",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "decorator",
+        "mongoose",
+        "class",
+        "stable"
+      ],
+      "type": "decorator",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/orm/mongoose/types/decorators/decorator-model.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.104Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

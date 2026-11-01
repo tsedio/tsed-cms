@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "32e98ae9-028e-419d-ac86-57dd60f3a00c",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2025-11-03T09:36:24.083Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:01.376Z",
+      "source": "open_collective",
+      "name": "Catomatic",
+      "type": "organization",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": "https://www.catomatic.com/",
+      "profile": "https://opencollective.com/catomatic",
+      "avatar": null,
+      "last_transaction_at": "2021-07-14T23:21:00",
+      "total_amount_donated": 10,
+      "currency": "USD",
+      "last_transaction_amount": 10,
+      "visibility": "public",
+      "tier": null,
+      "grade": "supporter",
+      "first_transaction_at": "2021-07-14T23:21:00",
+      "login": "210744"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.269Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

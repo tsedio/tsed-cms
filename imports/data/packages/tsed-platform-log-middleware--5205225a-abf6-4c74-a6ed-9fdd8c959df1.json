@@ -1,0 +1,34 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "5205225a-abf6-4c74-a6ed-9fdd8c959df1",
+      "status": "published",
+      "sort": 21,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.387Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:20.413Z",
+      "name": "@tsed/platform-log-middleware",
+      "icon": "",
+      "description": "Log request middleware module for Ts.ED Framework (deprecated)",
+      "tags": [],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/platform/platform-log-middleware",
+      "downloads": 52082,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/platform-log-middleware",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        21
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.851Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

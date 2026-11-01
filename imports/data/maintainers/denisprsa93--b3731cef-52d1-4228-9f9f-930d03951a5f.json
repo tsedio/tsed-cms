@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "b3731cef-52d1-4228-9f9f-930d03951a5f",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.238Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:26.034Z",
+      "username": "denisprsa93",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/113056543?v=4",
+      "url": "https://github.com/denisprsa93"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.739Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

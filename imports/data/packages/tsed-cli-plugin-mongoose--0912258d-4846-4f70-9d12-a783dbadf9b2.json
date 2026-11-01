@@ -1,0 +1,37 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "0912258d-4846-4f70-9d12-a783dbadf9b2",
+      "status": "published",
+      "sort": 54,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.970Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:37.372Z",
+      "name": "@tsed/cli-plugin-mongoose",
+      "icon": "https://tsed.io/mongoose.png",
+      "description": "Ts.ED CLI plugin. Add Mongoose support",
+      "tags": [
+        "devtools",
+        "database"
+      ],
+      "homepage": "https://github.com/tsedio/tsed-cli/tree/master/packages/cli-plugin-mongoose",
+      "downloads": 4525,
+      "version": "7.8.1",
+      "repository": "git+https://github.com/tsedio/tsed-cli.git",
+      "npm": "https://www.npmjs.com/package/@tsed/cli-plugin-mongoose",
+      "stars": 43,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed-cli/issues",
+      "maintainers": [
+        54
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.842Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "adcf631d-49e4-49bf-876d-b3b406334420",
+      "status": "published",
+      "sort": 136,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.652Z",
+      "user_updated": null,
+      "date_updated": null,
+      "name": "@clouudsoftware/typeorm",
+      "icon": null,
+      "description": "Wrapper around typeorm and @tsed/typeorm",
+      "tags": [
+        "database"
+      ],
+      "homepage": null,
+      "downloads": 0,
+      "version": null,
+      "repository": null,
+      "npm": null,
+      "stars": 0,
+      "type": "3rd-party",
+      "bugs": null,
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.838Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

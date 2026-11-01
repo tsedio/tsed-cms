@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "ba28274c-6508-4c00-bb3c-ce7221e1b5c8",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.633Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:06.767Z",
+      "username": "alexproca",
+      "email": "alex.proca@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/252961?v=4",
+      "url": "https://github.com/alexproca"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.735Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

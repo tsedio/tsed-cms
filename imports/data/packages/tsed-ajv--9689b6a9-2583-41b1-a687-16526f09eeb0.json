@@ -1,0 +1,37 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "9689b6a9-2583-41b1-a687-16526f09eeb0",
+      "status": "published",
+      "sort": 22,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.406Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:10.862Z",
+      "name": "@tsed/ajv",
+      "icon": "https://ajv.js.org/img/ajv.svg",
+      "description": "AJV package for Ts.ED framework",
+      "tags": [
+        "validation",
+        "jsonschema"
+      ],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/specs/ajv",
+      "downloads": 80547,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/ajv",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        22
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.841Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

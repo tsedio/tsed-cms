@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "e211eeb6-4526-4484-8f39-aa753cd067bf",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:40:37.668Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:44.088Z",
+      "username": "ChangJoo-Park",
+      "email": "pcjpcj2@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/1451365?v=4",
+      "url": "https://github.com/ChangJoo-Park"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.738Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

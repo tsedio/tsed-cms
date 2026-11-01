@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "12cb81ac-3b43-4cdc-8b56-259701f020e5",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2025-11-03T09:36:23.767Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:01.297Z",
+      "source": "open_collective",
+      "name": "Philipp Hanzik",
+      "type": "user",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": null,
+      "profile": "https://opencollective.com/philipp-hanzik",
+      "avatar": null,
+      "last_transaction_at": "2020-03-01T18:08:00",
+      "total_amount_donated": 5,
+      "currency": "USD",
+      "last_transaction_amount": 5,
+      "visibility": "public",
+      "tier": null,
+      "grade": "supporter",
+      "first_transaction_at": "2020-03-01T18:08:00",
+      "login": "77473"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.270Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,5 +1,5 @@
-import { DITest } from "@tsed/di";
 import { DirectusContextService } from "@tsed-cms/infra/directus/DirectusContextService.js";
+import { DITest } from "@tsed/di";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 import { PackageSymbolsService } from "./PackageSymbolsService.js";
@@ -10,7 +10,7 @@ function createItemsServiceMock(initial: any[] = []) {
   return {
     readOne: vi.fn(async (id: string) => state.get(id) || null),
     updateOne: vi.fn(async (id: string, data: any) => {
-      const next = { ...(state.get(id) || {}), ...data };
+      const next = { ...state.get(id), ...data };
       state.set(id, next);
       return id;
     }),

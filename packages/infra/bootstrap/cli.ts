@@ -1,10 +1,10 @@
 import "@tsed/logger-connect";
 import "@tsed/directus-sdk/attach-logger";
+import path from "path";
 
 import { withOptions } from "@tsed/config";
 import { DotEnvsConfigSource } from "@tsed/config/dotenv";
 import { configuration, destroyInjector, injector, logger } from "@tsed/di";
-import path from "path";
 
 configuration().set({
   extends: [

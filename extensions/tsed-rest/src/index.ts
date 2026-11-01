@@ -1,9 +1,9 @@
-import { validate } from "@tsed/ajv";
-import { inject, logger } from "@tsed/di";
-import { defineEndpoint } from "@tsed/directus-sdk";
 import { LegacyRestService } from "@tsed-cms/usecases/legacy/LegacyRestService.js";
 import { SlackService } from "@tsed-cms/usecases/slack/SlackService.js";
 import { StatsService } from "@tsed-cms/usecases/stats/StatsService.js";
+import { validate } from "@tsed/ajv";
+import { inject, logger } from "@tsed/di";
+import { defineEndpoint } from "@tsed/directus-sdk";
 
 import { CliStatPayload } from "./schema/CliStatPayload.js";
 

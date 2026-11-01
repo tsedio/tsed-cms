@@ -3,15 +3,15 @@
 // The script will display a list of available import scripts and allow the user to select one
 
 import { join } from "node:path";
+import path from "path";
+import { fileURLToPath } from "url";
 
-import { inject, logger } from "@tsed/di";
 import { cli } from "@tsed-cms/infra/bootstrap/cli.js";
 import { DIRECTUS_SERVICE } from "@tsed-cms/infra/directus/DirectusService.js";
+import { inject, logger } from "@tsed/di";
 import { globby } from "globby";
 // @ts-ignore
 import inquirer from "inquirer";
-import path from "path";
-import { fileURLToPath } from "url";
 
 const importsScriptDir = fileURLToPath(join(path.dirname(import.meta.url), "../../imports"));
 

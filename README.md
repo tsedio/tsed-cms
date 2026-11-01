@@ -8,7 +8,7 @@
 
 [![PR Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/tsedio/tsed/blob/master/CONTRIBUTING.md)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![code style: oxfmt](https://img.shields.io/badge/code_style-oxfmt-ff69b4.svg?style=flat-square)](https://oxc.rs/docs/guide/usage/formatter)
 [![github](https://img.shields.io/static/v1?label=Github%20sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/romakita)
 [![opencollective](https://img.shields.io/static/v1?label=OpenCollective%20sponsor&message=%E2%9D%A4&logo=OpenCollective&color=%23fe8e86)](https://opencollective.com/tsed)
 
@@ -26,7 +26,6 @@
 
 <hr />
 
-
 A Directus CMS project that can be deployed to Heroku using a Docker image built and pushed by GitHub Actions.
 
 ## Table of Contents
@@ -36,14 +35,14 @@ A Directus CMS project that can be deployed to Heroku using a Docker image built
 - [Local Development](#local-development)
 - [Environment Variables](#environment-variables)
 - [Deployment](#deployment)
-    - [CI/CD (GitHub Actions)](#cicd-github-actions)
-    - [Heroku Deployment](#heroku-deployment)
+  - [CI/CD (GitHub Actions)](#cicd-github-actions)
+  - [Heroku Deployment](#heroku-deployment)
 - [Project Structure](#project-structure)
 - [TypeScript Migrations](#typescript-migrations)
 - [Adding Collections with Proper Permissions](#adding-collections-with-proper-permissions)
 - [Yarn Berry](#yarn-berry)
 - [Contributing](#contributing)
-    - [Git Hooks](#git-hooks)
+  - [Git Hooks](#git-hooks)
 
 ## Overview
 
@@ -60,12 +59,14 @@ It provides a flexible and customizable backend for managing content and data.
 ## Local Development
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/tsedio/tsed-cms.git
    cd digital-cms-api
    ```
 
 2. Install dependencies using Yarn Berry:
+
    ```bash
    # Enable Yarn Berry (if not already enabled globally)
    corepack enable
@@ -75,6 +76,7 @@ It provides a flexible and customizable backend for managing content and data.
    ```
 
 3. Start the development environment using Docker Compose:
+
    ```bash
    docker-compose up -d database
    yarn run bootstrap:dev
@@ -84,14 +86,14 @@ It provides a flexible and customizable backend for managing content and data.
    ```
 
 4. Access the Directus admin interface at [http://localhost:8055](http://localhost:8055)
-    - Default admin credentials:
-        - Email: admin@example.com
-        - Password: admin
+   - Default admin credentials:
+     - Email: admin@example.com
+     - Password: admin
 
 5. (Optional) Expose directus on https
-    - brew install ngrok
-    - ngrok config add-authtoken <AUTH-TOKEN>
-    - ngrok http 8055
+   - brew install ngrok
+   - ngrok config add-authtoken <AUTH-TOKEN>
+   - ngrok http 8055
 
 6. To stop the development environment:
    ```bash
@@ -157,10 +159,10 @@ A. From the CI workflow
 
 - Actions → "CI" → Run workflow.
 - Inputs:
-    - `version` (optional): a Git tag like `v1.2.3`. If provided, the workflow checks out exactly this tag and VALIDATES
-      it. If the tag does not exist, the job fails with a clear error.
-    - `environment` (optional): `staging` or `production`. If omitted, the CI auto-selects: `main` → `production`, other
-      branches → `staging`.
+  - `version` (optional): a Git tag like `v1.2.3`. If provided, the workflow checks out exactly this tag and VALIDATES
+    it. If the tag does not exist, the job fails with a clear error.
+  - `environment` (optional): `staging` or `production`. If omitted, the CI auto-selects: `main` → `production`, other
+    branches → `staging`.
 
 B. From the standalone deploy workflow
 
@@ -270,7 +272,7 @@ This will:
 TypeScript migrations use the same structure as JavaScript migrations but with type annotations:
 
 ```typescript
-import { Knex } from 'knex';
+import { Knex } from "knex";
 
 interface MyEntity {
   id: number;
@@ -280,23 +282,20 @@ interface MyEntity {
 
 export default {
   async up(knex: Knex): Promise<void> {
-    await knex.schema.createTable('my_entities', (table) => {
-      table.increments('id').primary();
-      table.string('name').notNullable();
-      table.timestamp('created_at').defaultTo(knex.fn.now());
+    await knex.schema.createTable("my_entities", (table) => {
+      table.increments("id").primary();
+      table.string("name").notNullable();
+      table.timestamp("created_at").defaultTo(knex.fn.now());
     });
 
     // With TypeScript, you can use typed inserts
-    const entities: Partial<MyEntity>[] = [
-      { name: 'Entity 1' },
-      { name: 'Entity 2' }
-    ];
+    const entities: Partial<MyEntity>[] = [{ name: "Entity 1" }, { name: "Entity 2" }];
 
-    await knex('my_entities').insert(entities);
+    await knex("my_entities").insert(entities);
   },
 
   async down(knex: Knex): Promise<void> {
-    await knex.schema.dropTable('my_entities');
+    await knex.schema.dropTable("my_entities");
   }
 };
 ```
@@ -333,42 +332,43 @@ This section describes the process for adding a new collection with the proper p
 ### Steps to Add a New Collection
 
 1. **Create the collection in the Directus interface**
-    - Log in to the Directus admin interface
-    - Navigate to Settings > Data Model
-    - Click "Create Collection" and configure your new collection
-    - Add the necessary fields to your collection
+   - Log in to the Directus admin interface
+   - Navigate to Settings > Data Model
+   - Click "Create Collection" and configure your new collection
+   - Add the necessary fields to your collection
 
 2. **Add permissions for the new collection to the Contributor policy**
-    - Navigate to Settings > Access Policies
-    - Select the "Contributor" policy
-    - Find your newly created collection in the list
-    - Configure the appropriate permissions (Create, Read, Update, Delete)
+   - Navigate to Settings > Access Policies
+   - Select the "Contributor" policy
+   - Find your newly created collection in the list
+   - Configure the appropriate permissions (Create, Read, Update, Delete)
 
 3. **Create a snapshot of the current schema**
-    - Run the following command to create a snapshot:
-      ```bash
-      yarn snapshot:create
-      ```
-    - This will generate a snapshot file in the `snapshots` directory
+   - Run the following command to create a snapshot:
+     ```bash
+     yarn snapshot:create
+     ```
+   - This will generate a snapshot file in the `snapshots` directory
 
 4. **Export the permissions for the collections**
-    - Run the following command to export the system collections:
-      ```bash
-      yarn export:system:collections
-      ```
-    - This will update the permissions files in the `migrations/data` directory
+   - Run the following command to export the system collections:
+     ```bash
+     yarn export:system:collections
+     ```
+   - This will update the permissions files in the `migrations/data` directory
 
 5. **Create a migration script**
-    - Create a new migration script with a unique version number based on the existing script format (e.g.,
-      `20250711A-update-collections.ts`)
-    - Use the `20250710A-update-all.ts` script as a template
-    - Ensure your script includes the necessary imports and functions to apply the permissions
+   - Create a new migration script with a unique version number based on the existing script format (e.g.,
+     `20250711A-update-collections.ts`)
+   - Use the `20250710A-update-all.ts` script as a template
+   - Ensure your script includes the necessary imports and functions to apply the permissions
 
 ### Example Migration Script
 
 ```typescript
-import { Knex } from 'knex';
-import { installPermissions } from './utils/installPermissions';
+import { Knex } from "knex";
+
+import { installPermissions } from "./utils/installPermissions";
 
 export async function up(knex: Knex): Promise<void> {
   // Install permissions for the new collection
@@ -500,21 +500,25 @@ several advantages over npm and Yarn Classic:
 ### Getting Started with Yarn Berry
 
 1. Enable Corepack (if not already enabled):
+
    ```bash
    corepack enable
    ```
 
 2. Install dependencies:
+
    ```bash
    yarn install
    ```
 
 3. Add a new dependency:
+
    ```bash
    yarn add <package-name>
    ```
 
 4. Add a new development dependency:
+
    ```bash
    yarn add -D <package-name>
    ```
@@ -550,8 +554,8 @@ For more information on Yarn Berry, see the [Yarn Documentation](https://yarnpkg
 This project uses [Husky](https://typicode.github.io/husky/) and [lint-staged](https://github.com/okonet/lint-staged) to
 enforce code quality checks before commits. When you commit changes, the following checks are automatically run:
 
-- ESLint will run on all staged JavaScript and TypeScript files
-- Prettier will format all staged YAML files
+- [oxlint](https://oxc.rs/docs/guide/usage/linter) will lint, and [oxfmt](https://oxc.rs/docs/guide/usage/formatter) will format, all staged JavaScript and TypeScript files
+- oxfmt will format all staged JSON and YAML files
 - Any fixable issues will be automatically corrected
 
 Additionally, the project uses [commitlint](https://commitlint.js.org/) to enforce conventional commit message format.
@@ -567,7 +571,7 @@ To run the linting checks manually:
 yarn lint-staged
 ```
 
-To run ESLint on all files with automatic fixing:
+To run oxlint and oxfmt on all files with automatic fixing:
 
 ```bash
 yarn test:lint:fix

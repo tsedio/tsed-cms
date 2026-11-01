@@ -22,7 +22,7 @@ export function parseGitHubRepo(input: string | null | undefined): GitHubRepo | 
   }
 
   // ssh form: git@github.com:owner/repo(.git)?
-  const sshMatch = s.match(/^git@github\.com:(?<owner>[^\/\s]+)\/(?<repo>[^\s#]+)(?:#.*)?$/i);
+  const sshMatch = s.match(/^git@github\.com:(?<owner>[^/\s]+)\/(?<repo>[^\s#]+)(?:#.*)?$/i);
   if (sshMatch && sshMatch.groups) {
     const owner = sshMatch.groups.owner;
     const repo = cleanupRepoName(sshMatch.groups.repo);

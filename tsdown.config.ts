@@ -2,7 +2,8 @@ import { globbySync } from "globby";
 import { defineConfig } from "tsdown";
 
 export default defineConfig({
-  entry: globbySync("./migrations/*.ts"),
+  // Type declarations must not be emitted: Directus would load them as migrations.
+  entry: globbySync(["./migrations/*.ts", "!./migrations/*.d.ts"]),
   outDir: "./migrations/dist",
   format: "esm",
   platform: "node",

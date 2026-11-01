@@ -2,13 +2,13 @@
 // This script should be run after schema application to ensure tables exist
 
 import { join } from "node:path";
-
-import { inject, logger } from "@tsed/di";
-import { cli } from "@tsed-cms/infra/bootstrap/cli.js";
-import { DIRECTUS_SERVICE } from "@tsed-cms/infra/directus/DirectusService.js";
-import { globby } from "globby";
 import path from "path";
 import { fileURLToPath } from "url";
+
+import { cli } from "@tsed-cms/infra/bootstrap/cli.js";
+import { DIRECTUS_SERVICE } from "@tsed-cms/infra/directus/DirectusService.js";
+import { inject, logger } from "@tsed/di";
+import { globby } from "globby";
 
 const importsScriptDir = fileURLToPath(join(path.dirname(import.meta.url), "../../imports"));
 

@@ -6,8 +6,8 @@ export function logToCurl(opts: HttpRequestConfig | HttpRequestErrorConfig) {
   const { params, method, data } = opts;
   const url = `${opts.response?.config?.baseURL || ""}${opts.url}`;
   const headers = {
-    ...(opts.response?.config?.headers || {}),
-    ...(opts.headers || {})
+    ...opts.response?.config?.headers,
+    ...opts.headers
   };
 
   const request = parse(url, true);

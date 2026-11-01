@@ -43,8 +43,12 @@
     "test": "yarn vitest run",
     "test:watch": "yarn vitest",
     "test:ci": "yarn vitest run --reporter=junit --outputFile=./reports/vitest/test-results.xml",
-    "test:lint": "yarn eslint .",
-    "test:lint:fix": "yarn eslint . --fix",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "format": "oxfmt",
+    "format:check": "oxfmt --check",
+    "test:lint": "oxlint && oxfmt --check",
+    "test:lint:fix": "oxlint --fix && oxfmt",
     "export:system:collections": "yarn env:dev -- node --import @swc-node/register/esm-register ./packages/scripts/export-collections.ts",
     "create:extension": "cd extensions && npm init directus-extension",
     "lint-staged": "lint-staged",
@@ -52,7 +56,7 @@
     "build:affected": "nx affected --target=build --base=main",
     "build:dev:affected": "nx affected --target=dev --base=main",
     "build:migrations": "tsdown",
-    "typecheck": "yarn tsc --noEmit",
+    "typecheck": "tsc -p tsconfig.node.json && tsc -p tsconfig.spec.json && tsc -p tsconfig.migrations.json --noEmit",
     "release": "semantic-release",
     "release:dryRun": "semantic-release --dry-run",
     "prepare": "husky",
@@ -140,13 +144,16 @@
     "knex": "3.1.0",
     "lint-staged": "16.1.0",
     "nodemon": "3.1.10",
+    "oxfmt": "0.75.0",
+    "oxlint": "1.90.0",
+    "oxlint-tsgolint": "7.0.2005",
     "pinia": "3.0.3",
     "prettier": "3.5.3",
     "semantic-release": "25.0.1",
     "semantic-release-slack-bot": "4.0.2",
     "supertest": "7.1.1",
     "tsdown": "0.15.12",
-    "typescript": "5.8.3",
+    "typescript": "7.0.2",
     "uuid": "13.0.0",
     "vitest": "3.2.1"
   },
@@ -159,10 +166,11 @@
   "license": "MIT",
   "lint-staged": {
     "*.{js,ts,mjs,cjs,jsx,tsx}": [
-      "eslint --fix"
+      "oxlint --fix",
+      "oxfmt --no-error-on-unmatched-pattern"
     ],
-    "*.{yml,yaml}": [
-      "prettier --write"
+    "*.{json,yml,yaml}": [
+      "oxfmt --no-error-on-unmatched-pattern"
     ]
   },
   "flow": {
@@ -176,7 +184,7 @@
     "extensions/*",
     "packages/*"
   ],
-  "packageManager": "yarn@4.9.2",
+  "packageManager": "yarn@4.18.1",
   "monorepo": {
     "productionBranch": "main",
     "developBranch": "main",

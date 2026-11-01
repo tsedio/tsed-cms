@@ -1,10 +1,10 @@
-import { inject } from "@tsed/di";
-import { defineOperationApi } from "@tsed/directus-sdk";
 import type { Maintainer } from "@tsed-cms/infra/directus/interfaces/DirectusSchema.js";
 import { GitHubClient } from "@tsed-cms/infra/github/GitHubClient.js";
 import { getAllPages } from "@tsed-cms/infra/github/utils/getAllPages.js";
 import { MaintainersService } from "@tsed-cms/usecases/maintainers/MaintainersService.js";
 import { RepositoriesService } from "@tsed-cms/usecases/repositories/RepositoriesService.js";
+import { inject } from "@tsed/di";
+import { defineOperationApi } from "@tsed/directus-sdk";
 
 // Options can be extended later if needed (e.g., limit to owner/repo)
 type Options = {

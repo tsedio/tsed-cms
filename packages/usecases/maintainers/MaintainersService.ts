@@ -1,7 +1,7 @@
 import type { Item } from "@directus/types";
-import { injectable } from "@tsed/di";
 import { DirectusItemsRepository } from "@tsed-cms/infra/directus/DirectusItemsRepository.js";
 import type { Maintainer } from "@tsed-cms/infra/directus/interfaces/DirectusSchema.d.js";
+import { injectable } from "@tsed/di";
 
 export class MaintainersService extends DirectusItemsRepository<Maintainer, string> {
   protected collection = "maintainers" as const;

@@ -9,9 +9,7 @@
     "trigger": "manual",
     "accountability": "all",
     "options": {
-      "collections": [
-        "package_symbols"
-      ],
+      "collections": ["package_symbols"],
       "requireSelection": false,
       "location": "collection",
       "requireConfirmation": true,
@@ -80,9 +78,7 @@
     "trigger": "manual",
     "accountability": "all",
     "options": {
-      "collections": [
-        "repositories"
-      ],
+      "collections": ["repositories"],
       "async": true,
       "requireConfirmation": true,
       "requireSelection": false
@@ -101,9 +97,7 @@
     "trigger": "manual",
     "accountability": "all",
     "options": {
-      "collections": [
-        "packages"
-      ],
+      "collections": ["packages"],
       "async": true,
       "location": "collection",
       "requireConfirmation": true,
@@ -123,9 +117,7 @@
     "trigger": "manual",
     "accountability": "all",
     "options": {
-      "collections": [
-        "packages"
-      ],
+      "collections": ["packages"],
       "async": true,
       "requireConfirmation": true,
       "location": "collection",
@@ -145,9 +137,7 @@
     "trigger": "manual",
     "accountability": "all",
     "options": {
-      "collections": [
-        "sponsors"
-      ],
+      "collections": ["sponsors"],
       "location": "collection",
       "requireConfirmation": true,
       "requireSelection": false

@@ -1,5 +1,5 @@
-import { injectable } from "@tsed/di";
 import { HttpClient } from "@tsed-cms/infra/http/HttpClient.js";
+import { injectable } from "@tsed/di";
 
 export interface WarehousePluginMaintainer {
   username?: string;

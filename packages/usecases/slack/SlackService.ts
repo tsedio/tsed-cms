@@ -1,5 +1,5 @@
-import { inject, injectable } from "@tsed/di";
 import { SettingsRepository } from "@tsed-cms/infra/directus/SettingsRepository.js";
+import { inject, injectable } from "@tsed/di";
 
 export class SlackService {
   protected settings = inject(SettingsRepository);

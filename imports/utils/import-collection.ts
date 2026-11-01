@@ -1,7 +1,7 @@
 import { createItem, readItems, updateItem } from "@directus/sdk";
-import { inject, logger } from "@tsed/di";
 import { DIRECTUS_SERVICE } from "@tsed-cms/infra/directus/DirectusService.js";
 import type { Schema } from "@tsed-cms/infra/directus/interfaces/DirectusSchema.js";
+import { inject, logger } from "@tsed/di";
 
 export async function importCollection<Collection extends keyof Schema>(table: Collection, items: Schema[Collection]) {
   const directus = inject(DIRECTUS_SERVICE);

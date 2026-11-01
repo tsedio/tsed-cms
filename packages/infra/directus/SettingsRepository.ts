@@ -1,6 +1,6 @@
-import { injectable } from "@tsed/di";
 import { DirectusItemsRepository } from "@tsed-cms/infra/directus/DirectusItemsRepository.js";
 import type { Settings } from "@tsed-cms/infra/directus/interfaces/DirectusSchema.js";
+import { injectable } from "@tsed/di";
 
 export class SettingsRepository extends DirectusItemsRepository<Settings> {
   protected collection: string = "settings";

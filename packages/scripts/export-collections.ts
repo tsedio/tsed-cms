@@ -1,11 +1,12 @@
+import fs from "fs";
+import path from "path";
+
+import { cli } from "@tsed-cms/infra/bootstrap/cli.js";
+import { DATABASE } from "@tsed-cms/infra/database/DbService.js";
 // Script to export roles and permissions from the Directus database
 // Run this script with: node scripts/export-roles-permissions.js
 import { inject, logger } from "@tsed/di";
-import { cli } from "@tsed-cms/infra/bootstrap/cli.js";
-import { DATABASE } from "@tsed-cms/infra/database/DbService.js";
-import fs from "fs";
 import type { Knex } from "knex";
-import path from "path";
 
 const COLLECTIONS = [
   "directus_roles",

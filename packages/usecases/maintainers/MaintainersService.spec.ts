@@ -1,5 +1,5 @@
-import { DITest } from "@tsed/di";
 import { DirectusContextService } from "@tsed-cms/infra/directus/DirectusContextService.js";
+import { DITest } from "@tsed/di";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 import { MaintainersService } from "./MaintainersService.js";

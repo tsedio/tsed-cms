@@ -146,15 +146,20 @@ The following environment variables are required for the application to run:
 The `CI` workflow runs `lint`, `test` and `build` on every push and pull request. On `main`, `alpha`, `beta` and
 `rc`, the `release` job then creates a Git tag and a GitHub Release with `semantic-release` (`yarn release`).
 
-CI does not deploy: Render does.
+On `main`, the `deploy` job then calls the `Deploy to Render` workflow (`.github/workflows/deploy-render.yml`), which
+triggers the Render deploy hook on the current commit. To redeploy a release, run **Actions → Deploy to Render** (or
+**CI**) with its tag as `version`.
 
 ### Render Deployment
 
-The production service is a Render web service built from the repository `Dockerfile`, with **Auto-Deploy** on the
-`main` branch. The container runs `node cli.js bootstrap && node cli.js start` (see `docker/cli.js`).
+The production service is a Render web service built from the repository `Dockerfile`. The container runs
+`node cli.js bootstrap && node cli.js start` (see `docker/cli.js`).
 
-- **Auto-Deploy** set to _After CI Checks Pass_ waits for every GitHub check of the commit to succeed: a red or still
-  running CI delays the deploy.
+Setup on Render and GitHub:
+
+- Render → service → Settings → **Auto-Deploy: Off**: deploys are triggered by the CI only.
+- Render → service → Settings → **Deploy Hook**: copy the URL into the `RENDER_DEPLOY_HOOK_URL` repository secret. The
+  workflow appends `ref=<commit sha>` so Render builds exactly that commit.
 - Environment variables are set on the Render service (examples): `ADMIN_EMAIL`, `ADMIN_PASSWORD`, `KEY`, `SECRET`,
   `PUBLIC_URL`, `DB_*`, `STORAGE_*`. Optional: `SKIP_BOOTSTRAP=true` after the first successful bootstrap.
 - To run scripts against production from your machine, put the production values in `config/.env.render-production`

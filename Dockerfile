@@ -14,8 +14,8 @@ ARG NO_PROXY
 
 WORKDIR /app
 
-# Enable yarn via Corepack
-RUN corepack enable
+# Enable yarn via Corepack (no longer bundled with Node.js since v25)
+RUN npm install -g corepack@0.36.0 && corepack enable
 RUN yarn set version 4.18.1
 
 # Copy Yarn configuration and package.json
@@ -24,13 +24,15 @@ COPY package.json .yarnrc.yml yarn.lock nx.json .nxignore ./
 
 COPY extensions ./extensions
 COPY packages ./packages
+COPY exports ./exports
+COPY imports ./imports
 COPY migrations ./migrations
 
 # Install dependencies
 RUN yarn install
 
 # Copy TypeScript configuration and source files
-COPY tsconfig.json tsconfig.node.json tsconfig.base.json tsconfig.spec.json tsdown.config.ts ./
+COPY tsconfig.json tsconfig.node.json tsconfig.base.json tsconfig.spec.json tsconfig.migrations.json tsdown.config.ts ./
 
 # Build TypeScript files
 RUN yarn run build

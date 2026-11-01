@@ -6,6 +6,11 @@ on:
   pull_request:
     branches: ["**"]
   workflow_dispatch:
+    inputs:
+      version:
+        description: "Release tag to deploy (e.g., v1.2.3). Empty: the current commit"
+        required: false
+        type: string
 
 concurrency:
   group: ci-${{ github.ref }}
@@ -143,4 +148,11 @@ jobs:
       - name: Run semantic-release
         run: yarn release
 
-# Deployment: Render auto-deploys the production service from `main` (Dockerfile build), so CI does not deploy.
+  deploy:
+    name: Deploy
+    needs: [release]
+    if: github.ref == 'refs/heads/main'
+    uses: ./.github/workflows/deploy-render.yml
+    with:
+      version: ${{ inputs.version }}
+    secrets: inherit

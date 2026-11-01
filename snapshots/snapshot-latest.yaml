@@ -1866,13 +1866,15 @@ fields:
       group: null
       hidden: false
       interface: select-dropdown
-      note: GitHub event (pull_request, workflow_dispatch) or local
+      note: GitHub event (pull_request, workflow_dispatch, release) or local
       options:
         choices:
           - text: pull_request
             value: pull_request
           - text: workflow_dispatch
             value: workflow_dispatch
+          - text: release
+            value: release
           - text: local
             value: local
       readonly: false

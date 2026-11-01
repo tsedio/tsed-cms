@@ -1,0 +1,75 @@
+name: Export production data
+
+# Exports the production Directus data every week and opens (or updates) a pull request with the changes of
+# imports/data. Only documents that changed are rewritten, so the diff shows the week's real changes.
+on:
+  schedule:
+    - cron: "0 3 * * 1" # Monday 03:00 UTC
+  workflow_dispatch:
+
+concurrency:
+  group: export-prod-data
+  cancel-in-progress: false
+
+jobs:
+  export:
+    name: Export and open a PR
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    env:
+      # Skip the husky hooks when the export is committed.
+      HUSKY: "0"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "yarn"
+          cache-dependency-path: "yarn.lock"
+
+      - name: Enable Corepack (Yarn Berry)
+        run: |
+          corepack enable
+          echo "Yarn version:" && yarn -v
+
+      - name: Install dependencies (immutable)
+        run: yarn install --immutable
+
+      # REST exports only: export-system-collections needs a direct database connection.
+      - name: Export production data
+        env:
+          PUBLIC_URL: ${{ secrets.DIRECTUS_PROD_URL }}
+          ADMIN_EMAIL: ${{ secrets.DIRECTUS_PROD_ADMIN_EMAIL }}
+          ADMIN_PASSWORD: ${{ secrets.DIRECTUS_PROD_ADMIN_PASSWORD }}
+        run: >-
+          yarn export:data
+          export-maintainers
+          export-packages
+          export-package-symbols
+          export-repositories
+          export-sponsors
+          export-roles-permissions
+          export-flows
+          export-presets
+          export-dashboards
+
+      - name: Open or update the pull request
+        uses: peter-evans/create-pull-request@v8
+        with:
+          add-paths: imports/data
+          branch: chore/prod-data-export
+          delete-branch: true
+          commit-message: "chore(data): export production data"
+          title: "chore(data): export production data"
+          body: |
+            Weekly export of the production Directus data (`.github/workflows/export-prod-data.yml`).
+
+            Only documents that changed since the last export are updated. Review the diff, then merge to keep
+            `imports/data` in sync with production.
+
+            Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}

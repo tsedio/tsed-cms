@@ -6,15 +6,6 @@ on:
   pull_request:
     branches: ["**"]
   workflow_dispatch:
-    inputs:
-      version:
-        description: "Release version to deploy (e.g., v1.2.3)"
-        required: false
-        type: string
-      environment:
-        description: "Target environment override (leave empty to auto-select: main=production, others=staging)"
-        required: false
-        type: string
 
 concurrency:
   group: ci-${{ github.ref }}
@@ -152,12 +143,4 @@ jobs:
       - name: Run semantic-release
         run: yarn release
 
-  deploy:
-    name: Deploy
-    needs: [release]
-    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/alpha' || github.ref == 'refs/heads/beta' || github.ref == 'refs/heads/rc'
-    uses: ./.github/workflows/deploy-heroku.yml
-    with:
-      version: ${{ inputs.version }}
-      environment: ${{ inputs.environment || (github.ref == 'refs/heads/main' && 'production' || 'staging') }}
-    secrets: inherit
+# Deployment: Render auto-deploys the production service from `main` (Dockerfile build), so CI does not deploy.

@@ -240,7 +240,19 @@ the source id.
 ```bash
 yarn export:data:render:prod      # prompt: pick a script in exports/
 yarn export:data:render:prod all  # run exports/export-all.ts without prompt
+yarn export:data:render:prod export-packages export-sponsors  # several scripts, in order
 ```
+
+### Weekly production export
+
+`.github/workflows/export-prod-data.yml` runs every Monday at 03:00 UTC (or from **Actions → Export production data**).
+It runs the REST exports against production and opens or updates the `chore/prod-data-export` pull request with the
+changes of `imports/data`. Merge it to keep the repository in sync with production.
+
+Required repository secrets: `DIRECTUS_PROD_URL`, `DIRECTUS_PROD_ADMIN_EMAIL`, `DIRECTUS_PROD_ADMIN_PASSWORD`.
+
+- `export-system-collections` is not run: it needs a direct database connection (`yarn export:system:collections`).
+- Pull requests opened with the workflow token do not trigger the `CI` workflow; the export only touches data files.
 
 ### Importing
 

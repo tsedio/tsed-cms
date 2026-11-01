@@ -1,6 +1,6 @@
-// Selects and runs an export script from the exports directory.
-// Usage: yarn export:data:dev [script]   (e.g. `yarn export:data:dev all` or `yarn export:data:dev export-packages`)
-// Without argument, the available `exports/export-*.ts` scripts are listed in a prompt.
+// Selects and runs export scripts from the exports directory.
+// Usage: yarn export:data:dev [script...]   (e.g. `yarn export:data:dev all` or `yarn export:data:dev export-packages export-sponsors`)
+// Without argument, the available `exports/export-*.ts` scripts are listed in a prompt. Several scripts run in order.
 
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -40,5 +40,17 @@ await cli(async () => {
     };
   });
 
-  await runScript(await selectScript(choices, "Select an export script to run:"), directus);
+  const scriptNames = process.argv.slice(2);
+
+  if (scriptNames.length <= 1) {
+    await runScript(await selectScript(choices, "Select an export script to run:"), directus);
+    return;
+  }
+
+  // Resolve every name first, so a typo fails before any export runs.
+  const scripts = await Promise.all(scriptNames.map((name) => selectScript(choices, "", name)));
+
+  for (const script of scripts) {
+    await runScript(script, directus);
+  }
 });

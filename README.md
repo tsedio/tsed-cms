@@ -254,7 +254,9 @@ Each data file holds a single document:
 ```
 
 Relation tables (`packages_maintainers`, `repositories_maintainers`) are exported in their own directory and imported
-after their parents. O2M aliases (e.g. `packages.maintainers`) are stripped before importing the parent.
+after their parents. O2M aliases (e.g. `packages.maintainers`) are stripped before importing the parent. Their
+auto-increment ids differ per environment, so links are matched on their foreign keys (`matchBy`) and created without
+the source id.
 
 ### Exporting
 

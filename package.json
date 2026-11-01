@@ -113,8 +113,8 @@
     "semver": "^7.7.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "19.8.1",
-    "@commitlint/config-conventional": "19.8.1",
+    "@commitlint/cli": "21.2.4",
+    "@commitlint/config-conventional": "21.2.4",
     "@directus/extensions-sdk": "18.0.5",
     "@semantic-release/commit-analyzer": "13.0.1",
     "@semantic-release/gitlab": "13.2.4",
@@ -142,7 +142,7 @@
     "globby": "14.1.0",
     "husky": "9.1.7",
     "knex": "3.1.0",
-    "lint-staged": "16.1.0",
+    "lint-staged": "17.6.0",
     "nodemon": "3.1.10",
     "oxfmt": "0.75.0",
     "oxlint": "1.90.0",

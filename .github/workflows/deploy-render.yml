@@ -1,0 +1,47 @@
+name: Deploy to Render
+
+on:
+  workflow_call:
+    inputs:
+      version:
+        description: "Release tag to deploy (e.g., v1.2.3). Empty: the current commit"
+        required: false
+        type: string
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Release tag to deploy (e.g., v1.2.3). Empty: the current commit"
+        required: false
+        type: string
+
+concurrency:
+  group: deploy-render
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Deploy on Render
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout source (tag or current commit)
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.version || github.sha }}
+
+      # Render deploys the given commit SHA (the deploy hook `ref` parameter).
+      - name: Trigger the Render deploy hook
+        env:
+          RENDER_DEPLOY_HOOK_URL: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
+        run: |
+          set -euo pipefail
+          SHA="$(git rev-parse HEAD)"
+
+          case "$RENDER_DEPLOY_HOOK_URL" in
+            *\?*) URL="${RENDER_DEPLOY_HOOK_URL}&ref=${SHA}" ;;
+            *) URL="${RENDER_DEPLOY_HOOK_URL}?ref=${SHA}" ;;
+          esac
+
+          echo "Deploying ${{ inputs.version || 'current commit' }} ($SHA) on Render"
+          curl --fail-with-body --silent --show-error -X POST "$URL"

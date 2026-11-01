@@ -1,0 +1,20 @@
+{
+  "collection": "directus_policies",
+  "items": [
+    {
+      "id": "7564900b-e161-47ae-ab23-072ce593e49d",
+      "name": "Benchmark publisher",
+      "icon": "speed",
+      "description": "Creates the HTTP benchmark runs pushed by the Ts.ED Benchmark workflow (benchmark_runs, benchmark_results). Attach it to the user of the DIRECTUS_TOKEN CI token.",
+      "ip_access": null,
+      "enforce_tfa": false,
+      "admin_access": false,
+      "app_access": false
+    }
+  ],
+  "exportedAt": "2026-11-01T11:57:13.608Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

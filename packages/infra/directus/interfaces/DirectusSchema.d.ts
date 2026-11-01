@@ -1,3 +1,126 @@
+export interface BenchmarkResult {
+  /** @primaryKey */
+  id: number;
+  /** @required */
+  run: BenchmarkRun | string;
+  /** @description Date of the run (copied for the charts) */
+  date?: string | null;
+  /** @description Target name (8.44.12, local, local-head, raw) */
+  target?: string | null;
+  /** @description version, local or raw */
+  target_kind?: "version" | "local" | "raw" | null;
+  /** @description Version of a published target */
+  target_version?: string | null;
+  /** @description Target the others are compared to */
+  is_baseline?: boolean | null;
+  /** @description HTTP platform */
+  platform?: "express" | "koa" | "fastify" | null;
+  /** @description Measured route, or startup */
+  route?: "hello" | "users" | `orders-create` | `orders-list` | "startup" | null;
+  /** @description Median requests per second */
+  rps?: number | null;
+  /** @description Median latency p50 (ms) */
+  p50?: number | null;
+  /** @description Median latency p99 (ms) */
+  p99?: number | null;
+  /** @description Median server CPU time per request (µs) */
+  cpu_per_request?: number | null;
+  /** @description Failed requests over the rounds */
+  errors?: number | null;
+  /** @description Median cold start to the first 200 (ms), startup rows only */
+  startup_ms?: number | null;
+  /** @description req/s of Ts.ED as a % of the same platform without Ts.ED (hello only) */
+  share_of_raw?: number | null;
+  /** @description Gap of req/s against the baseline, in % (positive is better) */
+  gap_rps?: number | null;
+  /** @description Low bound of the 95% interval, in % */
+  gap_rps_low?: number | null;
+  /** @description High bound of the 95% interval, in % */
+  gap_rps_high?: number | null;
+  /** @description The 95% interval does not contain 0 */
+  gap_rps_significant?: boolean | null;
+  /** @description Gap of p99 latency against the baseline, in % (positive is better) */
+  gap_p99?: number | null;
+  /** @description Low bound of the 95% interval, in % */
+  gap_p99_low?: number | null;
+  /** @description High bound of the 95% interval, in % */
+  gap_p99_high?: number | null;
+  /** @description The 95% interval does not contain 0 */
+  gap_p99_significant?: boolean | null;
+  /** @description Gap of CPU per request against the baseline, in % (positive is better) */
+  gap_cpu?: number | null;
+  /** @description Low bound of the 95% interval, in % */
+  gap_cpu_low?: number | null;
+  /** @description High bound of the 95% interval, in % */
+  gap_cpu_high?: number | null;
+  /** @description The 95% interval does not contain 0 */
+  gap_cpu_significant?: boolean | null;
+  /** @description Gap of cold start against the baseline, in % (positive is better) */
+  gap_startup?: number | null;
+  /** @description Low bound of the 95% interval, in % */
+  gap_startup_low?: number | null;
+  /** @description High bound of the 95% interval, in % */
+  gap_startup_high?: number | null;
+  /** @description The 95% interval does not contain 0 */
+  gap_startup_significant?: boolean | null;
+}
+
+export interface BenchmarkRun {
+  /** @primaryKey */
+  id: string;
+  date_created?: string | null;
+  /** @description Date of the run (results.json) @required */
+  date: string;
+  /** @description Pull request title, or the compared targets */
+  title?: string | null;
+  /** @description failed when a target failed the response check */
+  status?: "success" | "failed" | null;
+  /** @description GitHub event (pull_request, workflow_dispatch) or local */
+  trigger?: "pull_request" | "workflow_dispatch" | "local" | null;
+  /** @description Branch of the measured head */
+  git_ref?: string | null;
+  /** @description Commit of the measured head */
+  git_sha?: string | null;
+  /** @description Pull request number */
+  pr_number?: number | null;
+  /** @description GitHub Actions run */
+  run_url?: string | null;
+  /** @description Target the others are compared to */
+  baseline?: string | null;
+  /** @description Comma-separated targets, baseline first */
+  targets?: string | null;
+  /** @description Comma-separated platforms */
+  platforms?: string | null;
+  /** @description Comma-separated routes */
+  routes?: string | null;
+  /** @description Interleaved rounds */
+  rounds?: number | null;
+  /** @description Measured seconds per route and round */
+  duration?: number | null;
+  /** @description Warmup seconds per route */
+  warmup?: number | null;
+  /** @description autocannon connections */
+  connections?: number | null;
+  /** @description Seed of the measurement order */
+  seed?: number | null;
+  /** @description Node.js version */
+  node?: string | null;
+  /** @description Operating system */
+  os?: string | null;
+  /** @description CPU model */
+  cpu?: string | null;
+  /** @description CPU cores */
+  cores?: number | null;
+  /** @description Server pinned on its own core (taskset): gaps under ~3% are only reliable when true */
+  pinned?: boolean | null;
+  /** @description Markdown report of the run */
+  report?: string | null;
+  /** @description Raw results.json */
+  raw_results?: Record<string, any> | null;
+  /** @description Results of the run */
+  results?: BenchmarkResult[] | string[];
+}
+
 export interface CliInstallStat {
   /** @primaryKey */
   id: number;
@@ -199,6 +322,8 @@ export interface DirectusCollection {
   collapse?: string;
   preview_url?: string | null;
   versioning?: boolean;
+  status?: "active" | "inactive";
+  autosave_revision_interval?: null | 30 | 60 | 300 | 600 | null;
 }
 
 export interface DirectusComment {
@@ -272,6 +397,7 @@ export interface DirectusFolder {
   id: string;
   name?: string;
   parent?: DirectusFolder | string | null;
+  type?: "files" | "flows";
 }
 
 export interface DirectusMigration {
@@ -376,6 +502,7 @@ export interface DirectusSession {
   share?: DirectusShare | string | null;
   origin?: string | null;
   next_token?: string | null;
+  oauth_client?: DirectusOauthClient | string | null;
 }
 
 export interface DirectusSettings {
@@ -457,19 +584,70 @@ export interface DirectusSettings {
   ai_openai_compatible_headers?: Array<{ header: string; value: string }> | null;
   ai_openai_allowed_models?: Array<
     | `gpt-4o-mini`
-    | `gpt-4.1-nano`
     | `gpt-4.1-mini`
     | `gpt-4.1`
     | `gpt-5-nano`
     | `gpt-5-mini`
     | `gpt-5`
+    | `gpt-5.1`
     | `gpt-5.2`
-    | `gpt-5.2-chat-latest`
     | `gpt-5.2-pro`
+    | `gpt-5.4-nano`
+    | `gpt-5.4-mini`
+    | `gpt-5.4`
+    | `gpt-5.4-pro`
+    | `gpt-5.5`
+    | `gpt-5.5-pro`
+    | `gpt-5.6-luna`
+    | `gpt-5.6-terra`
+    | `gpt-5.6-sol`
+    | `gpt-5.6`
+    | `gpt-6-luna`
+    | `gpt-6-sol`
+    | `gpt-6-astra`
+    | `gpt-6.1-sol`
   > | null;
-  ai_anthropic_allowed_models?: Array<`claude-haiku-4-5` | `claude-sonnet-4-5` | `claude-opus-4-5`> | null;
-  ai_google_allowed_models?: Array<`gemini-3-pro-preview` | `gemini-3-flash-preview` | `gemini-2.5-pro` | `gemini-2.5-flash`> | null;
+  ai_anthropic_allowed_models?: Array<
+    | `claude-haiku-5-5`
+    | `claude-sonnet-5-5`
+    | `claude-opus-5-5`
+    | `claude-fable-5-1`
+    | `claude-sonnet-5`
+    | `claude-opus-5`
+    | `claude-fable-5`
+    | `claude-opus-4-8`
+    | `claude-haiku-4-5`
+    | `claude-sonnet-4-6`
+    | `claude-opus-4-7`
+    | `claude-opus-4-6`
+  > | null;
+  ai_google_allowed_models?: Array<
+    | `gemini-3-flash-preview`
+    | `gemini-2.5-pro`
+    | `gemini-2.5-flash`
+    | `gemini-3.8-flash`
+    | `gemini-3.7-flash`
+    | `gemini-3.6-flash`
+    | `gemini-3.5-flash`
+    | `gemini-3.5-flash-lite`
+    | `gemini-3.1-flash-lite`
+    | `gemini-3.1-pro-preview`
+    | `gemini-2.5-flash-lite`
+  > | null;
   collaborative_editing_enabled?: boolean;
+  ai_translation_default_model?: string | null;
+  ai_translation_glossary?: Array<{ term: string; translation_note: string }> | null;
+  ai_translation_style_guide?: string | null;
+  license_key?: string | null;
+  license_token?: string | null;
+  mcp_oauth_enabled?: boolean;
+  /** @description Allow MCP clients to register automatically using the OAuth 2.0 Dynamic Client Registration protocol (RFC 7591). */
+  mcp_oauth_dcr_enabled?: boolean;
+  /** @description Allow MCP clients to identify themselves using an HTTPS URL that hosts their metadata (IETF draft-oauth-client-id-metadata-document). */
+  mcp_oauth_cimd_enabled?: boolean;
+  default_save_action?: `save-and-quit` | `save-and-stay` | `save-and-create-new`;
+  preview_base_url?: string | null;
+  default_exports_folder?: DirectusFolder | string | null;
 }
 
 export interface DirectusUser {
@@ -486,7 +664,7 @@ export interface DirectusUser {
   avatar?: DirectusFile | string | null;
   language?: string | null;
   tfa_secret?: string | null;
-  status?: "draft" | "invited" | "unverified" | "active" | "suspended" | "archived";
+  status?: "draft" | "invited" | "unverified" | "active" | "suspended" | "archived" | `inactive-license`;
   role?: DirectusRole | string | null;
   token?: string | null;
   last_access?: string | null;
@@ -578,6 +756,7 @@ export interface DirectusFlow {
   operation?: DirectusOperation | string | null;
   date_created?: string | null;
   user_created?: DirectusUser | string | null;
+  folder?: DirectusFolder | string | null;
   operations?: DirectusOperation[] | string[];
 }
 
@@ -640,6 +819,9 @@ export interface DirectusDeployment {
   options?: "json" | null;
   date_created?: string | null;
   user_created?: DirectusUser | string | null;
+  webhook_ids?: "json" | null;
+  webhook_secret?: string | null;
+  last_synced_at?: string | null;
   projects?: DirectusDeploymentProject[] | string[];
 }
 
@@ -651,6 +833,9 @@ export interface DirectusDeploymentProject {
   name?: string;
   date_created?: string | null;
   user_created?: DirectusUser | string | null;
+  url?: string | null;
+  framework?: string | null;
+  deployable?: boolean;
   runs?: DirectusDeploymentRun[] | string[];
 }
 
@@ -662,9 +847,75 @@ export interface DirectusDeploymentRun {
   target?: string;
   date_created?: string | null;
   user_created?: DirectusUser | string | null;
+  status?: string | null;
+  url?: string | null;
+  started_at?: string | null;
+  completed_at?: string | null;
+}
+
+export interface DirectusOauthClient {
+  /** @primaryKey */
+  client_id: string;
+  client_name?: string;
+  redirect_uris?: "json";
+  grant_types?: "json";
+  token_endpoint_auth_method?: string;
+  client_secret_hash?: string | null;
+  registration_type?: string;
+  client_uri?: string | null;
+  logo_uri?: string | null;
+  tos_uri?: string | null;
+  policy_uri?: string | null;
+  metadata_fetched_at?: string | null;
+  metadata_expires_at?: string | null;
+  metadata_etag?: string | null;
+  date_created?: string;
+  tokens?: DirectusOauthToken[] | string[];
+}
+
+export interface DirectusOauthCode {
+  /** @primaryKey */
+  id: string;
+  code_hash?: string;
+  client?: DirectusOauthClient | string;
+  user?: DirectusUser | string;
+  redirect_uri?: string;
+  resource?: string;
+  code_challenge?: string;
+  code_challenge_method?: string;
+  scope?: string | null;
+  expires_at?: string;
+  used_at?: string | null;
+}
+
+export interface DirectusOauthConsent {
+  /** @primaryKey */
+  id: string;
+  user?: DirectusUser | string;
+  client?: DirectusOauthClient | string;
+  redirect_uri?: string;
+  scope?: string | null;
+  date_created?: string;
+  date_updated?: string;
+}
+
+export interface DirectusOauthToken {
+  /** @primaryKey */
+  id: string;
+  client?: DirectusOauthClient | string;
+  user?: DirectusUser | string;
+  session?: string;
+  previous_session?: string | null;
+  resource?: string;
+  code_hash?: string;
+  scope?: string | null;
+  expires_at?: string;
+  date_created?: string;
 }
 
 export interface Schema {
+  benchmark_results: BenchmarkResult[];
+  benchmark_runs: BenchmarkRun[];
   cli_install_stats: CliInstallStat[];
   maintainers: Maintainer[];
   packages: Package[];
@@ -703,9 +954,15 @@ export interface Schema {
   directus_deployments: DirectusDeployment[];
   directus_deployment_projects: DirectusDeploymentProject[];
   directus_deployment_runs: DirectusDeploymentRun[];
+  directus_oauth_clients: DirectusOauthClient[];
+  directus_oauth_codes: DirectusOauthCode[];
+  directus_oauth_consents: DirectusOauthConsent[];
+  directus_oauth_tokens: DirectusOauthToken[];
 }
 
 export enum CollectionNames {
+  benchmark_results = "benchmark_results",
+  benchmark_runs = "benchmark_runs",
   cli_install_stats = "cli_install_stats",
   maintainers = "maintainers",
   packages = "packages",
@@ -743,5 +1000,9 @@ export enum CollectionNames {
   directus_extensions = "directus_extensions",
   directus_deployments = "directus_deployments",
   directus_deployment_projects = "directus_deployment_projects",
-  directus_deployment_runs = "directus_deployment_runs"
+  directus_deployment_runs = "directus_deployment_runs",
+  directus_oauth_clients = "directus_oauth_clients",
+  directus_oauth_codes = "directus_oauth_codes",
+  directus_oauth_consents = "directus_oauth_consents",
+  directus_oauth_tokens = "directus_oauth_tokens"
 }

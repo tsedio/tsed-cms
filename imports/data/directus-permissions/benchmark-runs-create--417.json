@@ -1,0 +1,22 @@
+{
+  "collection": "directus_permissions",
+  "items": [
+    {
+      "id": 417,
+      "collection": "benchmark_runs",
+      "action": "create",
+      "permissions": null,
+      "validation": null,
+      "presets": null,
+      "fields": [
+        "*"
+      ],
+      "policy": "7564900b-e161-47ae-ab23-072ce593e49d"
+    }
+  ],
+  "exportedAt": "2026-11-01T11:57:13.608Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

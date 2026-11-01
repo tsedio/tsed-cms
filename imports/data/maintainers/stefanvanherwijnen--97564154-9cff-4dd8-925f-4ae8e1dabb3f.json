@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "97564154-9cff-4dd8-925f-4ae8e1dabb3f",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.555Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:41.410Z",
+      "username": "stefanvanherwijnen",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/5968971?v=4",
+      "url": "https://github.com/stefanvanherwijnen"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.750Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "unicorn", "oxc", "import", "vitest"],
+  "categories": {
+    "correctness": "error"
+  },
+  "env": {
+    "node": true,
+    "es2024": true
+  },
+  "ignorePatterns": ["coverage", "pm2.config.cjs", "dist", "**/dist/**", "snapshots", "node_modules", "terraform", ".yarn", ".nx"],
+  "rules": {
+    "typescript/ban-ts-comment": "off",
+    "typescript/no-explicit-any": "off",
+    "typescript/no-non-null-assertion": "off",
+    "typescript/no-inferrable-types": "off",
+    "typescript/explicit-function-return-type": "off",
+    "typescript/explicit-module-boundary-types": "off",
+    "no-unused-vars": "off",
+    "vitest/require-mock-type-parameters": "off"
+  }
+}

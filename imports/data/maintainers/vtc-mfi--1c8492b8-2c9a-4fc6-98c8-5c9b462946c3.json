@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "1c8492b8-2c9a-4fc6-98c8-5c9b462946c3",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.622Z",
+      "user_updated": null,
+      "date_updated": null,
+      "username": "vtc-mfi",
+      "email": "mfischbacher@vortech.io",
+      "avatar": "https://www.gravatar.com/avatar/ec523b7f674dd73b33ad9a169601bdef",
+      "url": null
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.752Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

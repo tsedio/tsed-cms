@@ -1,0 +1,36 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "a0eb8f12-7f55-4612-a866-fa93ce81dad8",
+      "status": "published",
+      "sort": 10,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.177Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:16.128Z",
+      "name": "@tsed/platform-express",
+      "icon": "https://tsed.io/expressjs.svg",
+      "description": "A TypeScript Framework on top of Express",
+      "tags": [
+        "platform"
+      ],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/platform/platform-express",
+      "downloads": 91710,
+      "version": "8.44.12",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/platform-express",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        10
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.850Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "07602dbc-8034-4397-af15-aaeadacf829f",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.292Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:28.019Z",
+      "username": "Tomdrouv1",
+      "email": "thomas.drouvin@collektivs.com",
+      "avatar": "https://avatars.githubusercontent.com/u/9864634?v=4",
+      "url": "https://github.com/Tomdrouv1"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.751Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

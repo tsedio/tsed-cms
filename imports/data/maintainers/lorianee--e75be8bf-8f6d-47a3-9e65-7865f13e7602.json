@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "e75be8bf-8f6d-47a3-9e65-7865f13e7602",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.423Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:45.878Z",
+      "username": "LorianeE",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/34451946?v=4",
+      "url": "https://github.com/LorianeE"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.744Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

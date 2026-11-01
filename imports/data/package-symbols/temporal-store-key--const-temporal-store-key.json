@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "const-temporal-store-key",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:34.631Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:54.175Z",
+      "name": "TEMPORAL_STORE_KEY",
+      "doc_url": "https://tsed.dev/api/third-parties/temporal/types/interfaces/const-temporal-store-key",
+      "package": "882cf6fb-967c-430b-a774-65640a6b164e",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "const",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/third-parties/temporal/types/interfaces/const-temporal-store-key.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.128Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "b38ea1cf-4f45-4993-9c69-6a9458b93900",
+      "status": "published",
+      "sort": 26,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.481Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:18.659Z",
+      "name": "@tsed/components-scan",
+      "icon": "",
+      "description": "Components scan utilities for Ts.ED Framework",
+      "tags": [],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/third-parties/components-scan",
+      "downloads": 28141,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/components-scan",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        26
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.844Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

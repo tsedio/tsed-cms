@@ -62,15 +62,7 @@
     "layout": "tabular",
     "layout_query": {
       "tabular": {
-        "fields": [
-          "status",
-          "username",
-          "email",
-          "user_created",
-          "date_created",
-          "user_updated",
-          "date_updated"
-        ],
+        "fields": ["status", "username", "email", "user_created", "date_created", "user_updated", "date_updated"],
         "page": 1
       }
     },
@@ -153,17 +145,7 @@
     "layout": "tabular",
     "layout_query": {
       "tabular": {
-        "fields": [
-          "status",
-          "owner",
-          "repo",
-          "stars",
-          "maintainers",
-          "user_created",
-          "date_created",
-          "user_updated",
-          "date_updated"
-        ]
+        "fields": ["status", "owner", "repo", "stars", "maintainers", "user_created", "date_created", "user_updated", "date_updated"]
       }
     },
     "layout_options": {

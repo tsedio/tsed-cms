@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "188969e8-db7c-4bf3-990a-059e6d0cf61b",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.965Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:21.269Z",
+      "username": "michael-pxr",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/46559823?v=4",
+      "url": "https://github.com/michael-pxr"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.745Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

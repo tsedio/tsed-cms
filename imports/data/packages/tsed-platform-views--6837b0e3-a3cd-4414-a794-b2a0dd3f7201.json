@@ -1,0 +1,34 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "6837b0e3-a3cd-4414-a794-b2a0dd3f7201",
+      "status": "published",
+      "sort": 12,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.223Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:13.683Z",
+      "name": "@tsed/platform-views",
+      "icon": "",
+      "description": "Views module for Ts.ED Framework",
+      "tags": [],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/platform/platform-views",
+      "downloads": 86041,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/platform-views",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        12
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.853Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

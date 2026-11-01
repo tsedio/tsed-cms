@@ -1,7 +1,6 @@
 {
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "baseUrl": ".",
     "target": "ESNext",
     "module": "NodeNext",
     "moduleResolution": "nodenext",
@@ -14,13 +13,6 @@
     "sourceMap": false,
     "noEmit": false
   },
-  "include": [
-    "migrations/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist",
-    "**/*.spec.ts",
-    "coverage"
-  ]
+  "include": ["migrations/**/*.ts"],
+  "exclude": ["node_modules", "dist", "**/*.spec.ts", "coverage"]
 }

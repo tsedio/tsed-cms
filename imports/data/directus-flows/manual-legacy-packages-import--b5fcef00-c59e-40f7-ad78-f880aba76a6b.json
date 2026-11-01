@@ -1,0 +1,49 @@
+{
+  "collection": "directus_flows",
+  "items": [
+    {
+      "id": "b5fcef00-c59e-40f7-ad78-f880aba76a6b",
+      "name": "Manual legacy packages import",
+      "icon": "bolt",
+      "color": null,
+      "description": null,
+      "status": "active",
+      "trigger": "manual",
+      "accountability": "all",
+      "options": {
+        "collections": [
+          "packages"
+        ],
+        "async": true,
+        "requireConfirmation": true,
+        "location": "collection",
+        "requireSelection": false
+      },
+      "operation": "c4c5b632-4fd6-42f4-be0c-709a6cd05d61",
+      "date_created": "2025-11-02T17:42:37.342Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
+      "folder": null
+    }
+  ],
+  "exportedAt": "2026-11-01T09:42:54.931Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  },
+  "operations": [
+    {
+      "id": "c4c5b632-4fd6-42f4-be0c-709a6cd05d61",
+      "name": "Ts.ED Packages import",
+      "key": "tsed_flow_packages_importer_c5vd6",
+      "type": "tsed-flow-packages-importer",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {},
+      "resolve": null,
+      "reject": null,
+      "flow": "b5fcef00-c59e-40f7-ad78-f880aba76a6b",
+      "date_created": "2025-11-02T17:42:46.276Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    }
+  ]
+}

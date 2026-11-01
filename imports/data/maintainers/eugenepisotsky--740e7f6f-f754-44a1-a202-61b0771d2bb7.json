@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "740e7f6f-f754-44a1-a202-61b0771d2bb7",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.577Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:08.774Z",
+      "username": "EugenePisotsky",
+      "email": "revanscript@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/5047628?v=4",
+      "url": "https://github.com/EugenePisotsky"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.741Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

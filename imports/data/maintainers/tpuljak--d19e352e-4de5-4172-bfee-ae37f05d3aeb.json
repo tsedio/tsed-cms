@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "d19e352e-4de5-4172-bfee-ae37f05d3aeb",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.287Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:27.728Z",
+      "username": "Tpuljak",
+      "email": "toma.puljak@hotmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/26512078?v=4",
+      "url": "https://github.com/Tpuljak"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.751Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

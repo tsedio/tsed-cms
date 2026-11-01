@@ -1,0 +1,36 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "0ab3673c-f8e2-4a23-80f1-87c2ef96da76",
+      "status": "published",
+      "sort": 106,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.171Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:07.969Z",
+      "name": "@tsed/logger-smtp",
+      "icon": "",
+      "description": "SMTP appender module for @tsed/logger",
+      "tags": [
+        "monitoring"
+      ],
+      "homepage": "https://github.com/tsedio/logger/tree/production/packages/smtp",
+      "downloads": 602,
+      "version": "8.0.7",
+      "repository": "git+https://github.com/tsedio/logger.git",
+      "npm": "https://www.npmjs.com/package/@tsed/logger-smtp",
+      "stars": 66,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/logger/issues",
+      "maintainers": [
+        109
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.848Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

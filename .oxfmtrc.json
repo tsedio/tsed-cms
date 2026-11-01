@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "printWidth": 140,
+  "singleQuote": false,
+  "jsxSingleQuote": true,
+  "semi": true,
+  "tabWidth": 2,
+  "bracketSpacing": true,
+  "arrowParens": "always",
+  "trailingComma": "none",
+  "sortPackageJson": false,
+  "sortImports": {},
+  "ignorePatterns": ["snapshots/*.yaml", "coverage", "dist", "**/dist/**", "terraform", ".yarn", ".nx", "yarn.lock", "imports/data"]
+}

@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "2f43bbda-56b4-43b9-89c9-b9b7e28d59ba",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.090Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:22.041Z",
+      "username": "martin31821",
+      "email": "martin@mko.dev",
+      "avatar": "https://avatars.githubusercontent.com/u/5557633?v=4",
+      "url": "https://github.com/martin31821"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.745Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

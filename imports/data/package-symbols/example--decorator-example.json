@@ -1,0 +1,37 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "decorator-example",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:37.919Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:59.245Z",
+      "name": "Example",
+      "doc_url": "https://tsed.dev/api/specs/schema/types/decorators/common/decorator-example",
+      "package": "ed3e225f-c8cb-4a55-aea6-54e6550aeb3d",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "decorator",
+        "swagger",
+        "schema",
+        "input",
+        "methodDecorator",
+        "classDecorator",
+        "stable"
+      ],
+      "type": "decorator",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/specs/schema/types/decorators/common/decorator-example.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.181Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

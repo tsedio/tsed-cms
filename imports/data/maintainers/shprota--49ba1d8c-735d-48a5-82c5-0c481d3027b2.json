@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "49ba1d8c-735d-48a5-82c5-0c481d3027b2",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.772Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:11.339Z",
+      "username": "shprota",
+      "email": "shprota@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/2400870?v=4",
+      "url": "https://github.com/shprota"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.749Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

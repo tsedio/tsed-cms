@@ -1,8 +1,8 @@
 import { readTranslations } from "@directus/sdk";
-import { toMap } from "@tsed/core";
-import { inject, injectable } from "@tsed/di";
 import { DIRECTUS_SERVICE } from "@tsed-cms/infra/directus/DirectusService.js";
 import type { DirectusTranslation } from "@tsed-cms/infra/directus/interfaces/DirectusSchema.js";
+import { toMap } from "@tsed/core";
+import { inject, injectable } from "@tsed/di";
 
 export type Translation<T> = DirectusTranslation & { directus_translation_id: string } & T;
 

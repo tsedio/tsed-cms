@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "interface-graph-qlws-options",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:32.920Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:51.502Z",
+      "name": "GraphQLWSOptions",
+      "doc_url": "https://tsed.dev/api/graphql/graphql-ws/types/interface-graph-qlws-options",
+      "package": "f2968f4d-7f73-4577-87cc-5fc3f0654489",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "interface",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/graphql/graphql-ws/types/interface-graph-qlws-options.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.199Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

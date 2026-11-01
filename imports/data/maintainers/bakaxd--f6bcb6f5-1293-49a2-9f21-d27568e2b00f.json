@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "f6bcb6f5-1293-49a2-9f21-d27568e2b00f",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.195Z",
+      "user_updated": null,
+      "date_updated": "2025-11-02T17:44:23.581Z",
+      "username": "bakaxd",
+      "email": "joeyvos@outlook.com",
+      "avatar": "https://www.gravatar.com/avatar/933f9298e8c813b4208a49854bbca3a7",
+      "url": null
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.736Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

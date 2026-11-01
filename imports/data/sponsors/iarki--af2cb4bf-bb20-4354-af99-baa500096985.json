@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "af2cb4bf-bb20-4354-af99-baa500096985",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2025-11-03T08:55:29.603Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:00.491Z",
+      "source": "github",
+      "name": "IAROMIR TRINTA",
+      "type": "user",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": null,
+      "profile": "https://github.com/IARKI",
+      "avatar": "https://avatars.githubusercontent.com/u/3634312?u=225076dc4510b97c8756edd2886cf61311ebe099&v=4",
+      "last_transaction_at": "2026-10-22T02:00:00",
+      "total_amount_donated": 441,
+      "currency": "USD",
+      "last_transaction_amount": 7,
+      "visibility": "private",
+      "tier": "$7 a month",
+      "grade": "supporter",
+      "first_transaction_at": "2021-08-01T22:27:52",
+      "login": "IARKI"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.271Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

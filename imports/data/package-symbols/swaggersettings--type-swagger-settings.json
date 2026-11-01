@@ -1,0 +1,32 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "type-swagger-settings",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:33.958Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:52.988Z",
+      "name": "SwaggerSettings",
+      "doc_url": "https://tsed.dev/api/specs/swagger/types/interfaces/type-swagger-settings",
+      "package": "255d4270-f9a4-46f8-9e5a-213787f4d15f",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "private",
+        "stable"
+      ],
+      "type": "type",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/specs/swagger/types/interfaces/type-swagger-settings.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.056Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

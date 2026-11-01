@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "e6e9d01a-7da1-4ad8-a0b4-b898493ba674",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2025-11-03T09:36:23.806Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:01.308Z",
+      "source": "open_collective",
+      "name": "mfuku",
+      "type": "user",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": null,
+      "profile": "https://opencollective.com/mfuku",
+      "avatar": null,
+      "last_transaction_at": "2022-01-25T12:53:00",
+      "total_amount_donated": 60,
+      "currency": "USD",
+      "last_transaction_amount": 20,
+      "visibility": "public",
+      "tier": null,
+      "grade": "supporter",
+      "first_transaction_at": "2020-07-25T13:59:00",
+      "login": "115536"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.268Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,7 +1,7 @@
 import type { Item } from "@directus/types";
-import { injectable } from "@tsed/di";
 import { DirectusItemsRepository } from "@tsed-cms/infra/directus/DirectusItemsRepository.js";
 import type { Package, PackagesMaintainer } from "@tsed-cms/infra/directus/interfaces/DirectusSchema.d.js";
+import { injectable } from "@tsed/di";
 
 /**
  * Packages domain service (Directus usecases layer).

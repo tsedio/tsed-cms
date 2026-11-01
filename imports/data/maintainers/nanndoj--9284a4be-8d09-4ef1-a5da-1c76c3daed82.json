@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "9284a4be-8d09-4ef1-a5da-1c76c3daed82",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.372Z",
+      "user_updated": null,
+      "date_updated": null,
+      "username": "nanndoj",
+      "email": "nanndoj@gmail.com",
+      "avatar": "https://www.gravatar.com/avatar/f576397add7d26cc63a0b48b2e1f8efa",
+      "url": null
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.746Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

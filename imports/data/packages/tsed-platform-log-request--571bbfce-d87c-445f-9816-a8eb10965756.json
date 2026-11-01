@@ -1,0 +1,34 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "571bbfce-d87c-445f-9816-a8eb10965756",
+      "status": "published",
+      "sort": 50,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.893Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:24.620Z",
+      "name": "@tsed/platform-log-request",
+      "icon": "",
+      "description": "Log request module for Ts.ED Framework (Express, Koa, Serverless)",
+      "tags": [],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/platform/platform-log-request",
+      "downloads": 33350,
+      "version": "8.44.12",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/platform-log-request",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        50
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.851Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

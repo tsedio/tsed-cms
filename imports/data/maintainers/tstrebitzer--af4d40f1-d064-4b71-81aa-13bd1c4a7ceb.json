@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "af4d40f1-d064-4b71-81aa-13bd1c4a7ceb",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.499Z",
+      "user_updated": null,
+      "date_updated": null,
+      "username": "tstrebitzer",
+      "email": "tobias.strebitzer@magloft.com",
+      "avatar": "https://www.gravatar.com/avatar/53ad3213f6fef19f080f8d209c107a4f",
+      "url": null
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.752Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

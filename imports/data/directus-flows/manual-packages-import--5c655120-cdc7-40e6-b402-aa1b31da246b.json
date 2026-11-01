@@ -1,0 +1,51 @@
+{
+  "collection": "directus_flows",
+  "items": [
+    {
+      "id": "5c655120-cdc7-40e6-b402-aa1b31da246b",
+      "name": "Manual packages import",
+      "icon": "bolt",
+      "color": null,
+      "description": null,
+      "status": "active",
+      "trigger": "manual",
+      "accountability": "all",
+      "options": {
+        "collections": [
+          "packages"
+        ],
+        "async": true,
+        "location": "collection",
+        "requireConfirmation": true,
+        "requireSelection": false
+      },
+      "operation": "e11ec614-ac37-40dc-80f0-4eeae7817bb8",
+      "date_created": "2025-11-02T18:45:02.966Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
+      "folder": null
+    }
+  ],
+  "exportedAt": "2026-11-01T09:42:54.931Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  },
+  "operations": [
+    {
+      "id": "e11ec614-ac37-40dc-80f0-4eeae7817bb8",
+      "name": "Ts.ED Packages from NPM",
+      "key": "tsed_flow_packages_1lkj0",
+      "type": "tsed-flow-packages",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "text": "tsed"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "5c655120-cdc7-40e6-b402-aa1b31da246b",
+      "date_created": "2025-11-02T18:45:39.575Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    }
+  ]
+}

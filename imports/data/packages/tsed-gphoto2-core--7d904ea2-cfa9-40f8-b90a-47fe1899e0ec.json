@@ -1,0 +1,34 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "7d904ea2-cfa9-40f8-b90a-47fe1899e0ec",
+      "status": "published",
+      "sort": 115,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.315Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:51.755Z",
+      "name": "@tsed/gphoto2-core",
+      "icon": "",
+      "description": "Node.js wrapper of C library libgphoto2 written in TypeScript",
+      "tags": [],
+      "homepage": "https://github.com/tsedio/ts-gphoto2-driver/tree/production/packages/gphoto2-core",
+      "downloads": 39,
+      "version": "3.2.0",
+      "repository": "git+https://github.com/tsedio/ts-gphoto2-driver.git",
+      "npm": "https://www.npmjs.com/package/@tsed/gphoto2-core",
+      "stars": 82,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/ts-gphoto2-driver/issues",
+      "maintainers": [
+        118
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.846Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

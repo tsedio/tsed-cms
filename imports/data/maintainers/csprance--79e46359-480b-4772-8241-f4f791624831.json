@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "79e46359-480b-4772-8241-f4f791624831",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.939Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:44.305Z",
+      "username": "csprance",
+      "email": "chrissprance@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/7902617?v=4",
+      "url": "https://github.com/csprance"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.739Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "551745a8-6c48-4e1e-a7b9-e7c893877f47",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.789Z",
+      "user_updated": null,
+      "date_updated": "2026-02-23T10:00:07.452Z",
+      "username": "timothygachengo",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/55899373?v=4",
+      "url": "https://github.com/timothygachengo"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.751Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

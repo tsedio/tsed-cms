@@ -1,0 +1,32 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "class-yaml-config-source",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:31.113Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:49.412Z",
+      "name": "YamlConfigSource",
+      "doc_url": "https://tsed.dev/api/config/types/providers/yaml/class-yaml-config-source",
+      "package": "6299bc25-5df2-49d5-aa0b-4172b09d60e3",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "private",
+        "stable"
+      ],
+      "type": "class",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/config/types/providers/yaml/class-yaml-config-source.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.086Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

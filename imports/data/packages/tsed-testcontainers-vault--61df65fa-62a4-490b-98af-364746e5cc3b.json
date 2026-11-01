@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "61df65fa-62a4-490b-98af-364746e5cc3b",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-10-03T18:02:30.688Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:41.425Z",
+      "name": "@tsed/testcontainers-vault",
+      "icon": null,
+      "description": "A module to test Ts.ED code that use Vault as a secrets manager using Test Containers",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/testcontainers/vault",
+      "downloads": 3815,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/testcontainers-vault",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.857Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

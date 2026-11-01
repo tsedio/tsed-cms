@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "class-io-redis-test",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:36.803Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:57.067Z",
+      "name": "IORedisTest",
+      "doc_url": "https://tsed.dev/api/orm/ioredis/types/domain/class-io-redis-test",
+      "package": "eae13eeb-9290-4281-963f-5bb29ce360b9",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "class",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/orm/ioredis/types/domain/class-io-redis-test.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.176Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

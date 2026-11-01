@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "2b4695e3-e738-4178-9bf8-9180099e02b1",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2025-11-02T22:06:45.816Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:56.734Z",
+      "name": "@tsed/benchmarks-apps",
+      "icon": null,
+      "description": null,
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production//tools/benchmarks-apps",
+      "downloads": 8,
+      "version": "6.59.0",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/benchmarks-apps",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.841Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

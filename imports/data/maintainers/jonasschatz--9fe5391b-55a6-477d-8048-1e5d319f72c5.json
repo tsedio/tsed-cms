@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "9fe5391b-55a6-477d-8048-1e5d319f72c5",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:40:36.101Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:41.646Z",
+      "username": "JonasSchatz",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/13544864?v=4",
+      "url": "https://github.com/JonasSchatz"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.743Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

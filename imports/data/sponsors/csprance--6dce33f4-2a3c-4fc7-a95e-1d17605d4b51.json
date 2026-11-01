@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "6dce33f4-2a3c-4fc7-a95e-1d17605d4b51",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2025-11-03T08:46:07.369Z",
+      "user_updated": null,
+      "date_updated": "2026-02-21T08:00:00.850Z",
+      "source": "github",
+      "name": "Chris Sprance",
+      "type": "user",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": null,
+      "profile": "https://github.com/csprance",
+      "avatar": "https://avatars.githubusercontent.com/u/7902617?u=98d01e64f5e7aa3708507c508506a9e87b86fe6a&v=4",
+      "last_transaction_at": "2025-10-22T02:00:00",
+      "total_amount_donated": 325,
+      "currency": "USD",
+      "last_transaction_amount": 25,
+      "visibility": "public",
+      "tier": "$25 a month",
+      "grade": "premium",
+      "first_transaction_at": "2024-10-02T18:38:23",
+      "login": "csprance"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.271Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

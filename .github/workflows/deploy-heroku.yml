@@ -4,23 +4,23 @@ on:
   workflow_call:
     inputs:
       version:
-        description: 'Release version to deploy (e.g., v1.2.3)'
+        description: "Release version to deploy (e.g., v1.2.3)"
         required: false
         type: string
       environment:
-        description: 'Target environment'
+        description: "Target environment"
         required: true
         type: string
   workflow_dispatch:
     inputs:
       version:
-        description: 'Release version to deploy (e.g., v1.2.3)'
+        description: "Release version to deploy (e.g., v1.2.3)"
         required: false
         type: string
       environment:
-        description: 'Target environment'
+        description: "Target environment"
         required: false
-        default: 'staging'
+        default: "staging"
         type: choice
         options:
           - staging

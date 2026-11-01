@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "ff0a3a88-4e80-417a-be8a-8304b795016e",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2026-10-03T18:02:04.927Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:13.157Z",
+      "username": "toyeshhm",
+      "email": "toyeshhm@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/184831353?v=4",
+      "url": "https://github.com/toyeshhm"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.751Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

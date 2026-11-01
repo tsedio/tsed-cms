@@ -1,9 +1,9 @@
-import { inject } from "@tsed/di";
-import { defineOperationApi } from "@tsed/directus-sdk";
 import type { Maintainer, Package } from "@tsed-cms/infra/directus/interfaces/DirectusSchema.js";
 import { LegacyApiClient, type WarehousePluginItem, type WarehousePluginMaintainer } from "@tsed-cms/infra/warehouse/LegacyApiClient.js";
 import { MaintainersService } from "@tsed-cms/usecases/maintainers/MaintainersService.js";
 import { PackagesService } from "@tsed-cms/usecases/packages/PackagesService.js";
+import { inject } from "@tsed/di";
+import { defineOperationApi } from "@tsed/directus-sdk";
 
 // Options can be extended later if needed
 export type Options = {

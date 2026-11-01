@@ -34,6 +34,6 @@
     "moment": "^2.30.1"
   },
   "devDependencies": {
-    "@directus/extensions-sdk": "18.0.5"
+    "@directus/extensions-sdk": "18.1.0"
   }
 }

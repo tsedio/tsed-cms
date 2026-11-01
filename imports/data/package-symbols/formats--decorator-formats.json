@@ -1,0 +1,33 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "decorator-formats",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:31.137Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:49.438Z",
+      "name": "Formats",
+      "doc_url": "https://tsed.dev/api/specs/ajv/types/decorators/decorator-formats",
+      "package": "9689b6a9-2583-41b1-a687-16526f09eeb0",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "decorator",
+        "ajv",
+        "stable"
+      ],
+      "type": "decorator",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/specs/ajv/types/decorators/decorator-formats.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.133Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

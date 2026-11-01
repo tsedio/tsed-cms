@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "96a8983d-c3a9-4111-9e1c-4181469369ea",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:40:40.974Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:48.397Z",
+      "username": "davidlutta",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/14890315?v=4",
+      "url": "https://github.com/davidlutta"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.739Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

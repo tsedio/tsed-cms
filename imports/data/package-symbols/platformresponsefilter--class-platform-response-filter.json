@@ -1,0 +1,32 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "class-platform-response-filter",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:39.967Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:07:02.545Z",
+      "name": "PlatformResponseFilter",
+      "doc_url": "https://tsed.dev/api/platform/platform-response-filter/types/services/class-platform-response-filter",
+      "package": "bace2006-5157-4fcc-9765-2ab60631fcee",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "platform",
+        "stable"
+      ],
+      "type": "class",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/platform/platform-response-filter/types/services/class-platform-response-filter.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.149Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

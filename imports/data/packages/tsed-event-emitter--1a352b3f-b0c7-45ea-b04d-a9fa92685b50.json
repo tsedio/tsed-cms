@@ -1,0 +1,37 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "1a352b3f-b0c7-45ea-b04d-a9fa92685b50",
+      "status": "published",
+      "sort": 62,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:22.200Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:33.115Z",
+      "name": "@tsed/event-emitter",
+      "icon": "https://api.tsed.io/statics/warehouse/tsed.svg",
+      "description": "EventEmitter package for Ts.ED framework",
+      "tags": [
+        "api"
+      ],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/third-parties/event-emitter",
+      "downloads": 7505,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/event-emitter",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        62,
+        63
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.845Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "b0dbcb55-1ca0-4817-a4d7-49976c48f904",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.162Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:29.487Z",
+      "username": "dhaanpaa-lab0",
+      "email": "dhaanpaa@djhent.us",
+      "avatar": "https://avatars.githubusercontent.com/u/17189321?v=4",
+      "url": "https://github.com/dhaanpaa-lab0"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.740Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "a8eeb011-2b93-4358-a68d-70fb0768f010",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-10-03T18:02:24.777Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:35.940Z",
+      "name": "@tsed/platform-mcp",
+      "icon": null,
+      "description": "Model Context Protocol integration for Ts.ED HTTP adapters.",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/platform/platform-mcp",
+      "downloads": 5977,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/platform-mcp",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.851Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

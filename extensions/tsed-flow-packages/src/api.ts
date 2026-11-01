@@ -1,9 +1,9 @@
-import { inject } from "@tsed/di";
-import { defineOperationApi } from "@tsed/directus-sdk";
 import type { Package } from "@tsed-cms/infra/directus/interfaces/DirectusSchema.js";
 import { GitHubClient } from "@tsed-cms/infra/github/GitHubClient.js";
 import { NpmClient } from "@tsed-cms/infra/npm/NpmClient.js";
 import { PackagesService } from "@tsed-cms/usecases/packages/PackagesService.js";
+import { inject } from "@tsed/di";
+import { defineOperationApi } from "@tsed/directus-sdk";
 
 import { parseGitHubRepo } from "./parseGithub.js";
 

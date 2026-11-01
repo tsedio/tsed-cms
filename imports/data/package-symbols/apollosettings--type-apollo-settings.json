@@ -1,0 +1,32 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "type-apollo-settings",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:33.128Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:51.659Z",
+      "name": "ApolloSettings",
+      "doc_url": "https://tsed.dev/api/graphql/apollo/types/interfaces/type-apollo-settings",
+      "package": "539c2053-f2f7-4c2a-a2be-50ca7a05ba13",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "private",
+        "stable"
+      ],
+      "type": "type",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/graphql/apollo/types/interfaces/type-apollo-settings.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.068Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

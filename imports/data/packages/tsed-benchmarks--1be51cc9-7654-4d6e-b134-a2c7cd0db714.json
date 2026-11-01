@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "1be51cc9-7654-4d6e-b134-a2c7cd0db714",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2025-11-02T22:06:44.381Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:56.073Z",
+      "name": "@tsed/benchmarks",
+      "icon": null,
+      "description": null,
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production//tools/benchmarks",
+      "downloads": 10,
+      "version": "6.59.0",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/benchmarks",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.841Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

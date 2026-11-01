@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "99b7abf1-a28f-420e-8cfe-8db271d7589b",
+      "status": "archived",
+      "sort": 134,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.641Z",
+      "user_updated": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
+      "date_updated": "2025-11-08T18:14:33.283Z",
+      "name": "@tsed/multipartfiles",
+      "icon": null,
+      "description": "Multer package for Ts.ED framework",
+      "tags": [],
+      "homepage": null,
+      "downloads": 0,
+      "version": null,
+      "repository": null,
+      "npm": null,
+      "stars": 0,
+      "type": "official",
+      "bugs": null,
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.849Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

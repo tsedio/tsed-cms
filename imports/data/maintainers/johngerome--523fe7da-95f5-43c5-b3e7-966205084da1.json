@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "523fe7da-95f5-43c5-b3e7-966205084da1",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.522Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:35.427Z",
+      "username": "johngerome",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/2002000?v=4",
+      "url": "https://github.com/johngerome"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.743Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

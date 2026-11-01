@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "3f9e2326-fa72-480a-a2d4-77c231ed43cb",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.292Z",
+      "user_updated": null,
+      "date_updated": "2025-11-02T17:44:23.337Z",
+      "username": "alexdonh",
+      "email": "alex.donh@gmail.com",
+      "avatar": "https://www.gravatar.com/avatar/e9f1600ee1519fd73e31973bb3d677d2",
+      "url": null
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.735Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

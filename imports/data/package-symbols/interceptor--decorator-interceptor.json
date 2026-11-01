@@ -1,0 +1,32 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "decorator-interceptor",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:34.966Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:54.759Z",
+      "name": "Interceptor",
+      "doc_url": "https://tsed.dev/api/di/types/common/decorators/decorator-interceptor",
+      "package": "5b5cfb66-1568-44f8-a560-6976a9a6c8e1",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "decorator",
+        "stable"
+      ],
+      "type": "decorator",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/di/types/common/decorators/decorator-interceptor.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.080Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

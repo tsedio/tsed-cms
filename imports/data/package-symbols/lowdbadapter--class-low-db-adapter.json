@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "class-low-db-adapter",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:35.656Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:55.655Z",
+      "name": "LowDbAdapter",
+      "doc_url": "https://tsed.dev/api/orm/adapters/types/adapters/class-low-db-adapter",
+      "package": "1a42ac73-94ee-4b4a-8af5-a7ca671f9f99",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "class",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/orm/adapters/types/adapters/class-low-db-adapter.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.046Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

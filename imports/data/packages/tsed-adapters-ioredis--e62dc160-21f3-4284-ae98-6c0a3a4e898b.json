@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "e62dc160-21f3-4284-ae98-6c0a3a4e898b",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-10-03T18:02:29.795Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:40.356Z",
+      "name": "@tsed/adapters-ioredis",
+      "icon": null,
+      "description": "IORedis adapter for Ts.ED",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/orm/adapters-ioredis",
+      "downloads": 3905,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/adapters-ioredis",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.840Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "4193a56c-d2a4-4f72-84e9-c0c80daabbe1",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2025-11-03T09:36:23.973Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:01.343Z",
+      "source": "open_collective",
+      "name": "mcelearr",
+      "type": "user",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": "https://twitter.com/RMcElearney",
+      "github": null,
+      "website": null,
+      "profile": "https://opencollective.com/mcelearr",
+      "avatar": null,
+      "last_transaction_at": "2021-01-04T18:09:00",
+      "total_amount_donated": 10,
+      "currency": "USD",
+      "last_transaction_amount": 5,
+      "visibility": "public",
+      "tier": "The supporter",
+      "grade": "supporter",
+      "first_transaction_at": "2020-11-26T09:26:00",
+      "login": "144014"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.269Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

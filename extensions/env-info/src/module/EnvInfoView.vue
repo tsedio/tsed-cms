@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import {onMounted, ref} from "vue";
-import {useApi} from "@directus/extensions-sdk";
-import {Item} from "@directus/types";
+import { useApi } from "@directus/extensions-sdk";
+import { Item } from "@directus/types";
+import { onMounted, ref } from "vue";
 
 const page_description = "This page displays the current version information";
 const version = ref<string>("Loading...");
@@ -33,14 +33,12 @@ onMounted(async () => {
     version.value = "" + res.data?.version; //force to string
     branch.value = "" + res.data?.branch; //force to string
 
-    tableItems.value = Object
-        .entries(res.data?.env || {})
-        .map(([name, value]) => {
-          return {
-            name: name.toUpperCase(),
-            value
-          }
-        })
+    tableItems.value = Object.entries(res.data?.env || {}).map(([name, value]) => {
+      return {
+        name: name.toUpperCase(),
+        value
+      };
+    });
   } catch (error: any) {
     version.value = error.message;
   }
@@ -50,13 +48,13 @@ onMounted(async () => {
   <private-view title="Env information" class="info-view">
     <template #title-outer:prepend>
       <v-button class="header-icon" rounded icon exact disabled>
-        <v-icon name="dns"/>
+        <v-icon name="dns" />
       </v-button>
     </template>
 
     <template #sidebar>
       <sidebar-detail icon="info" title="Env information" close>
-        <div v-md="page_description" class="page-description"/>
+        <div v-md="page_description" class="page-description" />
       </sidebar-detail>
     </template>
 
@@ -64,7 +62,7 @@ onMounted(async () => {
       <div>
         <VDivider>
           <template #icon>
-            <v-icon name="tag"/>
+            <v-icon name="tag" />
           </template>
           <template #default>Version</template>
         </VDivider>
@@ -77,7 +75,7 @@ onMounted(async () => {
       <div v-if="tableHeaders.length">
         <VDivider>
           <template #icon>
-            <v-icon name="settings_panorama"/>
+            <v-icon name="settings_panorama" />
           </template>
           <template #default>Environment</template>
         </VDivider>
@@ -110,5 +108,4 @@ onMounted(async () => {
 .header-icon {
   --v-button-color-disabled: var(--theme--foreground);
 }
-
 </style>

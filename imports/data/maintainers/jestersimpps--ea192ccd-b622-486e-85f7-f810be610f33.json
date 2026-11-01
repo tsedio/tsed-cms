@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "ea192ccd-b622-486e-85f7-f810be610f33",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.210Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:25.311Z",
+      "username": "jestersimpps",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/6909198?v=4",
+      "url": "https://github.com/jestersimpps"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.743Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

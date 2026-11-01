@@ -1,0 +1,32 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "function-inject",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:35.209Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:55.147Z",
+      "name": "inject",
+      "doc_url": "https://tsed.dev/api/di/types/common/fn/function-inject",
+      "package": "5b5cfb66-1568-44f8-a560-6976a9a6c8e1",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "decorator",
+        "stable"
+      ],
+      "type": "function",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/di/types/common/fn/function-inject.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.078Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

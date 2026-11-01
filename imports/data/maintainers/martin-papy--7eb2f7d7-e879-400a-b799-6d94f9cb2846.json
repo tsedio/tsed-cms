@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "7eb2f7d7-e879-400a-b799-6d94f9cb2846",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.085Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:21.767Z",
+      "username": "martin-papy",
+      "email": "martin.papy@cbtw.tech",
+      "avatar": "https://avatars.githubusercontent.com/u/1168988?v=4",
+      "url": "https://github.com/martin-papy"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.745Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,9 +1,9 @@
 [
   {
-    "id": "914e1b62-6563-4268-982e-fb38f1cdd155",
-    "name": "Contributor",
-    "icon": "supervised_user_circle",
-    "description": "Cms contributor",
+    "id": "456e5ab2-e5a6-4392-bb67-9cc3b0f19a86",
+    "name": "API - readOnly",
+    "icon": "api",
+    "description": "Api access role (read-only)",
     "parent": null
   }
 ]

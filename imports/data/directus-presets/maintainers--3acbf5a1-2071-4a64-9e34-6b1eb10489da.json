@@ -1,0 +1,52 @@
+{
+  "collection": "directus_presets",
+  "items": [
+    {
+      "id": 7,
+      "bookmark": null,
+      "user": null,
+      "role": null,
+      "collection": "maintainers",
+      "search": null,
+      "layout": "tabular",
+      "layout_query": {
+        "tabular": {
+          "fields": [
+            "status",
+            "username",
+            "email",
+            "user_created",
+            "date_created",
+            "user_updated",
+            "date_updated"
+          ],
+          "page": 1
+        }
+      },
+      "layout_options": {
+        "tabular": {
+          "widths": {
+            "status": 32,
+            "username": 160,
+            "email": 160,
+            "avatar": 160,
+            "user_created": 160,
+            "date_created": 160,
+            "user_updated": 160,
+            "date_updated": 160
+          }
+        }
+      },
+      "refresh_interval": null,
+      "filter": null,
+      "icon": "bookmark",
+      "color": null,
+      "uuid": "3acbf5a1-2071-4a64-9e34-6b1eb10489da"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:42:58.411Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

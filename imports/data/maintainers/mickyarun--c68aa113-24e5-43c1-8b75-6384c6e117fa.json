@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "c68aa113-24e5-43c1-8b75-6384c6e117fa",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.764Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:12.406Z",
+      "username": "mickyarun",
+      "email": "arun@paywithatoa.co.uk",
+      "avatar": "https://avatars.githubusercontent.com/u/6388860?v=4",
+      "url": "https://github.com/mickyarun"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.746Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

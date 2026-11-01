@@ -1,0 +1,36 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "28f1126b-3e5e-42a9-9bcd-b7d5af61fdf1",
+      "status": "published",
+      "sort": 40,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.725Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:31.098Z",
+      "name": "@tsed/cli-plugin-jest",
+      "icon": "https://tsed.io/jest.svg",
+      "description": "Ts.ED CLI plugin. Add Jest support",
+      "tags": [
+        "test"
+      ],
+      "homepage": "https://github.com/tsedio/tsed-cli/tree/master/packages/cli-plugin-jest",
+      "downloads": 7576,
+      "version": "7.8.1",
+      "repository": "git+https://github.com/tsedio/tsed-cli.git",
+      "npm": "https://www.npmjs.com/package/@tsed/cli-plugin-jest",
+      "stars": 43,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed-cli/issues",
+      "maintainers": [
+        40
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.842Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

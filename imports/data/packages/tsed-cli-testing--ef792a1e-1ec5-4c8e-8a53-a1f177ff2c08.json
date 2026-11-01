@@ -1,0 +1,36 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "ef792a1e-1ec5-4c8e-8a53-a1f177ff2c08",
+      "status": "published",
+      "sort": 91,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:22.857Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:41.733Z",
+      "name": "@tsed/cli-testing",
+      "icon": "https://api.tsed.io/statics/warehouse/tsed.svg",
+      "description": "Utils to test you CLI based on Ts.ED CLI",
+      "tags": [
+        "devtools"
+      ],
+      "homepage": "https://github.com/tsedio/tsed-cli/tree/master/packages/cli-testing",
+      "downloads": 1584,
+      "version": "7.8.1",
+      "repository": "git+https://github.com/tsedio/tsed-cli.git",
+      "npm": "https://www.npmjs.com/package/@tsed/cli-testing",
+      "stars": 43,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed-cli/issues",
+      "maintainers": [
+        94
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.843Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,7 +1,7 @@
 import type { Item } from "@directus/types";
-import { injectable } from "@tsed/di";
 import { DirectusItemsRepository } from "@tsed-cms/infra/directus/DirectusItemsRepository.js";
 import type { Sponsor } from "@tsed-cms/infra/directus/interfaces/DirectusSchema.d.js";
+import { injectable } from "@tsed/di";
 
 /**
  * Sponsors domain service

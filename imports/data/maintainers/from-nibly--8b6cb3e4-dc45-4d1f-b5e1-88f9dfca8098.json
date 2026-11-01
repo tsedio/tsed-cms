@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "8b6cb3e4-dc45-4d1f-b5e1-88f9dfca8098",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.746Z",
+      "user_updated": null,
+      "date_updated": "2025-11-17T09:00:43.187Z",
+      "username": "from-nibly",
+      "email": "jordan@davidson.house",
+      "avatar": "https://avatars.githubusercontent.com/u/3860803?v=4",
+      "url": "https://github.com/from-nibly"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.741Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

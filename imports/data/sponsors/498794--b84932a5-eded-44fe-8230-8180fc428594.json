@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "b84932a5-eded-44fe-8230-8180fc428594",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2025-11-03T09:36:24.271Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:01.514Z",
+      "source": "open_collective",
+      "name": "Striar Yunis",
+      "type": "user",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": null,
+      "profile": "https://opencollective.com/striar-yunis",
+      "avatar": null,
+      "last_transaction_at": "2026-10-01T11:01:00",
+      "total_amount_donated": 252,
+      "currency": "USD",
+      "last_transaction_amount": 7,
+      "visibility": "public",
+      "tier": "The supporter",
+      "grade": "supporter",
+      "first_transaction_at": "2023-11-04T03:39:00",
+      "login": "498794"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.270Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

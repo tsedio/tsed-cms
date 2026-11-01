@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "class-hooks",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:30.808Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:49.131Z",
+      "name": "Hooks",
+      "doc_url": "https://tsed.dev/api/hooks/types/class-hooks",
+      "package": "590809aa-e7f1-43ad-9d2f-dff8cb4b4301",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "class",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/hooks/types/class-hooks.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.074Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "type-bull-mq-config",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:33.987Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:53.044Z",
+      "name": "BullMQConfig",
+      "doc_url": "https://tsed.dev/api/third-parties/bullmq/types/config/type-bull-mq-config",
+      "package": "5623d206-20f9-49d6-a9d3-a15bf4ce2283",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "private",
+        "stable"
+      ],
+      "type": "type",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/third-parties/bullmq/types/config/type-bull-mq-config.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.070Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

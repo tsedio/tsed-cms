@@ -1,0 +1,36 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "62febcfd-4d8a-47de-a24f-2036464c749f",
+      "status": "published",
+      "sort": 8,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.123Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:10.173Z",
+      "name": "@tsed/openspec",
+      "icon": "https://tsed.io/swagger.svg",
+      "description": "OpenSpec2 and OpenSpec3 interfaces declarations for TypeScript application",
+      "tags": [
+        "openspec"
+      ],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/specs/openspec",
+      "downloads": 115566,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/openspec",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        8
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.849Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

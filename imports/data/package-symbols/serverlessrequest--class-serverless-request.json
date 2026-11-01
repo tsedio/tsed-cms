@@ -1,0 +1,32 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "class-serverless-request",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:40.094Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:07:02.729Z",
+      "name": "ServerlessRequest",
+      "doc_url": "https://tsed.dev/api/platform/platform-serverless/types/domain/class-serverless-request",
+      "package": "46b26206-1e3d-4c8c-8584-e653d9a1a7ac",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "platform",
+        "stable"
+      ],
+      "type": "class",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/platform/platform-serverless/types/domain/class-serverless-request.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.066Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "3eb46786-5957-4e6a-80c1-98383da7edde",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.203Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:25.097Z",
+      "username": "nxvxl",
+      "email": "noval.dev@protonmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/25476548?v=4",
+      "url": "https://github.com/nxvxl"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.747Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

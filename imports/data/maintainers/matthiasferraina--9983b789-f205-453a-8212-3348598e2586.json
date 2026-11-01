@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "9983b789-f205-453a-8212-3348598e2586",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.511Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:05.268Z",
+      "username": "matthiasferraina",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/26234185?v=4",
+      "url": "https://github.com/matthiasferraina"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.745Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

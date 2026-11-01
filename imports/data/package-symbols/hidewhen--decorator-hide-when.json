@@ -1,0 +1,35 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "decorator-hide-when",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:38.762Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:07:00.499Z",
+      "name": "HideWhen",
+      "doc_url": "https://tsed.dev/api/third-parties/schema-formio/types/decorators/decorator-hide-when",
+      "package": "b247e3ce-cf59-4b1b-98d4-f07ccef1e336",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "decorator",
+        "formio",
+        "property",
+        "schema",
+        "stable"
+      ],
+      "type": "decorator",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/third-parties/schema-formio/types/decorators/decorator-hide-when.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.143Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "decorator-data-source",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:32.974Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:51.545Z",
+      "name": "DataSource",
+      "doc_url": "https://tsed.dev/api/graphql/apollo/types/decorators/decorator-data-source",
+      "package": "539c2053-f2f7-4c2a-a2be-50ca7a05ba13",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "decorator",
+        "graphql",
+        "stable"
+      ],
+      "type": "decorator",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/graphql/apollo/types/decorators/decorator-data-source.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.069Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "interface-column-opts",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:39.170Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:07:01.183Z",
+      "name": "ColumnOpts",
+      "doc_url": "https://tsed.dev/api/orm/objection/types/domain/interface-column-opts",
+      "package": "9353b035-cb3e-46a7-96c0-24313a271368",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "interface",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/orm/objection/types/domain/interface-column-opts.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.130Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

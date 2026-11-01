@@ -1,0 +1,32 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "type-mongoose-hook-options",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:36.217Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:56.399Z",
+      "name": "MongooseHookOptions",
+      "doc_url": "https://tsed.dev/api/orm/mongoose/types/interfaces/type-mongoose-hook-options",
+      "package": "75ed39e3-139d-4697-82fb-b3a3557e2eb4",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "private",
+        "stable"
+      ],
+      "type": "type",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/orm/mongoose/types/interfaces/type-mongoose-hook-options.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.105Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

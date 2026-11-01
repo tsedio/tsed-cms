@@ -1,0 +1,52 @@
+{
+  "collection": "directus_flows",
+  "items": [
+    {
+      "id": "569895a0-7a65-4cb2-94aa-67f77a776a08",
+      "name": "Manual import package symbols",
+      "icon": "bolt",
+      "color": null,
+      "description": null,
+      "status": "active",
+      "trigger": "manual",
+      "accountability": "all",
+      "options": {
+        "collections": [
+          "package_symbols"
+        ],
+        "requireSelection": false,
+        "location": "collection",
+        "requireConfirmation": true,
+        "async": true
+      },
+      "operation": "c651e60f-159c-4b4d-b636-c9d50debe3de",
+      "date_created": "2025-11-15T10:33:07.296Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
+      "folder": null
+    }
+  ],
+  "exportedAt": "2026-11-01T09:42:54.931Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  },
+  "operations": [
+    {
+      "id": "c651e60f-159c-4b4d-b636-c9d50debe3de",
+      "name": "Ts.ED Package Symbols importer",
+      "key": "tsed_flow_package_symbols_k8436",
+      "type": "tsed-flow-package-symbols",
+      "position_x": 19,
+      "position_y": 1,
+      "options": {
+        "url": "https://tsed.dev/api.json",
+        "markdown_url": "https://tsed.dev/ai/references/api"
+      },
+      "resolve": null,
+      "reject": null,
+      "flow": "569895a0-7a65-4cb2-94aa-67f77a776a08",
+      "date_created": "2025-11-15T10:35:32.381Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    }
+  ]
+}

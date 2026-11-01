@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "f12141fe-2c00-46fa-bd64-4b10d5c303dc",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.879Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:18.351Z",
+      "username": "mockorp",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/1709007?v=4",
+      "url": "https://github.com/mockorp"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.746Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

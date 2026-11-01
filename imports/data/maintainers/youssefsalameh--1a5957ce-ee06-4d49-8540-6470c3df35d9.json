@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "1a5957ce-ee06-4d49-8540-6470c3df35d9",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.713Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:48.177Z",
+      "username": "YoussefSalameh",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/63226854?v=4",
+      "url": "https://github.com/YoussefSalameh"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.753Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "9e472732-7d16-45cb-932a-c9b7a4c18edb",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.321Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:28.784Z",
+      "username": "StefanPuia",
+      "email": "stefan@stefanpuia.co.uk",
+      "avatar": "https://avatars.githubusercontent.com/u/24592655?v=4",
+      "url": "https://github.com/StefanPuia"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.749Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

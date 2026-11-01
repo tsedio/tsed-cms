@@ -1,0 +1,535 @@
+{
+  "collection": "directus_dashboards",
+  "items": [
+    {
+      "id": "347e77dd-4299-468c-a6a8-38a600e6ea82",
+      "name": "Ts.ED overview",
+      "icon": "space_dashboard",
+      "note": "Sponsors, packages and community at a glance",
+      "date_created": "2025-11-08T17:51:15.461Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
+      "color": null
+    }
+  ],
+  "exportedAt": "2026-11-01T11:08:33.907Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  },
+  "panels": [
+    {
+      "id": "472b1733-65bd-4bc1-a9f7-2e8304ccf33d",
+      "dashboard": "347e77dd-4299-468c-a6a8-38a600e6ea82",
+      "name": "Packages by type",
+      "icon": "category",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "pie-chart",
+      "position_x": 25,
+      "position_y": 33,
+      "width": 12,
+      "height": 26,
+      "options": {
+        "collection": "packages",
+        "column": "type",
+        "function": "count",
+        "legend": "bottom",
+        "showLabels": true,
+        "filter": {
+          "_and": [
+            {
+              "status": {
+                "_eq": "published"
+              }
+            }
+          ]
+        }
+      },
+      "date_created": "2025-11-08T18:07:55.428Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "4807d3a0-e68b-4109-8589-c2372d690327",
+      "dashboard": "347e77dd-4299-468c-a6a8-38a600e6ea82",
+      "name": "Recent sponsors",
+      "icon": "schedule",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "list",
+      "position_x": 1,
+      "position_y": 59,
+      "width": 24,
+      "height": 20,
+      "options": {
+        "collection": "sponsors",
+        "sortField": "first_transaction_at",
+        "sortDirection": "desc",
+        "limit": 6,
+        "linkToItem": true,
+        "displayTemplate": "{{name}} · {{grade}} · {{first_transaction_at}}",
+        "filter": {
+          "_and": [
+            {
+              "status": {
+                "_eq": "published"
+              }
+            }
+          ]
+        }
+      },
+      "date_created": "2025-11-08T18:07:55.407Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "48f549af-7701-477c-ab35-6690e35de806",
+      "dashboard": "347e77dd-4299-468c-a6a8-38a600e6ea82",
+      "name": "Active sponsors",
+      "icon": "favorite",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "metric",
+      "position_x": 25,
+      "position_y": 1,
+      "width": 12,
+      "height": 7,
+      "options": {
+        "collection": "sponsors",
+        "field": "id",
+        "function": "count",
+        "filter": {
+          "_and": [
+            {
+              "status": {
+                "_eq": "published"
+              }
+            }
+          ]
+        },
+        "fontSize": "2.6875rem"
+      },
+      "date_created": "2025-11-08T18:07:55.416Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "4b2b3487-73c5-4afc-bb58-223508043b84",
+      "dashboard": "347e77dd-4299-468c-a6a8-38a600e6ea82",
+      "name": "New sponsors (90 days)",
+      "icon": "person_add",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "metric",
+      "position_x": 37,
+      "position_y": 1,
+      "width": 12,
+      "height": 7,
+      "options": {
+        "collection": "sponsors",
+        "field": "id",
+        "function": "count",
+        "filter": {
+          "_and": [
+            {
+              "first_transaction_at": {
+                "_gte": "$NOW(-90 days)"
+              }
+            }
+          ]
+        },
+        "fontSize": "2.6875rem"
+      },
+      "date_created": "2026-11-01T11:07:38.805Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "6174138c-11d0-4035-87af-c9cc359b72e0",
+      "dashboard": "347e77dd-4299-468c-a6a8-38a600e6ea82",
+      "name": "Total donated",
+      "icon": "volunteer_activism",
+      "color": "#2ECDA7",
+      "show_header": true,
+      "note": null,
+      "type": "metric",
+      "position_x": 1,
+      "position_y": 1,
+      "width": 12,
+      "height": 7,
+      "options": {
+        "collection": "sponsors",
+        "field": "total_amount_donated",
+        "function": "sum",
+        "numberStyle": "currency",
+        "unit": "USD",
+        "notation": "compact",
+        "maximumFractionDigits": 1,
+        "fontSize": "2.6875rem"
+      },
+      "date_created": "2025-11-08T18:07:55.388Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "64acc766-ed3b-4f1f-9419-39b46fd46c4f",
+      "dashboard": "347e77dd-4299-468c-a6a8-38a600e6ea82",
+      "name": "Last monthly donations",
+      "icon": "payments",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "metric",
+      "position_x": 13,
+      "position_y": 1,
+      "width": 12,
+      "height": 7,
+      "options": {
+        "collection": "sponsors",
+        "field": "last_transaction_amount",
+        "function": "sum",
+        "filter": {
+          "_and": [
+            {
+              "status": {
+                "_eq": "published"
+              }
+            }
+          ]
+        },
+        "numberStyle": "currency",
+        "unit": "USD",
+        "notation": "compact",
+        "maximumFractionDigits": 1,
+        "fontSize": "2.6875rem"
+      },
+      "date_created": "2025-11-08T18:07:55.421Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "6de690b5-d444-48b1-aa14-668a1be160e4",
+      "dashboard": "347e77dd-4299-468c-a6a8-38a600e6ea82",
+      "name": "Maintainers",
+      "icon": "groups",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "metric",
+      "position_x": 31,
+      "position_y": 8,
+      "width": 9,
+      "height": 7,
+      "options": {
+        "collection": "maintainers",
+        "field": "id",
+        "function": "count",
+        "filter": {
+          "_and": [
+            {
+              "status": {
+                "_eq": "published"
+              }
+            }
+          ]
+        },
+        "fontSize": "2.6875rem"
+      },
+      "date_created": "2025-11-08T18:07:55.412Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "8c13abf2-44ef-411c-a724-29ee631b7765",
+      "dashboard": "347e77dd-4299-468c-a6a8-38a600e6ea82",
+      "name": "API symbols by type",
+      "icon": "data_object",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "pie-chart",
+      "position_x": 37,
+      "position_y": 33,
+      "width": 12,
+      "height": 26,
+      "options": {
+        "collection": "package_symbols",
+        "column": "type",
+        "function": "count",
+        "legend": "bottom",
+        "showLabels": true
+      },
+      "date_created": "2026-11-01T11:07:38.906Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "a4a5e55e-4d64-46a2-9aad-3b350b2923bd",
+      "dashboard": "347e77dd-4299-468c-a6a8-38a600e6ea82",
+      "name": "Sponsors by source",
+      "icon": "hub",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "pie-chart",
+      "position_x": 17,
+      "position_y": 15,
+      "width": 16,
+      "height": 18,
+      "options": {
+        "collection": "sponsors",
+        "column": "source",
+        "function": "count",
+        "legend": "right",
+        "showLabels": true,
+        "filter": {
+          "_and": [
+            {
+              "status": {
+                "_eq": "published"
+              }
+            }
+          ]
+        }
+      },
+      "date_created": "2026-11-01T11:07:38.865Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "aa72245b-62a3-476b-b180-50fb627104f3",
+      "dashboard": "347e77dd-4299-468c-a6a8-38a600e6ea82",
+      "name": "Top sponsors",
+      "icon": "emoji_events",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "metric-list",
+      "position_x": 33,
+      "position_y": 15,
+      "width": 16,
+      "height": 18,
+      "options": {
+        "collection": "sponsors",
+        "groupByField": "name",
+        "aggregateField": "total_amount_donated",
+        "aggregateFunction": "sum",
+        "sortDirection": "desc",
+        "limit": 5,
+        "numberStyle": "currency",
+        "unit": "USD",
+        "notation": "compact",
+        "maximumFractionDigits": 1
+      },
+      "date_created": "2026-11-01T11:07:38.880Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "ab30cee5-b30f-41b3-b67e-4db83380c7c2",
+      "dashboard": "347e77dd-4299-468c-a6a8-38a600e6ea82",
+      "name": "Published packages",
+      "icon": "inventory_2",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "metric",
+      "position_x": 1,
+      "position_y": 8,
+      "width": 10,
+      "height": 7,
+      "options": {
+        "collection": "packages",
+        "field": "id",
+        "function": "count",
+        "filter": {
+          "_and": [
+            {
+              "status": {
+                "_eq": "published"
+              }
+            }
+          ]
+        },
+        "fontSize": "2.6875rem"
+      },
+      "date_created": "2026-11-01T11:07:38.822Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "b8ea13c3-6c32-49a4-9cf0-9708ecc849c0",
+      "dashboard": "347e77dd-4299-468c-a6a8-38a600e6ea82",
+      "name": "GitHub stars",
+      "icon": "star",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "metric",
+      "position_x": 21,
+      "position_y": 8,
+      "width": 10,
+      "height": 7,
+      "options": {
+        "collection": "repositories",
+        "field": "stars",
+        "function": "sum",
+        "notation": "compact",
+        "maximumFractionDigits": 1,
+        "fontSize": "2.6875rem"
+      },
+      "date_created": "2026-11-01T11:07:38.845Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "bdb957cd-d9d4-42c7-bd15-74276c921c18",
+      "dashboard": "347e77dd-4299-468c-a6a8-38a600e6ea82",
+      "name": "Sponsors by grade",
+      "icon": "workspace_premium",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "pie-chart",
+      "position_x": 1,
+      "position_y": 15,
+      "width": 16,
+      "height": 18,
+      "options": {
+        "collection": "sponsors",
+        "column": "grade",
+        "function": "count",
+        "legend": "right",
+        "showLabels": true,
+        "filter": {
+          "_and": [
+            {
+              "status": {
+                "_eq": "published"
+              }
+            }
+          ]
+        }
+      },
+      "date_created": "2025-11-08T18:07:55.424Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "c442f554-56b8-465a-a7df-0e4234454515",
+      "dashboard": "347e77dd-4299-468c-a6a8-38a600e6ea82",
+      "name": "Top packages by downloads",
+      "icon": "trending_up",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "metric-list",
+      "position_x": 1,
+      "position_y": 33,
+      "width": 24,
+      "height": 26,
+      "options": {
+        "collection": "packages",
+        "groupByField": "name",
+        "aggregateField": "downloads",
+        "aggregateFunction": "sum",
+        "sortDirection": "desc",
+        "limit": 8,
+        "filter": {
+          "_and": [
+            {
+              "status": {
+                "_eq": "published"
+              }
+            }
+          ]
+        },
+        "notation": "compact",
+        "maximumFractionDigits": 1
+      },
+      "date_created": "2026-11-01T11:07:38.891Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "d11c4580-bbee-42ec-9fe1-441a91545cc3",
+      "dashboard": "347e77dd-4299-468c-a6a8-38a600e6ea82",
+      "name": "API symbols",
+      "icon": "code",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "metric",
+      "position_x": 40,
+      "position_y": 8,
+      "width": 9,
+      "height": 7,
+      "options": {
+        "collection": "package_symbols",
+        "field": "id",
+        "function": "count",
+        "notation": "compact",
+        "maximumFractionDigits": 1,
+        "fontSize": "2.6875rem"
+      },
+      "date_created": "2026-11-01T11:07:38.855Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "db55e8bc-50a2-4196-b05c-5c8afc7588c5",
+      "dashboard": "347e77dd-4299-468c-a6a8-38a600e6ea82",
+      "name": "New packages",
+      "icon": "new_releases",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "list",
+      "position_x": 25,
+      "position_y": 59,
+      "width": 24,
+      "height": 20,
+      "options": {
+        "collection": "packages",
+        "sortField": "date_created",
+        "sortDirection": "desc",
+        "limit": 6,
+        "linkToItem": true,
+        "displayTemplate": "{{name}} · {{type}} · {{date_created}}",
+        "filter": {
+          "_and": [
+            {
+              "status": {
+                "_eq": "published"
+              }
+            }
+          ]
+        }
+      },
+      "date_created": "2025-11-08T18:19:31.793Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "dd75ca6c-0a64-4c4e-9c7d-013abf485607",
+      "dashboard": "347e77dd-4299-468c-a6a8-38a600e6ea82",
+      "name": "npm downloads",
+      "icon": "download",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "metric",
+      "position_x": 11,
+      "position_y": 8,
+      "width": 10,
+      "height": 7,
+      "options": {
+        "collection": "packages",
+        "field": "downloads",
+        "function": "sum",
+        "filter": {
+          "_and": [
+            {
+              "status": {
+                "_eq": "published"
+              }
+            }
+          ]
+        },
+        "notation": "compact",
+        "maximumFractionDigits": 1,
+        "fontSize": "2.6875rem"
+      },
+      "date_created": "2026-11-01T11:07:38.835Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    }
+  ]
+}

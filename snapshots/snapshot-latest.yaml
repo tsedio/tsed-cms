@@ -1,5 +1,5 @@
 version: 1
-directus: 11.15.4
+directus: 12.4.1
 vendor: postgres
 collections:
   - collection: cli_install_stats
@@ -8,6 +8,7 @@ collections:
       archive_app_filter: true
       archive_field: null
       archive_value: null
+      autosave_revision_interval: null
       collapse: open
       collection: cli_install_stats
       color: '#2ECDA7'
@@ -21,6 +22,7 @@ collections:
       singleton: false
       sort: 3
       sort_field: null
+      status: active
       translations: null
       unarchive_value: null
       versioning: false
@@ -32,6 +34,7 @@ collections:
       archive_app_filter: true
       archive_field: status
       archive_value: archived
+      autosave_revision_interval: null
       collapse: open
       collection: maintainers
       color: '#2ECDA7'
@@ -45,6 +48,7 @@ collections:
       singleton: false
       sort: 1
       sort_field: null
+      status: active
       translations: null
       unarchive_value: draft
       versioning: false
@@ -56,6 +60,7 @@ collections:
       archive_app_filter: true
       archive_field: status
       archive_value: archived
+      autosave_revision_interval: null
       collapse: open
       collection: package_symbols
       color: '#FFA439'
@@ -69,6 +74,7 @@ collections:
       singleton: false
       sort: 1
       sort_field: null
+      status: active
       translations: null
       unarchive_value: draft
       versioning: false
@@ -80,6 +86,7 @@ collections:
       archive_app_filter: true
       archive_field: status
       archive_value: archived
+      autosave_revision_interval: null
       collapse: open
       collection: packages
       color: '#FFA439'
@@ -93,6 +100,7 @@ collections:
       singleton: false
       sort: 1
       sort_field: sort
+      status: active
       translations: null
       unarchive_value: draft
       versioning: false
@@ -104,6 +112,7 @@ collections:
       archive_app_filter: true
       archive_field: null
       archive_value: null
+      autosave_revision_interval: null
       collapse: open
       collection: packages_maintainers
       color: null
@@ -117,6 +126,7 @@ collections:
       singleton: false
       sort: 2
       sort_field: null
+      status: active
       translations: null
       unarchive_value: null
       versioning: false
@@ -128,6 +138,7 @@ collections:
       archive_app_filter: true
       archive_field: status
       archive_value: archived
+      autosave_revision_interval: null
       collapse: open
       collection: repositories
       color: '#6644FF'
@@ -141,6 +152,7 @@ collections:
       singleton: false
       sort: 2
       sort_field: null
+      status: active
       translations: null
       unarchive_value: draft
       versioning: false
@@ -152,6 +164,7 @@ collections:
       archive_app_filter: true
       archive_field: null
       archive_value: null
+      autosave_revision_interval: null
       collapse: open
       collection: repositories_maintainers
       color: null
@@ -165,6 +178,7 @@ collections:
       singleton: false
       sort: 1
       sort_field: null
+      status: active
       translations: null
       unarchive_value: null
       versioning: false
@@ -176,6 +190,7 @@ collections:
       archive_app_filter: true
       archive_field: null
       archive_value: null
+      autosave_revision_interval: null
       collapse: open
       collection: settings
       color: null
@@ -189,6 +204,7 @@ collections:
       singleton: true
       sort: 5
       sort_field: null
+      status: active
       translations: null
       unarchive_value: null
       versioning: false
@@ -200,6 +216,7 @@ collections:
       archive_app_filter: true
       archive_field: status
       archive_value: archived
+      autosave_revision_interval: null
       collapse: open
       collection: sponsors
       color: '#E35169'
@@ -213,6 +230,7 @@ collections:
       singleton: false
       sort: 2
       sort_field: sort
+      status: active
       translations: null
       unarchive_value: draft
       versioning: false
@@ -224,6 +242,7 @@ collections:
       archive_app_filter: true
       archive_field: null
       archive_value: null
+      autosave_revision_interval: null
       collapse: open
       collection: users
       color: '#FFD478'
@@ -237,6 +256,7 @@ collections:
       singleton: false
       sort: 4
       sort_field: null
+      status: active
       translations: null
       unarchive_value: null
       versioning: false
@@ -5155,12 +5175,48 @@ systemFields:
     field: timestamp
     schema:
       is_indexed: true
+  - collection: directus_oauth_clients
+    field: date_created
+    schema:
+      is_indexed: true
+  - collection: directus_oauth_codes
+    field: expires_at
+    schema:
+      is_indexed: true
+  - collection: directus_oauth_codes
+    field: used_at
+    schema:
+      is_indexed: true
+  - collection: directus_oauth_consents
+    field: client
+    schema:
+      is_indexed: true
+  - collection: directus_oauth_tokens
+    field: code_hash
+    schema:
+      is_indexed: true
+  - collection: directus_oauth_tokens
+    field: expires_at
+    schema:
+      is_indexed: true
+  - collection: directus_oauth_tokens
+    field: previous_session
+    schema:
+      is_indexed: true
+  - collection: directus_oauth_tokens
+    field: session
+    schema:
+      is_indexed: true
   - collection: directus_revisions
     field: activity
     schema:
       is_indexed: true
   - collection: directus_revisions
     field: parent
+    schema:
+      is_indexed: true
+  - collection: directus_sessions
+    field: oauth_client
     schema:
       is_indexed: true
 relations:

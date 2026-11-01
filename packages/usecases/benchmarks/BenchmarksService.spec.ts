@@ -10,7 +10,15 @@ const baseRun = fixture.run as any;
 const rows = fixture.rows as any[];
 
 async function createService(runs: any[], results = rows) {
-  const runsService = { readByQuery: vi.fn(async () => runs) };
+  // applies the trigger filter, the date sort and the pagination of the service query
+  const runsService = {
+    readByQuery: vi.fn(async (query: any) => {
+      const trigger = query.filter._and.find((item: any) => item.trigger)?.trigger._eq;
+      const sorted = runs.filter((run) => run.trigger === trigger).sort((a, b) => b.date.localeCompare(a.date));
+
+      return sorted.slice((query.page - 1) * query.limit, query.page * query.limit);
+    })
+  };
   const resultsService = { readByQuery: vi.fn(async () => results) };
   const directusContext = {
     getItemsService: vi.fn(async (collection: string) => {
@@ -103,12 +111,40 @@ describe("BenchmarksService", () => {
 
       expect(runsService.readByQuery).toHaveBeenCalledWith(
         expect.objectContaining({
-          filter: {
-            _and: [{ status: { _eq: "success" } }, { baseline: { _eq: "8.44.1" } }, { trigger: { _in: ["release", "workflow_dispatch"] } }]
-          },
-          sort: ["-date"]
+          filter: { _and: [{ status: { _eq: "success" } }, { baseline: { _eq: "8.44.1" } }, { trigger: { _eq: "release" } }] },
+          sort: ["-date"],
+          page: 1
         })
       );
+    });
+
+    it("should find a release run older than more than a page of manual runs", async () => {
+      const manuals = Array.from({ length: 60 }, (_, index) => ({
+        ...baseRun,
+        id: `manual-${index}`,
+        trigger: "workflow_dispatch",
+        date: `2026-12-${String((index % 28) + 1).padStart(2, "0")}T00:00:00Z`
+      }));
+      const release = { ...baseRun, id: "release", trigger: "release", date: "2026-11-01T00:00:00Z" };
+      const { service } = await createService([...manuals, release]);
+
+      expect((await service.getLatestComparison())?.trigger).toBe("release");
+    });
+
+    it("should page past runs of other target sets to find an older matching run", async () => {
+      const unsupported = Array.from({ length: 60 }, (_, index) => ({
+        ...baseRun,
+        id: `local-${index}`,
+        trigger: "workflow_dispatch",
+        targets: "8.44.1,local",
+        date: `2026-12-${String((index % 28) + 1).padStart(2, "0")}T00:00:00Z`
+      }));
+      const matching = { ...baseRun, id: "matching", trigger: "workflow_dispatch", date: "2026-11-01T00:00:00Z" };
+      const { service, runsService, resultsService } = await createService([...unsupported, matching]);
+
+      expect((await service.getLatestComparison())?.latest).toBe("8.44.12");
+      expect(resultsService.readByQuery).toHaveBeenCalledWith(expect.objectContaining({ filter: { run: { _eq: "matching" } } }));
+      expect(runsService.readByQuery).toHaveBeenCalledWith(expect.objectContaining({ page: 2 }));
     });
 
     it("should answer null without a matching run", async () => {

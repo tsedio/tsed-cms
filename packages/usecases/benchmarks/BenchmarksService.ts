@@ -9,6 +9,7 @@ import { inject, injectable } from "@tsed/di";
 export const REFERENCE_VERSION = "8.44.1";
 
 const VERSION = /^\d+\.\d+\.\d+$/;
+const RUNS_PAGE_SIZE = 50;
 const ROUTES = ["hello", "users", "orders-create", "orders-list"] as const;
 const PLATFORMS = ["express", "koa", "fastify"] as const;
 
@@ -163,18 +164,7 @@ export class BenchmarksService {
    * Pull request runs (local-base, local-head) never match.
    */
   async getLatestComparison(reference = REFERENCE_VERSION): Promise<BenchmarkComparison | null> {
-    const runsService = await this.directusContext.getItemsService<BenchmarkRun, string>("benchmark_runs");
-    const runs = (await runsService.readByQuery({
-      filter: {
-        _and: [{ status: { _eq: "success" } }, { baseline: { _eq: reference } }, { trigger: { _in: ["release", "workflow_dispatch"] } }]
-      },
-      sort: ["-date"],
-      limit: 50,
-      fields: RUN_FIELDS
-    })) as BenchmarkRun[];
-
-    const candidates = runs.filter((run) => comparedVersion(run, reference));
-    const run = candidates.find((item) => item.trigger === "release") ?? candidates[0];
+    const run = (await this.findLatestRun("release", reference)) ?? (await this.findLatestRun("workflow_dispatch", reference));
 
     if (!run) {
       return null;
@@ -188,6 +178,30 @@ export class BenchmarksService {
     })) as BenchmarkResult[];
 
     return toBenchmarkComparison(run, rows, comparedVersion(run, reference)!);
+  }
+
+  /**
+   * Newest successful run of a trigger that compares the reference with one published version.
+   * Runs of other target sets (e.g. `8.44.1,local`) are skipped page by page, so they never hide an older matching run.
+   */
+  protected async findLatestRun(trigger: "release" | "workflow_dispatch", reference: string) {
+    const runsService = await this.directusContext.getItemsService<BenchmarkRun, string>("benchmark_runs");
+
+    for (let page = 1; ; page++) {
+      const runs = (await runsService.readByQuery({
+        filter: { _and: [{ status: { _eq: "success" } }, { baseline: { _eq: reference } }, { trigger: { _eq: trigger } }] },
+        sort: ["-date"],
+        limit: RUNS_PAGE_SIZE,
+        page,
+        fields: RUN_FIELDS
+      })) as BenchmarkRun[];
+
+      const run = runs.find((item) => comparedVersion(item, reference));
+
+      if (run || runs.length < RUNS_PAGE_SIZE) {
+        return run ?? null;
+      }
+    }
   }
 }
 

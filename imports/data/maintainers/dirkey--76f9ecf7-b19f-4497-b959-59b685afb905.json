@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "76f9ecf7-b19f-4497-b959-59b685afb905",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.687Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:39.437Z",
+      "username": "dirkey",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/2262363?v=4",
+      "url": "https://github.com/dirkey"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.740Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

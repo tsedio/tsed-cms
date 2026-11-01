@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "class-formio-installer",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:34.569Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:54.107Z",
+      "name": "FormioInstaller",
+      "doc_url": "https://tsed.dev/api/third-parties/formio/types/services/class-formio-installer",
+      "package": "3db17f0d-de3e-4dca-ab6b-ee38c7110919",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "class",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/third-parties/formio/types/services/class-formio-installer.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.061Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "interface-exception-filter-methods",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:39.457Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:07:01.604Z",
+      "name": "ExceptionFilterMethods",
+      "doc_url": "https://tsed.dev/api/platform/platform-exceptions/types/interfaces/interface-exception-filter-methods",
+      "package": "552947fb-4385-4c52-9c0f-010df7750b35",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "interface",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/platform/platform-exceptions/types/interfaces/interface-exception-filter-methods.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.070Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

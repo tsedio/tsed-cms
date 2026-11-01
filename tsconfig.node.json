@@ -1,7 +1,6 @@
 {
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "baseUrl": ".",
     "noEmit": true,
     "target": "ESNext",
     "module": "NodeNext",
@@ -28,15 +27,8 @@
     "infra/**/*.ts",
     "migrations/**/*.ts",
     "imports/**/*.ts",
+    "exports/**/*.ts",
     "packages/**/*.ts"
   ],
-  "exclude": [
-    "node_modules",
-    "dist",
-    "**/*.spec.ts",
-    "coverage"
-  ],
-  "linterOptions": {
-    "exclude": []
-  }
+  "exclude": ["node_modules", "dist", "**/*.spec.ts", "coverage"]
 }

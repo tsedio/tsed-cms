@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "67d83e45-8c55-4887-93a8-0150b0e6d7d6",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.388Z",
+      "user_updated": null,
+      "date_updated": null,
+      "username": "reed-lawrence",
+      "email": "reed.g.lawrence@gmail.com",
+      "avatar": "https://www.gravatar.com/avatar/64fa934ed38dd6173324fcbbccac7724",
+      "url": null
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.748Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

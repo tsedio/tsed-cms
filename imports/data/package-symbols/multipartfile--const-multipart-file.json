@@ -1,0 +1,32 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "const-multipart-file",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:36.692Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:56.990Z",
+      "name": "MultipartFile",
+      "doc_url": "https://tsed.dev/api/platform/platform-http/types/common/decorators/multer/const-multipart-file",
+      "package": "c11f81ea-e762-4c50-8454-b0c46c9cee8f",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": true,
+      "tags": [
+        "decorator",
+        "input"
+      ],
+      "type": "const",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/platform/platform-http/types/common/decorators/multer/const-multipart-file.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.154Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

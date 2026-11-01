@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "f280c221-1df7-430a-951a-87d222984d1f",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.429Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:32.391Z",
+      "username": "Aur36",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/15806479?v=4",
+      "url": "https://github.com/Aur36"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.736Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "b26a30c0-ef84-4363-b3c8-54c199998211",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.279Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:27.475Z",
+      "username": "vologab",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/10982772?v=4",
+      "url": "https://github.com/vologab"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.752Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "463adf49-1397-442a-9e60-1f95be0e62cd",
+      "status": "published",
+      "sort": 64,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:22.248Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:26.601Z",
+      "name": "@tsed/formio-types",
+      "icon": "",
+      "description": "Formio types definition package for Ts.ED framework",
+      "tags": [],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/third-parties/formio-types",
+      "downloads": 7899,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/formio-types",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        65
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.845Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

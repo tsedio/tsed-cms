@@ -1,0 +1,34 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "552947fb-4385-4c52-9c0f-010df7750b35",
+      "status": "published",
+      "sort": 14,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.261Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:15.415Z",
+      "name": "@tsed/platform-exceptions",
+      "icon": "",
+      "description": "Platform exceptions module for Ts.ED Framework",
+      "tags": [],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/platform/platform-exceptions",
+      "downloads": 91359,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/platform-exceptions",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        14
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.850Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

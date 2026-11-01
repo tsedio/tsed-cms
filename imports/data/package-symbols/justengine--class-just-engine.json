@@ -1,0 +1,32 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "class-just-engine",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:32.487Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:51.266Z",
+      "name": "JustEngine",
+      "doc_url": "https://tsed.dev/api/engines/types/components/class-just-engine",
+      "package": "f7be79cc-460f-483e-b286-7c90878308fb",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "private",
+        "stable"
+      ],
+      "type": "class",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/engines/types/components/class-just-engine.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.201Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

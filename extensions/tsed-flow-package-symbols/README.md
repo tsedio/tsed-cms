@@ -19,18 +19,21 @@ Directus operation that imports exported symbols of Ts.ED packages from the cont
 
 ## Build and run locally
 
-1) Install deps at the repo root
+1. Install deps at the repo root
+
 ```bash
 corepack enable
 yarn install --immutable
 ```
 
-2) Build all extensions
+2. Build all extensions
+
 ```bash
 yarn build
 ```
 
-3) Start Directus (dev)
+3. Start Directus (dev)
+
 ```bash
 yarn start:dev
 ```
@@ -40,10 +43,12 @@ yarn start:dev
 Directus → Flows → Add operation → “Ts.ED Package Symbols importer”.
 
 Card options:
+
 - `url` (string) — `api.json` URL. Default in the card: `https://tsed.dev/api.json`.
 - `markdown_url` (string) — base URL where markdown files live. Default in the card: `https://tsed.dev/ai/references/api`.
 
 Notes about defaults:
+
 - The operation handler also has an internal fallback for `markdown_url` to `https://tsed.dev/ai/references` if the option isn’t provided by the flow. To get the expected final markdown path `…/api/<symbol>.md`, set the card option explicitly to `https://tsed.dev/ai/references/api` (as in the exported flows).
 
 Save the flow. The operation will use these options at runtime.

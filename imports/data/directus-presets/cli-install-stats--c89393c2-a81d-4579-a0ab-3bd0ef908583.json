@@ -1,0 +1,57 @@
+{
+  "collection": "directus_presets",
+  "items": [
+    {
+      "id": 34,
+      "bookmark": null,
+      "user": null,
+      "role": null,
+      "collection": "cli_install_stats",
+      "search": null,
+      "layout": "tabular",
+      "layout_query": {
+        "tabular": {
+          "page": 1,
+          "fields": [
+            "is_success",
+            "channel",
+            "cli_version",
+            "tsed_version",
+            "platform",
+            "convention",
+            "runtime",
+            "package_manager",
+            "features",
+            "date_created"
+          ]
+        }
+      },
+      "layout_options": {
+        "tabular": {
+          "widths": {
+            "is_success": 40.5,
+            "channel": 160,
+            "cli_version": 160,
+            "tsed_version": 160,
+            "platform": 160,
+            "convention": 160,
+            "runtime": 160,
+            "package_manager": 160,
+            "features": 160,
+            "date_created": 160
+          }
+        }
+      },
+      "refresh_interval": null,
+      "filter": null,
+      "icon": "bookmark",
+      "color": null,
+      "uuid": "c89393c2-a81d-4579-a0ab-3bd0ef908583"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:42:58.410Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

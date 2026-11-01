@@ -1,0 +1,34 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "20b50c57-cee4-4860-87e7-0645e54f333e",
+      "status": "published",
+      "sort": 9,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.150Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:09.826Z",
+      "name": "@tsed/exceptions",
+      "icon": "https://api.tsed.io/statics/warehouse/tsed.svg",
+      "description": "HTTP exceptions module for Ts.ED Framework and other pure Express application",
+      "tags": [],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/specs/exceptions",
+      "downloads": 118612,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/exceptions",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        9
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.845Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

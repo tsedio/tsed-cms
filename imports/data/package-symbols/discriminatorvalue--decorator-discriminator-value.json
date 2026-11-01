@@ -1,0 +1,35 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "decorator-discriminator-value",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:37.658Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:58.918Z",
+      "name": "DiscriminatorValue",
+      "doc_url": "https://tsed.dev/api/specs/schema/types/decorators/class/decorator-discriminator-value",
+      "package": "ed3e225f-c8cb-4a55-aea6-54e6550aeb3d",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "decorator",
+        "swagger",
+        "schema",
+        "classDecorator",
+        "stable"
+      ],
+      "type": "decorator",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/specs/schema/types/decorators/class/decorator-discriminator-value.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.180Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

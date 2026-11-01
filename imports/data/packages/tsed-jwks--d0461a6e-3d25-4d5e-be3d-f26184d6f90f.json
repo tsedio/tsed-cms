@@ -1,0 +1,34 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "d0461a6e-3d25-4d5e-be3d-f26184d6f90f",
+      "status": "published",
+      "sort": 48,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.861Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:22.625Z",
+      "name": "@tsed/jwks",
+      "icon": "",
+      "description": "Utils to generate jwks pair keys",
+      "tags": [],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/security/jwks",
+      "downloads": 9375,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/jwks",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        48
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.846Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

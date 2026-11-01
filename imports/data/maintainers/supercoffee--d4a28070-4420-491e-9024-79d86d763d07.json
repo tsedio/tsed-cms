@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "d4a28070-4420-491e-9024-79d86d763d07",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.413Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:31.908Z",
+      "username": "supercoffee",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/3880240?v=4",
+      "url": "https://github.com/supercoffee"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.750Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

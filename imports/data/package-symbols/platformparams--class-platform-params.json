@@ -1,0 +1,32 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "class-platform-params",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:39.852Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:07:02.342Z",
+      "name": "PlatformParams",
+      "doc_url": "https://tsed.dev/api/platform/platform-params/types/builder/class-platform-params",
+      "package": "249fdf28-eb4b-4b8a-99b8-df58b9f5959b",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "platform",
+        "stable"
+      ],
+      "type": "class",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/platform/platform-params/types/builder/class-platform-params.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.054Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

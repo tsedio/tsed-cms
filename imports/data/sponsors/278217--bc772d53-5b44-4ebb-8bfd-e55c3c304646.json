@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "bc772d53-5b44-4ebb-8bfd-e55c3c304646",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2025-11-03T09:36:24.187Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:01.432Z",
+      "source": "open_collective",
+      "name": "Guest",
+      "type": "user",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": null,
+      "profile": "https://opencollective.com/guest-f281ccd2",
+      "avatar": null,
+      "last_transaction_at": "2022-03-02T20:20:00",
+      "total_amount_donated": 5,
+      "currency": "USD",
+      "last_transaction_amount": 5,
+      "visibility": "public",
+      "tier": null,
+      "grade": "supporter",
+      "first_transaction_at": "2022-03-02T20:20:00",
+      "login": "278217"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.269Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

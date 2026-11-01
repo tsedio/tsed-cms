@@ -6,6 +6,7 @@ This repository uses Junie (JetBrains autonomous programmer) for assisted develo
 - Project-specific build, testing, and development instructions are documented in `.junie/guidelines.md`, which must align with the principles here.
 
 Principles
+
 - Safety: Make minimal, reversible changes and preserve behavior unless explicitly requested.
 - Mode discipline: Follow the interaction mode rules defined by the orchestration platform.
 - Traceability: Prefer changes that are easy to review; reflect significant decisions in docs/commit messages.

@@ -32,8 +32,11 @@ export async function installPresets(knex: Knex, presets: Preset[]): Promise<voi
     logger.error(`Error altering directus_presets or directus_fields table:`, error);
   }
 
-  // For each language, check if it exists and insert it if it doesn't
+  // For each preset, check if it exists and insert it if it doesn't
   for (const preset of presets) {
+    // Ids are auto-increment and differ per environment: inserting them would collide and leave the sequence behind.
+    delete (preset as any).id;
+
     const [exists, uuidExists] = await Promise.all([
       knex(TABLE).where({ collection: preset.collection, role: null, user: null }).first(),
       knex(TABLE)
@@ -72,6 +75,11 @@ export async function installPresets(knex: Knex, presets: Preset[]): Promise<voi
         logger.error(`Error updating preset: ${preset.id}`);
       }
     }
+  }
+
+  // Previous runs inserted explicit ids without moving the sequence, so Directus could generate an id already in use.
+  if (knex.client.config.client === "pg") {
+    await knex.raw(`SELECT setval(pg_get_serial_sequence(?, 'id'), GREATEST((SELECT COALESCE(MAX(id), 0) FROM ??), 1))`, [TABLE, TABLE]);
   }
 
   logger.info("Presets installation complete.");

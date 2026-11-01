@@ -1,0 +1,32 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "function-application",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:36.491Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:56.816Z",
+      "name": "application",
+      "doc_url": "https://tsed.dev/api/platform/platform-http/types/common/fn/function-application",
+      "package": "c11f81ea-e762-4c50-8454-b0c46c9cee8f",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "note",
+        "stable"
+      ],
+      "type": "function",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/platform/platform-http/types/common/fn/function-application.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.153Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

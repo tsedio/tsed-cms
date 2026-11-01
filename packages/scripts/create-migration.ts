@@ -1,12 +1,13 @@
 // Script to create a TypeScript migration file for Directus
 // This script creates a TypeScript migration file with a timestamp and compiles it to JavaScript
 
-import { logger } from "@tsed/di";
-import { cli } from "@tsed-cms/infra/bootstrap/cli.js";
 import { execSync } from "child_process";
 import fs from "fs";
 import path from "path";
 import readline from "readline";
+
+import { cli } from "@tsed-cms/infra/bootstrap/cli.js";
+import { logger } from "@tsed/di";
 
 const rl = readline.createInterface({
   input: process.stdin,

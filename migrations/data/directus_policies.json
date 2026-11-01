@@ -1,12 +1,12 @@
 [
   {
-    "id": "4e4dd589-1458-4bec-b3d7-616eb54ffc63",
-    "name": "Contributor",
-    "icon": "badge",
-    "description": "Contributor policy",
+    "id": "74510869-8ddd-4b7b-958c-c9719024f594",
+    "name": "ReadOnly",
+    "icon": "api",
+    "description": "ReadOnly access",
     "ip_access": null,
     "enforce_tfa": false,
     "admin_access": false,
-    "app_access": true
+    "app_access": false
   }
 ]

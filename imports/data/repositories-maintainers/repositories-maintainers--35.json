@@ -1,0 +1,15 @@
+{
+  "collection": "repositories_maintainers",
+  "items": [
+    {
+      "id": 35,
+      "repositories_id": "047acfc4-2497-4f85-ab71-369a39e08d45",
+      "maintainers_id": "17045424-2824-4e70-9a6d-afc18871ee6d"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.232Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

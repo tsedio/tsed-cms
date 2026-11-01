@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "489a0a47-ddeb-49de-a71b-224e87d9d8fc",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.642Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:09.251Z",
+      "username": "alex-dev",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/25552053?v=4",
+      "url": "https://github.com/alex-dev"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.735Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

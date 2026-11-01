@@ -1,0 +1,34 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "882cf6fb-967c-430b-a774-65640a6b164e",
+      "status": "published",
+      "sort": 74,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:22.493Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:26.283Z",
+      "name": "@tsed/temporal",
+      "icon": "",
+      "description": "Temporal.io package for Ts.ED framework",
+      "tags": [],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/third-parties/temporal",
+      "downloads": 9182,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/temporal",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        77
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.856Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

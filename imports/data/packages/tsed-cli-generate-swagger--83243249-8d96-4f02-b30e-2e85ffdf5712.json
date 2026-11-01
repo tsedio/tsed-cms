@@ -1,0 +1,37 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "83243249-8d96-4f02-b30e-2e85ffdf5712",
+      "status": "published",
+      "sort": 69,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:22.364Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:39.331Z",
+      "name": "@tsed/cli-generate-swagger",
+      "icon": "",
+      "description": "Ts.ED CLI plugin. Export a command that generate the swagger.json from your Ts.ED controllers and OS3 spec.",
+      "tags": [
+        "cli",
+        "openspec"
+      ],
+      "homepage": "https://github.com/tsedio/tsed-cli/tree/master/packages/cli-generate-swagger",
+      "downloads": 4112,
+      "version": "7.8.1",
+      "repository": "git+https://github.com/tsedio/tsed-cli.git",
+      "npm": "https://www.npmjs.com/package/@tsed/cli-generate-swagger",
+      "stars": 43,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed-cli/issues",
+      "maintainers": [
+        71
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.842Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

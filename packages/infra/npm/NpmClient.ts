@@ -1,11 +1,12 @@
-import { injectable } from "@tsed/di";
-import type { HttpClientOptions } from "@tsed-cms/infra/http/HttpClientOptions.js";
-import type { Method } from "axios";
 import url from "url";
+
+import type { HttpClientOptions } from "@tsed-cms/infra/http/HttpClientOptions.js";
+import { injectable } from "@tsed/di";
+import type { Method } from "axios";
 
 import { HttpClient } from "../http/HttpClient.js";
 
-const REGEX_REGISTRY_ENFORCED_HTTPS = /^https?:\/\/([^\/]+\.)?(yarnpkg\.com|npmjs\.(org|com))(\/|$)/;
+const REGEX_REGISTRY_ENFORCED_HTTPS = /^https?:\/\/([^/]+\.)?(yarnpkg\.com|npmjs\.(org|com))(\/|$)/;
 const REGEX_REGISTRY_PREFIX = /^(https?:)?\/\//i;
 const REGEX_EXCLUDED_KEYWORDS = /hentai|porn/gi;
 

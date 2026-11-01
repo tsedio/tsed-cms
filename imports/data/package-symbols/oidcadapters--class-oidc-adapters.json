@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "class-oidc-adapters",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:33.806Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:52.683Z",
+      "name": "OidcAdapters",
+      "doc_url": "https://tsed.dev/api/security/oidc-provider/types/services/class-oidc-adapters",
+      "package": "cf6f7fa7-430b-4e04-8457-93843b827456",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "class",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/security/oidc-provider/types/services/class-oidc-adapters.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.162Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

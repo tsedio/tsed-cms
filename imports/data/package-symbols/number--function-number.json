@@ -1,0 +1,32 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "function-number",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:37.377Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:06:58.008Z",
+      "name": "number",
+      "doc_url": "https://tsed.dev/api/specs/schema/types/fn/function-number",
+      "package": "ed3e225f-c8cb-4a55-aea6-54e6550aeb3d",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "schemaFunctional",
+        "stable"
+      ],
+      "type": "function",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/specs/schema/types/fn/function-number.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.190Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

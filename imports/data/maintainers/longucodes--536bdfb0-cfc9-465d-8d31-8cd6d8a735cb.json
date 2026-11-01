@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "536bdfb0-cfc9-465d-8d31-8cd6d8a735cb",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.652Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:10.072Z",
+      "username": "LonguCodes",
+      "email": "lyskawinski.maciej@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/48600606?v=4",
+      "url": "https://github.com/LonguCodes"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.744Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

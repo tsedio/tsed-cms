@@ -1,0 +1,34 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "a919a4c2-a64d-42f9-821b-5286fcfdf207",
+      "status": "published",
+      "sort": 121,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.419Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:55.752Z",
+      "name": "@tsed-boot/iam",
+      "icon": "",
+      "description": "WIP",
+      "tags": [],
+      "homepage": null,
+      "downloads": 6,
+      "version": "0.1.2",
+      "repository": null,
+      "npm": "https://www.npmjs.com/package/@tsed-boot/iam",
+      "stars": null,
+      "type": "3rd-party",
+      "bugs": null,
+      "maintainers": [
+        125
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.840Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,6 +1,6 @@
 import type { Item, MutationOptions } from "@directus/types";
-import { inject } from "@tsed/di";
 import { DirectusContextService } from "@tsed-cms/infra/directus/DirectusContextService.js";
+import { inject } from "@tsed/di";
 
 export abstract class DirectusItemsRepository<T extends Item = Item, Collection extends string = string> {
   protected contextService = inject(DirectusContextService);

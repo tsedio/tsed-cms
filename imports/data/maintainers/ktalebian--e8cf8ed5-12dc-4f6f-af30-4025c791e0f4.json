@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "e8cf8ed5-12dc-4f6f-af30-4025c791e0f4",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.144Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:23.175Z",
+      "username": "ktalebian",
+      "email": "kousha.talebian@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/2308915?v=4",
+      "url": "https://github.com/ktalebian"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.744Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

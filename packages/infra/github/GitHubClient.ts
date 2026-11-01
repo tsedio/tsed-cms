@@ -1,8 +1,8 @@
 import { Octokit } from "@octokit/rest";
 import { RequestParameters } from "@octokit/types";
-import { constant, injectable } from "@tsed/di";
 import { getAllPagesGql } from "@tsed-cms/infra/github/utils/getAllPages.js";
 import { HttpLogClient } from "@tsed-cms/infra/http/HttpLogClient.js";
+import { constant, injectable } from "@tsed/di";
 import { coerce, rcompare } from "semver";
 
 interface GithubSponsor {

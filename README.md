@@ -8,7 +8,7 @@
 
 [![PR Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/tsedio/tsed/blob/master/CONTRIBUTING.md)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![code style: oxfmt](https://img.shields.io/badge/code_style-oxfmt-ff69b4.svg?style=flat-square)](https://oxc.rs/docs/guide/usage/formatter)
 [![github](https://img.shields.io/static/v1?label=Github%20sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/romakita)
 [![opencollective](https://img.shields.io/static/v1?label=OpenCollective%20sponsor&message=%E2%9D%A4&logo=OpenCollective&color=%23fe8e86)](https://opencollective.com/tsed)
 
@@ -26,7 +26,6 @@
 
 <hr />
 
-
 A Directus CMS project that can be deployed to Heroku using a Docker image built and pushed by GitHub Actions.
 
 ## Table of Contents
@@ -36,14 +35,14 @@ A Directus CMS project that can be deployed to Heroku using a Docker image built
 - [Local Development](#local-development)
 - [Environment Variables](#environment-variables)
 - [Deployment](#deployment)
-    - [CI/CD (GitHub Actions)](#cicd-github-actions)
-    - [Heroku Deployment](#heroku-deployment)
+  - [CI/CD (GitHub Actions)](#cicd-github-actions)
+  - [Heroku Deployment](#heroku-deployment)
 - [Project Structure](#project-structure)
 - [TypeScript Migrations](#typescript-migrations)
 - [Adding Collections with Proper Permissions](#adding-collections-with-proper-permissions)
 - [Yarn Berry](#yarn-berry)
 - [Contributing](#contributing)
-    - [Git Hooks](#git-hooks)
+  - [Git Hooks](#git-hooks)
 
 ## Overview
 
@@ -60,12 +59,14 @@ It provides a flexible and customizable backend for managing content and data.
 ## Local Development
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/tsedio/tsed-cms.git
    cd digital-cms-api
    ```
 
 2. Install dependencies using Yarn Berry:
+
    ```bash
    # Enable Yarn Berry (if not already enabled globally)
    corepack enable
@@ -75,6 +76,7 @@ It provides a flexible and customizable backend for managing content and data.
    ```
 
 3. Start the development environment using Docker Compose:
+
    ```bash
    docker-compose up -d database
    yarn run bootstrap:dev
@@ -84,14 +86,14 @@ It provides a flexible and customizable backend for managing content and data.
    ```
 
 4. Access the Directus admin interface at [http://localhost:8055](http://localhost:8055)
-    - Default admin credentials:
-        - Email: admin@example.com
-        - Password: admin
+   - Default admin credentials:
+     - Email: admin@example.com
+     - Password: admin
 
 5. (Optional) Expose directus on https
-    - brew install ngrok
-    - ngrok config add-authtoken <AUTH-TOKEN>
-    - ngrok http 8055
+   - brew install ngrok
+   - ngrok config add-authtoken <AUTH-TOKEN>
+   - ngrok http 8055
 
 6. To stop the development environment:
    ```bash
@@ -157,10 +159,10 @@ A. From the CI workflow
 
 - Actions → "CI" → Run workflow.
 - Inputs:
-    - `version` (optional): a Git tag like `v1.2.3`. If provided, the workflow checks out exactly this tag and VALIDATES
-      it. If the tag does not exist, the job fails with a clear error.
-    - `environment` (optional): `staging` or `production`. If omitted, the CI auto-selects: `main` → `production`, other
-      branches → `staging`.
+  - `version` (optional): a Git tag like `v1.2.3`. If provided, the workflow checks out exactly this tag and VALIDATES
+    it. If the tag does not exist, the job fails with a clear error.
+  - `environment` (optional): `staging` or `production`. If omitted, the CI auto-selects: `main` → `production`, other
+    branches → `staging`.
 
 B. From the standalone deploy workflow
 
@@ -222,23 +224,89 @@ digital-cms-api/
 └── uploads/              # Uploaded files (local development)
 ```
 
-## Exporting System Collections
+## Exporting and Importing Data
 
-You can export the base Directus system collections to version them with your codebase.
+Content can be moved between environments (e.g. Heroku → local) with the export/import scripts.
+
+### Layout
+
+```text
+exports/
+  export-<domain>.ts            # one script per business domain (packages, repositories, sponsors...)
+  export-all.ts                 # runs every export in order
+  utils/export-collection.ts    # fetch + one-file-per-document writer
+imports/
+  <n>-import-<collection>.ts    # upsert one collection (by id)
+  <n>-import-<domain>-data.ts   # bundle: runs collection imports in dependency order
+  import-all.ts                 # runs every collection import in order
+  data/<collection-kebab>/<slug>--<id>.json
+```
+
+Each data file holds a single document:
+
+```json
+{
+  "collection": "packages",
+  "items": [{ "id": "…", "name": "@tsed/core" }],
+  "exportedAt": "2026-11-01T00:00:00.000Z",
+  "options": { "includeRelatedCollections": false, "relatedCollectionDepth": 1 }
+}
+```
+
+Relation tables (`packages_maintainers`, `repositories_maintainers`) are exported in their own directory and imported
+after their parents. O2M aliases (e.g. `packages.maintainers`) are stripped before importing the parent. Their
+auto-increment ids differ per environment, so links are matched on their foreign keys (`matchBy`) and created without
+the source id.
 
 ### Exporting
 
-Run the following command to export the current system collections from your Directus instance:
+```bash
+yarn export:data:heroku          # prompt: pick a script in exports/
+yarn export:data:heroku all      # run exports/export-all.ts without prompt
+```
+
+### Importing
+
+```bash
+yarn import:data:dev                          # prompt: all, data bundles, then collection imports
+yarn import:data:dev 10-import-packages-data  # run one script without prompt
+```
+
+### Roles, permissions, flows, presets and dashboards
+
+These system collections can also be synced between environments through the REST API:
+
+| Export                        | Data (`imports/data/`)                                                           | Import                           |
+| ----------------------------- | -------------------------------------------------------------------------------- | -------------------------------- |
+| `export-roles-permissions.ts` | `directus-roles`, `directus-policies`, `directus-permissions`, `directus-access` | `12-import-roles-permissions.ts` |
+| `export-flows.ts`             | `directus-flows` (one file per flow, operations embedded)                        | `13-import-flows.ts`             |
+| `export-presets.ts`           | `directus-presets` (global presets only)                                         | `14-import-presets.ts`           |
+| `export-dashboards.ts`        | `directus-dashboards` (one file per Insights dashboard, panels embedded)         | `16-import-dashboards.ts`        |
+
+`15-import-system-data.ts` runs these imports. Notes:
+
+- Only this project's data is exported (`exports/utils/project-scope.ts`), since a Directus database may hold data of
+  other projects: permissions and presets of collections declared in `snapshots/snapshot-latest.yaml` (or `directus_*`),
+  flows whose collections and operations belong to this repo, dashboards whose panels use project collections, and the roles/policies listed in `PROJECT_ROLES` /
+  `PROJECT_POLICIES`. The same scope applies to `yarn export:system:collections`.
+- The Administrator role and policy are not exported. The Administrator role and Public policy ids are written as
+  `{{ID_ROLE_ADMINISTRATOR}}` / `{{ID_POLICY_PUBLIC}}` and resolved to the target ids on import.
+- Permissions and presets have auto-increment ids, so they are matched on `policy + collection + action` and on
+  `uuid` / `collection + bookmark`. Roles and policies are matched on id, then on name.
+- Only role accesses are exported (user accesses depend on the environment users).
+- Operations of an imported flow and panels of an imported dashboard that are not in the export are deleted. From the prompt, `13-import-flows` asks which
+  flows to import.
+
+### System collections (migration)
+
+Roles, policies, permissions, accesses, presets, flows and operations are exported to `migrations/data` and installed by
+the `*-update-all.ts` migration (renamed to today's date after each export):
 
 ```bash
 yarn export:system:collections
 ```
 
-This command will connect to your dev environment (via `dotenv-flow` and `config/.env.*`) and write export files under
-`packages/scripts/output/` or a path configured in the script. You can commit these files to keep your system
-collections in sync across environments.
-
-Note: Roles and permissions export via `yarn export:roles-permissions` is not available in this repository.
+It is also available as `system-collections` in `yarn export:data:dev`.
 
 ## TypeScript Migrations
 
@@ -270,7 +338,7 @@ This will:
 TypeScript migrations use the same structure as JavaScript migrations but with type annotations:
 
 ```typescript
-import { Knex } from 'knex';
+import { Knex } from "knex";
 
 interface MyEntity {
   id: number;
@@ -280,23 +348,20 @@ interface MyEntity {
 
 export default {
   async up(knex: Knex): Promise<void> {
-    await knex.schema.createTable('my_entities', (table) => {
-      table.increments('id').primary();
-      table.string('name').notNullable();
-      table.timestamp('created_at').defaultTo(knex.fn.now());
+    await knex.schema.createTable("my_entities", (table) => {
+      table.increments("id").primary();
+      table.string("name").notNullable();
+      table.timestamp("created_at").defaultTo(knex.fn.now());
     });
 
     // With TypeScript, you can use typed inserts
-    const entities: Partial<MyEntity>[] = [
-      { name: 'Entity 1' },
-      { name: 'Entity 2' }
-    ];
+    const entities: Partial<MyEntity>[] = [{ name: "Entity 1" }, { name: "Entity 2" }];
 
-    await knex('my_entities').insert(entities);
+    await knex("my_entities").insert(entities);
   },
 
   async down(knex: Knex): Promise<void> {
-    await knex.schema.dropTable('my_entities');
+    await knex.schema.dropTable("my_entities");
   }
 };
 ```
@@ -333,42 +398,43 @@ This section describes the process for adding a new collection with the proper p
 ### Steps to Add a New Collection
 
 1. **Create the collection in the Directus interface**
-    - Log in to the Directus admin interface
-    - Navigate to Settings > Data Model
-    - Click "Create Collection" and configure your new collection
-    - Add the necessary fields to your collection
+   - Log in to the Directus admin interface
+   - Navigate to Settings > Data Model
+   - Click "Create Collection" and configure your new collection
+   - Add the necessary fields to your collection
 
 2. **Add permissions for the new collection to the Contributor policy**
-    - Navigate to Settings > Access Policies
-    - Select the "Contributor" policy
-    - Find your newly created collection in the list
-    - Configure the appropriate permissions (Create, Read, Update, Delete)
+   - Navigate to Settings > Access Policies
+   - Select the "Contributor" policy
+   - Find your newly created collection in the list
+   - Configure the appropriate permissions (Create, Read, Update, Delete)
 
 3. **Create a snapshot of the current schema**
-    - Run the following command to create a snapshot:
-      ```bash
-      yarn snapshot:create
-      ```
-    - This will generate a snapshot file in the `snapshots` directory
+   - Run the following command to create a snapshot:
+     ```bash
+     yarn snapshot:create
+     ```
+   - This will generate a snapshot file in the `snapshots` directory
 
 4. **Export the permissions for the collections**
-    - Run the following command to export the system collections:
-      ```bash
-      yarn export:system:collections
-      ```
-    - This will update the permissions files in the `migrations/data` directory
+   - Run the following command to export the system collections:
+     ```bash
+     yarn export:system:collections
+     ```
+   - This will update the permissions files in the `migrations/data` directory
 
 5. **Create a migration script**
-    - Create a new migration script with a unique version number based on the existing script format (e.g.,
-      `20250711A-update-collections.ts`)
-    - Use the `20250710A-update-all.ts` script as a template
-    - Ensure your script includes the necessary imports and functions to apply the permissions
+   - Create a new migration script with a unique version number based on the existing script format (e.g.,
+     `20250711A-update-collections.ts`)
+   - Use the `20250710A-update-all.ts` script as a template
+   - Ensure your script includes the necessary imports and functions to apply the permissions
 
 ### Example Migration Script
 
 ```typescript
-import { Knex } from 'knex';
-import { installPermissions } from './utils/installPermissions';
+import { Knex } from "knex";
+
+import { installPermissions } from "./utils/installPermissions";
 
 export async function up(knex: Knex): Promise<void> {
   // Install permissions for the new collection
@@ -500,21 +566,25 @@ several advantages over npm and Yarn Classic:
 ### Getting Started with Yarn Berry
 
 1. Enable Corepack (if not already enabled):
+
    ```bash
    corepack enable
    ```
 
 2. Install dependencies:
+
    ```bash
    yarn install
    ```
 
 3. Add a new dependency:
+
    ```bash
    yarn add <package-name>
    ```
 
 4. Add a new development dependency:
+
    ```bash
    yarn add -D <package-name>
    ```
@@ -550,8 +620,8 @@ For more information on Yarn Berry, see the [Yarn Documentation](https://yarnpkg
 This project uses [Husky](https://typicode.github.io/husky/) and [lint-staged](https://github.com/okonet/lint-staged) to
 enforce code quality checks before commits. When you commit changes, the following checks are automatically run:
 
-- ESLint will run on all staged JavaScript and TypeScript files
-- Prettier will format all staged YAML files
+- [oxlint](https://oxc.rs/docs/guide/usage/linter) will lint, and [oxfmt](https://oxc.rs/docs/guide/usage/formatter) will format, all staged JavaScript and TypeScript files
+- oxfmt will format all staged JSON and YAML files
 - Any fixable issues will be automatically corrected
 
 Additionally, the project uses [commitlint](https://commitlint.js.org/) to enforce conventional commit message format.
@@ -567,7 +637,7 @@ To run the linting checks manually:
 yarn lint-staged
 ```
 
-To run ESLint on all files with automatic fixing:
+To run oxlint and oxfmt on all files with automatic fixing:
 
 ```bash
 yarn test:lint:fix

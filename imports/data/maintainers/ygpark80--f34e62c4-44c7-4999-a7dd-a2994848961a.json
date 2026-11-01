@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "f34e62c4-44c7-4999-a7dd-a2994848961a",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.718Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:47.923Z",
+      "username": "ygpark80",
+      "email": "ygpark80@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/738541?v=4",
+      "url": "https://github.com/ygpark80"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.753Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

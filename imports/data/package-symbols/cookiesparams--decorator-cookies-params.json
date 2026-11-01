@@ -1,0 +1,34 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "decorator-cookies-params",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:39.722Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:07:02.112Z",
+      "name": "CookiesParams",
+      "doc_url": "https://tsed.dev/api/platform/platform-params/types/decorators/decorator-cookies-params",
+      "package": "249fdf28-eb4b-4b8a-99b8-df58b9f5959b",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "decorator",
+        "operation",
+        "input",
+        "stable"
+      ],
+      "type": "decorator",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/platform/platform-params/types/decorators/decorator-cookies-params.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.053Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

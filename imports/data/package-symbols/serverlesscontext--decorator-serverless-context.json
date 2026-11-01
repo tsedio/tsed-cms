@@ -1,0 +1,32 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "decorator-serverless-context",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:40.164Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:07:02.786Z",
+      "name": "ServerlessContext",
+      "doc_url": "https://tsed.dev/api/platform/platform-serverless-http/types/decorators/decorator-serverless-context",
+      "package": "0bbd4e6b-532f-42eb-b240-18360612a0ca",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "decorator",
+        "stable"
+      ],
+      "type": "decorator",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/platform/platform-serverless-http/types/decorators/decorator-serverless-context.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.043Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

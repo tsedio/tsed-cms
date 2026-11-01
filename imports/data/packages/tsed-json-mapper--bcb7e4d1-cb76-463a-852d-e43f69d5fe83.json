@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "bcb7e4d1-cb76-463a-852d-e43f69d5fe83",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2025-11-02T22:00:09.188Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:11.529Z",
+      "name": "@tsed/json-mapper",
+      "icon": null,
+      "description": "Json mapper module for Ts.ED Framework",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/specs/json-mapper",
+      "downloads": 102500,
+      "version": "8.44.12",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/json-mapper",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.846Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

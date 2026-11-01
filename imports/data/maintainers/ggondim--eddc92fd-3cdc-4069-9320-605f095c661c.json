@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "eddc92fd-3cdc-4069-9320-605f095c661c",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.440Z",
+      "user_updated": null,
+      "date_updated": null,
+      "username": "ggondim",
+      "email": "gustavospgondim@gmail.com",
+      "avatar": "https://www.gravatar.com/avatar/87dc4e90461fc549a5dd6d4467507c0e",
+      "url": null
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.741Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

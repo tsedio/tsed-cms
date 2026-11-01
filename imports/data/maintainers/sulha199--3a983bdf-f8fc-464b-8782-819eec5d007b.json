@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "3a983bdf-f8fc-464b-8782-819eec5d007b",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.180Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:24.358Z",
+      "username": "sulha199",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/13642906?v=4",
+      "url": "https://github.com/sulha199"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.750Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

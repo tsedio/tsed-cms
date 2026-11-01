@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "4bb35e59-bb85-4c93-a607-9c725dab0d53",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2025-11-03T09:36:24.116Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:01.386Z",
+      "source": "open_collective",
+      "name": "Sidharth V",
+      "type": "user",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": "https://sidharth.dev/",
+      "profile": "https://opencollective.com/sidharth-v",
+      "avatar": null,
+      "last_transaction_at": "2021-10-20T18:49:00",
+      "total_amount_donated": 5,
+      "currency": "USD",
+      "last_transaction_amount": 5,
+      "visibility": "public",
+      "tier": null,
+      "grade": "supporter",
+      "first_transaction_at": "2021-10-20T18:49:00",
+      "login": "233982"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.269Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

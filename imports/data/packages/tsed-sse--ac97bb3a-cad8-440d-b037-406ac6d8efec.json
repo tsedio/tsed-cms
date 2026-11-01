@@ -1,0 +1,34 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "ac97bb3a-cad8-440d-b037-406ac6d8efec",
+      "status": "published",
+      "sort": 92,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:22.877Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:22.948Z",
+      "name": "@tsed/sse",
+      "icon": "",
+      "description": "Server-sent events package for Ts.ED framework",
+      "tags": [],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/third-parties/sse",
+      "downloads": 5721,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/sse",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        95
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.855Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

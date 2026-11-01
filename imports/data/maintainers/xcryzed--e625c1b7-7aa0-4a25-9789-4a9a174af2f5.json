@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "e625c1b7-7aa0-4a25-9789-4a9a174af2f5",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.501Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:46.133Z",
+      "username": "xCryzed",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/39458340?v=4",
+      "url": "https://github.com/xCryzed"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.753Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

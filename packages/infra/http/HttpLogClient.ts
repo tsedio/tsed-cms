@@ -1,7 +1,8 @@
+import { stringify } from "querystring";
+
 import { constant, context, ContextLogger, contextLogger } from "@tsed/di";
 import type { AxiosResponse } from "axios";
 import get from "lodash/get.js";
-import { stringify } from "querystring";
 
 import type { HttpRequestConfig, HttpRequestErrorConfig } from "./HttpClientOptions.js";
 import { logToCurl } from "./utils/logToCurl.js";
@@ -27,12 +28,13 @@ export class HttpLogClient {
   }
 
   protected onError(options: HttpRequestErrorConfig) {
-    !options.disableLog &&
+    if (!options.disableLog) {
       this.logger.warn({
         ...this.formatLog(options, true),
         state: "KO",
         callee_error: options.error.message
       });
+    }
   }
 
   protected formatLog(options: HttpRequestConfig | HttpRequestErrorConfig, verbose: boolean) {

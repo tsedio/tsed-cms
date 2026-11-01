@@ -1,6 +1,6 @@
-import { inject, injectable } from "@tsed/di";
 import { DirectusContextService } from "@tsed-cms/infra/directus/DirectusContextService.js";
 import type { Package, Repository } from "@tsed-cms/infra/directus/interfaces/DirectusSchema.d.js";
+import { inject, injectable } from "@tsed/di";
 
 /**
  * Facade service to back the legacy REST endpoints with Directus collections.

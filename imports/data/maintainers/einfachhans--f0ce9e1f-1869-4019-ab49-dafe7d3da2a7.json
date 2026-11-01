@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "f0ce9e1f-1869-4019-ab49-dafe7d3da2a7",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.466Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:03.132Z",
+      "username": "EinfachHans",
+      "email": "hanskrywaa@web.de",
+      "avatar": "https://avatars.githubusercontent.com/u/20899975?v=4",
+      "url": "https://github.com/EinfachHans"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.740Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

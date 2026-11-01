@@ -1,6 +1,6 @@
-import { injectable } from "@tsed/di";
 import { DirectusItemsRepository } from "@tsed-cms/infra/directus/DirectusItemsRepository.js";
 import type { PackageSymbol } from "@tsed-cms/infra/directus/interfaces/DirectusSchema.d.js";
+import { injectable } from "@tsed/di";
 
 /**
  * Service d'accès à la collection `package_symbols` (Directus).

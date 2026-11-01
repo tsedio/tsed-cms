@@ -1,0 +1,37 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "2be7bd58-fd6c-473d-8e47-4d747874e3cb",
+      "status": "published",
+      "sort": 2,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:20.927Z",
+      "user_updated": null,
+      "date_updated": null,
+      "name": "@tsedio/config-ioredis",
+      "icon": "https://www.vectorlogo.zone/logos/redis/redis-icon.svg",
+      "description": "A powerful plugin for Ts.ED to manage your application configuration in Redis and sync changes in real time.",
+      "tags": [
+        "config-source",
+        "database"
+      ],
+      "homepage": "https://tsed.dev/plugins/premium/config-source/ioredis.html",
+      "downloads": 0,
+      "version": null,
+      "repository": null,
+      "npm": null,
+      "stars": 0,
+      "type": "premium",
+      "bugs": null,
+      "maintainers": [
+        2
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.859Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

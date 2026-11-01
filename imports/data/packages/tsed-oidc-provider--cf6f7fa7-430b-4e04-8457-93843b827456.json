@@ -1,0 +1,37 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "cf6f7fa7-430b-4e04-8457-93843b827456",
+      "status": "published",
+      "sort": 45,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.812Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:33.419Z",
+      "name": "@tsed/oidc-provider",
+      "icon": "https://oauth.net/images/oauth-logo-square.png",
+      "description": "OIDC provider package for Ts.ED framework",
+      "tags": [
+        "security",
+        "api"
+      ],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/security/oidc-provider",
+      "downloads": 9273,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/oidc-provider",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        45
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.849Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

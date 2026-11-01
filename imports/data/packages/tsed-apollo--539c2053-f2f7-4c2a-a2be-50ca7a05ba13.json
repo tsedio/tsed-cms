@@ -1,0 +1,36 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "539c2053-f2f7-4c2a-a2be-50ca7a05ba13",
+      "status": "published",
+      "sort": 57,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:22.091Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:34.072Z",
+      "name": "@tsed/apollo",
+      "icon": "https://tsed.io/apollo-graphql-1.svg",
+      "description": "Apollo package for Ts.ED framework",
+      "tags": [
+        "graphql"
+      ],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/graphql/apollo",
+      "downloads": 7221,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/apollo",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        57
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.841Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "f6df2975-bbd2-4b59-83a0-5cf9a938fac4",
+      "status": "published",
+      "sort": 123,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.449Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:53.882Z",
+      "name": "generator-tsed-backend",
+      "icon": "",
+      "description": "Project generator for backend using express.js, Ts.ED and mocha and chai for testing",
+      "tags": [
+        "devtools"
+      ],
+      "homepage": "https://github.com/vortech-digital-pioneers/generator-tsed-backend",
+      "downloads": 21,
+      "version": "1.0.8",
+      "repository": "git+https://github.com/vortech-digital-pioneers/generator-tsed-backend.git",
+      "npm": "https://www.npmjs.com/package/generator-tsed-backend",
+      "stars": 0,
+      "type": "3rd-party",
+      "bugs": "https://github.com/vortech-digital-pioneers/generator-tsed-backend/issues",
+      "maintainers": [
+        127
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.860Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

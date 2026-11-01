@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "36b1b279-b3c0-4135-bb90-a8e0087faaca",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.245Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:26.269Z",
+      "username": "chr33s",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/8158363?v=4",
+      "url": "https://github.com/chr33s"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.738Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

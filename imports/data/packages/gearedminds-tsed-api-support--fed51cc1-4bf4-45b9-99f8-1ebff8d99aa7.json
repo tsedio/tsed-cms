@@ -1,0 +1,34 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "fed51cc1-4bf4-45b9-99f8-1ebff8d99aa7",
+      "status": "published",
+      "sort": 124,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.463Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:45.027Z",
+      "name": "@gearedminds/tsed-api-support",
+      "icon": "",
+      "description": "A couple of handy classes and functions shared across TSED projects",
+      "tags": [],
+      "homepage": null,
+      "downloads": 7,
+      "version": "2.0.0",
+      "repository": null,
+      "npm": "https://www.npmjs.com/package/@gearedminds/tsed-api-support",
+      "stars": null,
+      "type": "3rd-party",
+      "bugs": null,
+      "maintainers": [
+        128
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.838Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

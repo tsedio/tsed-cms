@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "4fd7e8c2-2252-4c46-8308-6b865a7d5f73",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.482Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:50.124Z",
+      "username": "camfou",
+      "email": "cfoubert@prophessi.com",
+      "avatar": "https://avatars.githubusercontent.com/u/282491?v=4",
+      "url": "https://github.com/camfou"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.738Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

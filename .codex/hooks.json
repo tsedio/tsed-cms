@@ -1,0 +1,30 @@
+{
+  "description": "Lint (oxlint/oxfmt) and type-check (TypeScript 7) quality gate. Shared script with Claude Code.",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "apply_patch",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$(git rev-parse --show-toplevel)/.agents/hooks/quality-gate.mjs\" post-edit",
+            "statusMessage": "Linting edited files",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$(git rev-parse --show-toplevel)/.agents/hooks/quality-gate.mjs\" stop",
+            "statusMessage": "Running lint and type check",
+            "timeout": 120
+          }
+        ]
+      }
+    ]
+  }
+}

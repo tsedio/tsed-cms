@@ -1,5 +1,5 @@
-ARG NODE_VERSION=24.21.0
-ARG DIRECTUS_VERSION=12.4.1
+ARG NODE_VERSION=26.13.0
+ARG DIRECTUS_VERSION=12.6.0
 ARG HTTP_PROXY
 ARG HTTPS_PROXY
 ARG NO_PROXY
@@ -16,7 +16,7 @@ WORKDIR /app
 
 # Enable yarn via Corepack
 RUN corepack enable
-RUN yarn set version 4.9.2
+RUN yarn set version 4.18.1
 
 # Copy Yarn configuration and package.json
 COPY .yarn ./.yarn

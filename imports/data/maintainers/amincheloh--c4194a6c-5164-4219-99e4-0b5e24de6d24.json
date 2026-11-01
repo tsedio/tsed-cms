@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "c4194a6c-5164-4219-99e4-0b5e24de6d24",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.462Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:34.068Z",
+      "username": "amincheloh",
+      "email": "amincheloh@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/1217397?v=4",
+      "url": "https://github.com/amincheloh"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.735Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

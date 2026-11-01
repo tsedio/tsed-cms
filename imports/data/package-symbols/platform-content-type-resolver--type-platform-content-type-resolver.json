@@ -1,0 +1,31 @@
+{
+  "collection": "package_symbols",
+  "items": [
+    {
+      "id": "type-platform-content-type-resolver",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-15T11:08:39.959Z",
+      "user_updated": null,
+      "date_updated": "2025-11-15T18:07:02.529Z",
+      "name": "PLATFORM_CONTENT_TYPE_RESOLVER",
+      "doc_url": "https://tsed.dev/api/platform/platform-response-filter/types/services/type-platform-content-type-resolver",
+      "package": "bace2006-5157-4fcc-9765-2ab60631fcee",
+      "versions": [
+        "8.18.2"
+      ],
+      "deprecated": false,
+      "tags": [
+        "stable"
+      ],
+      "type": "type",
+      "markdown_url": "https://tsed.dev/ai/references/api/api/platform/platform-response-filter/types/services/type-platform-content-type-resolver.md",
+      "additional_doc_url": ""
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.149Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

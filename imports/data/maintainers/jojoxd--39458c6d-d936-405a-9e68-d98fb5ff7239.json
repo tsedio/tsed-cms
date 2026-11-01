@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "39458c6d-d936-405a-9e68-d98fb5ff7239",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.609Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:06.517Z",
+      "username": "jojoxd",
+      "email": "contact@jojoxd.nl",
+      "avatar": "https://avatars.githubusercontent.com/u/5726497?v=4",
+      "url": "https://github.com/jojoxd"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.743Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

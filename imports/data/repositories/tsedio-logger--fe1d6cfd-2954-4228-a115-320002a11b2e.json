@@ -1,0 +1,35 @@
+{
+  "collection": "repositories",
+  "items": [
+    {
+      "id": "fe1d6cfd-2954-4228-a115-320002a11b2e",
+      "status": "published",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
+      "date_created": "2025-11-02T17:15:46.467Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:48.774Z",
+      "owner": "tsedio",
+      "repo": "logger",
+      "stars": 66,
+      "url": "https://github.com/tsedio/logger",
+      "maintainers": [
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:37.220Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

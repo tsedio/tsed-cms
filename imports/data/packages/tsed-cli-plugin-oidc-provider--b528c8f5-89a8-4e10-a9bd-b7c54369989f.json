@@ -1,0 +1,34 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "b528c8f5-89a8-4e10-a9bd-b7c54369989f",
+      "status": "published",
+      "sort": 81,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:22.630Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:40.759Z",
+      "name": "@tsed/cli-plugin-oidc-provider",
+      "icon": "",
+      "description": "Ts.ED CLI plugin. Add OIDC Provider",
+      "tags": [],
+      "homepage": "https://github.com/tsedio/tsed-cli/tree/master/packages/cli-plugin-oidc-provider",
+      "downloads": 2939,
+      "version": "7.8.1",
+      "repository": "git+https://github.com/tsedio/tsed-cli.git",
+      "npm": "https://www.npmjs.com/package/@tsed/cli-plugin-oidc-provider",
+      "stars": 43,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed-cli/issues",
+      "maintainers": [
+        84
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.842Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

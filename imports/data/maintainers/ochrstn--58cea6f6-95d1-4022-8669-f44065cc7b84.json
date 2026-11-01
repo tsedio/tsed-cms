@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "58cea6f6-95d1-4022-8669-f44065cc7b84",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.456Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:02.866Z",
+      "username": "ochrstn",
+      "email": "christen@app-logik.de",
+      "avatar": "https://avatars.githubusercontent.com/u/25102041?v=4",
+      "url": "https://github.com/ochrstn"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.747Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

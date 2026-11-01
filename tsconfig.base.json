@@ -1,14 +1,11 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
     "module": "NodeNext",
     "target": "ESNext",
     "moduleResolution": "NodeNext",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "downlevelIteration": false,
     "isolatedModules": false,
-    "suppressImplicitAnyIndexErrors": false,
     "noImplicitAny": true,
     "strictNullChecks": true,
     "noUnusedLocals": false,
@@ -21,11 +18,7 @@
     "resolveJsonModule": true,
     "newLine": "LF",
     "skipLibCheck": true,
-    "lib": [
-      "ESNext",
-      "esnext.asynciterable",
-      "dom"
-    ],
+    "lib": ["ESNext", "esnext.asynciterable", "dom"],
     "declaration": false,
     "noResolve": false,
     "preserveConstEnums": true,

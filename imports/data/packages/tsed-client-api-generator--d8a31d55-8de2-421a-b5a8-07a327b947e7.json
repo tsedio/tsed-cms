@@ -1,0 +1,36 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "d8a31d55-8de2-421a-b5a8-07a327b947e7",
+      "status": "published",
+      "sort": 118,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.365Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:47.867Z",
+      "name": "tsed-client-api-generator",
+      "icon": "",
+      "description": "Automatically generates Typescript APIs from Ts.ED controllers",
+      "tags": [
+        "devtools"
+      ],
+      "homepage": "https://github.com/x-via/tsed-client-api-generator#readme",
+      "downloads": 31,
+      "version": "1.2.3",
+      "repository": "git+https://github.com/x-via/tsed-client-api-generator.git",
+      "npm": "https://www.npmjs.com/package/tsed-client-api-generator",
+      "stars": 9,
+      "type": "3rd-party",
+      "bugs": "https://github.com/x-via/tsed-client-api-generator/issues",
+      "maintainers": [
+        121
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.861Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

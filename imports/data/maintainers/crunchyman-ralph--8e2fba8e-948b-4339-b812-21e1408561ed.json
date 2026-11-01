@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "8e2fba8e-948b-4339-b812-21e1408561ed",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:01.930Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:16.198Z",
+      "username": "Crunchyman-ralph",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/35776126?v=4",
+      "url": "https://github.com/Crunchyman-ralph"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.739Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

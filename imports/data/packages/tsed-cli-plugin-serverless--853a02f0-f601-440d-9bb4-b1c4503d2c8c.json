@@ -1,0 +1,37 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "853a02f0-f601-440d-9bb4-b1c4503d2c8c",
+      "status": "published",
+      "sort": 110,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:23.240Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:54.518Z",
+      "name": "tsed-cli-plugin-serverless",
+      "icon": "",
+      "description": "Ts.ED CLI plugin that adds serverless support.",
+      "tags": [
+        "cli",
+        "devtools"
+      ],
+      "homepage": null,
+      "downloads": 4,
+      "version": "0.0.17",
+      "repository": null,
+      "npm": "https://www.npmjs.com/package/tsed-cli-plugin-serverless",
+      "stars": null,
+      "type": "3rd-party",
+      "bugs": null,
+      "maintainers": [
+        113
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.860Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

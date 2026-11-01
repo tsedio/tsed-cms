@@ -1,0 +1,22 @@
+{
+  "collection": "maintainers",
+  "items": [
+    {
+      "id": "a6bcbce2-93df-4d09-a9bd-7f66b19181a4",
+      "status": "published",
+      "user_created": null,
+      "date_created": "2025-11-02T17:00:02.254Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:26.510Z",
+      "username": "amorgulis",
+      "email": null,
+      "avatar": "https://avatars.githubusercontent.com/u/10342824?v=4",
+      "url": "https://github.com/amorgulis"
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.736Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

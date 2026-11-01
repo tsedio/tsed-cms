@@ -1,0 +1,37 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "6292770b-0cc5-4ecd-b742-d178ba508d1a",
+      "status": "published",
+      "sort": 89,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:22.817Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:47.226Z",
+      "name": "@tsed/vite-ssr-plugin",
+      "icon": "https://vitejs.dev/logo.svg",
+      "description": "Vite SSR plugin package for Ts.ED framework",
+      "tags": [
+        "frontend",
+        "engines"
+      ],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/third-parties/vite-ssr-plugin",
+      "downloads": 362,
+      "version": "7.85.1",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/vite-ssr-plugin",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        92
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.859Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

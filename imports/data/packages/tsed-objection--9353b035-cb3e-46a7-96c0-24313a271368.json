@@ -1,0 +1,36 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "9353b035-cb3e-46a7-96c0-24313a271368",
+      "status": "published",
+      "sort": 52,
+      "user_created": null,
+      "date_created": "2025-11-02T17:44:21.927Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T09:00:25.934Z",
+      "name": "@tsed/objection",
+      "icon": "",
+      "description": "Objection.js package for Ts.ED framework",
+      "tags": [
+        "database"
+      ],
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/orm/objection",
+      "downloads": 8376,
+      "version": "8.44.12",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/objection",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": [
+        52
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-01T09:37:36.849Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

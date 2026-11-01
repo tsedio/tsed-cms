@@ -13,7 +13,8 @@ const ALL_IMPORT_FILES = [
   "7-import-sponsors.ts",
   "12-import-roles-permissions.ts",
   "13-import-flows.ts",
-  "14-import-presets.ts"
+  "14-import-presets.ts",
+  "16-import-dashboards.ts"
 ] as const;
 
 export default (directus: DIRECTUS_SERVICE) => runImportScripts("all", import.meta.url, ALL_IMPORT_FILES, directus);

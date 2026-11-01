@@ -103,3 +103,14 @@ export function filterProjectFlows<Flow extends FlowLike>(flows: Flow[], operati
 
   return flows.filter((flow) => !excluded.has(flow.id));
 }
+
+type DashboardLike = { id: string };
+type PanelLike = { dashboard?: unknown; options?: unknown };
+
+/** Keeps dashboards whose panels only use project collections. */
+export function filterProjectDashboards<Dashboard extends DashboardLike>(dashboards: Dashboard[], panels: PanelLike[]) {
+  return dashboards.filter((dashboard) => {
+    const options = panels.filter((panel) => panel.dashboard === dashboard.id).map((panel) => panel.options);
+    return [...referencedCollections(options)].every((collection) => isProjectCollection(collection));
+  });
+}

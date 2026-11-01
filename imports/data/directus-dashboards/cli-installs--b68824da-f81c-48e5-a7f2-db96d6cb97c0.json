@@ -1,0 +1,490 @@
+{
+  "collection": "directus_dashboards",
+  "items": [
+    {
+      "id": "b68824da-f81c-48e5-a7f2-db96d6cb97c0",
+      "name": "CLI installs",
+      "icon": "terminal",
+      "note": "Ts.ED CLI and MCP install telemetry (cli_install_stats)",
+      "date_created": "2026-11-01T10:12:09.498Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
+      "color": null
+    }
+  ],
+  "exportedAt": "2026-11-01T10:14:01.215Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  },
+  "panels": [
+    {
+      "id": "1ae142b3-d67c-4012-94be-dc21ae298125",
+      "dashboard": "b68824da-f81c-48e5-a7f2-db96d6cb97c0",
+      "name": "Operating system",
+      "icon": "computer",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "bar-chart",
+      "position_x": 25,
+      "position_y": 44,
+      "width": 24,
+      "height": 12,
+      "options": {
+        "collection": "cli_install_stats",
+        "xAxis": "os",
+        "yAxis": "id",
+        "function": "count",
+        "horizontal": true,
+        "showDataLabel": true,
+        "decimals": 0
+      },
+      "date_created": "2026-11-01T10:12:10.009Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "1cd0d43d-32d1-49e7-b4aa-af0d4dc61896",
+      "dashboard": "b68824da-f81c-48e5-a7f2-db96d6cb97c0",
+      "name": "MCP installs",
+      "icon": "smart_toy",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "metric",
+      "position_x": 37,
+      "position_y": 1,
+      "width": 12,
+      "height": 7,
+      "options": {
+        "collection": "cli_install_stats",
+        "field": "id",
+        "function": "count",
+        "filter": {
+          "channel": {
+            "_eq": "mcp"
+          }
+        }
+      },
+      "date_created": "2026-11-01T10:12:09.877Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "334a7e4b-1326-4198-b3ac-c817282bb1d9",
+      "dashboard": "b68824da-f81c-48e5-a7f2-db96d6cb97c0",
+      "name": "Total installs",
+      "icon": "download",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "metric",
+      "position_x": 1,
+      "position_y": 1,
+      "width": 12,
+      "height": 7,
+      "options": {
+        "collection": "cli_install_stats",
+        "field": "id",
+        "function": "count"
+      },
+      "date_created": "2026-11-01T10:12:09.528Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "5d9b81a3-b24f-4a4e-a275-f1ce94607a4b",
+      "dashboard": "b68824da-f81c-48e5-a7f2-db96d6cb97c0",
+      "name": "Runtime",
+      "icon": "memory",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "pie-chart",
+      "position_x": 25,
+      "position_y": 20,
+      "width": 12,
+      "height": 12,
+      "options": {
+        "collection": "cli_install_stats",
+        "column": "runtime",
+        "function": "count",
+        "legend": "right",
+        "showLabels": true
+      },
+      "date_created": "2026-11-01T10:12:09.965Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "6e6e0998-969e-4358-9ce8-c134f84e4a38",
+      "dashboard": "b68824da-f81c-48e5-a7f2-db96d6cb97c0",
+      "name": "Convention",
+      "icon": "rule",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "bar-chart",
+      "position_x": 25,
+      "position_y": 32,
+      "width": 24,
+      "height": 12,
+      "options": {
+        "collection": "cli_install_stats",
+        "xAxis": "convention",
+        "yAxis": "id",
+        "function": "count",
+        "horizontal": true,
+        "showDataLabel": true,
+        "decimals": 0
+      },
+      "date_created": "2026-11-01T10:12:09.992Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "7707a9c0-213e-452b-802b-e8bc7aacc4e3",
+      "dashboard": "b68824da-f81c-48e5-a7f2-db96d6cb97c0",
+      "name": "Failed installs per day (3 months)",
+      "icon": "trending_down",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "time-series",
+      "position_x": 25,
+      "position_y": 8,
+      "width": 24,
+      "height": 12,
+      "options": {
+        "collection": "cli_install_stats",
+        "dateField": "date_created",
+        "valueField": "id",
+        "function": "count",
+        "precision": "day",
+        "range": "3 months",
+        "missingData": 0,
+        "curveType": "smooth",
+        "fillType": "gradient",
+        "decimals": 0,
+        "filter": {
+          "is_success": {
+            "_eq": false
+          }
+        },
+        "color": "#E35169"
+      },
+      "date_created": "2026-11-01T10:12:09.928Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "773be77e-502c-4fdf-ad70-c96d3c1048c4",
+      "dashboard": "b68824da-f81c-48e5-a7f2-db96d6cb97c0",
+      "name": "Installs per day (3 months)",
+      "icon": "show_chart",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "time-series",
+      "position_x": 1,
+      "position_y": 8,
+      "width": 24,
+      "height": 12,
+      "options": {
+        "collection": "cli_install_stats",
+        "dateField": "date_created",
+        "valueField": "id",
+        "function": "count",
+        "precision": "day",
+        "range": "3 months",
+        "missingData": 0,
+        "curveType": "smooth",
+        "fillType": "gradient",
+        "decimals": 0
+      },
+      "date_created": "2026-11-01T10:12:09.894Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "93fa90bc-95e4-4464-b980-d4c8257e6c7d",
+      "dashboard": "b68824da-f81c-48e5-a7f2-db96d6cb97c0",
+      "name": "Latest failed installs",
+      "icon": "report",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "list",
+      "position_x": 21,
+      "position_y": 68,
+      "width": 28,
+      "height": 14,
+      "options": {
+        "collection": "cli_install_stats",
+        "sortField": "date_created",
+        "sortDirection": "desc",
+        "limit": 20,
+        "displayTemplate": "{{date_created}} · {{error_name}} · cli {{cli_version}} · {{os}} / {{runtime}}",
+        "filter": {
+          "is_success": {
+            "_eq": false
+          }
+        }
+      },
+      "date_created": "2026-11-01T10:12:10.044Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "999d7136-07db-4111-8b1b-cf2ab2319818",
+      "dashboard": "b68824da-f81c-48e5-a7f2-db96d6cb97c0",
+      "name": "Installs (30 days)",
+      "icon": "calendar_month",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "metric",
+      "position_x": 13,
+      "position_y": 1,
+      "width": 12,
+      "height": 7,
+      "options": {
+        "collection": "cli_install_stats",
+        "field": "id",
+        "function": "count",
+        "filter": {
+          "date_created": {
+            "_gte": "$NOW(-30 days)"
+          }
+        }
+      },
+      "date_created": "2026-11-01T10:12:09.539Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "a8467f9a-7a70-4932-81ef-954f9fa08124",
+      "dashboard": "b68824da-f81c-48e5-a7f2-db96d6cb97c0",
+      "name": "Top errors",
+      "icon": "bug_report",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "metric-list",
+      "position_x": 1,
+      "position_y": 68,
+      "width": 20,
+      "height": 14,
+      "options": {
+        "collection": "cli_install_stats",
+        "groupByField": "error_name",
+        "aggregateField": "id",
+        "aggregateFunction": "count",
+        "sortDirection": "desc",
+        "limit": 10,
+        "filter": {
+          "is_success": {
+            "_eq": false
+          }
+        }
+      },
+      "date_created": "2026-11-01T10:12:10.036Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "b0fcdca0-cdad-4db5-abc9-aa7d2a6f32da",
+      "dashboard": "b68824da-f81c-48e5-a7f2-db96d6cb97c0",
+      "name": "Platform",
+      "icon": "dns",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "bar-chart",
+      "position_x": 1,
+      "position_y": 32,
+      "width": 24,
+      "height": 12,
+      "options": {
+        "collection": "cli_install_stats",
+        "xAxis": "platform",
+        "yAxis": "id",
+        "function": "count",
+        "horizontal": true,
+        "showDataLabel": true,
+        "decimals": 0
+      },
+      "date_created": "2026-11-01T10:12:09.982Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "b75c266f-194a-4904-922e-674c4331f7c0",
+      "dashboard": "b68824da-f81c-48e5-a7f2-db96d6cb97c0",
+      "name": "Top Ts.ED versions",
+      "icon": "deployed_code",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "metric-list",
+      "position_x": 25,
+      "position_y": 56,
+      "width": 24,
+      "height": 12,
+      "options": {
+        "collection": "cli_install_stats",
+        "groupByField": "tsed_version",
+        "aggregateField": "id",
+        "aggregateFunction": "count",
+        "sortDirection": "desc",
+        "limit": 10
+      },
+      "date_created": "2026-11-01T10:12:10.028Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "baf6e0eb-5edc-4558-bb0e-804984c9a6c0",
+      "dashboard": "b68824da-f81c-48e5-a7f2-db96d6cb97c0",
+      "name": "Success rate",
+      "icon": "check_circle",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "metric-list",
+      "position_x": 13,
+      "position_y": 20,
+      "width": 12,
+      "height": 12,
+      "options": {
+        "collection": "cli_install_stats",
+        "groupByField": "is_success",
+        "aggregateField": "id",
+        "aggregateFunction": "count",
+        "sortDirection": "desc",
+        "limit": 2
+      },
+      "date_created": "2026-11-01T10:12:09.955Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "bb3f6943-d0f4-48dc-b8f3-e6671c13fc7e",
+      "dashboard": "b68824da-f81c-48e5-a7f2-db96d6cb97c0",
+      "name": "Package manager",
+      "icon": "inventory_2",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "pie-chart",
+      "position_x": 37,
+      "position_y": 20,
+      "width": 12,
+      "height": 12,
+      "options": {
+        "collection": "cli_install_stats",
+        "column": "package_manager",
+        "function": "count",
+        "legend": "right",
+        "showLabels": true
+      },
+      "date_created": "2026-11-01T10:12:09.973Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "cefacfb9-0cee-47b6-8c63-b814f12851ce",
+      "dashboard": "b68824da-f81c-48e5-a7f2-db96d6cb97c0",
+      "name": "Style",
+      "icon": "palette",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "bar-chart",
+      "position_x": 1,
+      "position_y": 44,
+      "width": 24,
+      "height": 12,
+      "options": {
+        "collection": "cli_install_stats",
+        "xAxis": "style",
+        "yAxis": "id",
+        "function": "count",
+        "horizontal": true,
+        "showDataLabel": true,
+        "decimals": 0
+      },
+      "date_created": "2026-11-01T10:12:10.000Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "d0ed4160-a753-4d62-9890-1fc2b78d34ab",
+      "dashboard": "b68824da-f81c-48e5-a7f2-db96d6cb97c0",
+      "name": "Failed installs (30 days)",
+      "icon": "error",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "metric",
+      "position_x": 25,
+      "position_y": 1,
+      "width": 12,
+      "height": 7,
+      "options": {
+        "collection": "cli_install_stats",
+        "field": "id",
+        "function": "count",
+        "filter": {
+          "_and": [
+            {
+              "date_created": {
+                "_gte": "$NOW(-30 days)"
+              }
+            },
+            {
+              "is_success": {
+                "_eq": false
+              }
+            }
+          ]
+        },
+        "color": "#E35169"
+      },
+      "date_created": "2026-11-01T10:12:09.673Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "d3271f2b-51d8-43b1-9fed-d0897e40db7f",
+      "dashboard": "b68824da-f81c-48e5-a7f2-db96d6cb97c0",
+      "name": "Top CLI versions",
+      "icon": "terminal",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "metric-list",
+      "position_x": 1,
+      "position_y": 56,
+      "width": 24,
+      "height": 12,
+      "options": {
+        "collection": "cli_install_stats",
+        "groupByField": "cli_version",
+        "aggregateField": "id",
+        "aggregateFunction": "count",
+        "sortDirection": "desc",
+        "limit": 10
+      },
+      "date_created": "2026-11-01T10:12:10.019Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    },
+    {
+      "id": "f5019d1f-2af5-41ba-944f-bed8afea4a54",
+      "dashboard": "b68824da-f81c-48e5-a7f2-db96d6cb97c0",
+      "name": "Channel",
+      "icon": "hub",
+      "color": null,
+      "show_header": true,
+      "note": null,
+      "type": "pie-chart",
+      "position_x": 1,
+      "position_y": 20,
+      "width": 12,
+      "height": 12,
+      "options": {
+        "collection": "cli_install_stats",
+        "column": "channel",
+        "function": "count",
+        "legend": "right",
+        "showLabels": true
+      },
+      "date_created": "2026-11-01T10:12:09.940Z",
+      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+    }
+  ]
+}

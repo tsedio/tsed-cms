@@ -72,7 +72,8 @@ COPY --from=build /app/node_modules/dotenv-expand /directus/node_modules/dotenv-
 EXPOSE 8055
 
 # Use the default entrypoint and command from the base image
+# Migrations and schema snapshot first (docker/migrate.sh), then the server
 CMD : \
-	&& node cli.js bootstrap \
+	&& sh ./migrate.sh \
 	&& node cli.js start \
 	;

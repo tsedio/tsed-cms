@@ -75,8 +75,8 @@ export interface BenchmarkRun {
   title?: string | null;
   /** @description failed when a target failed the response check */
   status?: "success" | "failed" | null;
-  /** @description GitHub event (pull_request, workflow_dispatch) or local */
-  trigger?: "pull_request" | "workflow_dispatch" | "local" | null;
+  /** @description GitHub event (pull_request, workflow_dispatch, release) or local */
+  trigger?: "pull_request" | "workflow_dispatch" | "release" | "local" | null;
   /** @description Branch of the measured head */
   git_ref?: string | null;
   /** @description Commit of the measured head */

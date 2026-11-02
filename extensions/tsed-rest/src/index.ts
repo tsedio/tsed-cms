@@ -1,3 +1,4 @@
+import { BenchmarksService } from "@tsed-cms/usecases/benchmarks/BenchmarksService.js";
 import { LegacyRestService } from "@tsed-cms/usecases/legacy/LegacyRestService.js";
 import { SlackService } from "@tsed-cms/usecases/slack/SlackService.js";
 import { StatsService } from "@tsed-cms/usecases/stats/StatsService.js";
@@ -24,6 +25,7 @@ function getCategory(name: string) {
  * - GET /rest/github/:owner/:repo → repositories
  * - GET /rest/github/:owner/:repo/contributors → maintainers linked to the repository
  * - GET /rest/warehouse → packages with maintainers
+ * - GET /rest/benchmarks → latest release benchmarked against the reference version (tsed.dev/benchmarks)
  */
 export default defineEndpoint({
   id: "rest",
@@ -106,6 +108,18 @@ export default defineEndpoint({
           };
         })
       );
+    });
+
+    router.get("/benchmarks", async (_req, res) => {
+      const comparison = await inject(BenchmarksService).getLatestComparison();
+
+      if (!comparison) {
+        return res.status(404).json({ message: "No benchmark of a release against the reference version yet" });
+      }
+
+      res.setHeader("Cache-Control", "public, max-age=3600");
+
+      return res.status(200).json(comparison);
     });
 
     // deprecated

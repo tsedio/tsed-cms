@@ -153,8 +153,12 @@ triggers the Render deploy hook on the current commit. To redeploy a release, ru
 
 ### Render Deployment
 
-The production service is a Render web service built from the repository `Dockerfile`. The container runs
-`node cli.js bootstrap && node cli.js start` (see `docker/cli.js`).
+The production service is a Render web service built from the repository `Dockerfile`. On each start, the container
+runs `docker/migrate.sh` (Directus and project migrations, then `schema apply` of `snapshots/snapshot-latest.yaml`),
+then `node cli.js start` (see `docker/cli.js`). Any failure stops the container, so Render keeps the previous deploy.
+
+`schema apply` also removes the collections and fields missing from the snapshot. Before merging a snapshot change,
+check the plan against production: `yarn env:render:prod -- yarn directus schema apply --dry-run ./snapshots/snapshot-latest.yaml`.
 
 Setup on Render and GitHub:
 
@@ -162,7 +166,8 @@ Setup on Render and GitHub:
 - Render → service → Settings → **Deploy Hook**: copy the URL into the `RENDER_DEPLOY_HOOK_URL` repository secret. The
   workflow appends `ref=<commit sha>` so Render builds exactly that commit.
 - Environment variables are set on the Render service (examples): `ADMIN_EMAIL`, `ADMIN_PASSWORD`, `KEY`, `SECRET`,
-  `PUBLIC_URL`, `DB_*`, `STORAGE_*`. Optional: `SKIP_BOOTSTRAP=true` after the first successful bootstrap.
+  `PUBLIC_URL`, `DB_*`, `STORAGE_*`. `SKIP_BOOTSTRAP` is ignored at startup: `docker/migrate.sh` always runs the
+  migrations.
 - To run scripts against production from your machine, put the production values in `config/.env.render-production`
   (git ignored) and use the `*:render:prod` scripts, e.g. `yarn export:data:render:prod`.
 

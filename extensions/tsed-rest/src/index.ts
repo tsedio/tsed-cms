@@ -26,6 +26,7 @@ function getCategory(name: string) {
  * - GET /rest/github/:owner/:repo/contributors → maintainers linked to the repository
  * - GET /rest/warehouse → packages with maintainers
  * - GET /rest/benchmarks → latest release benchmarked against the reference version (tsed.dev/benchmarks)
+ * - GET /rest/benchmarks/history → req/s gap of each version against the reference (tsed.dev/benchmarks)
  */
 export default defineEndpoint({
   id: "rest",
@@ -120,6 +121,18 @@ export default defineEndpoint({
       res.setHeader("Cache-Control", "public, max-age=3600");
 
       return res.status(200).json(comparison);
+    });
+
+    router.get("/benchmarks/history", async (_req, res) => {
+      const history = await inject(BenchmarksService).getHistory();
+
+      if (!history) {
+        return res.status(404).json({ message: "No release benchmarked against the reference version yet" });
+      }
+
+      res.setHeader("Cache-Control", "public, max-age=3600");
+
+      return res.status(200).json(history);
     });
 
     // deprecated

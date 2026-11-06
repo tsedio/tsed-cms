@@ -33,6 +33,28 @@ export interface BenchmarkComparison {
   }[];
 }
 
+/**
+ * Overall req/s gap of each published version against the reference, per platform (tsed.dev evolution chart).
+ */
+export interface BenchmarkHistory {
+  reference: string;
+  /** Routes the score is the geometric mean of */
+  routes: string[];
+  versions: {
+    version: string;
+    /** Date of the run the point comes from, null for the reference */
+    date: string | null;
+    trigger: string | null;
+    runUrl: string | null;
+    platforms: {
+      platform: string;
+      /** Geometric mean of the req/s ratios of `routes`, in %; null when a route was not measured */
+      score: number | null;
+      routes: { route: string; gap: Gap }[];
+    }[];
+  }[];
+}
+
 const RUN_FIELDS = [
   "id",
   "date",
@@ -153,6 +175,95 @@ export function toBenchmarkComparison(run: BenchmarkRun, rows: BenchmarkResult[]
   };
 }
 
+const compareVersions = (a: string, b: string) => {
+  const left = a.split(".").map(Number);
+  const right = b.split(".").map(Number);
+
+  return left[0]! - right[0]! || left[1]! - right[1]! || left[2]! - right[2]!;
+};
+
+/**
+ * Published versions measured against the reference, each with the newest run that measured it.
+ * Targets that are not versions (local, local-base, raw…) are skipped.
+ */
+export function selectHistoryRuns(runs: Pick<BenchmarkRun, "id" | "date" | "baseline" | "targets">[], reference = REFERENCE_VERSION) {
+  const selected = new Map<string, (typeof runs)[number]>();
+
+  for (const run of runs) {
+    if (run.baseline !== reference) {
+      continue;
+    }
+
+    for (const target of (run.targets || "").split(",")) {
+      const current = selected.get(target);
+
+      if (target !== reference && VERSION.test(target) && (!current || run.date > current.date)) {
+        selected.set(target, run);
+      }
+    }
+  }
+
+  return selected;
+}
+
+/**
+ * Geometric mean of the req/s ratios, in %. Null when a gap is missing, so every score covers the same routes.
+ */
+export function geometricMeanGap(gaps: Gap[]) {
+  if (!gaps.length || gaps.some((gap) => !gap)) {
+    return null;
+  }
+
+  const sum = gaps.reduce((total, gap) => total + Math.log(1 + gap!.value / 100), 0);
+
+  return Math.round((Math.exp(sum / gaps.length) - 1) * 10000) / 100;
+}
+
+/**
+ * Reduces the runs and their rows to the req/s gap of each published version against the reference, per platform.
+ */
+export function toBenchmarkHistory(runs: BenchmarkRun[], rows: BenchmarkResult[], reference = REFERENCE_VERSION): BenchmarkHistory {
+  const selected = selectHistoryRuns(runs, reference);
+  const runId = (row: BenchmarkResult) => (typeof row.run === "string" ? row.run : row.run.id);
+  const versions = [...selected.keys()].sort(compareVersions);
+
+  return {
+    reference,
+    routes: [...ROUTES],
+    versions: [
+      {
+        version: reference,
+        date: null,
+        trigger: null,
+        runUrl: null,
+        platforms: PLATFORMS.map((platform) => ({ platform, score: 0, routes: ROUTES.map((route) => ({ route, gap: null })) }))
+      },
+      ...versions.map((version) => {
+        const run = selected.get(version)! as BenchmarkRun;
+        const own = rows.filter((row) => row.target === version && runId(row) === run.id);
+
+        return {
+          version,
+          date: run.date,
+          trigger: run.trigger ?? null,
+          runUrl: run.run_url ?? null,
+          platforms: PLATFORMS.filter((platform) => own.some((row) => row.platform === platform)).map((platform) => {
+            const routes = ROUTES.map((route) => ({
+              route,
+              gap: gap(
+                own.find((row) => row.platform === platform && row.route === route),
+                "rps"
+              )
+            }));
+
+            return { platform, score: geometricMeanGap(routes.map((route) => route.gap)), routes };
+          })
+        };
+      })
+    ]
+  };
+}
+
 /**
  * Public, read-only benchmark data for tsed.dev: the latest release compared with the reference version.
  */
@@ -178,6 +289,48 @@ export class BenchmarksService {
     })) as BenchmarkResult[];
 
     return toBenchmarkComparison(run, rows, comparedVersion(run, reference)!);
+  }
+
+  /**
+   * Req/s gap of each published version against the reference, from the newest successful release or manual run
+   * that measured it. Null when no version was measured yet.
+   */
+  async getHistory(reference = REFERENCE_VERSION): Promise<BenchmarkHistory | null> {
+    const runsService = await this.directusContext.getItemsService<BenchmarkRun, string>("benchmark_runs");
+    const runs: BenchmarkRun[] = [];
+
+    for (let page = 1; ; page++) {
+      const items = (await runsService.readByQuery({
+        filter: {
+          _and: [{ status: { _eq: "success" } }, { baseline: { _eq: reference } }, { trigger: { _in: ["release", "workflow_dispatch"] } }]
+        },
+        sort: ["-date"],
+        limit: RUNS_PAGE_SIZE,
+        page,
+        fields: ["id", "date", "trigger", "run_url", "baseline", "targets"]
+      })) as BenchmarkRun[];
+
+      runs.push(...items);
+
+      if (items.length < RUNS_PAGE_SIZE) {
+        break;
+      }
+    }
+
+    const ids = [...new Set([...selectHistoryRuns(runs, reference).values()].map((run) => run.id))];
+
+    if (!ids.length) {
+      return null;
+    }
+
+    const resultsService = await this.directusContext.getItemsService<BenchmarkResult, string>("benchmark_results");
+    const rows = (await resultsService.readByQuery({
+      filter: { _and: [{ run: { _in: ids } }, { route: { _in: [...ROUTES] } }] },
+      limit: -1,
+      fields: ["run", "target", "platform", "route", "gap_rps", "gap_rps_low", "gap_rps_high", "gap_rps_significant"]
+    })) as BenchmarkResult[];
+
+    return toBenchmarkHistory(runs, rows, reference);
   }
 
   /**

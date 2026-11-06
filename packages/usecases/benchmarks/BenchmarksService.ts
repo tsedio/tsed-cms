@@ -1,3 +1,4 @@
+import type { Filter } from "@directus/types";
 import { DirectusContextService } from "@tsed-cms/infra/directus/DirectusContextService.js";
 import type { BenchmarkResult, BenchmarkRun } from "@tsed-cms/infra/directus/interfaces/DirectusSchema.d.js";
 import { inject, injectable } from "@tsed/di";
@@ -8,10 +9,34 @@ import { inject, injectable } from "@tsed/di";
  */
 export const REFERENCE_VERSION = "8.44.1";
 
+/**
+ * Branch whose manual runs feed tsed.dev: a run dispatched from another branch measures published versions
+ * with the benchmark apps of that branch, so it is stored but never shown on tsed.dev.
+ */
+export const DEFAULT_BRANCH = "production";
+
 const VERSION = /^\d+\.\d+\.\d+$/;
 const RUNS_PAGE_SIZE = 50;
 const ROUTES = ["hello", "users", "orders-create", "orders-list"] as const;
 const PLATFORMS = ["express", "koa", "fastify"] as const;
+
+const RELEASE_RUNS: Filter = { trigger: { _eq: "release" } };
+const MANUAL_RUNS: Filter = { _and: [{ trigger: { _eq: "workflow_dispatch" } }, { git_ref: { _eq: DEFAULT_BRANCH } }] };
+
+/**
+ * Directus filter of the runs tsed.dev may show: release runs and manual runs dispatched from the default branch.
+ */
+export function publicRunsFilter(trigger?: "release" | "workflow_dispatch"): Filter {
+  if (trigger === "release") {
+    return RELEASE_RUNS;
+  }
+
+  if (trigger === "workflow_dispatch") {
+    return MANUAL_RUNS;
+  }
+
+  return { _or: [RELEASE_RUNS, MANUAL_RUNS] };
+}
 
 export type Gap = { value: number; low: number | null; high: number | null; significant: boolean } | null;
 export type RouteMetrics = { rps: number | null; p99: number | null; cpuPerRequest: number | null };
@@ -271,7 +296,8 @@ export class BenchmarksService {
   protected directusContext = inject(DirectusContextService);
 
   /**
-   * Latest successful run comparing the reference with a published version: a release run first, else a manual one.
+   * Latest successful run comparing the reference with a published version: a release run first, else a manual one
+   * dispatched from the default branch.
    * Pull request runs (local-base, local-head) never match.
    */
   async getLatestComparison(reference = REFERENCE_VERSION): Promise<BenchmarkComparison | null> {
@@ -292,8 +318,8 @@ export class BenchmarksService {
   }
 
   /**
-   * Req/s gap of each published version against the reference, from the newest successful release or manual run
-   * that measured it. Null when no version was measured yet.
+   * Req/s gap of each published version against the reference, from the newest successful release run or manual run
+   * dispatched from the default branch that measured it. Null when no version was measured yet.
    */
   async getHistory(reference = REFERENCE_VERSION): Promise<BenchmarkHistory | null> {
     const runsService = await this.directusContext.getItemsService<BenchmarkRun, string>("benchmark_runs");
@@ -302,7 +328,7 @@ export class BenchmarksService {
     for (let page = 1; ; page++) {
       const items = (await runsService.readByQuery({
         filter: {
-          _and: [{ status: { _eq: "success" } }, { baseline: { _eq: reference } }, { trigger: { _in: ["release", "workflow_dispatch"] } }]
+          _and: [{ status: { _eq: "success" } }, { baseline: { _eq: reference } }, publicRunsFilter()]
         },
         sort: ["-date"],
         limit: RUNS_PAGE_SIZE,
@@ -342,7 +368,7 @@ export class BenchmarksService {
 
     for (let page = 1; ; page++) {
       const runs = (await runsService.readByQuery({
-        filter: { _and: [{ status: { _eq: "success" } }, { baseline: { _eq: reference } }, { trigger: { _eq: trigger } }] },
+        filter: { _and: [{ status: { _eq: "success" } }, { baseline: { _eq: reference } }, publicRunsFilter(trigger)] },
         sort: ["-date"],
         limit: RUNS_PAGE_SIZE,
         page,

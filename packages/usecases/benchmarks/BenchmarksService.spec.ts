@@ -4,22 +4,42 @@ import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 import historyFixture from "./__fixtures__/benchmark-history.json" with { type: "json" };
 import fixture from "./__fixtures__/benchmark-run.json" with { type: "json" };
-import { BenchmarksService, comparedVersion, geometricMeanGap, toBenchmarkComparison, toBenchmarkHistory } from "./BenchmarksService.js";
+import {
+  BenchmarksService,
+  comparedVersion,
+  geometricMeanGap,
+  publicRunsFilter,
+  toBenchmarkComparison,
+  toBenchmarkHistory
+} from "./BenchmarksService.js";
 
-// Real CI run: 8.44.1 (reference) vs 8.44.12 on Express, Koa and Fastify, with the raw apps
-const baseRun = fixture.run as any;
+// Real CI run: 8.44.1 (reference) vs 8.44.12 on Express, Koa and Fastify, with the raw apps, as if dispatched from production
+const baseRun = { ...fixture.run, status: "success", git_ref: "production" } as any;
 const rows = fixture.rows as any[];
 
-async function createService(runs: any[], results = rows) {
-  // applies the trigger filter, the date sort and the pagination of the service query
-  const runsService = {
+// evaluates the Directus filters used by the service (_and, _or, _eq, _in)
+function matches(item: any, filter: any): boolean {
+  if (filter._and) return filter._and.every((part: any) => matches(item, part));
+  if (filter._or) return filter._or.some((part: any) => matches(item, part));
+
+  return Object.entries(filter).every(([field, condition]: [string, any]) =>
+    "_in" in condition ? condition._in.includes(item[field]) : item[field] === condition._eq
+  );
+}
+
+// applies the filter, the date sort and the pagination of a runs query
+function createRunsService(runs: any[]) {
+  return {
     readByQuery: vi.fn(async (query: any) => {
-      const trigger = query.filter._and.find((item: any) => item.trigger)?.trigger._eq;
-      const sorted = runs.filter((run) => run.trigger === trigger).sort((a, b) => b.date.localeCompare(a.date));
+      const sorted = runs.filter((run) => matches(run, query.filter)).sort((a, b) => b.date.localeCompare(a.date));
 
       return sorted.slice((query.page - 1) * query.limit, query.page * query.limit);
     })
   };
+}
+
+async function createService(runs: any[], results = rows) {
+  const runsService = createRunsService(runs);
   const resultsService = { readByQuery: vi.fn(async () => results) };
   const directusContext = {
     getItemsService: vi.fn(async (collection: string) => {
@@ -112,7 +132,7 @@ describe("BenchmarksService", () => {
 
       expect(runsService.readByQuery).toHaveBeenCalledWith(
         expect.objectContaining({
-          filter: { _and: [{ status: { _eq: "success" } }, { baseline: { _eq: "8.44.1" } }, { trigger: { _eq: "release" } }] },
+          filter: { _and: [{ status: { _eq: "success" } }, { baseline: { _eq: "8.44.1" } }, publicRunsFilter("release")] },
           sort: ["-date"],
           page: 1
         })
@@ -148,6 +168,27 @@ describe("BenchmarksService", () => {
       expect(runsService.readByQuery).toHaveBeenCalledWith(expect.objectContaining({ page: 2 }));
     });
 
+    it("should ignore a newer manual run dispatched from another branch", async () => {
+      const branch = { ...baseRun, id: "branch", git_ref: "feat/x", date: "2026-11-02T00:00:00Z" };
+      const production = { ...baseRun, id: "production", date: "2026-11-01T00:00:00Z" };
+      const { service, runsService, resultsService } = await createService([branch, production]);
+
+      await service.getLatestComparison();
+
+      expect(resultsService.readByQuery).toHaveBeenCalledWith(expect.objectContaining({ filter: { run: { _eq: "production" } } }));
+      expect(runsService.readByQuery).toHaveBeenCalledWith(
+        expect.objectContaining({
+          filter: {
+            _and: [
+              { status: { _eq: "success" } },
+              { baseline: { _eq: "8.44.1" } },
+              { _and: [{ trigger: { _eq: "workflow_dispatch" } }, { git_ref: { _eq: "production" } }] }
+            ]
+          }
+        })
+      );
+    });
+
     it("should answer null without a matching run", async () => {
       const { service, resultsService } = await createService([
         { ...baseRun, trigger: "workflow_dispatch", baseline: "8.44.1", targets: "8.44.1,local" }
@@ -159,26 +200,17 @@ describe("BenchmarksService", () => {
   });
 });
 
-// Real CI runs: a manual run of 8.44.1 → 8.44.13 and the release run of 8.45.2, both against 8.44.1
-const [manualRun, releaseRun] = historyFixture.runs as any[];
+// Real CI runs: a manual run of 8.44.1 → 8.44.13 (as if dispatched from production) and the release run of 8.45.2,
+// both against 8.44.1
+const [rawManualRun, rawReleaseRun] = historyFixture.runs as any[];
+const manualRun = { ...rawManualRun, git_ref: "production" };
+const releaseRun = { ...rawReleaseRun, git_ref: "v8.45.2" };
 const historyRows = historyFixture.rows as any[];
 
 const gapOf = (value: number) => ({ value, low: null, high: null, significant: true });
 
 async function createHistoryService(runs: any[], results: any[] = historyRows) {
-  // applies the status, baseline and trigger filters, the date sort and the pagination of the service query
-  const runsService = {
-    readByQuery: vi.fn(async (query: any) => {
-      const [status, baseline, trigger] = query.filter._and;
-      const sorted = runs
-        .filter(
-          (run) => run.status === status.status._eq && run.baseline === baseline.baseline._eq && trigger.trigger._in.includes(run.trigger)
-        )
-        .sort((a, b) => b.date.localeCompare(a.date));
-
-      return sorted.slice((query.page - 1) * query.limit, query.page * query.limit);
-    })
-  };
+  const runsService = createRunsService(runs);
   const resultsService = {
     readByQuery: vi.fn(async (query: any) => results.filter((row) => query.filter._and[0].run._in.includes(row.run)))
   };
@@ -302,7 +334,7 @@ describe("BenchmarksService history", () => {
   });
 
   describe("getHistory()", () => {
-    it("should query successful release and manual runs of the reference, and the rows of the selected runs", async () => {
+    it("should query successful release runs and manual runs from the default branch, and the rows of the selected runs", async () => {
       const { service, runsService, resultsService } = await createHistoryService([manualRun, releaseRun]);
 
       const history = await service.getHistory();
@@ -311,7 +343,16 @@ describe("BenchmarksService history", () => {
       expect(runsService.readByQuery).toHaveBeenCalledWith(
         expect.objectContaining({
           filter: {
-            _and: [{ status: { _eq: "success" } }, { baseline: { _eq: "8.44.1" } }, { trigger: { _in: ["release", "workflow_dispatch"] } }]
+            _and: [
+              { status: { _eq: "success" } },
+              { baseline: { _eq: "8.44.1" } },
+              {
+                _or: [
+                  { trigger: { _eq: "release" } },
+                  { _and: [{ trigger: { _eq: "workflow_dispatch" } }, { git_ref: { _eq: "production" } }] }
+                ]
+              }
+            ]
           },
           sort: ["-date"],
           page: 1
@@ -339,6 +380,20 @@ describe("BenchmarksService history", () => {
 
       expect(versions).not.toContain("8.46.0");
       expect(versions.at(-1)).toBe("8.44.13");
+    });
+
+    it("should ignore manual runs dispatched from another branch", async () => {
+      const { service } = await createHistoryService([{ ...manualRun, git_ref: "feat/x" }, releaseRun]);
+
+      expect((await service.getHistory())?.versions.map((item) => item.version)).toEqual(["8.44.1", "8.45.2"]);
+    });
+
+    it("should keep manual runs dispatched from the default branch", async () => {
+      const { service } = await createHistoryService([manualRun]);
+
+      const versions = (await service.getHistory())!.versions;
+
+      expect(versions.find((item) => item.version === "8.44.2")).toMatchObject({ trigger: "workflow_dispatch", runUrl: manualRun.run_url });
     });
 
     it("should read every page of runs", async () => {

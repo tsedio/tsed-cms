@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "54d088a3-32a7-4c23-9694-dda6e163e3bc",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:56.961Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:54.990Z",
+      "name": "@tsed-plus/meilisearch-mongoose-indexer",
+      "icon": null,
+      "description": "Extends the Ts.ED framework with the functionality to synchronize Mongoose models with Meilisearch",
+      "tags": null,
+      "homepage": "https://github.com/applogik/tsed-plus#readme",
+      "downloads": 0,
+      "version": "1.0.0",
+      "repository": "git+https://github.com/applogik/tsed-plus.git",
+      "npm": "https://www.npmjs.com/package/@tsed-plus/meilisearch-mongoose-indexer",
+      "stars": 0,
+      "type": "3rd-party",
+      "bugs": "https://github.com/applogik/tsed-plus/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.568Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

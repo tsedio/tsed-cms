@@ -5,10 +5,10 @@
       "id": "ef152ca1-7e3a-4cab-afa8-fd14f9147c14",
       "status": "published",
       "sort": 39,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:21.710Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:44.369Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:38.666Z",
+      "date_updated": "2026-11-09T10:00:41.315Z",
       "name": "@tsed/testing-mongoose",
       "icon": "https://tsed.io/mongoose.png",
       "description": "A module to test Ts.ED code that use MongoDB as database",
@@ -17,19 +17,19 @@
         "test"
       ],
       "homepage": "https://github.com/tsedio/tsed/tree/production/packages/orm/testing-mongoose",
-      "downloads": 3617,
+      "downloads": 2028,
       "version": "7.85.1",
       "repository": "git+https://github.com/tsedio/tsed.git",
       "npm": "https://www.npmjs.com/package/@tsed/testing-mongoose",
-      "stars": 3089,
+      "stars": 3090,
       "type": "official",
       "bugs": "https://github.com/tsedio/tsed/issues",
       "maintainers": [
-        39
+        72
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.857Z",
+  "exportedAt": "2026-11-09T10:41:07.632Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

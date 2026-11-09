@@ -5,8 +5,8 @@
       "id": "adcf631d-49e4-49bf-876d-b3b406334420",
       "status": "published",
       "sort": 136,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:23.652Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:30.473Z",
       "user_updated": null,
       "date_updated": null,
       "name": "@clouudsoftware/typeorm",
@@ -26,7 +26,7 @@
       "maintainers": []
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.838Z",
+  "exportedAt": "2026-11-09T10:41:07.562Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

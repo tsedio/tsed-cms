@@ -4,17 +4,17 @@
     {
       "id": "65fcc431-3093-444a-8e08-5ad37fb5fa4f",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:00:01.474Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:58:29.055Z",
       "user_updated": null,
-      "date_updated": "2026-10-03T20:00:06.297Z",
+      "date_updated": null,
       "username": "B8-RX",
       "email": null,
       "avatar": "https://avatars.githubusercontent.com/u/86773141?v=4",
       "url": "https://github.com/B8-RX"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.736Z",
+  "exportedAt": "2026-11-09T10:41:05.851Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

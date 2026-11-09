@@ -4,10 +4,10 @@
     {
       "id": "interface-swagger-ui-options",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:33.913Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:03:42.937Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:06:52.954Z",
+      "date_updated": null,
       "name": "SwaggerUIOptions",
       "doc_url": "https://tsed.dev/api/specs/swagger/types/interfaces/interface-swagger-ui-options",
       "package": "255d4270-f9a4-46f8-9e5a-213787f4d15f",
@@ -23,7 +23,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.056Z",
+  "exportedAt": "2026-11-09T10:41:08.009Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

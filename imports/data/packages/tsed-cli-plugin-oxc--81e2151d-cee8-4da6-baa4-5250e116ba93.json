@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "81e2151d-cee8-4da6-baa4-5250e116ba93",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:55.344Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:56.605Z",
+      "name": "@tsed/cli-plugin-oxc",
+      "icon": null,
+      "description": "Ts.ED CLI plugin. Add Oxlint and Oxfmt support",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed-cli/tree/master/packages/cli-plugin-oxc",
+      "downloads": 345,
+      "version": "7.9.0",
+      "repository": "git+https://github.com/tsedio/tsed-cli.git",
+      "npm": "https://www.npmjs.com/package/@tsed/cli-plugin-oxc",
+      "stars": 43,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed-cli/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.578Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

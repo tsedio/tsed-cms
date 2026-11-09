@@ -5,10 +5,10 @@
       "id": "e3abb594-bc6e-49a1-bb67-e4cb023107c7",
       "status": "published",
       "sort": 102,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:23.028Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:38.383Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:07.269Z",
+      "date_updated": "2026-11-09T10:00:06.137Z",
       "name": "@tsed/logger-seq",
       "icon": "https://blog.datalust.co/content/images/2018/09/Seq-380px-1.png",
       "description": "Seq appender module for @tsed/logger",
@@ -16,7 +16,7 @@
         "monitoring"
       ],
       "homepage": "https://github.com/tsedio/logger/tree/production/packages/seq",
-      "downloads": 646,
+      "downloads": 232,
       "version": "8.0.7",
       "repository": "git+https://github.com/tsedio/logger.git",
       "npm": "https://www.npmjs.com/package/@tsed/logger-seq",
@@ -24,11 +24,11 @@
       "type": "official",
       "bugs": "https://github.com/tsedio/logger/issues",
       "maintainers": [
-        105
+        8
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.848Z",
+  "exportedAt": "2026-11-09T10:41:07.599Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

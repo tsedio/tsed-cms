@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "7028ad7e-fd43-48fc-a3cd-d2e2d538d53a",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:47.346Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:44.756Z",
+      "name": "@tsed/oidc-provider-plugin-wildcard-redirect-uri",
+      "icon": null,
+      "description": "A plugin to support wildcard in the redirect uri whitelist",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/security/oidc-provider-plugin-wildcard-redirect-uri",
+      "downloads": 0,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/oidc-provider-plugin-wildcard-redirect-uri",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.605Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -5,28 +5,28 @@
       "id": "e431a8bf-0479-499e-810c-e3ec5ce5c6a8",
       "status": "published",
       "sort": 58,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:22.112Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:38.790Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:28.366Z",
+      "date_updated": "2026-11-09T10:00:31.684Z",
       "name": "@tsed/mikro-orm",
       "icon": "",
       "description": "MikroORM package for Ts.ED framework",
       "tags": [],
       "homepage": "https://github.com/tsedio/tsed/tree/production/packages/orm/mikro-orm",
-      "downloads": 10501,
-      "version": "8.44.13",
+      "downloads": 7414,
+      "version": "8.46.1",
       "repository": "git+https://github.com/tsedio/tsed.git",
       "npm": "https://www.npmjs.com/package/@tsed/mikro-orm",
-      "stars": 3089,
+      "stars": 3090,
       "type": "official",
       "bugs": "https://github.com/tsedio/tsed/issues",
       "maintainers": [
-        58
+        93
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.848Z",
+  "exportedAt": "2026-11-09T10:41:07.603Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

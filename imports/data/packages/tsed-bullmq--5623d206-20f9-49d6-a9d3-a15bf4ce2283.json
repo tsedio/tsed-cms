@@ -5,28 +5,28 @@
       "id": "5623d206-20f9-49d6-a9d3-a15bf4ce2283",
       "status": "published",
       "sort": 63,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:22.227Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:32.952Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:23.300Z",
+      "date_updated": "2026-11-09T10:00:24.975Z",
       "name": "@tsed/bullmq",
       "icon": "",
       "description": "BullMQ integration for Ts.ED",
       "tags": [],
       "homepage": "https://github.com/tsedio/tsed/tree/production/packages/third-parties/bullmq",
-      "downloads": 11766,
-      "version": "8.44.13",
+      "downloads": 8985,
+      "version": "8.46.1",
       "repository": "git+https://github.com/tsedio/tsed.git",
       "npm": "https://www.npmjs.com/package/@tsed/bullmq",
-      "stars": 3089,
+      "stars": 3090,
       "type": "official",
       "bugs": "https://github.com/tsedio/tsed/issues",
       "maintainers": [
-        64
+        100
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.841Z",
+  "exportedAt": "2026-11-09T10:41:07.573Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

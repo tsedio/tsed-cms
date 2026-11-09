@@ -5,28 +5,28 @@
       "id": "b247e3ce-cf59-4b1b-98d4-f07ccef1e336",
       "status": "published",
       "sort": 59,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:22.129Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:42.917Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:29.037Z",
+      "date_updated": "2026-11-09T10:00:28.763Z",
       "name": "@tsed/schema-formio",
       "icon": "",
       "description": "Transform Ts.ED Schema & JsonSchema to a valid Formio schema",
       "tags": [],
       "homepage": "https://github.com/tsedio/tsed/tree/production/packages/third-parties/schema-formio",
-      "downloads": 7332,
-      "version": "8.44.13",
+      "downloads": 6268,
+      "version": "8.46.1",
       "repository": "git+https://github.com/tsedio/tsed.git",
       "npm": "https://www.npmjs.com/package/@tsed/schema-formio",
-      "stars": 3089,
+      "stars": 3090,
       "type": "official",
       "bugs": "https://github.com/tsedio/tsed/issues",
       "maintainers": [
-        59
+        94
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.855Z",
+  "exportedAt": "2026-11-09T10:41:07.625Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

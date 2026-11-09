@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "69ed6894-39c9-4785-8a11-47bc58569bfc",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:45.458Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:44.891Z",
+      "name": "vuepress-theme-tsed",
+      "icon": null,
+      "description": "Vuepress theme for tsed.io",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/vuepress-theme-tsed/tree/master/packages/vuepress-theme-tsed",
+      "downloads": 834,
+      "version": "3.20.9",
+      "repository": "git+https://github.com/tsedio/vuepress-theme-tsed.git",
+      "npm": "https://www.npmjs.com/package/vuepress-theme-tsed",
+      "stars": 7,
+      "type": "3rd-party",
+      "bugs": "https://github.com/tsedio/vuepress-theme-tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.642Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

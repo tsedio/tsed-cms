@@ -5,10 +5,10 @@
       "id": "d5b16136-fc3d-40da-92ad-6a3e6e40c20c",
       "status": "published",
       "sort": null,
-      "user_created": null,
-      "date_created": "2026-10-03T18:02:41.845Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:34.294Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:53.107Z",
+      "date_updated": null,
       "name": "@tsed/cli-plugin-oxc",
       "icon": null,
       "description": "Ts.ED CLI plugin. Add Oxlint and Oxfmt support",
@@ -24,7 +24,7 @@
       "maintainers": []
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.843Z",
+  "exportedAt": "2026-11-09T10:41:07.578Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

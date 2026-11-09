@@ -5,16 +5,16 @@
       "id": "00043638-428b-4de5-83d2-edf2965d01a2",
       "status": "published",
       "sort": 125,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:23.479Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:31.238Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:56.381Z",
+      "date_updated": "2026-11-09T10:01:00.103Z",
       "name": "@maxio/tsed-mailer",
       "icon": "",
       "description": "Npm TypeScript Package Boilerplate",
       "tags": [],
       "homepage": null,
-      "downloads": 12,
+      "downloads": 0,
       "version": "0.0.1",
       "repository": null,
       "npm": "https://www.npmjs.com/package/@maxio/tsed-mailer",
@@ -22,11 +22,11 @@
       "type": "3rd-party",
       "bugs": null,
       "maintainers": [
-        129
+        34
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.839Z",
+  "exportedAt": "2026-11-09T10:41:07.565Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

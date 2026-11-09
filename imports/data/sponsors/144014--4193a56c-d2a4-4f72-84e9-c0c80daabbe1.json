@@ -5,10 +5,10 @@
       "id": "4193a56c-d2a4-4f72-84e9-c0c80daabbe1",
       "status": "archived",
       "sort": null,
-      "user_created": null,
-      "date_created": "2025-11-03T09:36:23.973Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:04:14.167Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:01.343Z",
+      "date_updated": "2026-11-01T13:00:04.923Z",
       "source": "open_collective",
       "name": "mcelearr",
       "type": "user",
@@ -31,7 +31,7 @@
       "login": "144014"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.269Z",
+  "exportedAt": "2026-11-09T10:41:08.934Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

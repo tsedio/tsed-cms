@@ -4,10 +4,10 @@
     {
       "id": "function-lazy-ref-mapper",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:37.491Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:02:51.695Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:06:58.217Z",
+      "date_updated": null,
       "name": "lazyRefMapper",
       "doc_url": "https://tsed.dev/api/specs/schema/types/components/default/function-lazy-ref-mapper",
       "package": "ed3e225f-c8cb-4a55-aea6-54e6550aeb3d",
@@ -23,7 +23,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.188Z",
+  "exportedAt": "2026-11-09T10:41:08.352Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

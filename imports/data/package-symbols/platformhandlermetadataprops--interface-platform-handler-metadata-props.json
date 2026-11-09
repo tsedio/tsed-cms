@@ -4,10 +4,10 @@
     {
       "id": "interface-platform-handler-metadata-props",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:39.980Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:03:22.427Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:07:02.563Z",
+      "date_updated": null,
       "name": "PlatformHandlerMetadataProps",
       "doc_url": "https://tsed.dev/api/platform/platform-router/types/domain/interface-platform-handler-metadata-props",
       "package": "256e50e8-e290-40dc-a08f-1db130f6cefb",
@@ -23,7 +23,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.057Z",
+  "exportedAt": "2026-11-09T10:41:08.011Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

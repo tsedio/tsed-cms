@@ -5,10 +5,10 @@
       "id": "037447d8-89af-4b6e-9eb6-758eee8e55b1",
       "status": "published",
       "sort": null,
-      "user_created": null,
-      "date_created": "2025-11-03T08:46:07.384Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:04:16.208Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:00.482Z",
+      "date_updated": null,
       "source": "github",
       "name": "PXR Tech",
       "type": "organization",
@@ -31,7 +31,7 @@
       "login": "pxr-tech"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.271Z",
+  "exportedAt": "2026-11-09T10:41:08.943Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

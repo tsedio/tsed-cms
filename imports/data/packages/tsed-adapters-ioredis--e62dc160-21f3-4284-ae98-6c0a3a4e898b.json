@@ -5,10 +5,10 @@
       "id": "e62dc160-21f3-4284-ae98-6c0a3a4e898b",
       "status": "published",
       "sort": null,
-      "user_created": null,
-      "date_created": "2026-10-03T18:02:29.795Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:31.853Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:40.356Z",
+      "date_updated": null,
       "name": "@tsed/adapters-ioredis",
       "icon": null,
       "description": "IORedis adapter for Ts.ED",
@@ -24,7 +24,7 @@
       "maintainers": []
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.840Z",
+  "exportedAt": "2026-11-09T10:41:07.569Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

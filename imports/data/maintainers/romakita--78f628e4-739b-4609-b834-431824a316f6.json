@@ -4,17 +4,17 @@
     {
       "id": "78f628e4-739b-4609-b834-431824a316f6",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:21.106Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:58:39.307Z",
       "user_updated": null,
-      "date_updated": "2025-11-02T17:44:23.355Z",
+      "date_updated": null,
       "username": "romakita",
       "email": "rom.lenzotti@gmail.com",
       "avatar": "https://www.gravatar.com/avatar/de3f2df14a0230b7cd6372ed50d93573",
       "url": null
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.749Z",
+  "exportedAt": "2026-11-09T10:41:05.895Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

@@ -5,10 +5,10 @@
       "id": "2ed75ce8-4a9f-49fa-96e6-405a52c3746e",
       "status": "published",
       "sort": 72,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:22.452Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:42.156Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:29.701Z",
+      "date_updated": "2026-11-09T10:00:30.311Z",
       "name": "@tsed/react-formio",
       "icon": "https://avatars.githubusercontent.com/u/11790256?s=400&v=4",
       "description": "Provide a react formio wrapper. Written in TypeScript.",
@@ -17,7 +17,7 @@
         "cms"
       ],
       "homepage": "https://github.com/tsedio/tsed-formio/tree/master/packages/react-formio",
-      "downloads": 4905,
+      "downloads": 7135,
       "version": "3.0.2",
       "repository": "git+https://github.com/tsedio/tsed-formio.git",
       "npm": "https://www.npmjs.com/package/@tsed/react-formio",
@@ -25,11 +25,11 @@
       "type": "official",
       "bugs": "https://github.com/tsedio/tsed-formio/issues",
       "maintainers": [
-        75
+        112
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.854Z",
+  "exportedAt": "2026-11-09T10:41:07.623Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

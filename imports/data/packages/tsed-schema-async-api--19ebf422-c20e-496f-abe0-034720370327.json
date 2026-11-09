@@ -5,8 +5,8 @@
       "id": "19ebf422-c20e-496f-abe0-034720370327",
       "status": "published",
       "sort": null,
-      "user_created": null,
-      "date_created": "2025-11-15T10:39:38.979Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:42.833Z",
       "user_updated": null,
       "date_updated": null,
       "name": "@tsed/schema-async-api",
@@ -24,7 +24,7 @@
       "maintainers": []
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.854Z",
+  "exportedAt": "2026-11-09T10:41:07.625Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

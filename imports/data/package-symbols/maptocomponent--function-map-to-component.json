@@ -4,10 +4,10 @@
     {
       "id": "function-map-to-component",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:38.622Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:02:53.403Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:07:00.296Z",
+      "date_updated": null,
       "name": "mapToComponent",
       "doc_url": "https://tsed.dev/api/third-parties/schema-formio/types/components/function-map-to-component",
       "package": "b247e3ce-cf59-4b1b-98d4-f07ccef1e336",
@@ -23,7 +23,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.143Z",
+  "exportedAt": "2026-11-09T10:41:08.212Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

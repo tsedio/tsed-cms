@@ -5,28 +5,28 @@
       "id": "d4f26313-67dd-47fb-83a2-b7ad6706a7d3",
       "status": "published",
       "sort": 68,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:22.338Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:41.455Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:39.696Z",
+      "date_updated": "2026-11-09T10:00:42.752Z",
       "name": "@tsed/platform-serverless-testing",
       "icon": "",
       "description": "Module to test Serverless function with Ts.ED",
       "tags": [],
       "homepage": "https://github.com/tsedio/tsed/tree/production/packages/platform/platform-serverless-testing",
-      "downloads": 6041,
-      "version": "8.44.12",
+      "downloads": 4159,
+      "version": "8.46.1",
       "repository": "git+https://github.com/tsedio/tsed.git",
       "npm": "https://www.npmjs.com/package/@tsed/platform-serverless-testing",
-      "stars": 3089,
+      "stars": 3090,
       "type": "official",
       "bugs": "https://github.com/tsedio/tsed/issues",
       "maintainers": [
-        70
+        107
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.852Z",
+  "exportedAt": "2026-11-09T10:41:07.619Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "b1de41c0-b4a6-4be2-aeb2-a98c9c81d94f",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:09.789Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:07.292Z",
+      "name": "@tsed/logger-insight",
+      "icon": null,
+      "description": "Insight appender module for @tsed/logger",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/logger/tree/production/packages/insight",
+      "downloads": 559,
+      "version": "8.0.7",
+      "repository": "git+https://github.com/tsedio/logger.git",
+      "npm": "https://www.npmjs.com/package/@tsed/logger-insight",
+      "stars": 66,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/logger/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.596Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

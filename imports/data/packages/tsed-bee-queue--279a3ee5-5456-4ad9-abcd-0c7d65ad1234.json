@@ -5,16 +5,16 @@
       "id": "279a3ee5-5456-4ad9-abcd-0c7d65ad1234",
       "status": "published",
       "sort": 116,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:23.331Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:32.474Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:54.506Z",
+      "date_updated": "2026-11-09T10:00:54.103Z",
       "name": "tsed-bee-queue",
       "icon": "",
       "description": "Bee-queue for Ts.ED framework",
       "tags": [],
       "homepage": "https://github.com/alexdonh/tsed-bee-queue#readme",
-      "downloads": 21,
+      "downloads": 34,
       "version": "0.2.0",
       "repository": "git+https://github.com/alexdonh/tsed-bee-queue.git",
       "npm": "https://www.npmjs.com/package/tsed-bee-queue",
@@ -22,11 +22,11 @@
       "type": "3rd-party",
       "bugs": "https://github.com/alexdonh/tsed-bee-queue/issues",
       "maintainers": [
-        119
+        23
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.860Z",
+  "exportedAt": "2026-11-09T10:41:07.641Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

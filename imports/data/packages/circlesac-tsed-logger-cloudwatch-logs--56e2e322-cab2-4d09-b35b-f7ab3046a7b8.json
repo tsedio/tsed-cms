@@ -5,16 +5,16 @@
       "id": "56e2e322-cab2-4d09-b35b-f7ab3046a7b8",
       "status": "published",
       "sort": 120,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:23.397Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:30.390Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:56.391Z",
+      "date_updated": "2026-11-09T10:01:00.555Z",
       "name": "@circlesac/tsed-logger-cloudwatch-logs",
       "icon": "",
       "description": null,
       "tags": [],
       "homepage": null,
-      "downloads": 32,
+      "downloads": 0,
       "version": "0.0.15",
       "repository": null,
       "npm": "https://www.npmjs.com/package/@circlesac/tsed-logger-cloudwatch-logs",
@@ -22,12 +22,12 @@
       "type": "3rd-party",
       "bugs": null,
       "maintainers": [
-        123,
-        124
+        28,
+        29
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.838Z",
+  "exportedAt": "2026-11-09T10:41:07.561Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

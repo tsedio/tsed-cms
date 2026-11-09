@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "668daba4-f2de-4590-ab71-13c77b575876",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:43.747Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:41.997Z",
+      "name": "@tsed/testcontainers-postgres",
+      "icon": null,
+      "description": "A module to test Ts.ED code that use PostgreSQL as database using Test Containers",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/testcontainers/postgres",
+      "downloads": 3952,
+      "version": "8.46.1",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/testcontainers-postgres",
+      "stars": 3090,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.631Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

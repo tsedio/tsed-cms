@@ -4,10 +4,10 @@
     {
       "id": "class-di-configuration",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:35.524Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:02:18.903Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:06:55.535Z",
+      "date_updated": null,
       "name": "DIConfiguration",
       "doc_url": "https://tsed.dev/api/di/types/common/services/class-di-configuration",
       "package": "5b5cfb66-1568-44f8-a560-6976a9a6c8e1",
@@ -23,7 +23,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.077Z",
+  "exportedAt": "2026-11-09T10:41:08.071Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

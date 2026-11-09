@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "65837abc-c931-400b-9f5e-801eb233ac71",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:01.914Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:04.367Z",
+      "source": "open_collective",
+      "name": "Nick Wiltshire",
+      "type": "user",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": null,
+      "profile": "https://opencollective.com/nick-wiltshire",
+      "avatar": null,
+      "last_transaction_at": "2023-09-01T16:04:00",
+      "total_amount_donated": 900,
+      "currency": "USD",
+      "last_transaction_amount": 50,
+      "visibility": "public",
+      "tier": "Company Sponsor",
+      "grade": "supporter",
+      "first_transaction_at": "2022-04-13T01:30:00",
+      "login": "290125"
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:08.938Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

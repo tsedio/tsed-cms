@@ -4,17 +4,17 @@
     {
       "id": "1ad94bc0-bbca-43a4-9398-1d9b67660058",
       "status": "published",
-      "user_created": null,
-      "date_created": "2026-10-03T18:02:08.091Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:58:33.306Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:18.588Z",
+      "date_updated": "2026-11-09T10:00:21.043Z",
       "username": "HalfLegend",
       "email": null,
       "avatar": "https://avatars.githubusercontent.com/u/10685308?v=4",
       "url": "https://github.com/HalfLegend"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.742Z",
+  "exportedAt": "2026-11-09T10:41:05.868Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

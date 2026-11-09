@@ -5,10 +5,10 @@
       "id": "dea040ce-ac86-4c91-841c-94d71b41af03",
       "status": "published",
       "sort": null,
-      "user_created": null,
-      "date_created": "2026-02-21T08:00:34.066Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:35.068Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:28.715Z",
+      "date_updated": null,
       "name": "@tsed/cli-tasks",
       "icon": null,
       "description": "Task runner helpers shared across Ts.ED CLI packages",
@@ -24,7 +24,7 @@
       "maintainers": []
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.843Z",
+  "exportedAt": "2026-11-09T10:41:07.581Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

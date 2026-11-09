@@ -4,10 +4,10 @@
     {
       "id": "interface-resolver-controller-options",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:35.555Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:03:33.714Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:06:55.595Z",
+      "date_updated": null,
       "name": "ResolverControllerOptions",
       "doc_url": "https://tsed.dev/api/graphql/typegraphql/types/decorators/interface-resolver-controller-options",
       "package": "bbf1d1cc-efc9-4f14-bf99-25c5d820f324",
@@ -23,7 +23,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.150Z",
+  "exportedAt": "2026-11-09T10:41:08.239Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

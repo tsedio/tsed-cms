@@ -4,10 +4,10 @@
     {
       "id": "interface-platform-express-settings",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:39.471Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:03:21.291Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:07:01.622Z",
+      "date_updated": null,
       "name": "PlatformExpressSettings",
       "doc_url": "https://tsed.dev/api/platform/platform-express/types/interfaces/interface-platform-express-settings",
       "package": "a0eb8f12-7f55-4612-a866-fa93ce81dad8",
@@ -23,7 +23,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.137Z",
+  "exportedAt": "2026-11-09T10:41:08.203Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

@@ -4,10 +4,10 @@
     {
       "id": "type-alter-log-callback",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:39.684Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:02:02.989Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:07:02.046Z",
+      "date_updated": null,
       "name": "AlterLogCallback",
       "doc_url": "https://tsed.dev/api/platform/platform-log-request/types/domain/type-alter-log-callback",
       "package": "571bbfce-d87c-445f-9816-a8eb10965756",
@@ -24,7 +24,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.073Z",
+  "exportedAt": "2026-11-09T10:41:08.058Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

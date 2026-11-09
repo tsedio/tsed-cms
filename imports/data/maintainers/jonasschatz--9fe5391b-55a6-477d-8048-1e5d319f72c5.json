@@ -4,17 +4,17 @@
     {
       "id": "9fe5391b-55a6-477d-8048-1e5d319f72c5",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:40:36.101Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:58:34.440Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:41.646Z",
+      "date_updated": "2026-11-09T10:00:44.968Z",
       "username": "JonasSchatz",
       "email": null,
       "avatar": "https://avatars.githubusercontent.com/u/13544864?v=4",
       "url": "https://github.com/JonasSchatz"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.743Z",
+  "exportedAt": "2026-11-09T10:41:05.874Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

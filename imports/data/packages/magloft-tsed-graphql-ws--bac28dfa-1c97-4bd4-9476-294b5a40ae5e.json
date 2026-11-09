@@ -5,16 +5,16 @@
       "id": "bac28dfa-1c97-4bd4-9476-294b5a40ae5e",
       "status": "published",
       "sort": 126,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:23.494Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:31.048Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:52.085Z",
+      "date_updated": "2026-11-09T10:00:57.205Z",
       "name": "@magloft/tsed-graphql-ws",
       "icon": "",
       "description": "GraphQL Subscription Support via graphql-ws",
       "tags": [],
       "homepage": "https://github.com/magloft/tsed-graphql-ws",
-      "downloads": 10,
+      "downloads": 27,
       "version": "6.114.11",
       "repository": "https://github.com/magloft/tsed-graphql-ws.git",
       "npm": "https://www.npmjs.com/package/@magloft/tsed-graphql-ws",
@@ -22,11 +22,11 @@
       "type": "3rd-party",
       "bugs": "https://github.com/magloft/tsed-graphql-ws/issues",
       "maintainers": [
-        130
+        36
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.839Z",
+  "exportedAt": "2026-11-09T10:41:07.564Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

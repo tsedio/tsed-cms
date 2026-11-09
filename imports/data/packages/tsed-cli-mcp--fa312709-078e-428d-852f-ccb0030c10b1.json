@@ -5,10 +5,10 @@
       "id": "fa312709-078e-428d-852f-ccb0030c10b1",
       "status": "published",
       "sort": null,
-      "user_created": null,
-      "date_created": "2026-02-21T08:00:31.331Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:33.356Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:34.412Z",
+      "date_updated": null,
       "name": "@tsed/cli-mcp",
       "icon": null,
       "description": "MCP CLI for Ts.ED.",
@@ -24,7 +24,7 @@
       "maintainers": []
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.842Z",
+  "exportedAt": "2026-11-09T10:41:07.575Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

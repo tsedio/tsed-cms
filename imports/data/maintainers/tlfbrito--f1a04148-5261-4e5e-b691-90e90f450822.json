@@ -4,17 +4,17 @@
     {
       "id": "f1a04148-5261-4e5e-b691-90e90f450822",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:40:40.053Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:59:31.005Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:47.052Z",
+      "date_updated": "2026-11-09T10:00:49.430Z",
       "username": "tlfbrito",
       "email": "tiago.brito@coverflex.com",
       "avatar": "https://avatars.githubusercontent.com/u/1071148?v=4",
       "url": "https://github.com/tlfbrito"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.751Z",
+  "exportedAt": "2026-11-09T10:41:05.904Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

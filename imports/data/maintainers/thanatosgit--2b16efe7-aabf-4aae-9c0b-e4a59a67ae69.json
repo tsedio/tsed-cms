@@ -4,17 +4,17 @@
     {
       "id": "2b16efe7-aabf-4aae-9c0b-e4a59a67ae69",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:00:02.299Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:59:30.508Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:49.882Z",
+      "date_updated": "2026-11-09T10:00:52.488Z",
       "username": "ThanatosGit",
       "email": null,
       "avatar": "https://avatars.githubusercontent.com/u/117127188?v=4",
       "url": "https://github.com/ThanatosGit"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.750Z",
+  "exportedAt": "2026-11-09T10:41:05.902Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

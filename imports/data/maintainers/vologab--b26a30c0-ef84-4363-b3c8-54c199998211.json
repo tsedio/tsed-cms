@@ -4,17 +4,17 @@
     {
       "id": "b26a30c0-ef84-4363-b3c8-54c199998211",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:00:02.279Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:59:32.021Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:27.475Z",
+      "date_updated": "2026-11-09T10:00:30.393Z",
       "username": "vologab",
       "email": null,
       "avatar": "https://avatars.githubusercontent.com/u/10982772?v=4",
       "url": "https://github.com/vologab"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.752Z",
+  "exportedAt": "2026-11-09T10:41:05.908Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

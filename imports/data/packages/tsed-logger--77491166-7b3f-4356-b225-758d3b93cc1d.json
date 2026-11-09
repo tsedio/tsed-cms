@@ -5,16 +5,16 @@
       "id": "77491166-7b3f-4356-b225-758d3b93cc1d",
       "status": "published",
       "sort": 7,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:21.096Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:37.422Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:11.892Z",
+      "date_updated": "2026-11-09T10:00:11.859Z",
       "name": "@tsed/logger",
       "icon": "https://api.tsed.io/statics/warehouse/tsed.svg",
       "description": "A multi channel logger written in TypeScript.",
       "tags": [],
       "homepage": "https://github.com/tsedio/logger/tree/production/packages/logger",
-      "downloads": 134240,
+      "downloads": 120820,
       "version": "8.0.7",
       "repository": "git+https://github.com/tsedio/logger.git",
       "npm": "https://www.npmjs.com/package/@tsed/logger",
@@ -22,11 +22,11 @@
       "type": "official",
       "bugs": "https://github.com/tsedio/logger/issues",
       "maintainers": [
-        7
+        106
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.848Z",
+  "exportedAt": "2026-11-09T10:41:07.601Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

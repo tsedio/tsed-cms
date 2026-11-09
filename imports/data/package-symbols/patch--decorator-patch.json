@@ -4,10 +4,10 @@
     {
       "id": "decorator-patch",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:38.519Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:03:17.711Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:07:00.105Z",
+      "date_updated": null,
       "name": "Patch",
       "doc_url": "https://tsed.dev/api/specs/schema/types/decorators/operations/decorator-patch",
       "package": "ed3e225f-c8cb-4a55-aea6-54e6550aeb3d",
@@ -26,7 +26,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.193Z",
+  "exportedAt": "2026-11-09T10:41:08.364Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

@@ -5,16 +5,16 @@
       "id": "0f43e5b9-a56c-4c2e-9451-28ec1c3e6aca",
       "status": "published",
       "sort": 128,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:23.522Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:30.883Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:55.733Z",
+      "date_updated": "2026-11-09T10:00:59.121Z",
       "name": "@jojoxd/tsed-entity-mapper",
       "icon": "",
       "description": "Map objects using mapper classes and decorators",
       "tags": [],
       "homepage": null,
-      "downloads": 6,
+      "downloads": 0,
       "version": "1.0.0",
       "repository": "https://gitlab.jojoxd.nl/jojoxd-npm/tsed/tsed-entity-mapper",
       "npm": "https://www.npmjs.com/package/@jojoxd/tsed-entity-mapper",
@@ -22,11 +22,11 @@
       "type": "3rd-party",
       "bugs": "https://github.com/jojoxd/BugTracker/issues",
       "maintainers": [
-        132
+        38
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.838Z",
+  "exportedAt": "2026-11-09T10:41:07.563Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

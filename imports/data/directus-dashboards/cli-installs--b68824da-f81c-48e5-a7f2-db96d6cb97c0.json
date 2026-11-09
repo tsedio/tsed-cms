@@ -6,12 +6,12 @@
       "name": "CLI installs",
       "icon": "terminal",
       "note": "Ts.ED CLI and MCP install telemetry (cli_install_stats)",
-      "date_created": "2026-11-01T10:12:09.498Z",
-      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
+      "date_created": "2026-11-01T11:04:17.567Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
       "color": null
     }
   ],
-  "exportedAt": "2026-11-01T10:14:01.215Z",
+  "exportedAt": "2026-11-09T10:41:10.163Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1
@@ -39,8 +39,8 @@
         "showDataLabel": true,
         "decimals": 0
       },
-      "date_created": "2026-11-01T10:12:10.009Z",
-      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+      "date_created": "2026-11-01T11:04:17.766Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780"
     },
     {
       "id": "1cd0d43d-32d1-49e7-b4aa-af0d4dc61896",
@@ -65,8 +65,8 @@
           }
         }
       },
-      "date_created": "2026-11-01T10:12:09.877Z",
-      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+      "date_created": "2026-11-01T11:04:17.823Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780"
     },
     {
       "id": "334a7e4b-1326-4198-b3ac-c817282bb1d9",
@@ -86,8 +86,8 @@
         "field": "id",
         "function": "count"
       },
-      "date_created": "2026-11-01T10:12:09.528Z",
-      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+      "date_created": "2026-11-01T11:04:17.890Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780"
     },
     {
       "id": "5d9b81a3-b24f-4a4e-a275-f1ce94607a4b",
@@ -109,8 +109,8 @@
         "legend": "right",
         "showLabels": true
       },
-      "date_created": "2026-11-01T10:12:09.965Z",
-      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+      "date_created": "2026-11-01T11:04:18.089Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780"
     },
     {
       "id": "6e6e0998-969e-4358-9ce8-c134f84e4a38",
@@ -134,8 +134,8 @@
         "showDataLabel": true,
         "decimals": 0
       },
-      "date_created": "2026-11-01T10:12:09.992Z",
-      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+      "date_created": "2026-11-01T11:04:18.296Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780"
     },
     {
       "id": "7707a9c0-213e-452b-802b-e8bc7aacc4e3",
@@ -168,8 +168,8 @@
         },
         "color": "#E35169"
       },
-      "date_created": "2026-11-01T10:12:09.928Z",
-      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+      "date_created": "2026-11-01T11:04:18.340Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780"
     },
     {
       "id": "773be77e-502c-4fdf-ad70-c96d3c1048c4",
@@ -196,8 +196,8 @@
         "fillType": "gradient",
         "decimals": 0
       },
-      "date_created": "2026-11-01T10:12:09.894Z",
-      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+      "date_created": "2026-11-01T11:04:18.383Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780"
     },
     {
       "id": "93fa90bc-95e4-4464-b980-d4c8257e6c7d",
@@ -224,8 +224,8 @@
           }
         }
       },
-      "date_created": "2026-11-01T10:12:10.044Z",
-      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+      "date_created": "2026-11-01T11:04:18.429Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780"
     },
     {
       "id": "999d7136-07db-4111-8b1b-cf2ab2319818",
@@ -250,8 +250,8 @@
           }
         }
       },
-      "date_created": "2026-11-01T10:12:09.539Z",
-      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+      "date_created": "2026-11-01T11:04:18.478Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780"
     },
     {
       "id": "a8467f9a-7a70-4932-81ef-954f9fa08124",
@@ -279,8 +279,8 @@
           }
         }
       },
-      "date_created": "2026-11-01T10:12:10.036Z",
-      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+      "date_created": "2026-11-01T11:04:18.524Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780"
     },
     {
       "id": "b0fcdca0-cdad-4db5-abc9-aa7d2a6f32da",
@@ -304,8 +304,8 @@
         "showDataLabel": true,
         "decimals": 0
       },
-      "date_created": "2026-11-01T10:12:09.982Z",
-      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+      "date_created": "2026-11-01T11:04:18.572Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780"
     },
     {
       "id": "b75c266f-194a-4904-922e-674c4331f7c0",
@@ -328,8 +328,8 @@
         "sortDirection": "desc",
         "limit": 10
       },
-      "date_created": "2026-11-01T10:12:10.028Z",
-      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+      "date_created": "2026-11-01T11:04:18.617Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780"
     },
     {
       "id": "baf6e0eb-5edc-4558-bb0e-804984c9a6c0",
@@ -352,8 +352,8 @@
         "sortDirection": "desc",
         "limit": 2
       },
-      "date_created": "2026-11-01T10:12:09.955Z",
-      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+      "date_created": "2026-11-01T11:04:18.689Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780"
     },
     {
       "id": "bb3f6943-d0f4-48dc-b8f3-e6671c13fc7e",
@@ -375,8 +375,8 @@
         "legend": "right",
         "showLabels": true
       },
-      "date_created": "2026-11-01T10:12:09.973Z",
-      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+      "date_created": "2026-11-01T11:04:18.890Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780"
     },
     {
       "id": "cefacfb9-0cee-47b6-8c63-b814f12851ce",
@@ -400,8 +400,8 @@
         "showDataLabel": true,
         "decimals": 0
       },
-      "date_created": "2026-11-01T10:12:10.000Z",
-      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+      "date_created": "2026-11-01T11:04:19.089Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780"
     },
     {
       "id": "d0ed4160-a753-4d62-9890-1fc2b78d34ab",
@@ -436,8 +436,8 @@
         },
         "color": "#E35169"
       },
-      "date_created": "2026-11-01T10:12:09.673Z",
-      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+      "date_created": "2026-11-01T11:04:19.137Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780"
     },
     {
       "id": "d3271f2b-51d8-43b1-9fed-d0897e40db7f",
@@ -460,8 +460,8 @@
         "sortDirection": "desc",
         "limit": 10
       },
-      "date_created": "2026-11-01T10:12:10.019Z",
-      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+      "date_created": "2026-11-01T11:04:19.183Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780"
     },
     {
       "id": "f5019d1f-2af5-41ba-944f-bed8afea4a54",
@@ -483,8 +483,8 @@
         "legend": "right",
         "showLabels": true
       },
-      "date_created": "2026-11-01T10:12:09.940Z",
-      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+      "date_created": "2026-11-01T11:04:19.230Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780"
     }
   ]
 }

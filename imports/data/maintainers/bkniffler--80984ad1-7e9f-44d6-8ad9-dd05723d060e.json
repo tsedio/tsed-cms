@@ -4,17 +4,17 @@
     {
       "id": "80984ad1-7e9f-44d6-8ad9-dd05723d060e",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:00:02.404Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:58:29.330Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:31.639Z",
+      "date_updated": "2026-11-09T10:00:34.595Z",
       "username": "bkniffler",
       "email": "benjamin@kniffler.com",
       "avatar": "https://avatars.githubusercontent.com/u/4349324?v=4",
       "url": "https://github.com/bkniffler"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.737Z",
+  "exportedAt": "2026-11-09T10:41:05.852Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

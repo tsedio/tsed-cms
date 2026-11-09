@@ -4,10 +4,10 @@
     {
       "id": "service-get-mongo-connections-options",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:39.296Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:02:32.903Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:07:01.370Z",
+      "date_updated": null,
       "name": "getMongoConnectionsOptions",
       "doc_url": "https://tsed.dev/api/orm/testcontainers-mongo/types/services/service-get-mongo-connections-options",
       "package": "10551aa5-953a-4e44-987f-c2ebab6e3327",
@@ -24,7 +24,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.043Z",
+  "exportedAt": "2026-11-09T10:41:07.968Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

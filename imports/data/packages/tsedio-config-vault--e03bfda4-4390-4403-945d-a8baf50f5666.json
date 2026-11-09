@@ -5,10 +5,10 @@
       "id": "e03bfda4-4390-4403-945d-a8baf50f5666",
       "status": "published",
       "sort": 4,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:21.026Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:45.365Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:58.206Z",
+      "date_updated": "2026-11-09T10:01:02.309Z",
       "name": "@tsedio/config-vault",
       "icon": "https://2583450.fs1.hubspotusercontent-na1.net/hub/2583450/hubfs/Imported_Blog_Media/Vault-test.png?width=928&name=Vault-test.png",
       "description": " :triangular_ruler:  Ts.ED is a Node.js and TypeScript framework on top of Express to write your application with TypeScript (or ES6). It provides a lot of decorators and guideline to make your code more readable and less error-prone. ⭐️ Star to support our work! ",
@@ -17,19 +17,19 @@
         "security"
       ],
       "homepage": "https://github.com/tsedio/tsed/tree/production/packages/config/vault",
-      "downloads": 3956,
+      "downloads": 3910,
       "version": "config-source-aws-secrets",
       "repository": "git+https://github.com/tsedio/tsed.git",
       "npm": "https://www.npmjs.com/package/@tsedio/config-vault",
-      "stars": 3089,
+      "stars": 3090,
       "type": "premium",
       "bugs": "https://github.com/tsedio/tsed/issues",
       "maintainers": [
-        4
+        73
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.860Z",
+  "exportedAt": "2026-11-09T10:41:07.638Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

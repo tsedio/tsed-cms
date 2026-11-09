@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "a8b02682-23b3-488b-83f3-ecb12e1e4f16",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:01.328Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:04.005Z",
+      "source": "open_collective",
+      "name": "Andrew James Perks Labbe",
+      "type": "user",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": null,
+      "profile": "https://opencollective.com/andrew-james-perks-labbe",
+      "avatar": null,
+      "last_transaction_at": "2020-01-23T03:43:00",
+      "total_amount_donated": 10,
+      "currency": "USD",
+      "last_transaction_amount": 10,
+      "visibility": "public",
+      "tier": null,
+      "grade": "supporter",
+      "first_transaction_at": "2020-01-23T03:43:00",
+      "login": "71815"
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:08.940Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

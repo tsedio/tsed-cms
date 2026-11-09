@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "f323775e-b3d0-40ce-9d2d-8c1ed5f36aec",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:48.988Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:46.376Z",
+      "name": "@tsed/redux-utils",
+      "icon": null,
+      "description": "An opinionated lib to create actions and reducers for Redux written in TypeScript",
+      "tags": null,
+      "homepage": "https://github.com/TypedProject/tsed-formio/tree/master/packages/redux-utils",
+      "downloads": 0,
+      "version": "2.3.6",
+      "repository": "git+https://github.com/TypedProject/tsed-formio.git",
+      "npm": "https://www.npmjs.com/package/@tsed/redux-utils",
+      "stars": 16,
+      "type": "official",
+      "bugs": "https://github.com/TypedProject/tsed-formio/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.624Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

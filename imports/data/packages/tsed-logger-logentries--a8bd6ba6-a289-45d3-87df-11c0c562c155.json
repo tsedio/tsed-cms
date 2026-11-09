@@ -5,10 +5,10 @@
       "id": "a8bd6ba6-a289-45d3-87df-11c0c562c155",
       "status": "published",
       "sort": 112,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:23.270Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:37.743Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:06.492Z",
+      "date_updated": "2026-11-09T10:00:09.886Z",
       "name": "@tsed/logger-logentries",
       "icon": "https://tsed.io/logentries.svg",
       "description": "LogEntries appender module for @tsed/logger",
@@ -16,7 +16,7 @@
         "monitoring"
       ],
       "homepage": "https://github.com/tsedio/logger/tree/production/packages/logentries",
-      "downloads": 696,
+      "downloads": 108,
       "version": "8.0.7",
       "repository": "git+https://github.com/tsedio/logger.git",
       "npm": "https://www.npmjs.com/package/@tsed/logger-logentries",
@@ -24,11 +24,11 @@
       "type": "official",
       "bugs": "https://github.com/tsedio/logger/issues",
       "maintainers": [
-        115
+        19
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.847Z",
+  "exportedAt": "2026-11-09T10:41:07.596Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

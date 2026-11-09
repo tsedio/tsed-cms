@@ -5,10 +5,10 @@
       "id": "dd2afe02-a8dd-44c4-b3ec-6d4238e63538",
       "status": "published",
       "sort": null,
-      "user_created": null,
-      "date_created": "2025-11-02T22:06:41.821Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:36.240Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:50.419Z",
+      "date_updated": null,
       "name": "@tsed/es6-cli",
       "icon": null,
       "description": "CLI to migrate a project from require to import/exports ",
@@ -24,7 +24,7 @@
       "maintainers": []
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.845Z",
+  "exportedAt": "2026-11-09T10:41:07.588Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

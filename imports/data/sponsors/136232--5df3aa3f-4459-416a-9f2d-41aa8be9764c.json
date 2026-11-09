@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "5df3aa3f-4459-416a-9f2d-41aa8be9764c",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:01.417Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:04.108Z",
+      "source": "open_collective",
+      "name": "IAROMIR TRINTA",
+      "type": "user",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": null,
+      "profile": "https://opencollective.com/iaromir-trinta",
+      "avatar": null,
+      "last_transaction_at": "2021-08-01T16:10:00",
+      "total_amount_donated": 50,
+      "currency": "USD",
+      "last_transaction_amount": 5,
+      "visibility": "public",
+      "tier": "The supporter",
+      "grade": "supporter",
+      "first_transaction_at": "2020-10-27T14:23:00",
+      "login": "136232"
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:08.933Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -5,28 +5,28 @@
       "id": "bace2006-5157-4fcc-9765-2ab60631fcee",
       "status": "published",
       "sort": 15,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:21.278Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:41.100Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:19.714Z",
+      "date_updated": "2026-11-09T10:00:18.252Z",
       "name": "@tsed/platform-response-filter",
       "icon": "",
       "description": "Platform response filter module for Ts.ED Framework",
       "tags": [],
       "homepage": "https://github.com/tsedio/tsed/tree/production/packages/platform/platform-response-filter",
-      "downloads": 90358,
-      "version": "8.44.13",
+      "downloads": 81571,
+      "version": "8.46.1",
       "repository": "git+https://github.com/tsedio/tsed.git",
       "npm": "https://www.npmjs.com/package/@tsed/platform-response-filter",
-      "stars": 3089,
+      "stars": 3090,
       "type": "official",
       "bugs": "https://github.com/tsedio/tsed/issues",
       "maintainers": [
-        15
+        46
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.851Z",
+  "exportedAt": "2026-11-09T10:41:07.617Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

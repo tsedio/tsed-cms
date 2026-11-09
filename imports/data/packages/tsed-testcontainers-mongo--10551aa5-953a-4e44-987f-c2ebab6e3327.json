@@ -5,28 +5,28 @@
       "id": "10551aa5-953a-4e44-987f-c2ebab6e3327",
       "status": "published",
       "sort": 79,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:22.592Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:43.952Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:27.245Z",
+      "date_updated": "2026-11-09T10:00:26.405Z",
       "name": "@tsed/testcontainers-mongo",
       "icon": "",
       "description": "A module to test Ts.ED code that use MongoDB as database using Test Containers",
       "tags": [],
       "homepage": "https://github.com/tsedio/tsed/tree/production/packages/testcontainers/mongo",
-      "downloads": 8918,
-      "version": "8.44.13",
+      "downloads": 8896,
+      "version": "8.46.1",
       "repository": "git+https://github.com/tsedio/tsed.git",
       "npm": "https://www.npmjs.com/package/@tsed/testcontainers-mongo",
-      "stars": 3089,
+      "stars": 3090,
       "type": "official",
       "bugs": "https://github.com/tsedio/tsed/issues",
       "maintainers": [
-        82
+        120
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.857Z",
+  "exportedAt": "2026-11-09T10:41:07.631Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

@@ -5,10 +5,10 @@
       "id": "c5694935-8268-42d5-98ea-412d32b7987e",
       "status": "archived",
       "sort": 133,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:23.634Z",
-      "user_updated": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
-      "date_updated": "2025-11-08T18:15:08.357Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:36.881Z",
+      "user_updated": null,
+      "date_updated": null,
       "name": "@tsed/graphql",
       "icon": "https://tsed.dev/typegraphql.png",
       "description": "GraphQL package for Ts.ED framework, based on Apollo-server-express and Type-graphql",
@@ -27,7 +27,7 @@
       "maintainers": []
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.846Z",
+  "exportedAt": "2026-11-09T10:41:07.592Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

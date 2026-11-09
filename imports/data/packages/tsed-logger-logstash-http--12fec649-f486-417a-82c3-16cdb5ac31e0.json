@@ -5,10 +5,10 @@
       "id": "12fec649-f486-417a-82c3-16cdb5ac31e0",
       "status": "published",
       "sort": 108,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:23.205Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:37.927Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:08.324Z",
+      "date_updated": "2026-11-09T10:00:12.184Z",
       "name": "@tsed/logger-logstash-http",
       "icon": "https://tsed.io/elastic-logstash.svg",
       "description": "Logstash HTTP appender module for @tsed/logger",
@@ -16,7 +16,7 @@
         "monitoring"
       ],
       "homepage": "https://github.com/tsedio/logger/tree/production/packages/logstash-http",
-      "downloads": 488,
+      "downloads": 78,
       "version": "8.0.7",
       "repository": "git+https://github.com/tsedio/logger.git",
       "npm": "https://www.npmjs.com/package/@tsed/logger-logstash-http",
@@ -24,11 +24,11 @@
       "type": "official",
       "bugs": "https://github.com/tsedio/logger/issues",
       "maintainers": [
-        111
+        15
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.847Z",
+  "exportedAt": "2026-11-09T10:41:07.597Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

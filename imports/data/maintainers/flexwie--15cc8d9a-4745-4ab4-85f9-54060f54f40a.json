@@ -4,17 +4,17 @@
     {
       "id": "15cc8d9a-4745-4ab4-85f9-54060f54f40a",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:40:38.257Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:58:32.183Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:45.015Z",
+      "date_updated": "2026-11-09T10:00:47.809Z",
       "username": "flexwie",
       "email": "mail@felixwie.com",
       "avatar": "https://avatars.githubusercontent.com/u/1215778?v=4",
       "url": "https://github.com/flexwie"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.741Z",
+  "exportedAt": "2026-11-09T10:41:05.865Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

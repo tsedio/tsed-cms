@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "78332ee7-0902-407c-b8b0-2230b358b5d4",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:59.598Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:01:00.568Z",
+      "name": "flutter_tsed_framework",
+      "icon": null,
+      "description": "A production-grade Flutter development framework with guided AI-powered workflows for every project scenario.",
+      "tags": null,
+      "homepage": null,
+      "downloads": 0,
+      "version": "1.3.0",
+      "repository": null,
+      "npm": "https://www.npmjs.com/package/flutter_tsed_framework",
+      "stars": null,
+      "type": "3rd-party",
+      "bugs": null,
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.640Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

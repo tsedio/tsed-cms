@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "c873c6f1-52bb-406f-b132-7c2e446bf3e8",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:01.942Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:04.396Z",
+      "source": "open_collective",
+      "name": "Soumojit Ash",
+      "type": "user",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": null,
+      "profile": "https://opencollective.com/guest-320628cd",
+      "avatar": null,
+      "last_transaction_at": "2023-07-25T18:50:00",
+      "total_amount_donated": 5,
+      "currency": "USD",
+      "last_transaction_amount": 5,
+      "visibility": "public",
+      "tier": null,
+      "grade": "supporter",
+      "first_transaction_at": "2023-07-25T18:50:00",
+      "login": "460340"
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:08.940Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

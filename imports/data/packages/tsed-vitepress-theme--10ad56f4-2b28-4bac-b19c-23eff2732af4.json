@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "10ad56f4-2b28-4bac-b19c-23eff2732af4",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:47.687Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:45.166Z",
+      "name": "@tsed/vitepress-theme",
+      "icon": null,
+      "description": "Shared components for vitepress",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed-vitepress-theme/tree/main/packages/theme",
+      "downloads": 0,
+      "version": "1.8.0",
+      "repository": "git+https://github.com/tsedio/tsed-vitepress-theme.git",
+      "npm": "https://www.npmjs.com/package/@tsed/vitepress-theme",
+      "stars": 1,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed-vitepress-theme/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.636Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

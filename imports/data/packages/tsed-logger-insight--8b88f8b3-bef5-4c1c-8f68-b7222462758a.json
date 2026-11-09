@@ -5,10 +5,10 @@
       "id": "8b88f8b3-bef5-4c1c-8f68-b7222462758a",
       "status": "published",
       "sort": 114,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:23.300Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:37.659Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:06.130Z",
+      "date_updated": "2026-11-09T10:00:13.637Z",
       "name": "@tsed/logger-insight",
       "icon": "https://tsed.io/rapid7.svg",
       "description": "Insight appender module for @tsed/logger",
@@ -16,7 +16,7 @@
         "monitoring"
       ],
       "homepage": "https://github.com/tsedio/logger/tree/production/packages/insight",
-      "downloads": 559,
+      "downloads": 71,
       "version": "8.0.7",
       "repository": "git+https://github.com/tsedio/logger.git",
       "npm": "https://www.npmjs.com/package/@tsed/logger-insight",
@@ -24,11 +24,11 @@
       "type": "official",
       "bugs": "https://github.com/tsedio/logger/issues",
       "maintainers": [
-        117
+        21
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.847Z",
+  "exportedAt": "2026-11-09T10:41:07.596Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

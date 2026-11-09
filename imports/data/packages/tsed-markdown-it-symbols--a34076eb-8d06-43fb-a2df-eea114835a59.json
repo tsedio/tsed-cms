@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "a34076eb-8d06-43fb-a2df-eea114835a59",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:53.715Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:52.297Z",
+      "name": "@tsed/markdown-it-symbols",
+      "icon": null,
+      "description": "Markdown it plugin",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/vuepress-theme-tsed/tree/master/packages/markdown-it-symbols",
+      "downloads": 1033,
+      "version": "3.20.9",
+      "repository": "git+https://github.com/tsedio/vuepress-theme-tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/markdown-it-symbols",
+      "stars": 7,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/vuepress-theme-tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.602Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

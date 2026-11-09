@@ -4,17 +4,17 @@
     {
       "id": "824d5ccf-1501-4584-ba4e-a6c3e964e9c1",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:00:02.704Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:58:39.537Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:39.991Z",
+      "date_updated": "2026-11-09T10:00:42.922Z",
       "username": "scopsy",
       "email": "dima@grossman.io",
       "avatar": "https://avatars.githubusercontent.com/u/8872447?v=4",
       "url": "https://github.com/scopsy"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.749Z",
+  "exportedAt": "2026-11-09T10:41:05.896Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "e99fac10-6c99-4f89-addc-0f08542a9d95",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:21.456Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:19.258Z",
+      "name": "@tsed/terminus",
+      "icon": null,
+      "description": "Adds graceful shutdown and Kubernetes readiness / liveness checks for any HTTP applications.",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/third-parties/terminus",
+      "downloads": 18966,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/terminus",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.630Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

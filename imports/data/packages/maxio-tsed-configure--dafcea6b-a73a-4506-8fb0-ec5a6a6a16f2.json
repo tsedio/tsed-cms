@@ -5,10 +5,10 @@
       "id": "dafcea6b-a73a-4506-8fb0-ec5a6a6a16f2",
       "status": "published",
       "sort": null,
-      "user_created": null,
-      "date_created": "2025-11-02T22:06:45.546Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:31.139Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:55.000Z",
+      "date_updated": null,
       "name": "@maxio/tsed-configure",
       "icon": null,
       "description": "Npm TypeScript Package Boilerplate",
@@ -24,7 +24,7 @@
       "maintainers": []
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.839Z",
+  "exportedAt": "2026-11-09T10:41:07.564Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

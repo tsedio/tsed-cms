@@ -4,17 +4,17 @@
     {
       "id": "17045424-2824-4e70-9a6d-afc18871ee6d",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:00:01.724Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:59:31.244Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:12.632Z",
+      "date_updated": "2026-11-09T10:00:15.290Z",
       "username": "tomer-amir-vonage",
       "email": "tamir@vonage.com",
       "avatar": "https://avatars.githubusercontent.com/u/19464891?v=4",
       "url": "https://github.com/tomer-amir-vonage"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.751Z",
+  "exportedAt": "2026-11-09T10:41:05.905Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

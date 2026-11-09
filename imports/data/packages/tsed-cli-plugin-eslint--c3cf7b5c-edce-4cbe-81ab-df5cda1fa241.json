@@ -5,10 +5,10 @@
       "id": "c3cf7b5c-edce-4cbe-81ab-df5cda1fa241",
       "status": "published",
       "sort": 33,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:21.614Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:33.491Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:24.958Z",
+      "date_updated": "2026-11-09T10:00:33.475Z",
       "name": "@tsed/cli-plugin-eslint",
       "icon": "https://cli.tsed.io/eslint.svg",
       "description": "Ts.ED CLI plugin. Add EsLint support",
@@ -16,19 +16,19 @@
         "devtools"
       ],
       "homepage": "https://github.com/tsedio/tsed-cli/tree/master/packages/cli-plugin-eslint",
-      "downloads": 13391,
-      "version": "7.8.1",
+      "downloads": 11658,
+      "version": "7.9.0",
       "repository": "git+https://github.com/tsedio/tsed-cli.git",
       "npm": "https://www.npmjs.com/package/@tsed/cli-plugin-eslint",
       "stars": 43,
       "type": "official",
       "bugs": "https://github.com/tsedio/tsed-cli/issues",
       "maintainers": [
-        33
+        66
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.842Z",
+  "exportedAt": "2026-11-09T10:41:07.575Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

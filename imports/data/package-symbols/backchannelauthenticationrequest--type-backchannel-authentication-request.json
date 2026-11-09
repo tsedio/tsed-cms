@@ -4,10 +4,10 @@
     {
       "id": "type-backchannel-authentication-request",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:33.668Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:02:06.735Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:06:52.463Z",
+      "date_updated": null,
       "name": "BackchannelAuthenticationRequest",
       "doc_url": "https://tsed.dev/api/security/oidc-provider/types/domain/type-backchannel-authentication-request",
       "package": "cf6f7fa7-430b-4e04-8457-93843b827456",
@@ -24,7 +24,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.160Z",
+  "exportedAt": "2026-11-09T10:41:08.270Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

@@ -4,17 +4,17 @@
     {
       "id": "000a7b53-44a2-41fd-93f4-c09312ad558d",
       "status": "published",
-      "user_created": null,
-      "date_created": "2026-10-03T18:01:54.461Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:58:38.755Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:05.019Z",
+      "date_updated": "2026-11-09T10:00:07.286Z",
       "username": "pdeveltere",
       "email": null,
       "avatar": "https://avatars.githubusercontent.com/u/7511273?v=4",
       "url": "https://github.com/pdeveltere"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.748Z",
+  "exportedAt": "2026-11-09T10:41:05.893Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

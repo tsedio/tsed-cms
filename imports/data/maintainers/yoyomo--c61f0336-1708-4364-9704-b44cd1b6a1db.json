@@ -4,17 +4,17 @@
     {
       "id": "c61f0336-1708-4364-9704-b44cd1b6a1db",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:00:02.436Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:59:33.627Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:33.113Z",
+      "date_updated": "2026-11-09T10:00:35.603Z",
       "username": "yoyomo",
       "email": "ajogarmando@gmail.com",
       "avatar": "https://avatars.githubusercontent.com/u/12818568?v=4",
       "url": "https://github.com/yoyomo"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.753Z",
+  "exportedAt": "2026-11-09T10:41:05.913Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

@@ -5,10 +5,10 @@
       "id": "1be51cc9-7654-4d6e-b134-a2c7cd0db714",
       "status": "archived",
       "sort": null,
-      "user_created": null,
-      "date_created": "2025-11-02T22:06:44.381Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:32.573Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:56.073Z",
+      "date_updated": null,
       "name": "@tsed/benchmarks",
       "icon": null,
       "description": null,
@@ -24,7 +24,7 @@
       "maintainers": []
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.841Z",
+  "exportedAt": "2026-11-09T10:41:07.573Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

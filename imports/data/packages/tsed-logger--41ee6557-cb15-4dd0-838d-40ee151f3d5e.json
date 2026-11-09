@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "41ee6557-cb15-4dd0-838d-40ee151f3d5e",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:15.262Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:13.269Z",
+      "name": "@tsed/logger",
+      "icon": null,
+      "description": "A multi channel logger written in TypeScript.",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/logger/tree/production/packages/logger",
+      "downloads": 134240,
+      "version": "8.0.7",
+      "repository": "git+https://github.com/tsedio/logger.git",
+      "npm": "https://www.npmjs.com/package/@tsed/logger",
+      "stars": 66,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/logger/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.601Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

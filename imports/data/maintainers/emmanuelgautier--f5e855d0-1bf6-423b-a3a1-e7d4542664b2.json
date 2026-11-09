@@ -4,17 +4,17 @@
     {
       "id": "f5e855d0-1bf6-423b-a3a1-e7d4542664b2",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:00:02.644Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:58:31.942Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:38.693Z",
+      "date_updated": "2026-11-09T10:00:41.750Z",
       "username": "emmanuelgautier",
       "email": null,
       "avatar": "https://avatars.githubusercontent.com/u/2765366?v=4",
       "url": "https://github.com/emmanuelgautier"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.741Z",
+  "exportedAt": "2026-11-09T10:41:05.864Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

@@ -4,17 +4,17 @@
     {
       "id": "85573752-a481-4ba6-a6d7-4c0d2e3f6056",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:00:01.673Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:58:36.068Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:09.502Z",
+      "date_updated": "2026-11-09T10:00:12.415Z",
       "username": "lwallent",
       "email": null,
       "avatar": "https://avatars.githubusercontent.com/u/12495269?v=4",
       "url": "https://github.com/lwallent"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.745Z",
+  "exportedAt": "2026-11-09T10:41:05.881Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

@@ -4,10 +4,10 @@
     {
       "id": "const-platform-views-extensions",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:40.190Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:03:19.702Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:07:02.813Z",
+      "date_updated": null,
       "name": "PLATFORM_VIEWS_EXTENSIONS",
       "doc_url": "https://tsed.dev/api/platform/platform-views/types/domain/const-platform-views-extensions",
       "package": "6837b0e3-a3cd-4414-a794-b2a0dd3f7201",
@@ -23,7 +23,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.098Z",
+  "exportedAt": "2026-11-09T10:41:08.126Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "bc266567-6939-4b16-9663-efc2c96cad31",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:01.639Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T14:00:03.058Z",
+      "source": "open_collective",
+      "name": "Pavel Pavlov",
+      "type": "user",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": null,
+      "profile": "https://opencollective.com/ppv",
+      "avatar": null,
+      "last_transaction_at": "2021-06-01T19:14:00",
+      "total_amount_donated": 60,
+      "currency": "USD",
+      "last_transaction_amount": 10,
+      "visibility": "public",
+      "tier": null,
+      "grade": "supporter",
+      "first_transaction_at": "2021-01-10T15:10:00",
+      "login": "158204"
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:08.935Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -5,10 +5,10 @@
       "id": "fed51cc1-4bf4-45b9-99f8-1ebff8d99aa7",
       "status": "published",
       "sort": 124,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:23.463Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:30.638Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:45.027Z",
+      "date_updated": "2026-11-09T10:00:51.915Z",
       "name": "@gearedminds/tsed-api-support",
       "icon": "",
       "description": "A couple of handy classes and functions shared across TSED projects",
@@ -22,11 +22,11 @@
       "type": "3rd-party",
       "bugs": null,
       "maintainers": [
-        128
+        33
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.838Z",
+  "exportedAt": "2026-11-09T10:41:07.562Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

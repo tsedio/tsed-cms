@@ -5,10 +5,10 @@
       "id": "a6529756-233d-4a5c-b974-d17b50e88ef1",
       "status": "archived",
       "sort": null,
-      "user_created": null,
-      "date_created": "2025-11-03T09:36:23.831Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:04:13.743Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:01.317Z",
+      "date_updated": null,
       "source": "open_collective",
       "name": "IAROMIR TRINTA",
       "type": "user",
@@ -31,7 +31,7 @@
       "login": "136232"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.268Z",
+  "exportedAt": "2026-11-09T10:41:08.933Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

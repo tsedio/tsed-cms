@@ -5,28 +5,28 @@
       "id": "46b26206-1e3d-4c8c-8584-e653d9a1a7ac",
       "status": "published",
       "sort": 65,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:22.268Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:41.273Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:30.040Z",
+      "date_updated": "2026-11-09T10:00:35.537Z",
       "name": "@tsed/platform-serverless",
       "icon": "",
       "description": "Platform serverless module for Ts.ED Framework",
       "tags": [],
       "homepage": "https://github.com/tsedio/tsed/tree/production/packages/platform/platform-serverless",
-      "downloads": 6584,
-      "version": "8.44.13",
+      "downloads": 4430,
+      "version": "8.46.1",
       "repository": "git+https://github.com/tsedio/tsed.git",
       "npm": "https://www.npmjs.com/package/@tsed/platform-serverless",
-      "stars": 3089,
+      "stars": 3090,
       "type": "official",
       "bugs": "https://github.com/tsedio/tsed/issues",
       "maintainers": [
-        66
+        102
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.852Z",
+  "exportedAt": "2026-11-09T10:41:07.619Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

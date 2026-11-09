@@ -4,17 +4,17 @@
     {
       "id": "523fe7da-95f5-43c5-b3e7-966205084da1",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:00:02.522Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:58:34.281Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:35.427Z",
+      "date_updated": "2026-11-09T10:00:38.087Z",
       "username": "johngerome",
       "email": null,
       "avatar": "https://avatars.githubusercontent.com/u/2002000?v=4",
       "url": "https://github.com/johngerome"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.743Z",
+  "exportedAt": "2026-11-09T10:41:05.873Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

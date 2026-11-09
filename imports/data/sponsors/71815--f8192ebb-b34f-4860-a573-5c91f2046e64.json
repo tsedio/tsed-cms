@@ -5,10 +5,10 @@
       "id": "f8192ebb-b34f-4860-a573-5c91f2046e64",
       "status": "archived",
       "sort": null,
-      "user_created": null,
-      "date_created": "2025-11-03T09:36:23.720Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:04:15.482Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:01.265Z",
+      "date_updated": null,
       "source": "open_collective",
       "name": "Andrew James Perks Labbe",
       "type": "user",
@@ -31,7 +31,7 @@
       "login": "71815"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.270Z",
+  "exportedAt": "2026-11-09T10:41:08.940Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

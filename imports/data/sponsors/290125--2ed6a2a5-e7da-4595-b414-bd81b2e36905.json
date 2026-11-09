@@ -5,10 +5,10 @@
       "id": "2ed6a2a5-e7da-4595-b414-bd81b2e36905",
       "status": "archived",
       "sort": null,
-      "user_created": null,
-      "date_created": "2025-11-03T09:36:24.210Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:04:14.864Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:01.441Z",
+      "date_updated": null,
       "source": "open_collective",
       "name": "Nick Wiltshire",
       "type": "user",
@@ -31,7 +31,7 @@
       "login": "290125"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.269Z",
+  "exportedAt": "2026-11-09T10:41:08.937Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

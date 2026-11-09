@@ -5,10 +5,10 @@
       "id": "61df65fa-62a4-490b-98af-364746e5cc3b",
       "status": "published",
       "sort": null,
-      "user_created": null,
-      "date_created": "2026-10-03T18:02:30.688Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:44.200Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:41.425Z",
+      "date_updated": null,
       "name": "@tsed/testcontainers-vault",
       "icon": null,
       "description": "A module to test Ts.ED code that use Vault as a secrets manager using Test Containers",
@@ -24,7 +24,7 @@
       "maintainers": []
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.857Z",
+  "exportedAt": "2026-11-09T10:41:07.632Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

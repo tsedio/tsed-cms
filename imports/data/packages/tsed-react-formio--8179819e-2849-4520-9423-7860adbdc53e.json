@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "8179819e-2849-4520-9423-7860adbdc53e",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:33.355Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:30.525Z",
+      "name": "@tsed/react-formio",
+      "icon": null,
+      "description": "Provide a react formio wrapper. Written in TypeScript.",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed-formio/tree/master/packages/react-formio",
+      "downloads": 0,
+      "version": "3.0.2",
+      "repository": "git+https://github.com/tsedio/tsed-formio.git",
+      "npm": "https://www.npmjs.com/package/@tsed/react-formio",
+      "stars": 16,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed-formio/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.623Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

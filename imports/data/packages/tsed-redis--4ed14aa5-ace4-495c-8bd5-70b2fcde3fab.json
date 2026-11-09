@@ -5,16 +5,16 @@
       "id": "4ed14aa5-ace4-495c-8bd5-70b2fcde3fab",
       "status": "published",
       "sort": 113,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:23.286Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:42.405Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:49.861Z",
+      "date_updated": "2026-11-09T10:00:50.841Z",
       "name": "tsed-redis",
       "icon": "",
       "description": "Simple Redis DI factory for Ts.ED framework",
       "tags": [],
       "homepage": "https://github.com/alexdonh/tsed-redis#readme",
-      "downloads": 45,
+      "downloads": 0,
       "version": "0.2.0",
       "repository": "git+https://github.com/alexdonh/tsed-redis.git",
       "npm": "https://www.npmjs.com/package/tsed-redis",
@@ -22,11 +22,11 @@
       "type": "3rd-party",
       "bugs": "https://github.com/alexdonh/tsed-redis/issues",
       "maintainers": [
-        116
+        20
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.861Z",
+  "exportedAt": "2026-11-09T10:41:07.642Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

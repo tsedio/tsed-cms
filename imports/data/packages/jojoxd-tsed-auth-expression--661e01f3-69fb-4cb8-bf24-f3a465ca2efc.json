@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "661e01f3-69fb-4cb8-bf24-f3a465ca2efc",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:57.151Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:55.009Z",
+      "name": "@jojoxd/tsed-auth-expression",
+      "icon": null,
+      "description": "Add scripting to your authorization",
+      "tags": null,
+      "homepage": null,
+      "downloads": 0,
+      "version": "1.0.0",
+      "repository": "https://gitlab.jojoxd.nl/jojoxd-npm/tsed/tsed-auth-expression",
+      "npm": "https://www.npmjs.com/package/@jojoxd/tsed-auth-expression",
+      "stars": null,
+      "type": "3rd-party",
+      "bugs": "https://github.com/jojoxd/BugTracker/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.563Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

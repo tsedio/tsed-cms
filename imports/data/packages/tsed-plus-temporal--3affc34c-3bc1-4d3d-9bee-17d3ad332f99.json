@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "3affc34c-3bc1-4d3d-9bee-17d3ad332f99",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:57.851Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:55.450Z",
+      "name": "@tsed-plus/temporal",
+      "icon": null,
+      "description": "Extends the Ts.ED framework with the functionality to define temporal.io activities within a service class and to start a worker that can execute workflows",
+      "tags": null,
+      "homepage": "https://github.com/applogik/tsed-plus#readme",
+      "downloads": 0,
+      "version": "2.0.0",
+      "repository": "git+https://github.com/applogik/tsed-plus.git",
+      "npm": "https://www.npmjs.com/package/@tsed-plus/temporal",
+      "stars": 0,
+      "type": "3rd-party",
+      "bugs": "https://github.com/applogik/tsed-plus/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.569Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

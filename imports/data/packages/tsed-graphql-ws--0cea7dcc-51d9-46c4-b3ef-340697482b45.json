@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "0cea7dcc-51d9-46c4-b3ef-340697482b45",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:39.314Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:36.479Z",
+      "name": "@tsed/graphql-ws",
+      "icon": null,
+      "description": "An extension to allow GraphQL over WebSockets using graphql-ws protocol",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/graphql/graphql-ws",
+      "downloads": 0,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/graphql-ws",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.592Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

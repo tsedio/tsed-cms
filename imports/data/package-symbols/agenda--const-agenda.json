@@ -4,10 +4,10 @@
     {
       "id": "const-agenda",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:41.971Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:02:00.490Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:07:06.003Z",
+      "date_updated": null,
       "name": "Agenda",
       "doc_url": "https://tsed.dev/api/third-parties/agenda/types/decorators/const-agenda",
       "package": "b359efa2-1691-48aa-be7d-06568b73e3d2",
@@ -21,7 +21,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.147Z",
+  "exportedAt": "2026-11-09T10:41:08.232Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

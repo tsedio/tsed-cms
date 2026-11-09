@@ -5,10 +5,10 @@
       "id": "a4886afb-ef12-4c33-9e08-cd9f5845478e",
       "status": "published",
       "sort": null,
-      "user_created": null,
-      "date_created": "2026-10-03T18:02:37.138Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:30.307Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:55.762Z",
+      "date_updated": null,
       "name": "@boscdev/flutter-tsed-framework",
       "icon": null,
       "description": "Flutter × Ts.ED automation framework — TDD-first, AI-guided, single main.dart with dart-define-from-file environments.",
@@ -24,7 +24,7 @@
       "maintainers": []
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.837Z",
+  "exportedAt": "2026-11-09T10:41:07.561Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

@@ -4,10 +4,10 @@
     {
       "id": "const-param-types-data-path",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:39.872Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:03:16.033Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:07:02.373Z",
+      "date_updated": null,
       "name": "PARAM_TYPES_DATA_PATH",
       "doc_url": "https://tsed.dev/api/platform/platform-params/types/domain/const-param-types-data-path",
       "package": "249fdf28-eb4b-4b8a-99b8-df58b9f5959b",
@@ -23,7 +23,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.053Z",
+  "exportedAt": "2026-11-09T10:41:07.998Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

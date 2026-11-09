@@ -5,16 +5,16 @@
       "id": "ecf7ef70-6cca-43ec-bc22-99b83e3a7887",
       "status": "published",
       "sort": 77,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:22.552Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:37.501Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:34.752Z",
+      "date_updated": "2026-11-09T10:00:36.228Z",
       "name": "@tsed/logger-connect",
       "icon": "",
       "description": "Connect Ts.ED logger with another logger that implement the expected interface",
       "tags": [],
       "homepage": "https://github.com/tsedio/logger/tree/production/packages/connect",
-      "downloads": 6537,
+      "downloads": 6006,
       "version": "8.0.7",
       "repository": "git+https://github.com/tsedio/logger.git",
       "npm": "https://www.npmjs.com/package/@tsed/logger-connect",
@@ -22,11 +22,11 @@
       "type": "official",
       "bugs": "https://github.com/tsedio/logger/issues",
       "maintainers": [
-        80
+        118
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.847Z",
+  "exportedAt": "2026-11-09T10:41:07.595Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

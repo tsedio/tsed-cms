@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "a352fe10-2108-4ca9-ba9f-fdf4c58611ba",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:38.256Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:32.435Z",
+      "name": "@tsed/config-ioredis",
+      "icon": null,
+      "description": "Use Redis to inject configuration to your Ts.ED project.",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/config/ioredis",
+      "downloads": 3940,
+      "version": "8.46.1",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/config-ioredis",
+      "stars": 3090,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.584Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

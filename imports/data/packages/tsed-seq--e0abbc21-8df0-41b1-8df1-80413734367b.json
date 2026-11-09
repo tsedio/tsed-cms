@@ -5,10 +5,10 @@
       "id": "e0abbc21-8df0-41b1-8df1-80413734367b",
       "status": "archived",
       "sort": 137,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:23.658Z",
-      "user_updated": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
-      "date_updated": "2025-11-08T18:13:41.605Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:43.004Z",
+      "user_updated": null,
+      "date_updated": null,
       "name": "@tsed/seq",
       "icon": "https://blog.datalust.co/content/images/2018/09/Seq-380px-1.png",
       "description": "Seq package for Ts.ED framework",
@@ -26,7 +26,7 @@
       "maintainers": []
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.855Z",
+  "exportedAt": "2026-11-09T10:41:07.626Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

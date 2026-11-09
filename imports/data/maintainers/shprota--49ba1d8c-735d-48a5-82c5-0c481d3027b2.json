@@ -4,17 +4,17 @@
     {
       "id": "49ba1d8c-735d-48a5-82c5-0c481d3027b2",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:00:01.772Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:58:39.766Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:11.339Z",
+      "date_updated": "2026-11-09T10:00:14.109Z",
       "username": "shprota",
       "email": "shprota@gmail.com",
       "avatar": "https://avatars.githubusercontent.com/u/2400870?v=4",
       "url": "https://github.com/shprota"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.749Z",
+  "exportedAt": "2026-11-09T10:41:05.897Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

@@ -4,30 +4,30 @@
     {
       "id": "fe1d6cfd-2954-4228-a115-320002a11b2e",
       "status": "published",
-      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
-      "date_created": "2025-11-02T17:15:46.467Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:03:54.177Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:48.774Z",
+      "date_updated": "2026-11-09T10:00:51.372Z",
       "owner": "tsedio",
       "repo": "logger",
       "stars": 66,
       "url": "https://github.com/tsedio/logger",
       "maintainers": [
-        150,
-        151,
-        152,
-        153,
-        154,
-        155,
-        156,
-        157,
-        158,
-        159,
-        160
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        69
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.220Z",
+  "exportedAt": "2026-11-09T10:41:08.703Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

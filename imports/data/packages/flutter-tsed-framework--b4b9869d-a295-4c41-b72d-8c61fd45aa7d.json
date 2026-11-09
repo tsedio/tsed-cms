@@ -5,10 +5,10 @@
       "id": "b4b9869d-a295-4c41-b72d-8c61fd45aa7d",
       "status": "published",
       "sort": null,
-      "user_created": null,
-      "date_created": "2026-10-03T18:02:43.653Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:30.555Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:56.753Z",
+      "date_updated": null,
       "name": "flutter_tsed_framework",
       "icon": null,
       "description": "A production-grade Flutter development framework with guided AI-powered workflows for every project scenario.",
@@ -24,7 +24,7 @@
       "maintainers": []
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.860Z",
+  "exportedAt": "2026-11-09T10:41:07.640Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

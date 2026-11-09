@@ -4,10 +4,10 @@
     {
       "id": "interface-redis-adapter-constructor-options",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:36.865Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:03:31.043Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:06:57.117Z",
+      "date_updated": null,
       "name": "RedisAdapterConstructorOptions",
       "doc_url": "https://tsed.dev/api/orm/adapters-redis/types/adapters/interface-redis-adapter-constructor-options",
       "package": "ae14a6df-ca5d-4355-8c88-d8d7d816645c",
@@ -23,7 +23,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.139Z",
+  "exportedAt": "2026-11-09T10:41:08.206Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

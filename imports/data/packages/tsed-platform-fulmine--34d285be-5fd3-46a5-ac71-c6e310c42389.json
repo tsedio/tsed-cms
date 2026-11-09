@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "34d285be-5fd3-46a5-ac71-c6e310c42389",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-08T18:00:58.591Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:01:00.919Z",
+      "name": "@tsed/platform-fulmine",
+      "icon": null,
+      "description": "A TypeScript Framework on top of fulmine.js, the Express 5 API on uWebSockets.js",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/platform/platform-fulmine",
+      "downloads": 0,
+      "version": "8.46.1",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/platform-fulmine",
+      "stars": 3090,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.612Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "3edcdee5-1e35-4f3c-91d2-10ba0a87dbc3",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:01.719Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T14:00:03.073Z",
+      "source": "open_collective",
+      "name": "Benjamin",
+      "type": "user",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": null,
+      "profile": "https://opencollective.com/bkniffler",
+      "avatar": null,
+      "last_transaction_at": "2021-11-01T11:15:00",
+      "total_amount_donated": 50,
+      "currency": "USD",
+      "last_transaction_amount": 5,
+      "visibility": "public",
+      "tier": "The supporter",
+      "grade": "supporter",
+      "first_transaction_at": "2021-01-22T10:16:00",
+      "login": "161685"
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:08.935Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

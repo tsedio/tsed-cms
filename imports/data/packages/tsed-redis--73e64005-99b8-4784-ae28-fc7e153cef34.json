@@ -5,10 +5,10 @@
       "id": "73e64005-99b8-4784-ae28-fc7e153cef34",
       "status": "published",
       "sort": null,
-      "user_created": null,
-      "date_created": "2026-10-03T18:02:20.967Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:42.485Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:30.701Z",
+      "date_updated": null,
       "name": "@tsed/redis",
       "icon": null,
       "description": "Redis (node-redis) connection for Ts.ED",
@@ -24,7 +24,7 @@
       "maintainers": []
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.854Z",
+  "exportedAt": "2026-11-09T10:41:07.624Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

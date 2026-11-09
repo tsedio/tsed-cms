@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "b56b6e70-a347-4d71-89d1-64a3d4f566a8",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:02.095Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:04.482Z",
+      "source": "open_collective",
+      "name": "Thanatos",
+      "type": "user",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": null,
+      "profile": "https://opencollective.com/guest-6de170be",
+      "avatar": null,
+      "last_transaction_at": "2025-12-08T18:43:00",
+      "total_amount_donated": 25,
+      "currency": "USD",
+      "last_transaction_amount": 25,
+      "visibility": "public",
+      "tier": null,
+      "grade": "supporter",
+      "first_transaction_at": "2025-12-08T18:43:00",
+      "login": "760181"
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:08.941Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

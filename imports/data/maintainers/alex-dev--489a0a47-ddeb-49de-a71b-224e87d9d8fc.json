@@ -4,17 +4,17 @@
     {
       "id": "489a0a47-ddeb-49de-a71b-224e87d9d8fc",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:00:01.642Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:57:43.650Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:09.251Z",
+      "date_updated": "2026-11-09T10:00:11.590Z",
       "username": "alex-dev",
       "email": null,
       "avatar": "https://avatars.githubusercontent.com/u/25552053?v=4",
       "url": "https://github.com/alex-dev"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.735Z",
+  "exportedAt": "2026-11-09T10:41:05.846Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

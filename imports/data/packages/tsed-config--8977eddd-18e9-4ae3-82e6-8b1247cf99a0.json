@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "8977eddd-18e9-4ae3-82e6-8b1247cf99a0",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:25.204Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:22.818Z",
+      "name": "@tsed/config",
+      "icon": null,
+      "description": "Configuration management for Ts.ED",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/config/core",
+      "downloads": 9514,
+      "version": "8.44.12",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/config",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.585Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

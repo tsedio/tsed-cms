@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "a717d72c-d6b1-42f7-ae0e-da5d4436780a",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:52.698Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:57.791Z",
+      "name": "@tsed/es6-cli",
+      "icon": null,
+      "description": "CLI to migrate a project from require to import/exports ",
+      "tags": null,
+      "homepage": "https://github.com/TypedProject/es6-cli/tree/master/packages/cli",
+      "downloads": 0,
+      "version": "1.2.0",
+      "repository": "git+https://github.com/TypedProject/es6-cli.git",
+      "npm": "https://www.npmjs.com/package/@tsed/es6-cli",
+      "stars": 0,
+      "type": "official",
+      "bugs": "https://github.com/TypedProject/es6-cli/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.587Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "1bed46b0-e1d2-4b9e-ab4f-3c25c643ea07",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:24.584Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:22.163Z",
+      "name": "@tsed/perf",
+      "icon": null,
+      "description": "Perf module tool",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/6.x/packages/perf",
+      "downloads": 15925,
+      "version": "6.133.2",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/perf",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.608Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

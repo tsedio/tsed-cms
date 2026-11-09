@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "56113d02-aa3e-43fb-b9f2-88368771e53e",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:08.149Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:05.607Z",
+      "name": "@tsed/logger-std",
+      "icon": null,
+      "description": "Stdout and Stderr appender module for @tsed/logger",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/logger/tree/production/packages/logger-std",
+      "downloads": 43430,
+      "version": "8.0.7",
+      "repository": "git+https://github.com/tsedio/logger.git",
+      "npm": "https://www.npmjs.com/package/@tsed/logger-std",
+      "stars": 66,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/logger/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.601Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

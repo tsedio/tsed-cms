@@ -3,11 +3,11 @@
   "items": [
     {
       "id": 127,
-      "packages_id": "f6df2975-bbd2-4b59-83a0-5cf9a938fac4",
-      "maintainers_id": "b93d1d49-fd99-4dc7-a930-613f3f08b364"
+      "packages_id": "a1275889-28da-4f4e-80e4-ebb407aa9772",
+      "maintainers_id": "78f628e4-739b-4609-b834-431824a316f6"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.889Z",
+  "exportedAt": "2026-11-09T10:41:07.666Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "51822ed2-b7e9-4513-b6bb-c16aa1c6d901",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:20.448Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:18.282Z",
+      "name": "@tsed/barrels",
+      "icon": null,
+      "description": "A simple tool to generate barrels for your TypeScript project",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed-cli/tree/master/packages/barrels",
+      "downloads": 11659,
+      "version": "7.8.1",
+      "repository": "git+https://github.com/tsedio/tsed-cli.git",
+      "npm": "https://www.npmjs.com/package/@tsed/barrels",
+      "stars": 43,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed-cli/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.572Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

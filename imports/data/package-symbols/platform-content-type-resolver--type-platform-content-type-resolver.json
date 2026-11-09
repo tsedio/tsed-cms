@@ -4,10 +4,10 @@
     {
       "id": "type-platform-content-type-resolver",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:39.959Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:03:19.538Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:07:02.529Z",
+      "date_updated": null,
       "name": "PLATFORM_CONTENT_TYPE_RESOLVER",
       "doc_url": "https://tsed.dev/api/platform/platform-response-filter/types/services/type-platform-content-type-resolver",
       "package": "bace2006-5157-4fcc-9765-2ab60631fcee",
@@ -23,7 +23,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.149Z",
+  "exportedAt": "2026-11-09T10:41:08.236Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

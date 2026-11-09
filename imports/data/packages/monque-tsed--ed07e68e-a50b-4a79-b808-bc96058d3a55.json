@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "ed07e68e-a50b-4a79-b808-bc96058d3a55",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:46.723Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:45.947Z",
+      "name": "@monque/tsed",
+      "icon": null,
+      "description": "Ts.ED integration for Monque - A robust, type-safe MongoDB job queue for TypeScript",
+      "tags": null,
+      "homepage": "https://github.com/ueberBrot/monque#readme",
+      "downloads": 483,
+      "version": "1.18.1",
+      "repository": "git+https://github.com/ueberBrot/monque.git",
+      "npm": "https://www.npmjs.com/package/@monque/tsed",
+      "stars": 4,
+      "type": "3rd-party",
+      "bugs": "https://github.com/ueberBrot/monque/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.566Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

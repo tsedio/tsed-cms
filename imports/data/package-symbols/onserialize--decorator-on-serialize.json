@@ -4,10 +4,10 @@
     {
       "id": "decorator-on-serialize",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:40.848Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:03:06.848Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:07:03.817Z",
+      "date_updated": null,
       "name": "OnSerialize",
       "doc_url": "https://tsed.dev/api/specs/json-mapper/types/decorators/decorator-on-serialize",
       "package": "bcb7e4d1-cb76-463a-852d-e43f69d5fe83",
@@ -26,7 +26,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.152Z",
+  "exportedAt": "2026-11-09T10:41:08.246Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

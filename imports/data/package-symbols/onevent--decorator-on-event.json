@@ -4,10 +4,10 @@
     {
       "id": "decorator-on-event",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:34.056Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:03:06.071Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:06:53.220Z",
+      "date_updated": null,
       "name": "OnEvent",
       "doc_url": "https://tsed.dev/api/third-parties/event-emitter/types/decorators/decorator-on-event",
       "package": "1a352b3f-b0c7-45ea-b04d-a9fa92685b50",
@@ -23,7 +23,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.045Z",
+  "exportedAt": "2026-11-09T10:41:07.973Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

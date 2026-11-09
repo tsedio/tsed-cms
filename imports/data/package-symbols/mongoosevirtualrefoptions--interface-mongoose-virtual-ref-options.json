@@ -4,10 +4,10 @@
     {
       "id": "interface-mongoose-virtual-ref-options",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:36.169Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:02:59.301Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:06:56.303Z",
+      "date_updated": null,
       "name": "MongooseVirtualRefOptions",
       "doc_url": "https://tsed.dev/api/orm/mongoose/types/interfaces/interface-mongoose-virtual-ref-options",
       "package": "75ed39e3-139d-4697-82fb-b3a3557e2eb4",
@@ -23,7 +23,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.108Z",
+  "exportedAt": "2026-11-09T10:41:08.149Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "5ef5ac6e-e180-4e9e-9736-3f502bfa4092",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:18.185Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:15.932Z",
+      "name": "@tsed/socketio",
+      "icon": null,
+      "description": "Socket.io package for Ts.ED framework",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/third-parties/socketio",
+      "downloads": 22303,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/socketio",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.627Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

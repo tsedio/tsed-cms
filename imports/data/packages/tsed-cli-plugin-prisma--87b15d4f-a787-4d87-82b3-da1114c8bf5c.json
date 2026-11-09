@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "87b15d4f-a787-4d87-82b3-da1114c8bf5c",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:44.769Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:42.068Z",
+      "name": "@tsed/cli-plugin-prisma",
+      "icon": null,
+      "description": "Ts.ED CLI plugin. Add Prisma project initialisation support.",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed-cli/tree/master/packages/cli-plugin-prisma",
+      "downloads": 0,
+      "version": "7.8.1",
+      "repository": "git+https://github.com/tsedio/tsed-cli.git",
+      "npm": "https://www.npmjs.com/package/@tsed/cli-plugin-prisma",
+      "stars": 43,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed-cli/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.579Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

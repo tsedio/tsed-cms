@@ -5,10 +5,10 @@
       "id": "74aec038-58fb-4c63-8d33-fba9190f2b33",
       "status": "published",
       "sort": null,
-      "user_created": null,
-      "date_created": "2025-11-02T22:06:33.113Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:45.869Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:42.739Z",
+      "date_updated": null,
       "name": "vuepress-theme-tsed",
       "icon": null,
       "description": "Vuepress theme for tsed.io",
@@ -24,7 +24,7 @@
       "maintainers": []
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.861Z",
+  "exportedAt": "2026-11-09T10:41:07.642Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

@@ -5,8 +5,8 @@
       "id": "2be7bd58-fd6c-473d-8e47-4d747874e3cb",
       "status": "published",
       "sort": 2,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:20.927Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:45.196Z",
       "user_updated": null,
       "date_updated": null,
       "name": "@tsedio/config-ioredis",
@@ -25,11 +25,11 @@
       "type": "premium",
       "bugs": null,
       "maintainers": [
-        2
+        51
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.859Z",
+  "exportedAt": "2026-11-09T10:41:07.637Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "76efe2f7-001a-4795-8b7c-9659e6eb459a",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:53.087Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:50.994Z",
+      "name": "@tsed/yarn-workspaces",
+      "icon": null,
+      "description": "Yarn workspaces utils for CRACO",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed-monorepo-utils/tree/master/packages/yarn-workspaces",
+      "downloads": 0,
+      "version": "1.24.1",
+      "repository": "git+https://github.com/tsedio/tsed-monorepo-utils.git",
+      "npm": "https://www.npmjs.com/package/@tsed/yarn-workspaces",
+      "stars": 4,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed-monorepo-utils/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.637Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

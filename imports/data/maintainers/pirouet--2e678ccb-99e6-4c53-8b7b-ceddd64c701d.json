@@ -4,17 +4,17 @@
     {
       "id": "2e678ccb-99e6-4c53-8b7b-ceddd64c701d",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:00:02.077Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:58:38.914Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:21.525Z",
+      "date_updated": "2026-11-09T10:00:24.017Z",
       "username": "pirouet",
       "email": null,
       "avatar": "https://avatars.githubusercontent.com/u/11017932?v=4",
       "url": "https://github.com/pirouet"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.748Z",
+  "exportedAt": "2026-11-09T10:41:05.893Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

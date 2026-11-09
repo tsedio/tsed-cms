@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "5ac74e51-220c-4f90-95ec-23a771b98b22",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:13.813Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:08.527Z",
+      "name": "@tsed/di",
+      "icon": null,
+      "description": "DI module for Ts.ED Framework",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/di",
+      "downloads": 111523,
+      "version": "8.46.1",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/di",
+      "stars": 3090,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.586Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

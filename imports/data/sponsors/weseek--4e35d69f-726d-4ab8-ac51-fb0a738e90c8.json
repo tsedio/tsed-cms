@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "4e35d69f-726d-4ab8-ac51-fb0a738e90c8",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:00.534Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T16:00:02.274Z",
+      "source": "github",
+      "name": "WESEEK, Inc.",
+      "type": "organization",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": null,
+      "profile": "https://github.com/weseek",
+      "avatar": "https://avatars.githubusercontent.com/u/6468105?v=4",
+      "last_transaction_at": "2026-10-22T00:00:00",
+      "total_amount_donated": 3200,
+      "currency": "USD",
+      "last_transaction_amount": 50,
+      "visibility": "public",
+      "tier": "$50 a month",
+      "grade": "supporter",
+      "first_transaction_at": "2021-07-15T21:30:17",
+      "login": "weseek"
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:08.943Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

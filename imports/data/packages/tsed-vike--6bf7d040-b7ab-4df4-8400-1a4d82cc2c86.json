@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "6bf7d040-b7ab-4df4-8400-1a4d82cc2c86",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:31.697Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:28.863Z",
+      "name": "@tsed/vike",
+      "icon": null,
+      "description": "Vike package for Ts.ED framework",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/third-parties/vike",
+      "downloads": 5911,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/vike",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.635Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

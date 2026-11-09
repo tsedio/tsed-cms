@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "540a6f43-a1ee-4b4f-a31e-c78bc02cbad3",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:40.598Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:37.803Z",
+      "name": "@tsed/platform-serverless-http",
+      "icon": null,
+      "description": "Module to support Serverless HTTP function with Ts.ED",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/platform/platform-serverless-http",
+      "downloads": 0,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/platform-serverless-http",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.618Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

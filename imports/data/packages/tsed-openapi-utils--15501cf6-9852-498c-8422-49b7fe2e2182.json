@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "15501cf6-9852-498c-8422-49b7fe2e2182",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:07.424Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:04.905Z",
+      "name": "@tsed/openapi-utils",
+      "icon": null,
+      "description": "OpenAPI utils to build @tsed/swagger package or @tsed/scalar",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/specs/openapi-utils",
+      "downloads": 44560,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/openapi-utils",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.606Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

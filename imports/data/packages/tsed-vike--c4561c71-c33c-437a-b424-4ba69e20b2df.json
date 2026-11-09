@@ -5,28 +5,28 @@
       "id": "c4561c71-c33c-437a-b424-4ba69e20b2df",
       "status": "published",
       "sort": 71,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:22.434Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:44.709Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:28.022Z",
+      "date_updated": "2026-11-09T10:00:34.488Z",
       "name": "@tsed/vike",
       "icon": "",
       "description": "Vike package for Ts.ED framework",
       "tags": [],
       "homepage": "https://github.com/tsedio/tsed/tree/production/packages/third-parties/vike",
-      "downloads": 5911,
-      "version": "8.44.13",
+      "downloads": 4799,
+      "version": "8.46.1",
       "repository": "git+https://github.com/tsedio/tsed.git",
       "npm": "https://www.npmjs.com/package/@tsed/vike",
-      "stars": 3089,
+      "stars": 3090,
       "type": "official",
       "bugs": "https://github.com/tsedio/tsed/issues",
       "maintainers": [
-        74
+        111
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.859Z",
+  "exportedAt": "2026-11-09T10:41:07.635Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

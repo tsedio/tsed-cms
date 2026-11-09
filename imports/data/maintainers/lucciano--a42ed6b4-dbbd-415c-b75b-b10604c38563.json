@@ -4,17 +4,17 @@
     {
       "id": "a42ed6b4-dbbd-415c-b75b-b10604c38563",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:00:02.133Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:58:35.869Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:22.722Z",
+      "date_updated": "2026-11-09T10:00:25.312Z",
       "username": "lucciano",
       "email": null,
       "avatar": "https://avatars.githubusercontent.com/u/238114?v=4",
       "url": "https://github.com/lucciano"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.745Z",
+  "exportedAt": "2026-11-09T10:41:05.880Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

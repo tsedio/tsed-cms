@@ -4,10 +4,10 @@
     {
       "id": "decorator-accept-mime",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:38.293Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:58.733Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:06:59.688Z",
+      "date_updated": null,
       "name": "AcceptMime",
       "doc_url": "https://tsed.dev/api/specs/schema/types/decorators/operations/decorator-accept-mime",
       "package": "ed3e225f-c8cb-4a55-aea6-54e6550aeb3d",
@@ -26,7 +26,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.176Z",
+  "exportedAt": "2026-11-09T10:41:08.313Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

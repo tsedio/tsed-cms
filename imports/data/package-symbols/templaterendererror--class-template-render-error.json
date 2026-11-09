@@ -4,10 +4,10 @@
     {
       "id": "class-template-render-error",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:39.944Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:03:43.577Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:07:02.509Z",
+      "date_updated": null,
       "name": "TemplateRenderError",
       "doc_url": "https://tsed.dev/api/platform/platform-response-filter/types/errors/class-template-render-error",
       "package": "bace2006-5157-4fcc-9765-2ab60631fcee",
@@ -24,7 +24,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.150Z",
+  "exportedAt": "2026-11-09T10:41:08.238Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

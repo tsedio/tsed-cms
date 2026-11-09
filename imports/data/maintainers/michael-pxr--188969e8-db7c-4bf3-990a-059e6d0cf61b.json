@@ -4,17 +4,17 @@
     {
       "id": "188969e8-db7c-4bf3-990a-059e6d0cf61b",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:00:01.965Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:58:36.556Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:21.269Z",
+      "date_updated": "2026-11-09T10:00:23.791Z",
       "username": "michael-pxr",
       "email": null,
       "avatar": "https://avatars.githubusercontent.com/u/46559823?v=4",
       "url": "https://github.com/michael-pxr"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.745Z",
+  "exportedAt": "2026-11-09T10:41:05.883Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

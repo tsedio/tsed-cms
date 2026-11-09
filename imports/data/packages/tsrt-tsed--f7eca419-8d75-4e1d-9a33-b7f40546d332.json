@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "f7eca419-8d75-4e1d-9a33-b7f40546d332",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:20.117Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:17.951Z",
+      "name": "@tsrt/tsed",
+      "icon": null,
+      "description": "Common TsED based Application",
+      "tags": null,
+      "homepage": "https://github.com/tsReusableTools/tsrt/tree/master/packages/tsed",
+      "downloads": 48,
+      "version": "0.8.0",
+      "repository": "git+https://github.com/tsReusableTools/tsrt.git",
+      "npm": "https://www.npmjs.com/package/@tsrt/tsed",
+      "stars": 3,
+      "type": "3rd-party",
+      "bugs": "https://github.com/tsReusableTools/tsrt/issues/new",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.639Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

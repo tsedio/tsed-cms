@@ -4,10 +4,10 @@
     {
       "id": "decorator-ctx",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:39.567Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:02:14.232Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:07:01.812Z",
+      "date_updated": null,
       "name": "Ctx",
       "doc_url": "https://tsed.dev/api/platform/platform-koa/types/decorators/decorator-ctx",
       "package": "78c40f3a-49de-4902-8554-99517d728356",
@@ -27,7 +27,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.110Z",
+  "exportedAt": "2026-11-09T10:41:08.153Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

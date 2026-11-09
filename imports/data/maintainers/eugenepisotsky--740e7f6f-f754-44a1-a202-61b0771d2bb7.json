@@ -4,17 +4,17 @@
     {
       "id": "740e7f6f-f754-44a1-a202-61b0771d2bb7",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:00:01.577Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:58:32.023Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:08.774Z",
+      "date_updated": "2026-11-09T10:00:09.485Z",
       "username": "EugenePisotsky",
       "email": "revanscript@gmail.com",
       "avatar": "https://avatars.githubusercontent.com/u/5047628?v=4",
       "url": "https://github.com/EugenePisotsky"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.741Z",
+  "exportedAt": "2026-11-09T10:41:05.864Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

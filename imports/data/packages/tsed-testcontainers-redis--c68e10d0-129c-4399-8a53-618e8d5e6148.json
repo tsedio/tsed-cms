@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "c68e10d0-129c-4399-8a53-618e8d5e6148",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:45.125Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:41.652Z",
+      "name": "@tsed/testcontainers-redis",
+      "icon": null,
+      "description": "A module to test Ts.ED code that use Redis as database using Test Containers",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/testcontainers/redis",
+      "downloads": 3819,
+      "version": "8.46.1",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/testcontainers-redis",
+      "stars": 3090,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.632Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -5,10 +5,10 @@
       "id": "dc973dfc-1ae8-4acd-ba80-84e445c4da84",
       "status": "published",
       "sort": null,
-      "user_created": null,
-      "date_created": "2025-11-02T22:06:44.099Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:38.706Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:51.440Z",
+      "date_updated": null,
       "name": "@tsed/markdown-it-symbols",
       "icon": null,
       "description": "Markdown it plugin",
@@ -24,7 +24,7 @@
       "maintainers": []
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.848Z",
+  "exportedAt": "2026-11-09T10:41:07.602Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

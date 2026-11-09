@@ -5,28 +5,28 @@
       "id": "7048c1db-a59c-42aa-842b-070774b8f57c",
       "status": "published",
       "sort": 23,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:21.421Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:39.981Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:17.269Z",
+      "date_updated": "2026-11-09T10:00:16.249Z",
       "name": "@tsed/platform-cache",
       "icon": "",
       "description": "Platform cache module for Ts.ED Framework",
       "tags": [],
       "homepage": "https://github.com/tsedio/tsed/tree/production/packages/platform/platform-cache",
-      "downloads": 47700,
-      "version": "8.44.13",
+      "downloads": 43088,
+      "version": "8.46.1",
       "repository": "git+https://github.com/tsedio/tsed.git",
       "npm": "https://www.npmjs.com/package/@tsed/platform-cache",
-      "stars": 3089,
+      "stars": 3090,
       "type": "official",
       "bugs": "https://github.com/tsedio/tsed/issues",
       "maintainers": [
-        23
+        55
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.850Z",
+  "exportedAt": "2026-11-09T10:41:07.611Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

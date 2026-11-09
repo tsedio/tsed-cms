@@ -4,10 +4,10 @@
     {
       "id": "decorator-min-words",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:38.929Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:02:55.866Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:07:00.719Z",
+      "date_updated": null,
       "name": "MinWords",
       "doc_url": "https://tsed.dev/api/third-parties/schema-formio/types/decorators/decorator-min-words",
       "package": "b247e3ce-cf59-4b1b-98d4-f07ccef1e336",
@@ -27,7 +27,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.144Z",
+  "exportedAt": "2026-11-09T10:41:08.214Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

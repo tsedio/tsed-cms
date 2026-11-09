@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "2e1a51f4-0e4b-4847-81a4-9ccf45e0c98c",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:10.492Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:08.241Z",
+      "name": "@tsed/logger-loggly",
+      "icon": null,
+      "description": "Loggly appender module for @tsed/logger",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/logger/tree/production/packages/loggly",
+      "downloads": 673,
+      "version": "8.0.7",
+      "repository": "git+https://github.com/tsedio/logger.git",
+      "npm": "https://www.npmjs.com/package/@tsed/logger-loggly",
+      "stars": 66,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/logger/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.597Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

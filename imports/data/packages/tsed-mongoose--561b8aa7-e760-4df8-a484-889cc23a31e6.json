@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "561b8aa7-e760-4df8-a484-889cc23a31e6",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:19.432Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:17.161Z",
+      "name": "@tsed/mongoose",
+      "icon": null,
+      "description": "Mongoose package for Ts.ED framework",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/orm/mongoose",
+      "downloads": 22215,
+      "version": "8.44.12",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/mongoose",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.603Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

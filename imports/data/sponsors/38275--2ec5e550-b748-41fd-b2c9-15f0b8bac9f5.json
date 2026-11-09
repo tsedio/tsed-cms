@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "2ec5e550-b748-41fd-b2c9-15f0b8bac9f5",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:01.301Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:03.979Z",
+      "source": "open_collective",
+      "name": "Kirino LLC",
+      "type": "organization",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": null,
+      "profile": "https://opencollective.com/kirinollc",
+      "avatar": null,
+      "last_transaction_at": "2020-06-03T05:02:00",
+      "total_amount_donated": 675,
+      "currency": "USD",
+      "last_transaction_amount": 10,
+      "visibility": "public",
+      "tier": "The supporter",
+      "grade": "supporter",
+      "first_transaction_at": "2019-04-20T06:58:00",
+      "login": "38275"
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:08.939Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

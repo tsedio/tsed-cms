@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "1b7867f6-cce8-4f83-be56-c6e094d2bacf",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:01.219Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:03.936Z",
+      "source": "open_collective",
+      "name": "Eugene Pisotsky",
+      "type": "user",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": null,
+      "profile": "https://opencollective.com/eugene-pisotsky",
+      "avatar": null,
+      "last_transaction_at": "2019-03-01T05:14:00",
+      "total_amount_donated": 55,
+      "currency": "USD",
+      "last_transaction_amount": 5,
+      "visibility": "public",
+      "tier": "The supporter",
+      "grade": "supporter",
+      "first_transaction_at": "2018-05-02T20:03:00",
+      "login": "15866"
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:08.935Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "4b34d107-e63b-4d65-9699-0e43508b48eb",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:46.104Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:43.329Z",
+      "name": "@tsed/cli-plugin-typegraphql",
+      "icon": null,
+      "description": "Ts.ED CLI plugin. Add TypeGraphql support.",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed-cli/tree/master/packages/cli-plugin-typegraphql",
+      "downloads": 0,
+      "version": "7.8.1",
+      "repository": "git+https://github.com/tsedio/tsed-cli.git",
+      "npm": "https://www.npmjs.com/package/@tsed/cli-plugin-typegraphql",
+      "stars": 43,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed-cli/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.579Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

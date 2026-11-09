@@ -5,10 +5,10 @@
       "id": "d81e29a5-39ed-4a13-b1ec-07902bf0b077",
       "status": "published",
       "sort": null,
-      "user_created": null,
-      "date_created": "2026-02-21T08:00:34.667Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:36.078Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:38.341Z",
+      "date_updated": null,
       "name": "@tsed/directus-sdk",
       "icon": null,
       "description": "A library to integrate Directus SDK with Ts.ED, facilitating the creation of extensions (endpoints, hooks, operations) and the use of Directus services.",
@@ -24,7 +24,7 @@
       "maintainers": []
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.845Z",
+  "exportedAt": "2026-11-09T10:41:07.587Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

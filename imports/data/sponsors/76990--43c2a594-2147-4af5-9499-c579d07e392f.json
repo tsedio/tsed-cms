@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "43c2a594-2147-4af5-9499-c579d07e392f",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:01.341Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:04.018Z",
+      "source": "open_collective",
+      "name": "Nico Enking",
+      "type": "user",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": null,
+      "profile": "https://opencollective.com/nico-enking",
+      "avatar": null,
+      "last_transaction_at": "2020-02-27T20:00:00",
+      "total_amount_donated": 5,
+      "currency": "USD",
+      "last_transaction_amount": 5,
+      "visibility": "public",
+      "tier": null,
+      "grade": "supporter",
+      "first_transaction_at": "2020-02-27T20:00:00",
+      "login": "76990"
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:08.941Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

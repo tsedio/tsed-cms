@@ -4,10 +4,10 @@
     {
       "id": "type-open-spec-security",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:41.469Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:03:08.149Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:07:04.778Z",
+      "date_updated": null,
       "name": "OpenSpecSecurity",
       "doc_url": "https://tsed.dev/api/specs/openspec/types/common/type-open-spec-security",
       "package": "62febcfd-4d8a-47de-a24f-2036464c749f",
@@ -24,7 +24,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.087Z",
+  "exportedAt": "2026-11-09T10:41:08.103Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

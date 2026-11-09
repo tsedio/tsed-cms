@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "fd9d2323-7b6c-48c2-b41a-bb0fd5b9daae",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:47.025Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:44.428Z",
+      "name": "@tsed/platform-aws",
+      "icon": null,
+      "description": "Module to support AWS function with Ts.ED",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/rc/packages/platform/platform-aws",
+      "downloads": 0,
+      "version": "6.102.8-rc.1",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/platform-aws",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.610Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

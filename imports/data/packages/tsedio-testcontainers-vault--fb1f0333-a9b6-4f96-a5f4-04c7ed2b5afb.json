@@ -5,8 +5,8 @@
       "id": "fb1f0333-a9b6-4f96-a5f4-04c7ed2b5afb",
       "status": "published",
       "sort": 6,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:21.074Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:45.531Z",
       "user_updated": null,
       "date_updated": null,
       "name": "@tsedio/testcontainers-vault",
@@ -26,11 +26,11 @@
       "type": "premium",
       "bugs": null,
       "maintainers": [
-        6
+        95
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.860Z",
+  "exportedAt": "2026-11-09T10:41:07.638Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

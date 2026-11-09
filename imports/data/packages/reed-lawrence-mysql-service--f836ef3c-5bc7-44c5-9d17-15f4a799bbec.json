@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "f836ef3c-5bc7-44c5-9d17-15f4a799bbec",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:58.370Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:55.900Z",
+      "name": "@reed-lawrence/mysql-service",
+      "icon": null,
+      "description": "Service to interface with MySQL instances via TS.Ed framework",
+      "tags": null,
+      "homepage": "https://github.com/reed-lawrence/node-mysql-service#readme",
+      "downloads": 0,
+      "version": "2.0.0",
+      "repository": "git+https://github.com/reed-lawrence/node-mysql-service.git",
+      "npm": "https://www.npmjs.com/package/@reed-lawrence/mysql-service",
+      "stars": 0,
+      "type": "3rd-party",
+      "bugs": "https://github.com/reed-lawrence/node-mysql-service/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.567Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

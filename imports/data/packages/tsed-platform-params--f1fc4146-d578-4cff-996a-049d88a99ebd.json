@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "f1fc4146-d578-4cff-996a-049d88a99ebd",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:17.845Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:15.597Z",
+      "name": "@tsed/platform-params",
+      "icon": null,
+      "description": "Params module for Ts.ED Framework",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/platform/platform-params",
+      "downloads": 92325,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/platform-params",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.617Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

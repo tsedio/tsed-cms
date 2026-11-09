@@ -20,12 +20,12 @@
         "async": true
       },
       "operation": "c651e60f-159c-4b4d-b636-c9d50debe3de",
-      "date_created": "2025-11-15T10:33:07.296Z",
-      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270",
+      "date_created": "2026-11-01T08:43:39.677Z",
+      "user_created": null,
       "folder": null
     }
   ],
-  "exportedAt": "2026-11-01T09:42:54.931Z",
+  "exportedAt": "2026-11-09T10:41:09.676Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1
@@ -45,8 +45,8 @@
       "resolve": null,
       "reject": null,
       "flow": "569895a0-7a65-4cb2-94aa-67f77a776a08",
-      "date_created": "2025-11-15T10:35:32.381Z",
-      "user_created": "dc515c74-5ed5-4464-b522-6ea1f2f6d270"
+      "date_created": "2026-11-01T08:43:39.758Z",
+      "user_created": null
     }
   ]
 }

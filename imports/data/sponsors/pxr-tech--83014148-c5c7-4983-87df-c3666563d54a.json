@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "83014148-c5c7-4983-87df-c3666563d54a",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:00.553Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:00.975Z",
+      "source": "github",
+      "name": "PXR Tech",
+      "type": "organization",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": null,
+      "github": null,
+      "website": null,
+      "profile": "https://github.com/pxr-tech",
+      "avatar": "https://avatars.githubusercontent.com/u/77961338?v=4",
+      "last_transaction_at": "2026-10-22T00:00:00",
+      "total_amount_donated": 3200,
+      "currency": "USD",
+      "last_transaction_amount": 100,
+      "visibility": "public",
+      "tier": "$100 a month",
+      "grade": "supporter",
+      "first_transaction_at": "2024-03-19T08:55:17",
+      "login": "pxr-tech"
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:08.943Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -4,17 +4,17 @@
     {
       "id": "801d2600-2812-45d5-afb0-957efa2598ae",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:00:01.531Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:57:43.410Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:05.763Z",
+      "date_updated": "2026-11-09T10:00:07.555Z",
       "username": "ae-ostapenko",
       "email": null,
       "avatar": "https://avatars.githubusercontent.com/u/170315333?v=4",
       "url": "https://github.com/ae-ostapenko"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.734Z",
+  "exportedAt": "2026-11-09T10:41:05.845Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "793dee02-75fc-4200-96ce-c6f4f9000ac4",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:56.430Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:55.069Z",
+      "name": "@tsed/servestatic",
+      "icon": null,
+      "description": "Serve-static package for Ts.ED framework",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/5.x/packages/servestatic",
+      "downloads": 23,
+      "version": "5.67.2",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/servestatic",
+      "stars": 3090,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.626Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

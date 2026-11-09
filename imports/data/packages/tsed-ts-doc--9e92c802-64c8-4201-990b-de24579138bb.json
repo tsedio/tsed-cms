@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "9e92c802-64c8-4201-990b-de24579138bb",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:51.161Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:49.154Z",
+      "name": "@tsed/ts-doc",
+      "icon": null,
+      "description": "Generate documentation in markdown for TypeScript API",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/ts-doc/tree/master/packages/ts-doc",
+      "downloads": 0,
+      "version": "5.0.4",
+      "repository": "git+https://github.com/tsedio/ts-doc.git",
+      "npm": "https://www.npmjs.com/package/@tsed/ts-doc",
+      "stars": 3,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/ts-doc/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.633Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

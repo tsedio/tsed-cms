@@ -4,10 +4,10 @@
     {
       "id": "decorator-labelled-as",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:38.080Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:02:51.186Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:06:59.405Z",
+      "date_updated": null,
       "name": "LabelledAs",
       "doc_url": "https://tsed.dev/api/specs/schema/types/decorators/common/decorator-labelled-as",
       "package": "ed3e225f-c8cb-4a55-aea6-54e6550aeb3d",
@@ -24,7 +24,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.188Z",
+  "exportedAt": "2026-11-09T10:41:08.345Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

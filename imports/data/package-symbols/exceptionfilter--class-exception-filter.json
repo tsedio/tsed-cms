@@ -4,10 +4,10 @@
     {
       "id": "class-exception-filter",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:39.424Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:02:23.781Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:07:01.533Z",
+      "date_updated": null,
       "name": "ExceptionFilter",
       "doc_url": "https://tsed.dev/api/platform/platform-exceptions/types/components/class-exception-filter",
       "package": "552947fb-4385-4c52-9c0f-010df7750b35",
@@ -23,7 +23,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.070Z",
+  "exportedAt": "2026-11-09T10:41:08.051Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

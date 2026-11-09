@@ -1,0 +1,39 @@
+{
+  "collection": "sponsors",
+  "items": [
+    {
+      "id": "f85c3035-f077-45c9-91ed-8d3c57860c2a",
+      "status": "archived",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:01.232Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:03.965Z",
+      "source": "open_collective",
+      "name": "Christian Pergande",
+      "type": "user",
+      "email": null,
+      "description": null,
+      "company": null,
+      "twitter": "https://twitter.com/chris_pergande",
+      "github": null,
+      "website": "https://saasrack.com",
+      "profile": "https://opencollective.com/chris_pergande",
+      "avatar": null,
+      "last_transaction_at": "2019-01-24T20:26:00",
+      "total_amount_donated": 200,
+      "currency": "USD",
+      "last_transaction_amount": 200,
+      "visibility": "public",
+      "tier": null,
+      "grade": "supporter",
+      "first_transaction_at": "2019-01-24T20:26:00",
+      "login": "30939"
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:08.939Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

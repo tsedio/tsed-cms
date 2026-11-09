@@ -5,10 +5,10 @@
       "id": "12cb81ac-3b43-4cdc-8b56-259701f020e5",
       "status": "archived",
       "sort": null,
-      "user_created": null,
-      "date_created": "2025-11-03T09:36:23.767Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:04:15.751Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:01.297Z",
+      "date_updated": null,
       "source": "open_collective",
       "name": "Philipp Hanzik",
       "type": "user",
@@ -31,7 +31,7 @@
       "login": "77473"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.270Z",
+  "exportedAt": "2026-11-09T10:41:08.942Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

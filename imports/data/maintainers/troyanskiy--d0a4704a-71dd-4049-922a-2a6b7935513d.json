@@ -4,17 +4,17 @@
     {
       "id": "d0a4704a-71dd-4049-922a-2a6b7935513d",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:00:01.521Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:59:31.576Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:05.517Z",
+      "date_updated": "2026-11-09T10:00:07.812Z",
       "username": "troyanskiy",
       "email": null,
       "avatar": "https://avatars.githubusercontent.com/u/1538862?v=4",
       "url": "https://github.com/troyanskiy"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.752Z",
+  "exportedAt": "2026-11-09T10:41:05.906Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

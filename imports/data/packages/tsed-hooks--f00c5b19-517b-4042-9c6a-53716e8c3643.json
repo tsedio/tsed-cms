@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "f00c5b19-517b-4042-9c6a-53716e8c3643",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:16.791Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:14.586Z",
+      "name": "@tsed/hooks",
+      "icon": null,
+      "description": "Hooks module for Ts.ED Framework",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/hooks",
+      "downloads": 65219,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/hooks",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.593Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

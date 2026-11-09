@@ -5,28 +5,28 @@
       "id": "c476d3ec-e282-42db-9b66-50d9880fc345",
       "status": "published",
       "sort": 43,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:21.781Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:33.032Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:24.292Z",
+      "date_updated": "2026-11-09T10:00:23.502Z",
       "name": "@tsed/cli",
       "icon": "https://api.tsed.io/statics/warehouse/tsed.svg",
       "description": "CLI to bootstrap your Ts.ED project",
       "tags": [],
       "homepage": "https://github.com/tsedio/tsed-cli/tree/master/packages/cli",
-      "downloads": 7863,
-      "version": "7.8.1",
+      "downloads": 8642,
+      "version": "7.9.0",
       "repository": "git+https://github.com/tsedio/tsed-cli.git",
       "npm": "https://www.npmjs.com/package/@tsed/cli",
       "stars": 43,
       "type": "official",
       "bugs": "https://github.com/tsedio/tsed-cli/issues",
       "maintainers": [
-        43
+        77
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.843Z",
+  "exportedAt": "2026-11-09T10:41:07.582Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

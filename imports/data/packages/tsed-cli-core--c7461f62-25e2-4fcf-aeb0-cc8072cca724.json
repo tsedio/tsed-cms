@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "c7461f62-25e2-4fcf-aeb0-cc8072cca724",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:21.938Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:18.993Z",
+      "name": "@tsed/cli-core",
+      "icon": null,
+      "description": "Build your CLI with TypeScript and Decorators",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed-cli/tree/master/packages/cli-core",
+      "downloads": 17394,
+      "version": "7.9.0",
+      "repository": "git+https://github.com/tsedio/tsed-cli.git",
+      "npm": "https://www.npmjs.com/package/@tsed/cli-core",
+      "stars": 43,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed-cli/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.574Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

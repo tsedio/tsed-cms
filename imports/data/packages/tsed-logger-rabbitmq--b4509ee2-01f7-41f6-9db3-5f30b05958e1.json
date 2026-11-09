@@ -5,10 +5,10 @@
       "id": "b4509ee2-01f7-41f6-9db3-5f30b05958e1",
       "status": "published",
       "sort": 104,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:23.058Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:38.302Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:07.616Z",
+      "date_updated": "2026-11-09T10:00:06.890Z",
       "name": "@tsed/logger-rabbitmq",
       "icon": "https://tsed.io/rabbitmq.svg",
       "description": "RabbitMQ appender module for @tsed/logger",
@@ -16,7 +16,7 @@
         "monitoring"
       ],
       "homepage": "https://github.com/tsedio/logger/tree/production/packages/rabbitmq",
-      "downloads": 583,
+      "downloads": 140,
       "version": "8.0.7",
       "repository": "git+https://github.com/tsedio/logger.git",
       "npm": "https://www.npmjs.com/package/@tsed/logger-rabbitmq",
@@ -24,11 +24,11 @@
       "type": "official",
       "bugs": "https://github.com/tsedio/logger/issues",
       "maintainers": [
-        107
+        10
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.848Z",
+  "exportedAt": "2026-11-09T10:41:07.599Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

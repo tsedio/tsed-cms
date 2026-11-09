@@ -4,17 +4,17 @@
     {
       "id": "1215c50f-3601-4eb1-a264-806d2f32e724",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:00:02.355Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:58:30.300Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:30.198Z",
+      "date_updated": "2026-11-09T10:00:33.055Z",
       "username": "Charly-T",
       "email": null,
       "avatar": "https://avatars.githubusercontent.com/u/12251313?v=4",
       "url": "https://github.com/Charly-T"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.738Z",
+  "exportedAt": "2026-11-09T10:41:05.857Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

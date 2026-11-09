@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "62c6042d-b9bd-4e89-8e74-bbaf8418fc53",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:24.278Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:21.809Z",
+      "name": "@tsed/platform-accept-mimes",
+      "icon": null,
+      "description": "Accept mimes module for Ts.ED Framework",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/platform/platform-accept-mimes",
+      "downloads": 47163,
+      "version": "8.44.12",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/platform-accept-mimes",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.608Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

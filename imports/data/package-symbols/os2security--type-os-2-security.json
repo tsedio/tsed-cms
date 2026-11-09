@@ -4,10 +4,10 @@
     {
       "id": "type-os-2-security",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:41.744Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:03:12.822Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:07:05.476Z",
+      "date_updated": null,
       "name": "OS2Security",
       "doc_url": "https://tsed.dev/api/specs/openspec/types/openspec2/type-os-2-security",
       "package": "62febcfd-4d8a-47de-a24f-2036464c749f",
@@ -24,7 +24,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.091Z",
+  "exportedAt": "2026-11-09T10:41:08.112Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

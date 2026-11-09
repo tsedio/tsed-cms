@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "23370892-fe1d-446c-af1b-dd04a1ea3b7a",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:35.947Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:33.171Z",
+      "name": "@tsed/tailwind-formio",
+      "icon": null,
+      "description": "Tailwind templates for form.io forms.",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed-formio/tree/master/packages/tailwind-formio",
+      "downloads": 0,
+      "version": "3.0.2",
+      "repository": "git+https://github.com/tsedio/tsed-formio.git",
+      "npm": "https://www.npmjs.com/package/@tsed/tailwind-formio",
+      "stars": 16,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed-formio/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.629Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

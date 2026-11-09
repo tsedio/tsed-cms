@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "c41213d4-9cb5-4835-b6c1-7024d91e0f63",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:26.842Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:24.378Z",
+      "name": "@tsed/typegraphql",
+      "icon": null,
+      "description": "TypeGraphQL package for Ts.ED framework, based on Apollo-server-core and Type-graphql",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/graphql/typegraphql",
+      "downloads": 0,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/typegraphql",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.634Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

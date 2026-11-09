@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "51372cb7-128d-4142-b5d1-2e54849de2c5",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:34.961Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:34.810Z",
+      "name": "@tsed/config-mongo",
+      "icon": null,
+      "description": "Use MongoDB to inject configuration to your Ts.ED project.",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/config/mongo",
+      "downloads": 3904,
+      "version": "8.46.1",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/config-mongo",
+      "stars": 3090,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.584Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

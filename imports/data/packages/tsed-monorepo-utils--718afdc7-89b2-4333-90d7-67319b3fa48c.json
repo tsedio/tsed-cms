@@ -5,10 +5,10 @@
       "id": "718afdc7-89b2-4333-90d7-67319b3fa48c",
       "status": "published",
       "sort": null,
-      "user_created": null,
-      "date_created": "2025-11-02T22:06:31.203Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:38.947Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:30.366Z",
+      "date_updated": null,
       "name": "@tsed/monorepo-utils",
       "icon": null,
       "description": "Mono repo utils",
@@ -24,7 +24,7 @@
       "maintainers": []
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.848Z",
+  "exportedAt": "2026-11-09T10:41:07.604Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

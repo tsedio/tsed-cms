@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "f02c8c9e-52fd-4229-afd8-c0e7119ef92c",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:41.860Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:38.895Z",
+      "name": "@tsed/testcontainers-localstack",
+      "icon": null,
+      "description": "A module to test Ts.ED code that use AWS services using LocalStack and Test Containers",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/testcontainers/localstack",
+      "downloads": 3820,
+      "version": "8.46.1",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/testcontainers-localstack",
+      "stars": 3090,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.630Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

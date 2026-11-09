@@ -4,10 +4,10 @@
     {
       "id": "interface-webhook-event-options",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:42.314Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:03:53.438Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:07:06.495Z",
+      "date_updated": null,
       "name": "WebhookEventOptions",
       "doc_url": "https://tsed.dev/api/third-parties/stripe/types/middlewares/interface-webhook-event-options",
       "package": "4d6a3db2-87de-4558-b6a2-ed56d50fb68b",
@@ -23,7 +23,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.067Z",
+  "exportedAt": "2026-11-09T10:41:08.044Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

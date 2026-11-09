@@ -5,16 +5,16 @@
       "id": "cafef918-b653-4df3-be65-a76e761fbe33",
       "status": "published",
       "sort": 96,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:22.939Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:42.575Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:46.558Z",
+      "date_updated": "2026-11-09T10:00:48.349Z",
       "name": "@tsed/redux-utils",
       "icon": "https://camo.githubusercontent.com/f28b5bc7822f1b7bb28a96d8d09e7d79169248fc/687474703a2f2f692e696d6775722e636f6d2f4a65567164514d2e706e67",
       "description": "An opinionated lib to create actions and reducers for Redux written in TypeScript",
       "tags": [],
       "homepage": "https://github.com/TypedProject/tsed-formio/tree/master/packages/redux-utils",
-      "downloads": 261,
+      "downloads": 201,
       "version": "2.3.6",
       "repository": "git+https://github.com/TypedProject/tsed-formio.git",
       "npm": "https://www.npmjs.com/package/@tsed/redux-utils",
@@ -22,11 +22,11 @@
       "type": "official",
       "bugs": "https://github.com/TypedProject/tsed-formio/issues",
       "maintainers": [
-        99
+        138
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.854Z",
+  "exportedAt": "2026-11-09T10:41:07.624Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

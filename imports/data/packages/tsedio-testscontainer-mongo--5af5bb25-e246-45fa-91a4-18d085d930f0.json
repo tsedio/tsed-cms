@@ -5,8 +5,8 @@
       "id": "5af5bb25-e246-45fa-91a4-18d085d930f0",
       "status": "published",
       "sort": 5,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:21.053Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:45.618Z",
       "user_updated": null,
       "date_updated": null,
       "name": "@tsedio/testscontainer-mongo",
@@ -26,11 +26,11 @@
       "type": "premium",
       "bugs": null,
       "maintainers": [
-        5
+        84
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.860Z",
+  "exportedAt": "2026-11-09T10:41:07.639Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

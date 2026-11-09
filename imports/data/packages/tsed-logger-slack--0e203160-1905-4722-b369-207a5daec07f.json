@@ -5,10 +5,10 @@
       "id": "0e203160-1905-4722-b369-207a5daec07f",
       "status": "published",
       "sort": 111,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:23.255Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:38.461Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:05.786Z",
+      "date_updated": "2026-11-09T10:00:19.690Z",
       "name": "@tsed/logger-slack",
       "icon": "https://tsed.io/slack.svg",
       "description": "Slack appender module for @tsed/logger",
@@ -16,7 +16,7 @@
         "monitoring"
       ],
       "homepage": "https://github.com/tsedio/logger/tree/production/packages/slack",
-      "downloads": 470,
+      "downloads": 36,
       "version": "8.0.7",
       "repository": "git+https://github.com/tsedio/logger.git",
       "npm": "https://www.npmjs.com/package/@tsed/logger-slack",
@@ -24,11 +24,11 @@
       "type": "official",
       "bugs": "https://github.com/tsedio/logger/issues",
       "maintainers": [
-        114
+        18
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.848Z",
+  "exportedAt": "2026-11-09T10:41:07.600Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

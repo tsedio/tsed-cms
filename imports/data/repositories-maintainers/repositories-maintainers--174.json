@@ -3,11 +3,11 @@
   "items": [
     {
       "id": 174,
-      "repositories_id": "b26e099d-3771-4f01-bb0b-8111af91c4b6",
-      "maintainers_id": "9eedebc5-2aaa-4d8e-8999-4248aa4d2d34"
+      "repositories_id": "047acfc4-2497-4f85-ab71-369a39e08d45",
+      "maintainers_id": "a42ed6b4-dbbd-415c-b75b-b10604c38563"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.255Z",
+  "exportedAt": "2026-11-09T10:41:08.736Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

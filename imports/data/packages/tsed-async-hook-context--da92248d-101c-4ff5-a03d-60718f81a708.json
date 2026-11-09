@@ -5,10 +5,10 @@
       "id": "da92248d-101c-4ff5-a03d-60718f81a708",
       "status": "archived",
       "sort": 36,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:21.663Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:32.298Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:43.084Z",
+      "date_updated": "2026-11-09T10:00:43.839Z",
       "name": "@tsed/async-hook-context",
       "icon": "https://api.tsed.io/statics/warehouse/tsed.svg",
       "description": "Add Async Hook context support in Ts.ED",
@@ -17,19 +17,19 @@
         "api"
       ],
       "homepage": "https://github.com/tsedio/tsed/tree/beta/packages/third-parties/async-hook-context",
-      "downloads": 2741,
+      "downloads": 1942,
       "version": "7.0.0-beta.9",
       "repository": "git+https://github.com/tsedio/tsed.git",
       "npm": "https://www.npmjs.com/package/@tsed/async-hook-context",
-      "stars": 3089,
+      "stars": 3090,
       "type": "official",
       "bugs": "https://github.com/tsedio/tsed/issues",
       "maintainers": [
-        36
+        69
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.841Z",
+  "exportedAt": "2026-11-09T10:41:07.571Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

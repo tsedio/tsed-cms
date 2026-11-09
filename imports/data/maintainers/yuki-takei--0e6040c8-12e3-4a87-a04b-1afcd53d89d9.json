@@ -4,17 +4,17 @@
     {
       "id": "0e6040c8-12e3-4a87-a04b-1afcd53d89d9",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:00:01.829Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:59:33.715Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:14.104Z",
+      "date_updated": "2026-11-09T10:00:16.815Z",
       "username": "yuki-takei",
       "email": "yuki@weseek.co.jp",
       "avatar": "https://avatars.githubusercontent.com/u/1638767?v=4",
       "url": "https://github.com/yuki-takei"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.753Z",
+  "exportedAt": "2026-11-09T10:41:05.913Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

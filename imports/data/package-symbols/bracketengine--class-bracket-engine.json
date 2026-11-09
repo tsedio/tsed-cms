@@ -4,10 +4,10 @@
     {
       "id": "class-bracket-engine",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:32.239Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:02:08.860Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:06:51.054Z",
+      "date_updated": null,
       "name": "BracketEngine",
       "doc_url": "https://tsed.dev/api/engines/types/components/class-bracket-engine",
       "package": "f7be79cc-460f-483e-b286-7c90878308fb",
@@ -24,7 +24,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.199Z",
+  "exportedAt": "2026-11-09T10:41:08.379Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

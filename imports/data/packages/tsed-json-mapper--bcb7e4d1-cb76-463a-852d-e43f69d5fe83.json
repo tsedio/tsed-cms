@@ -5,10 +5,10 @@
       "id": "bcb7e4d1-cb76-463a-852d-e43f69d5fe83",
       "status": "published",
       "sort": null,
-      "user_created": null,
-      "date_created": "2025-11-02T22:00:09.188Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:37.201Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:11.529Z",
+      "date_updated": null,
       "name": "@tsed/json-mapper",
       "icon": null,
       "description": "Json mapper module for Ts.ED Framework",
@@ -24,7 +24,7 @@
       "maintainers": []
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.846Z",
+  "exportedAt": "2026-11-09T10:41:07.594Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

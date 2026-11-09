@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "1bfe8a60-e9c6-4191-bcc9-4af1d9cbef33",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:14.601Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:12.621Z",
+      "name": "@tsed/engines",
+      "icon": null,
+      "description": "Template engines library. Provide an API to adding custom engines from decorators.",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/engines",
+      "downloads": 85266,
+      "version": "8.44.12",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/engines",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.587Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

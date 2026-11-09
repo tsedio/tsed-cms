@@ -4,10 +4,10 @@
     {
       "id": "class-request-entity-too-large",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:41.104Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:03:32.222Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:07:04.131Z",
+      "date_updated": null,
       "name": "RequestEntityTooLarge",
       "doc_url": "https://tsed.dev/api/specs/exceptions/types/clientErrors/class-request-entity-too-large",
       "package": "20b50c57-cee4-4860-87e7-0645e54f333e",
@@ -23,7 +23,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.051Z",
+  "exportedAt": "2026-11-09T10:41:07.989Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

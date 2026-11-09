@@ -5,10 +5,10 @@
       "id": "97991e43-0f7e-4af5-af11-62a27e45edb0",
       "status": "published",
       "sort": 131,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:23.571Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:30.798Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:54.777Z",
+      "date_updated": "2026-11-09T10:00:56.627Z",
       "name": "@jojoxd/tsed-auth-expression",
       "icon": "",
       "description": "Add scripting to your authorization",
@@ -22,11 +22,11 @@
       "type": "3rd-party",
       "bugs": "https://github.com/jojoxd/BugTracker/issues",
       "maintainers": [
-        135
+        41
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.838Z",
+  "exportedAt": "2026-11-09T10:41:07.563Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

@@ -4,17 +4,17 @@
     {
       "id": "44e3dab3-0606-4055-8e6f-ec56bcf1e84f",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:00:01.907Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:58:35.217Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:16.918Z",
+      "date_updated": "2026-11-09T10:00:19.590Z",
       "username": "kpapadatos",
       "email": "kosmas.papadatos@gmail.com",
       "avatar": "https://avatars.githubusercontent.com/u/3382344?v=4",
       "url": "https://github.com/kpapadatos"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.744Z",
+  "exportedAt": "2026-11-09T10:41:05.877Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

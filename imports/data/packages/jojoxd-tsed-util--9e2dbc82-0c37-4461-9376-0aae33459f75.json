@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "9e2dbc82-0c37-4461-9376-0aae33459f75",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:51.501Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:49.494Z",
+      "name": "@jojoxd/tsed-util",
+      "icon": null,
+      "description": "Generic Ts.ED Utilities",
+      "tags": null,
+      "homepage": null,
+      "downloads": 0,
+      "version": "1.3.2",
+      "repository": "https://gitlab.jojoxd.nl/jojoxd-npm/tsed/tsed-util.git",
+      "npm": "https://www.npmjs.com/package/@jojoxd/tsed-util",
+      "stars": null,
+      "type": "3rd-party",
+      "bugs": "https://github.com/jojoxd/BugTracker/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.563Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

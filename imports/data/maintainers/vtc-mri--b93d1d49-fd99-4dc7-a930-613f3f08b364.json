@@ -4,17 +4,17 @@
     {
       "id": "b93d1d49-fd99-4dc7-a930-613f3f08b364",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:23.454Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:59:32.294Z",
       "user_updated": null,
-      "date_updated": "2025-11-02T17:44:23.617Z",
+      "date_updated": null,
       "username": "vtc_mri",
       "email": "mrieger@vortech.io",
       "avatar": "https://www.gravatar.com/avatar/0e3a29178796a26ceec0f598fe384a00",
       "url": null
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.752Z",
+  "exportedAt": "2026-11-09T10:41:05.909Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "72bb4484-a4ca-4b72-94bd-2c27d9fc1a82",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:59.038Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:56.525Z",
+      "name": "@mongobubble/validator-tsed",
+      "icon": null,
+      "description": "Ts.ED JSON Schema validator for MongoBubble (https://github.com/ggondim/mongobubble.git)",
+      "tags": null,
+      "homepage": "https://github.com/ggondim/mongobubble#readme",
+      "downloads": 0,
+      "version": "1.0.2",
+      "repository": "git+https://github.com/ggondim/mongobubble.git",
+      "npm": "https://www.npmjs.com/package/@mongobubble/validator-tsed",
+      "stars": 4,
+      "type": "3rd-party",
+      "bugs": "https://github.com/ggondim/mongobubble/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.566Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

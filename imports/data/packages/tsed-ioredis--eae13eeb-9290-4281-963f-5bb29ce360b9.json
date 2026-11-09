@@ -5,28 +5,28 @@
       "id": "eae13eeb-9290-4281-963f-5bb29ce360b9",
       "status": "published",
       "sort": 44,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:21.796Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:37.119Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:22.280Z",
+      "date_updated": "2026-11-09T10:00:22.049Z",
       "name": "@tsed/ioredis",
       "icon": "",
       "description": "IO Redis connection for Ts.ED",
       "tags": [],
       "homepage": "https://github.com/tsedio/tsed/tree/production/packages/orm/ioredis",
-      "downloads": 13778,
-      "version": "8.44.12",
+      "downloads": 10139,
+      "version": "8.46.1",
       "repository": "git+https://github.com/tsedio/tsed.git",
       "npm": "https://www.npmjs.com/package/@tsed/ioredis",
-      "stars": 3089,
+      "stars": 3090,
       "type": "official",
       "bugs": "https://github.com/tsedio/tsed/issues",
       "maintainers": [
-        44
+        78
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.846Z",
+  "exportedAt": "2026-11-09T10:41:07.593Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

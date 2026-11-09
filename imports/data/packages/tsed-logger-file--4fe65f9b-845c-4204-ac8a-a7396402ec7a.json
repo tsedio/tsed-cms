@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "4fe65f9b-845c-4204-ac8a-a7396402ec7a",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:07.770Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:05.300Z",
+      "name": "@tsed/logger-file",
+      "icon": null,
+      "description": "File appender module for @tsed/logger",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/logger/tree/production/packages/file",
+      "downloads": 61866,
+      "version": "8.0.7",
+      "repository": "git+https://github.com/tsedio/logger.git",
+      "npm": "https://www.npmjs.com/package/@tsed/logger-file",
+      "stars": 66,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/logger/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.595Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

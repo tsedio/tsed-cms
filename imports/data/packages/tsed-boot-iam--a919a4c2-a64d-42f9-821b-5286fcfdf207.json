@@ -5,16 +5,16 @@
       "id": "a919a4c2-a64d-42f9-821b-5286fcfdf207",
       "status": "published",
       "sort": 121,
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:23.419Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:32.865Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:55.752Z",
+      "date_updated": "2026-11-09T10:00:56.735Z",
       "name": "@tsed-boot/iam",
       "icon": "",
       "description": "WIP",
       "tags": [],
       "homepage": null,
-      "downloads": 6,
+      "downloads": 0,
       "version": "0.1.2",
       "repository": null,
       "npm": "https://www.npmjs.com/package/@tsed-boot/iam",
@@ -22,11 +22,11 @@
       "type": "3rd-party",
       "bugs": null,
       "maintainers": [
-        125
+        30
       ]
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.840Z",
+  "exportedAt": "2026-11-09T10:41:07.567Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

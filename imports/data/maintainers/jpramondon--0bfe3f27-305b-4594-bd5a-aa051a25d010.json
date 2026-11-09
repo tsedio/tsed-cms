@@ -4,8 +4,8 @@
     {
       "id": "0bfe3f27-305b-4594-bd5a-aa051a25d010",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:44:23.469Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:58:34.520Z",
       "user_updated": null,
       "date_updated": null,
       "username": "jpramondon",
@@ -14,7 +14,7 @@
       "url": null
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.743Z",
+  "exportedAt": "2026-11-09T10:41:05.874Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

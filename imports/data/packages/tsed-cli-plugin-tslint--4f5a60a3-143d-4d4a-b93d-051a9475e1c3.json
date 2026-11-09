@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "4f5a60a3-143d-4d4a-b93d-051a9475e1c3",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:49.282Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:46.740Z",
+      "name": "@tsed/cli-plugin-tslint",
+      "icon": null,
+      "description": "Ts.ED CLI plugin. Add TsLint support",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed-cli/tree/master/packages/cli-plugin-tslint",
+      "downloads": 0,
+      "version": "3.20.17",
+      "repository": "git+https://github.com/tsedio/tsed-cli.git",
+      "npm": "https://www.npmjs.com/package/@tsed/cli-plugin-tslint",
+      "stars": 43,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed-cli/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.579Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "055fa823-d7e0-4c25-8c41-2c9f34a4cbba",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:32.353Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:27.836Z",
+      "name": "@tsed/cli-tasks",
+      "icon": null,
+      "description": "Task runner helpers shared across Ts.ED CLI packages",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed-cli/tree/master/packages/cli-tasks",
+      "downloads": 10064,
+      "version": "7.9.0",
+      "repository": "git+https://github.com/tsedio/tsed-cli.git",
+      "npm": "https://www.npmjs.com/package/@tsed/cli-tasks",
+      "stars": 43,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed-cli/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.581Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

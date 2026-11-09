@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "3a792dd6-f3ae-4886-a8e5-4e5a2b6e5a43",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:54.687Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:54.502Z",
+      "name": "@tsed/vuepress-tailwind-config",
+      "icon": null,
+      "description": null,
+      "tags": null,
+      "homepage": "https://github.com/tsedio/vuepress-theme-tsed/tree/master/packages/tailwind-config",
+      "downloads": 663,
+      "version": "3.20.9",
+      "repository": "git+https://github.com/tsedio/vuepress-theme-tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/vuepress-tailwind-config",
+      "stars": 7,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/vuepress-theme-tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.636Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

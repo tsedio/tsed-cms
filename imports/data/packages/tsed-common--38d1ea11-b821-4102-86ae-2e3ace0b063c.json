@@ -5,10 +5,10 @@
       "id": "38d1ea11-b821-4102-86ae-2e3ace0b063c",
       "status": "archived",
       "sort": null,
-      "user_created": null,
-      "date_created": "2025-11-02T22:00:08.237Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:01:35.322Z",
       "user_updated": null,
-      "date_updated": "2026-11-01T09:00:12.599Z",
+      "date_updated": null,
       "name": "@tsed/common",
       "icon": null,
       "description": "A TypeScript Framework on top of Express",
@@ -24,7 +24,7 @@
       "maintainers": []
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.844Z",
+  "exportedAt": "2026-11-09T10:41:07.582Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

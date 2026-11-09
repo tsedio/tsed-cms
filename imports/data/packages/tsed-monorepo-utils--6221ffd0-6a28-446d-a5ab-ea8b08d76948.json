@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "6221ffd0-6a28-446d-a5ab-ea8b08d76948",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:34.019Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:33.122Z",
+      "name": "@tsed/monorepo-utils",
+      "icon": null,
+      "description": "Mono repo utils",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed-monorepo-utils/tree/master/packages/monorepo",
+      "downloads": 5955,
+      "version": "3.3.4",
+      "repository": "git+https://github.com/tsedio/tsed-monorepo-utils.git",
+      "npm": "https://www.npmjs.com/package/@tsed/monorepo-utils",
+      "stars": 4,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed-monorepo-utils/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.603Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

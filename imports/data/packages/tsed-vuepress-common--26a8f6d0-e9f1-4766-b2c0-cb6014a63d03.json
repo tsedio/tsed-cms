@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "26a8f6d0-e9f1-4766-b2c0-cb6014a63d03",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:53.404Z",
+      "user_updated": null,
+      "date_updated": "2026-11-09T10:00:52.988Z",
+      "name": "@tsed/vuepress-common",
+      "icon": null,
+      "description": "Shared components and utils",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/vuepress-theme-tsed/tree/master/packages/vuepress-common",
+      "downloads": 641,
+      "version": "3.20.9",
+      "repository": "git+https://github.com/tsedio/vuepress-theme-tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/vuepress-common",
+      "stars": 7,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/vuepress-theme-tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.636Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

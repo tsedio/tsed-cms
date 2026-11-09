@@ -4,17 +4,17 @@
     {
       "id": "eca6db81-53fd-4859-accc-0f15f26cbf50",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-02T17:00:01.407Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T10:58:31.142Z",
       "user_updated": null,
-      "date_updated": "2025-11-02T17:04:38.142Z",
+      "date_updated": null,
       "username": "dependabot[bot]",
       "email": null,
       "avatar": "https://avatars.githubusercontent.com/in/29110?v=4",
       "url": "https://github.com/apps/dependabot"
     }
   ],
-  "exportedAt": "2026-11-01T09:37:36.739Z",
+  "exportedAt": "2026-11-09T10:41:05.860Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

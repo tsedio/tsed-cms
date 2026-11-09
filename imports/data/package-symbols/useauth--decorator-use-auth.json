@@ -4,10 +4,10 @@
     {
       "id": "decorator-use-auth",
       "status": "published",
-      "user_created": null,
-      "date_created": "2025-11-15T11:08:39.645Z",
+      "user_created": "1084f27a-525d-42be-a0a1-26de6e796780",
+      "date_created": "2026-11-01T11:03:48.795Z",
       "user_updated": null,
-      "date_updated": "2025-11-15T18:07:01.986Z",
+      "date_updated": null,
       "name": "UseAuth",
       "doc_url": "https://tsed.dev/api/platform/platform-middlewares/types/decorators/decorator-use-auth",
       "package": "9a07621e-855c-4396-9b6f-240f9985e8c3",
@@ -25,7 +25,7 @@
       "additional_doc_url": ""
     }
   ],
-  "exportedAt": "2026-11-01T09:37:37.136Z",
+  "exportedAt": "2026-11-09T10:41:08.201Z",
   "options": {
     "includeRelatedCollections": false,
     "relatedCollectionDepth": 1

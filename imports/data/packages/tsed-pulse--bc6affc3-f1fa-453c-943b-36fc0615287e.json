@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "bc6affc3-f1fa-453c-943b-36fc0615287e",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:08.818Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:06.488Z",
+      "name": "@tsed/pulse",
+      "icon": null,
+      "description": "[DEPRECATED] @pulsecron/pulse package for Ts.ED framework. Use @tsed/agenda with Agenda v6 instead.",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/third-parties/pulse",
+      "downloads": 4049,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/pulse",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.621Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}

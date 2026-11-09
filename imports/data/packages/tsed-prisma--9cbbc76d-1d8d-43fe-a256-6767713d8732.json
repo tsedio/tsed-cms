@@ -1,0 +1,32 @@
+{
+  "collection": "packages",
+  "items": [
+    {
+      "id": "9cbbc76d-1d8d-43fe-a256-6767713d8732",
+      "status": "published",
+      "sort": null,
+      "user_created": null,
+      "date_created": "2026-11-01T10:00:22.594Z",
+      "user_updated": null,
+      "date_updated": "2026-11-01T11:00:20.250Z",
+      "name": "@tsed/prisma",
+      "icon": null,
+      "description": "Generate Ts.ED JsonSchema based on Prisma models",
+      "tags": null,
+      "homepage": "https://github.com/tsedio/tsed/tree/production/packages/orm/prisma",
+      "downloads": 9946,
+      "version": "8.44.13",
+      "repository": "git+https://github.com/tsedio/tsed.git",
+      "npm": "https://www.npmjs.com/package/@tsed/prisma",
+      "stars": 3089,
+      "type": "official",
+      "bugs": "https://github.com/tsedio/tsed/issues",
+      "maintainers": []
+    }
+  ],
+  "exportedAt": "2026-11-09T10:41:07.621Z",
+  "options": {
+    "includeRelatedCollections": false,
+    "relatedCollectionDepth": 1
+  }
+}
